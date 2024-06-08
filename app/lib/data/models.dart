@@ -1,4 +1,5 @@
 class Pope {
+  final String id;
   final String name;
   final String motto;
   final String country;
@@ -7,6 +8,7 @@ class Pope {
   final List<PopeTranslation> translations;
 
   Pope({
+    required this.id,
     required this.name,
     required this.motto,
     required this.startDate,
