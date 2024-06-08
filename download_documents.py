@@ -55,33 +55,38 @@ def add_chapter(book, chapter_title, data, lang, idx):
     book.spine.append(chapter)
 
 
-def save_epub(book, doc):
+def save_epub(id, pope_id, book, doc, file_path):
     book.add_item(epub.EpubNcx())
     book.add_item(epub.EpubNav())
-    pope_id = doc["pope_name"].replace(' ', '-')
-    doc_id = f'{doc["type"]}-{doc["date"]}-{doc["doc_name"]}'
-    base_path = f'documents/{pope_id}/{doc["language"]}'
-    epub_filename = f'{base_path}/{doc_id}.epub'
-    os.makedirs(base_path, exist_ok=True)
-    epub.write_epub(epub_filename, book, {})
-    print(f"ePub '{doc['name']}' criado com sucesso em '{epub_filename}'!")
-    index.append({
-        "id": doc_id,
-        "pope_id": pope_id,
-        "path": epub_filename.replace("documents/", "https://emersonalmeida.wtf/pontifex_archive/")
-    } | doc)
+    epub.write_epub(file_path, book, {})
+    print(f"ePub '{doc['name']}' criado com sucesso em '{file_path}'!")
 
 
 def create_epub(doc, chapters):
-    book = epub.EpubBook()
+    pope_id = doc["pope_name"].replace(' ', '-')
+    doc_id = f'{doc["type"]}-{doc["date"]}-{doc["doc_name"]}'
 
-    book.set_title(doc["name"])
-    book.add_author(doc["pope_name"])
+    base_path = f'documents/{pope_id}/{doc["language"]}'
+    os.makedirs(base_path, exist_ok=True)
 
-    for i, (chapter_title, data) in enumerate(chapters.items(), 1):
-        add_chapter(book, chapter_title, data, doc["language"], i)
+    file_path =f'{base_path}/{doc_id}.epub'
 
-    save_epub(book, doc)
+    if not os.path.exists(file_path):
+        book = epub.EpubBook()
+
+        book.set_title(doc["name"])
+        book.add_author(doc["pope_name"])
+
+        for i, (chapter_title, data) in enumerate(chapters.items(), 1):
+            add_chapter(book, chapter_title, data, doc["language"], i)
+
+        save_epub(doc_id, pope_id, book, doc, file_path)
+
+    index.append({
+          "id": doc_id,
+          "pope_id": pope_id,
+          "path": file_path.replace("documents/", "https://emersonalmeida.wtf/pontifex_archive/")
+      } | doc)
 
 
 def save_index():
@@ -199,6 +204,87 @@ documents = [
         "date": "20051225",
         "doc_name": "deus_caritas_est",
         "language": "pt",
+        "type": "enc"
+    },
+     {
+        "url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
+        "name": "Lumen fidei",
+        "pope_name": "Franciscus",
+        "date": "20130524",
+        "doc_name": "lumen_fidei",
+        "language": "la",
+        "type": "enc"
+    },
+    {
+        "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
+        "name": "Lumen fidei",
+        "pope_name": "Franciscus",
+        "date": "20130524",
+        "doc_name": "lumen_fidei",
+        "language": "en",
+        "type": "enc"
+    },
+    {
+        "url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
+        "name": "Lumen fidei",
+        "pope_name": "Franciscus",
+        "date": "20130524",
+        "doc_name": "lumen_fidei",
+        "language": "pt",
+        "type": "enc"
+    },
+    {
+        "url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+        "name": "Laudato si'",
+        "pope_name": "Franciscus",
+        "date": "20150524",
+        "doc_name": "laudato_si",
+        "language": "la",
+        "type": "enc"
+    },
+     {
+        "url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+        "name": "Laudato si'",
+        "pope_name": "Franciscus",
+        "date": "20150524",
+        "doc_name": "laudato_si",
+        "language": "pt",
+        "type": "enc"
+    },
+    {
+        "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+        "name": "Laudato si'",
+        "pope_name": "Franciscus",
+        "date": "20150524",
+        "doc_name": "laudato_si",
+        "language": "en",
+        "type": "enc"
+    },
+    {
+        "url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+        "name": "Fratelli tutti",
+        "pope_name": "Franciscus",
+        "date": "20201003",
+        "doc_name": "fratelli_tutti",
+        "language": "la",
+        "type": "enc"
+    },
+      {
+        "url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+        "name": "Fratelli tutti",
+        "pope_name": "Franciscus",
+        "date": "20201003",
+        "doc_name": "fratelli_tutti",
+        "language": "pt",
+        "type": "enc"
+    },
+    {
+        "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+        "name": "Fratelli tutti",
+        "pope_name": "Franciscus",
+        "date": "20201003",
+        "doc_name": "fratelli_tutti",
+        "language": "en",
         "type": "enc"
     }
 ]

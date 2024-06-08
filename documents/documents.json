@@ -82,5 +82,89 @@
                 "url": "https://emersonalmeida.wtf/pontifex_archive/Benedictus-XVI/pt/enc-20051225-deus_caritas_est.epub"
             }
         ]
+    },
+    {
+        "id": "enc-20130524-lumen_fidei",
+        "pope": {
+            "id": "Franciscus",
+            "name": "Franciscus"
+        },
+        "date": "20130524",
+        "type": "enc",
+        "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/la/enc-20130524-lumen_fidei.epub",
+        "name": "Lumen fidei",
+        "translations": [
+            {
+                "language": "la",
+                "name": "Lumen fidei",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/la/enc-20130524-lumen_fidei.epub"
+            },
+            {
+                "language": "en",
+                "name": "Lumen fidei",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/en/enc-20130524-lumen_fidei.epub"
+            },
+            {
+                "language": "pt",
+                "name": "Lumen fidei",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/pt/enc-20130524-lumen_fidei.epub"
+            }
+        ]
+    },
+    {
+        "id": "enc-20150524-laudato_si",
+        "pope": {
+            "id": "Franciscus",
+            "name": "Franciscus"
+        },
+        "date": "20150524",
+        "type": "enc",
+        "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/la/enc-20150524-laudato_si.epub",
+        "name": "Laudato si'",
+        "translations": [
+            {
+                "language": "la",
+                "name": "Laudato si'",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/la/enc-20150524-laudato_si.epub"
+            },
+            {
+                "language": "pt",
+                "name": "Laudato si'",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/pt/enc-20150524-laudato_si.epub"
+            },
+            {
+                "language": "en",
+                "name": "Laudato si'",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/en/enc-20150524-laudato_si.epub"
+            }
+        ]
+    },
+    {
+        "id": "enc-20201003-fratelli_tutti",
+        "pope": {
+            "id": "Franciscus",
+            "name": "Franciscus"
+        },
+        "date": "20201003",
+        "type": "enc",
+        "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/la/enc-20201003-fratelli_tutti.epub",
+        "name": "Fratelli tutti",
+        "translations": [
+            {
+                "language": "la",
+                "name": "Fratelli tutti",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/la/enc-20201003-fratelli_tutti.epub"
+            },
+            {
+                "language": "pt",
+                "name": "Fratelli tutti",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/pt/enc-20201003-fratelli_tutti.epub"
+            },
+            {
+                "language": "en",
+                "name": "Fratelli tutti",
+                "url": "https://emersonalmeida.wtf/pontifex_archive/Franciscus/en/enc-20201003-fratelli_tutti.epub"
+            }
+        ]
     }
 ]
