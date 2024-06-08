@@ -68,7 +68,7 @@ def save_epub(book, doc):
     index.append({
         "id": doc_id,
         "pope_id": pope_id,
-        "path": epub_filename.replace("documents/", "")
+        "path": epub_filename.replace("documents/", "https://emersonalmeida.wtf/pontifex_archive/")
     } | doc)
 
 
