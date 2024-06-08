@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pontifex_archive/data/models.dart';
+import 'package:pontifex_archive/screens/documents.dart';
+import 'dart:convert';
+import 'package:http/http.dart' as http;
 
 void main() {
   runApp(const MyApp());
@@ -45,25 +49,26 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
-        ),
-      ),
+      body: DocumentsScreen(documents: fetchDocuments()),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
     );
+  }
+
+  Future<List<Document>> fetchDocuments() async {
+    final response = await http.get(Uri.parse(
+        'https://emersonalmeida.wtf/pontifex_archive/documents.json'));
+
+    if (response.statusCode == 200) {
+      List<dynamic> body = jsonDecode(response.body);
+      List<Document> documents =
+          body.map((dynamic item) => Document.fromJson(item)).toList();
+      return documents;
+    } else {
+      throw Exception('Failed to load documents');
+    }
   }
 }

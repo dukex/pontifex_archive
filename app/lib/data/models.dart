@@ -3,18 +3,27 @@ class Pope {
   final String name;
   final String motto;
   final String country;
-  final DateTime startDate;
+  final DateTime? startDate; // remove the ?
   final DateTime? endDate;
   final List<PopeTranslation> translations;
+
+  factory Pope.fromJson(Map<String, dynamic> json) {
+    return Pope(
+        id: json['id'],
+        name: json['name'],
+        motto: "",
+        country: "",
+        translations: []);
+  }
 
   Pope({
     required this.id,
     required this.name,
     required this.motto,
-    required this.startDate,
     required this.country,
-    this.endDate,
     required this.translations,
+    this.startDate,
+    this.endDate,
   });
 }
 
@@ -32,20 +41,39 @@ class PopeTranslation {
 
 class Document {
   final Pope pope;
+  final String id;
   final String type;
-  final String name; // Nome do documento em latim
-  final DateTime date;
-  final String url; // URL do texto online em latim
+  final String name;
+  final String date;
+  final String url;
   final List<DocumentTranslation> translations;
 
   Document({
     required this.pope,
+    required this.id,
     required this.type,
     required this.name,
     required this.date,
     required this.url,
     required this.translations,
   });
+
+  factory Document.fromJson(Map<String, dynamic> json) {
+    var translationsFromJson = json['translations'] as List;
+    List<DocumentTranslation> translationList = translationsFromJson
+        .map((i) => DocumentTranslation.fromJson(i))
+        .toList();
+
+    return Document(
+      id: json['id'],
+      pope: Pope.fromJson(json['pope']),
+      date: json['date'],
+      type: json['type'],
+      url: json['url'],
+      name: json['name'],
+      translations: translationList,
+    );
+  }
 }
 
 class DocumentTranslation {
@@ -60,4 +88,12 @@ class DocumentTranslation {
     required this.url,
     this.offlinePath,
   });
+
+  factory DocumentTranslation.fromJson(Map<String, dynamic> json) {
+    return DocumentTranslation(
+      language: json['language'],
+      name: json['name'],
+      url: json['url'],
+    );
+  }
 }
