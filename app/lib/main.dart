@@ -38,9 +38,7 @@ class App extends StatelessWidget {
 
     return MaterialApp(
         title: 'Papal Documents Reader',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
         onGenerateRoute: betterRoutes.call);
   }
 }
