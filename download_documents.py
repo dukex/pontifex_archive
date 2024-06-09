@@ -47,11 +47,14 @@ def extract_text_and_chapters(url):
 
 
 def add_chapter(book, chapter_title, data, lang, idx):
-    chapter = epub.EpubHtml(title=chapter_title, file_name=f'chap_{idx:02}.xhtml', lang=lang)
+    id = f'chapter_{idx:02}'
+    file_name = f'${id}.xhtml'
+
+    chapter = epub.EpubHtml(title=chapter_title, file_name=file_name, lang=lang, uid=id)
     chapter.content = data["sub"]
     chapter.content += "\n".join([c for c in data["content"]])
     book.add_item(chapter)
-    book.toc.append(epub.Link(f'chap_{idx:02}.xhtml', chapter_title, f'chap_{idx:02}'))
+    book.toc.append(epub.Link(file_name, chapter_title, id))
     book.spine.append(chapter)
 
 
