@@ -24,3 +24,9 @@ class DocumentsErrorState extends DocumentsState {
 
   DocumentsErrorState(this.message) : super(false);
 }
+
+class DocumentSelectedState extends DocumentsState {
+  final DocumentEntity document;
+
+  DocumentSelectedState(this.document) : super(false);
+}

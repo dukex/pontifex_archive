@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
     final getDocuments = GetDocuments(documentRepository);
 
     return BlocProvider<DocumentsBloc>(
-      create: (_) => DocumentsBloc(getDocuments),
+      create: (_) => DocumentsBloc(getDocuments)..add(LoadDocumentsEvent()),
       child: HomeView(),
     );
   }
@@ -25,29 +25,33 @@ class HomePage extends StatelessWidget {
 class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final state = context.select((DocumentsBloc bloc) => bloc.state);
-    print(state);
-
-    if (state is DocumentsInitialState) {
-      context.read<DocumentsBloc>().add(LoadDocumentsEvent());
-    }
-
     return Scaffold(
         appBar: AppBar(
-          title: Text('Papal Documents'),
+          title: const Text('Papal Documents'),
         ),
-        body: state.progressing
-            ? Center(child: CircularProgressIndicator())
-            : (state is DocumentsErrorState)
-                ? Center(child: Text('Error: ${state.message}'))
-                : (state is DocumentsLoadedState)
-                    ? ListView.builder(
-                        itemCount: state.documents.length,
-                        itemBuilder: (context, index) {
-                          return DocumentListItem(
-                              document: state.documents[index]);
-                        },
-                      )
-                    : Center(child: CircularProgressIndicator()));
+        body: BlocConsumer<DocumentsBloc, DocumentsState>(
+            listener: (context, state) {
+          if (state is DocumentSelectedState) {
+            Navigator.pushNamed(context, "/books/${state.document.id}");
+          }
+        }, builder: (context, state) {
+          if (state.progressing) {
+            return const Center(child: CircularProgressIndicator());
+          }
+
+          if (state is DocumentsLoadedState) {
+            return ListView.builder(
+              itemCount: state.documents.length,
+              itemBuilder: (context, index) {
+                return DocumentListItem(document: state.documents[index]);
+              },
+            );
+          } else if (state is DocumentsErrorState) {
+            return Center(child: Text('Error: ${state.message}'));
+          } else {
+            print(state);
+            return const Center(child: Text('Error: no state'));
+          }
+        }));
   }
 }
