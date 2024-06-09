@@ -1,5 +1,5 @@
 import 'package:http/http.dart' as http;
-import 'package:pontifex_archive/src/core/models/models.dart';
+import 'package:pontifex_archive/src/core/data/models/models.dart';
 import 'dart:convert';
 
 class DocumentProvider {

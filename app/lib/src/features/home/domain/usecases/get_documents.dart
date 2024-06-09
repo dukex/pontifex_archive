@@ -1,5 +1,5 @@
-import 'package:pontifex_archive/src/features/home/data/repositories/document_repository.dart';
-import 'package:pontifex_archive/src/features/home/domain/entities/document.dart';
+import 'package:pontifex_archive/src/core/data/repositories/document_repository.dart';
+import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 
 class GetDocuments {
   final DocumentRepository repository;

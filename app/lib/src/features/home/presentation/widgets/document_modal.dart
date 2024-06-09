@@ -2,12 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/documents_bloc.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/documents_event.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pontifex_archive/src/features/home/domain/entities/document.dart';
+import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 
 void showDocumentModal(BuildContext context, DocumentEntity document) {
-  final selectDocument =
-      () => context.read<DocumentsBloc>().add(SelectDocumentEvent(document));
-
   showDialog(
     context: context,
     builder: (BuildContext context) {
@@ -25,8 +22,7 @@ void showDocumentModal(BuildContext context, DocumentEntity document) {
           TextButton(
             child: Text('Read'),
             onPressed: () {
-              selectDocument();
-              Navigator.of(context).pop();
+              Navigator.pushNamed(context, "/reader/${document.id}");
             },
           ),
         ],

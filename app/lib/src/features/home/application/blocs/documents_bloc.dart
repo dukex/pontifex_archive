@@ -8,9 +8,6 @@ class DocumentsBloc extends Bloc<DocumentsEvent, DocumentsState> {
 
   DocumentsBloc(this.getDocuments) : super(DocumentsInitialState()) {
     on<LoadDocumentsEvent>(_onLoadDocuments);
-    on<SelectDocumentEvent>((event, emit) async {
-      emit(DocumentSelectedState(event.document));
-    });
   }
 
   Future<void> _onLoadDocuments(

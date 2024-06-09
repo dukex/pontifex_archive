@@ -1,4 +1,4 @@
-import 'package:pontifex_archive/src/features/home/domain/entities/document.dart';
+import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 
 abstract class DocumentsState {
   final bool progressing;
@@ -23,10 +23,4 @@ class DocumentsErrorState extends DocumentsState {
   final String message;
 
   DocumentsErrorState(this.message) : super(false);
-}
-
-class DocumentSelectedState extends DocumentsState {
-  final DocumentEntity document;
-
-  DocumentSelectedState(this.document) : super(false);
 }

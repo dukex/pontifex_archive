@@ -1,66 +1,87 @@
 import 'package:epub_view/epub_view.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pontifex_archive/src/core/data/providers/document_provider.dart';
+import 'package:pontifex_archive/src/core/data/providers/preferences_provider.dart';
+import 'package:pontifex_archive/src/core/data/repositories/document_repository_impl.dart';
+import 'package:pontifex_archive/src/core/data/repositories/preferences_repository_impl.dart';
+import 'package:pontifex_archive/src/features/reader/application/blocs/reader_bloc.dart';
+import 'package:pontifex_archive/src/features/reader/application/blocs/reader_event.dart';
+import 'package:pontifex_archive/src/features/reader/application/blocs/reader_state.dart';
+import 'package:pontifex_archive/src/features/reader/domain/usecases/download_ebook.dart';
+import 'package:pontifex_archive/src/features/reader/domain/usecases/get_document.dart';
 
 class ReaderPage extends StatelessWidget {
   final String id;
 
-  ReaderPage({super.key, required this.id});
+  ReaderPage({Key? key, required this.id}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    var _epubController = EpubController(
-      // Load document
-      document: openUrl(
-          "https://emersonalmeida.wtf/pontifex_archive/Franciscus/pt/enc-20150524-laudato_si.epub"),
-      // Set start point
-      epubCfi: 'epubcfi(/6/6[chapter-2]!/4/2/1612)',
+    final documentProvider = DocumentProvider();
+    final preferencesProvider = PreferencesProvider();
+
+    final documentRepository = DocumentRepositoryImpl(documentProvider);
+    final preferencesRepository =
+        PreferencesRepositoryImpl(preferencesProvider);
+
+    final getDocument = GetDocument(documentRepository);
+    final downloadEbook =
+        DownloadEbook(documentRepository, preferencesRepository);
+
+    return BlocProvider<ReaderBloc>(
+      create: (context) =>
+          ReaderBloc(getDocument, downloadEbook)..add(LoadDocumentEvent(id)),
+      child: ReaderView(),
     );
-
-    return ReaderView(id: id, controller: _epubController);
-  }
-
-  static Future<EpubBook> openUrl(String documentUrl) async {
-    final response = await http.get(Uri.parse(documentUrl));
-    if (response.statusCode == 200) {
-      final bytes = response.bodyBytes;
-      return EpubReader.readBook(bytes);
-    } else {
-      throw Exception('Failed to load document from URL');
-    }
   }
 }
 
 class ReaderView extends StatelessWidget {
-  final String id;
-  final EpubController controller;
-
-  const ReaderView(
-      {super.key, required this.id, required EpubController this.controller});
-
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        // Show actual chapter name
-        title: EpubViewActualChapter(
-            controller: controller,
-            builder: (chapterValue) => Text(
-                  (chapterValue?.chapter?.Title?.replaceAll('\n', '').trim() ??
-                      ''),
-                  textAlign: TextAlign.start,
-                )),
-      ),
+    return BlocConsumer<ReaderBloc, ReaderState>(listener: (context, state) {
+      if (state is DocumentLoaded) {
+        context.read<ReaderBloc>().add(LoadEbookEvent(state.document));
+      }
+    }, builder: (context, state) {
+      if (state is ReaderLoading) {
+        return const Center(child: CircularProgressIndicator());
+      }
 
-      drawer: Drawer(
-        child: EpubViewTableOfContents(
-          controller: controller,
-        ),
-      ),
-      // Show epub document
-      body: EpubView(
-        controller: controller,
-      ),
-    );
+      if (state is ReaderError) {
+        return Center(child: Text(state.message));
+      }
+
+      if (state is EbookDownloaded) {
+        return Scaffold(
+          appBar: AppBar(
+            // Show actual chapter name
+            title: EpubViewActualChapter(
+                controller: state.controller,
+                builder: (chapterValue) => Text(
+                      (chapterValue?.chapter?.Title
+                              ?.replaceAll('\n', '')
+                              .trim() ??
+                          ''),
+                      textAlign: TextAlign.start,
+                    )),
+          ),
+          drawer: Drawer(
+            child: EpubViewTableOfContents(
+              controller: state.controller,
+            ),
+          ),
+          body: EpubView(
+            controller: state.controller,
+          ),
+        );
+      }
+
+      print("PAGE");
+      print(state);
+
+      return const Center(child: CircularProgressIndicator());
+    });
   }
 }

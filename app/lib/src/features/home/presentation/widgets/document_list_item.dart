@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pontifex_archive/src/features/home/domain/entities/document.dart';
+import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/features/home/presentation/widgets/document_modal.dart';
 
 class DocumentListItem extends StatelessWidget {

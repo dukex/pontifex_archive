@@ -1,4 +1,4 @@
-import 'package:pontifex_archive/src/core/models/models.dart';
+import 'package:pontifex_archive/src/core/data/models/models.dart';
 
 class DocumentEntity {
   final String id;
