@@ -2,6 +2,7 @@ import 'package:better_router/better_router.dart';
 import 'package:flutter/material.dart';
 import 'package:pontifex_archive/src/features/home/presentation/home_page.dart';
 import 'package:pontifex_archive/src/features/onboarding/presentation/onboarding_page.dart';
+import 'package:pontifex_archive/src/features/reader/presentation/reader_page.dart';
 
 final books = [
   const Book(id: '3160', name: 'The Odyssey', author: 'Homer'),
@@ -17,7 +18,12 @@ class Book {
 }
 
 final routes = <String, PageRoute<dynamic> Function(RouteSettings)>{
-  "/": DefaultPageRouteBuilder((_) => OnboardingPage()),
-  "/home": DefaultPageRouteBuilder((_) => HomePage()),
+  "/": DefaultPageRouteBuilder((_) => OnboardingPage()).call,
+  "/home": DefaultPageRouteBuilder((_) => HomePage()).call,
+  r"\/reader\/(?<id>.+)": DefaultPageRouteBuilder((context) {
+    final params = RouteParams.of(context);
+
+    return ReaderPage(id: params["id"]!);
+  }).call,
   '-matchAll': DefaultPageRouteBuilder((_) => Text('not found page')),
 };

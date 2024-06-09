@@ -32,7 +32,7 @@ class HomeView extends StatelessWidget {
         body: BlocConsumer<DocumentsBloc, DocumentsState>(
             listener: (context, state) {
           if (state is DocumentSelectedState) {
-            Navigator.pushNamed(context, "/books/${state.document.id}");
+            Navigator.pushNamed(context, "/reader/${state.document.id}");
           }
         }, builder: (context, state) {
           if (state.progressing) {
