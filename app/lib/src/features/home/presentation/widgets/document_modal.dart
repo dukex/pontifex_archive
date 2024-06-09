@@ -19,6 +19,7 @@ void showDocumentModal(BuildContext context, DocumentEntity document) {
           TextButton(
             child: const Text('Read'),
             onPressed: () {
+              Navigator.of(context).pop();
               Navigator.pushNamed(context, "/reader/${document.id}");
             },
           ),
