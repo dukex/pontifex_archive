@@ -79,10 +79,37 @@ class ReaderView extends StatelessWidget {
                       textAlign: TextAlign.start,
                     )),
           ),
-          drawer: Drawer(
-            child: EpubViewTableOfContents(
-              controller: state.controller,
-            ),
+          drawer: NavigationDrawer(
+            children: <Widget>[
+              DrawerHeader(
+                decoration: const BoxDecoration(
+                  color: Colors.blue,
+                ),
+                child: Text(
+                  state.document.name,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                  ),
+                ),
+              ),
+              ListTile(
+                leading: Icon(Icons.arrow_back),
+                title: Text('Back'),
+                onTap: () {
+                  Navigator.of(context).pop(); // Fechar o drawer
+                  Navigator.of(context).pop(); // Voltar para a página anterior
+                },
+              ),
+              Divider(),
+              SizedBox(
+                height: MediaQuery.of(context).size.height -
+                    (MediaQuery.paddingOf(context).top + 160.0 + 1.0),
+                child: EpubViewTableOfContents(
+                  controller: state.controller,
+                ),
+              )
+            ],
           ),
           body: EpubView(
             controller: state.controller,
