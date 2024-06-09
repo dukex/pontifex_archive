@@ -48,7 +48,7 @@ def extract_text_and_chapters(url):
 
 def add_chapter(book, chapter_title, data, lang, idx):
     id = f'chapter_{idx:02}'
-    file_name = f'${id}.xhtml'
+    file_name = f'{id}.xhtml'
 
     chapter = epub.EpubHtml(title=chapter_title, file_name=file_name, lang=lang, uid=id)
     chapter.content = data["sub"]
@@ -86,10 +86,10 @@ def create_epub(doc, chapters):
         save_epub(doc_id, pope_id, book, doc, file_path)
 
     index.append({
-          "id": doc_id,
-          "pope_id": pope_id,
-          "path": file_path.replace("documents/", "https://emersonalmeida.wtf/pontifex_archive/")
-      } | doc)
+        "id": doc_id,
+        "pope_id": pope_id,
+        "path": file_path.replace("documents/", "https://emersonalmeida.wtf/pontifex_archive/")
+    } | doc)
 
 
 def save_index():
