@@ -23,11 +23,8 @@ class LoadEbookEvent extends ReaderEvent {
 }
 
 class SaveReadingPositionEvent extends ReaderEvent {
-  final String documentUrl;
-  final String cfi;
+  final DocumentEntity document;
+  final String? cfi;
 
-  const SaveReadingPositionEvent(this.documentUrl, this.cfi);
-
-  @override
-  List<Object> get props => [documentUrl, cfi];
+  const SaveReadingPositionEvent(this.document, this.cfi);
 }

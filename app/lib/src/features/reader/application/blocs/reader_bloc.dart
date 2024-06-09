@@ -1,15 +1,17 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pontifex_archive/src/features/reader/domain/usecases/save_reading_position.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_event.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_state.dart';
 import 'package:pontifex_archive/src/features/reader/domain/usecases/download_ebook.dart';
 import 'package:pontifex_archive/src/features/reader/domain/usecases/get_document.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
   final GetDocument getDocument;
   final DownloadEbook downloadEbook;
+  final SaveReadingPosition saveReadingPosition;
 
-  ReaderBloc(this.getDocument, this.downloadEbook) : super(ReaderInitial()) {
+  ReaderBloc(this.getDocument, this.downloadEbook, this.saveReadingPosition)
+      : super(ReaderInitial()) {
     on<LoadDocumentEvent>(_onLoadDocument);
     on<LoadEbookEvent>(_onLoadEbook);
     on<SaveReadingPositionEvent>(_onSaveReadingPosition);
@@ -42,7 +44,7 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
       if (controller == null) {
         emit(const ReaderError('Failed to load document from URL'));
       } else {
-        emit(EbookDownloaded(controller));
+        emit(EbookDownloaded(event.document, controller));
       }
     } catch (e) {
       emit(ReaderError(e.toString()));
@@ -51,7 +53,10 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
 
   Future<void> _onSaveReadingPosition(
       SaveReadingPositionEvent event, Emitter<ReaderState> emit) async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(event.documentUrl, event.cfi);
+    try {
+      await saveReadingPosition(event.document, event.cfi);
+    } catch (e) {
+      print(e);
+    }
   }
 }

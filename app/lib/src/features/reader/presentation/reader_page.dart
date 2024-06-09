@@ -5,6 +5,7 @@ import 'package:pontifex_archive/src/core/data/providers/document_provider.dart'
 import 'package:pontifex_archive/src/core/data/providers/preferences_provider.dart';
 import 'package:pontifex_archive/src/core/data/repositories/document_repository_impl.dart';
 import 'package:pontifex_archive/src/core/data/repositories/preferences_repository_impl.dart';
+import 'package:pontifex_archive/src/features/reader/domain/usecases/save_reading_position.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_bloc.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_event.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_state.dart';
@@ -28,10 +29,12 @@ class ReaderPage extends StatelessWidget {
     final getDocument = GetDocument(documentRepository);
     final downloadEbook =
         DownloadEbook(documentRepository, preferencesRepository);
+    final saveReadingPosition = SaveReadingPosition(preferencesRepository);
 
     return BlocProvider<ReaderBloc>(
       create: (context) =>
-          ReaderBloc(getDocument, downloadEbook)..add(LoadDocumentEvent(id)),
+          ReaderBloc(getDocument, downloadEbook, saveReadingPosition)
+            ..add(LoadDocumentEvent(id)),
       child: const ReaderView(),
     );
   }
@@ -45,6 +48,13 @@ class ReaderView extends StatelessWidget {
     return BlocConsumer<ReaderBloc, ReaderState>(listener: (context, state) {
       if (state is DocumentLoaded) {
         context.read<ReaderBloc>().add(LoadEbookEvent(state.document));
+      }
+
+      if (state is EbookDownloaded) {
+        state.controller.currentValueListenable.addListener(() {
+          context.read<ReaderBloc>().add(SaveReadingPositionEvent(
+              state.document, state.controller.generateEpubCfi()));
+        });
       }
     }, builder: (context, state) {
       if (state is ReaderLoading) {

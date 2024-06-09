@@ -15,4 +15,9 @@ class PreferencesRepositoryImpl extends PreferencesRepository {
   Future<String> cfiTo(String id) {
     return get("cfi:$id", "");
   }
+
+  @override
+  Future<bool> saveCfi(String id, String cfi) {
+    return provider.setString("cfi:$id", cfi);
+  }
 }

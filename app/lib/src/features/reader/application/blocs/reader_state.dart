@@ -19,8 +19,9 @@ class DocumentLoaded extends ReaderState {
 }
 
 class EbookDownloaded extends ReaderState {
+  final DocumentEntity document;
   final EpubController controller;
-  const EbookDownloaded(this.controller);
+  const EbookDownloaded(this.document, this.controller);
 }
 
 class ReaderError extends ReaderState {
