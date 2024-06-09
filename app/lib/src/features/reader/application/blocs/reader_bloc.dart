@@ -23,7 +23,7 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
       final document = await getDocument(event.id);
 
       if (document == null) {
-        emit(ReaderError('Failed to load document from URL'));
+        emit(const ReaderError('Failed to load document from URL'));
       } else {
         emit(DocumentLoaded(document));
       }
@@ -40,7 +40,7 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
       final controller = await downloadEbook(event.document);
 
       if (controller == null) {
-        emit(ReaderError('Failed to load document from URL'));
+        emit(const ReaderError('Failed to load document from URL'));
       } else {
         emit(EbookDownloaded(controller));
       }

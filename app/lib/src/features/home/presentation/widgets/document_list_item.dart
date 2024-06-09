@@ -5,7 +5,7 @@ import 'package:pontifex_archive/src/features/home/presentation/widgets/document
 class DocumentListItem extends StatelessWidget {
   final DocumentEntity document;
 
-  const DocumentListItem({required this.document});
+  const DocumentListItem({super.key, required this.document});
 
   @override
   Widget build(BuildContext context) {

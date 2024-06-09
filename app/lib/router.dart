@@ -18,12 +18,12 @@ class Book {
 }
 
 final routes = <String, PageRoute<dynamic> Function(RouteSettings)>{
-  "/": DefaultPageRouteBuilder((_) => OnboardingPage()).call,
-  "/home": DefaultPageRouteBuilder((_) => HomePage()).call,
+  "/": DefaultPageRouteBuilder((_) => const OnboardingPage()).call,
+  "/home": DefaultPageRouteBuilder((_) => const HomePage()).call,
   r"\/reader\/(?<id>.+)": DefaultPageRouteBuilder((context) {
     final params = RouteParams.of(context);
 
     return ReaderPage(id: params["id"]!);
   }).call,
-  '-matchAll': DefaultPageRouteBuilder((_) => Text('not found page')),
+  '-matchAll': DefaultPageRouteBuilder((_) => const Text('not found page')).call,
 };

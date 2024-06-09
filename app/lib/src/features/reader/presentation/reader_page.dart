@@ -14,7 +14,7 @@ import 'package:pontifex_archive/src/features/reader/domain/usecases/get_documen
 class ReaderPage extends StatelessWidget {
   final String id;
 
-  ReaderPage({Key? key, required this.id}) : super(key: key);
+  const ReaderPage({super.key, required this.id});
 
   @override
   Widget build(BuildContext context) {
@@ -32,12 +32,14 @@ class ReaderPage extends StatelessWidget {
     return BlocProvider<ReaderBloc>(
       create: (context) =>
           ReaderBloc(getDocument, downloadEbook)..add(LoadDocumentEvent(id)),
-      child: ReaderView(),
+      child: const ReaderView(),
     );
   }
 }
 
 class ReaderView extends StatelessWidget {
+  const ReaderView({super.key});
+
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<ReaderBloc, ReaderState>(listener: (context, state) {

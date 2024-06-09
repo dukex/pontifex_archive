@@ -1,5 +1,4 @@
 import 'package:epub_view/epub_view.dart';
-import 'package:epubx/src/entities/epub_book.dart';
 import 'package:pontifex_archive/src/core/data/models/models.dart';
 import 'package:pontifex_archive/src/core/data/providers/document_provider.dart';
 import 'document_repository.dart';

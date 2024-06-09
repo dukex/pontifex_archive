@@ -9,6 +9,8 @@ import 'package:pontifex_archive/src/features/home/domain/usecases/get_documents
 import 'package:pontifex_archive/src/features/home/presentation/widgets/document_list_item.dart';
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     final documentProvider = DocumentProvider();
@@ -17,12 +19,14 @@ class HomePage extends StatelessWidget {
 
     return BlocProvider<DocumentsBloc>(
       create: (_) => DocumentsBloc(getDocuments)..add(LoadDocumentsEvent()),
-      child: HomeView(),
+      child: const HomeView(),
     );
   }
 }
 
 class HomeView extends StatelessWidget {
+  const HomeView({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

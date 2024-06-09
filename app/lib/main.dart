@@ -26,10 +26,12 @@ class AppBlocObserver extends BlocObserver {
 void main() {
   Bloc.observer = const AppBlocObserver();
 
-  runApp(App());
+  runApp(const App());
 }
 
 class App extends StatelessWidget {
+  const App({super.key});
+
   @override
   Widget build(BuildContext context) {
     final betterRoutes = BetterRouter(routes: routes);
@@ -39,6 +41,6 @@ class App extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        onGenerateRoute: betterRoutes);
+        onGenerateRoute: betterRoutes.call);
   }
 }

@@ -13,6 +13,6 @@ class PreferencesRepositoryImpl extends PreferencesRepository {
 
   @override
   Future<String> cfiTo(String id) {
-    return get("cfi:${id}", "");
+    return get("cfi:$id", "");
   }
 }
