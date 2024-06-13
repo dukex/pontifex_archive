@@ -45,7 +45,6 @@ class Document {
   final String type;
   final String name;
   final String date;
-  final String url;
   final List<DocumentTranslation> translations;
 
   Document({
@@ -54,7 +53,6 @@ class Document {
     required this.type,
     required this.name,
     required this.date,
-    required this.url,
     required this.translations,
   });
 
@@ -69,7 +67,6 @@ class Document {
       pope: Pope.fromJson(json['pope']),
       date: json['date'],
       type: json['type'],
-      url: json['url'],
       name: json['name'],
       translations: translationList,
     );

@@ -5,7 +5,6 @@ class DocumentEntity {
   final Pope pope;
   final String date;
   final String type;
-  final String url;
   final String name;
   final List<DocumentTranslation> translations;
 
@@ -14,8 +13,12 @@ class DocumentEntity {
     required this.pope,
     required this.date,
     required this.type,
-    required this.url,
     required this.name,
     required this.translations,
   });
+
+  String get url =>
+      "https://emersonalmeida.wtf/pontifex_archive/${pope.id}/la/$id.epub";
+  String get coverUrl =>
+      "https://emersonalmeida.wtf/pontifex_archive/covers/$id.png";
 }

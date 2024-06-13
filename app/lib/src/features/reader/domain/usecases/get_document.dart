@@ -16,7 +16,6 @@ class GetDocument {
         pope: doc.pope,
         date: doc.date,
         type: doc.type,
-        url: doc.url,
         name: doc.name,
         translations: doc.translations);
   }

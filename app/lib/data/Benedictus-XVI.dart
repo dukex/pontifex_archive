@@ -1,45 +1,45 @@
-// import 'package:pontifex_archive/data/models.dart';
+import 'package:pontifex_archive/data/models.dart';
 
-// Pope popeBenedictXVI = Pope(
-//   id: "Benedictus-XVI",
-//   name: "Benedictus XVI",
-//   motto: "Cooperatores veritatis",
-//   country: "Germany",
-//   startDate: DateTime(2005, 4, 19),
-//   endDate: DateTime(2013, 2, 28),
-//   translations: [
-//     PopeTranslation(
-//       language: "English",
-//       name: "Benedict XVI",
-//       motto: "Cooperators of the Truth",
-//     ),
-//     PopeTranslation(
-//       language: "Portuguese",
-//       name: "Bento XVI",
-//       motto: "Cooperadores da Verdade",
-//     ),
-//     PopeTranslation(
-//       language: "Spanish",
-//       name: "Benedicto XVI",
-//       motto: "Cooperadores de la Verdad",
-//     ),
-//     PopeTranslation(
-//       language: "French",
-//       name: "Benoit XVI",
-//       motto: "Coopérateurs de la Vérité",
-//     ),
-//     PopeTranslation(
-//       language: "Italian",
-//       name: "Benedetto XVI",
-//       motto: "Cooperatori della Verità",
-//     ),
-//     PopeTranslation(
-//       language: "German",
-//       name: "Benedikt XVI",
-//       motto: "Mitarbeiter der Wahrheit",
-//     ),
-//   ],
-// );
+Pope popeBenedictXVI = Pope(
+  id: "Benedictus-XVI",
+  name: "Benedictus XVI",
+  motto: "Cooperatores veritatis",
+  country: "Germany",
+  startDate: DateTime(2005, 4, 19),
+  endDate: DateTime(2013, 2, 28),
+  translations: [
+    PopeTranslation(
+      language: "English",
+      name: "Benedict XVI",
+      motto: "Cooperators of the Truth",
+    ),
+    PopeTranslation(
+      language: "Portuguese",
+      name: "Bento XVI",
+      motto: "Cooperadores da Verdade",
+    ),
+    PopeTranslation(
+      language: "Spanish",
+      name: "Benedicto XVI",
+      motto: "Cooperadores de la Verdad",
+    ),
+    PopeTranslation(
+      language: "French",
+      name: "Benoit XVI",
+      motto: "Coopérateurs de la Vérité",
+    ),
+    PopeTranslation(
+      language: "Italian",
+      name: "Benedetto XVI",
+      motto: "Cooperatori della Verità",
+    ),
+    PopeTranslation(
+      language: "German",
+      name: "Benedikt XVI",
+      motto: "Mitarbeiter der Wahrheit",
+    ),
+  ],
+);
 
 // List<Document> documentsBenedictXVI = [
 //   Document(

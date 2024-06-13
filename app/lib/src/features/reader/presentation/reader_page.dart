@@ -94,14 +94,14 @@ class ReaderView extends StatelessWidget {
                 ),
               ),
               ListTile(
-                leading: Icon(Icons.arrow_back),
-                title: Text('Back'),
+                leading: const Icon(Icons.arrow_back),
+                title: const Text('Back'),
                 onTap: () {
                   Navigator.of(context).pop(); // Fechar o drawer
                   Navigator.of(context).pop(); // Voltar para a página anterior
                 },
               ),
-              Divider(),
+              const Divider(),
               SizedBox(
                 height: MediaQuery.of(context).size.height -
                     (MediaQuery.paddingOf(context).top + 160.0 + 1.0),
