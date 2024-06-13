@@ -9,12 +9,39 @@ class DocumentListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      title: Text(document.name),
-      subtitle: Text('Pope: ${document.pope.name}'),
-      onTap: () {
-        showDocumentModal(context, document);
-      },
+    return Card(
+      clipBehavior: Clip.hardEdge,
+      child: InkWell(
+        onTap: () {
+          showDocumentModal(context, document);
+        },
+        child: Column(children: [
+          SizedBox(
+            child: Image.network(
+              document.coverUrl,
+              // width: 50,
+              // height: 50,
+            ),
+          ),
+          Padding(
+              padding: const EdgeInsets.only(top: 2),
+              child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Padding(
+                        padding: const EdgeInsets.only(left: 5, right: 5),
+                        child: Text(
+                          document.name,
+                          overflow: TextOverflow.ellipsis,
+                          style: Theme.of(context).textTheme.titleMedium,
+                        )),
+                    Padding(
+                        padding: const EdgeInsets.only(left: 5, right: 5),
+                        child: Text(document.pope.name,
+                            overflow: TextOverflow.ellipsis)),
+                  ]))
+        ]),
+      ),
     );
   }
 }

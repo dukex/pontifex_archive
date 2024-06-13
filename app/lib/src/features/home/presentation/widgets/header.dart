@@ -1,45 +1,68 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_svg/flutter_svg.dart';
 
-class Header extends StatelessWidget {
+class InternalContainer extends StatelessWidget {
+  final Widget child;
+  final double? width;
+
+  const InternalContainer({super.key, required this.child, this.width});
+
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+    return SizedBox(
+        width: width,
+        child: Padding(padding: const EdgeInsets.all(8.0), child: child));
+  }
+}
+
+class Header extends StatelessWidget {
+  const Header({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
       children: [
-        Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Row(
-            children: [
-              SizedBox(
-                // 'assets/icons/vatican.svg', // Adicione um ícone SVG apropriado na pasta assets/icons
-                height: 50,
-                width: 50,
+        Container(
+            width: double.infinity,
+            height: (MediaQuery.of(context).size.height / 3),
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/images/vatican.png'),
+                alignment: Alignment(0.0, -0.2),
+                fit: BoxFit.cover,
               ),
-              SizedBox(width: 16),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Papal Documents',
-                    style: TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                    ),
+            )),
+        SizedBox(
+            width: double.infinity,
+            height: (MediaQuery.of(context).size.height / 3) + 1,
+            child: Column(
+              children: <Widget>[
+                InternalContainer(
+                    width: double.infinity,
+                    child: Text("Hello!",
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineLarge
+                            ?.copyWith())),
+                const Spacer(),
+                Container(
+                  foregroundDecoration: BoxDecoration(
+                      gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [
+                      Theme.of(context).colorScheme.surface.withOpacity(0),
+                      Theme.of(context).colorScheme.surface.withOpacity(0.5),
+                      Theme.of(context).colorScheme.surface.withOpacity(0.8),
+                      Theme.of(context).colorScheme.surface.withOpacity(1),
+                    ],
+                  )),
+                  child: const SizedBox(
+                    width: double.infinity,
+                    height: 50,
                   ),
-                  SizedBox(height: 4),
-                  Text(
-                    'Easily access and read papal documents',
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.grey[600],
-                    ),
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ),
+                )
+              ],
+            ))
       ],
     );
   }

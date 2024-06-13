@@ -18,6 +18,7 @@ class DownloadEbook {
   Future<EpubController?> call(DocumentEntity document) async {
     final cfi = await preferences.cfiTo(document.id);
 
+    print(document.url);
     return EpubController(
       document: repository.fetchEpub(document.url),
       epubCfi: cfi,

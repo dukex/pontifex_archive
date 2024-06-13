@@ -2,25 +2,25 @@ import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 
 abstract class DocumentsState {
   final bool progressing;
-  DocumentsState(this.progressing);
+  final List<DocumentEntity> documents;
+
+  DocumentsState(this.progressing, this.documents);
 }
 
 class DocumentsInitialState extends DocumentsState {
-  DocumentsInitialState() : super(true);
+  DocumentsInitialState() : super(true, []);
 }
 
 class DocumentsLoadingState extends DocumentsState {
-  DocumentsLoadingState() : super(true);
+  DocumentsLoadingState() : super(true, []);
 }
 
 class DocumentsLoadedState extends DocumentsState {
-  final List<DocumentEntity> documents;
-
-  DocumentsLoadedState(this.documents) : super(false);
+  DocumentsLoadedState(documents) : super(false, documents);
 }
 
 class DocumentsErrorState extends DocumentsState {
   final String message;
 
-  DocumentsErrorState(this.message) : super(false);
+  DocumentsErrorState(this.message) : super(false, []);
 }
