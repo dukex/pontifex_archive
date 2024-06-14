@@ -11,31 +11,30 @@ index = []
 
 bad_chapter_name_pattern = re.compile(r'^\d+\.|.+edn.+$', re.IGNORECASE)
 
-
 def is_valid_chapter_name(name):
     return not bad_chapter_name_pattern.match(name)
 
 
-def extract_text_and_chapters(url):
+def extract_text_and_chapters(name, url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
-    document_div = soup.find('div', class_='documento')
+    document_div = soup.select_one(".documento div.parbase:not(.abstract)")
 
     chapters = {}
-    current_chapter = "LETTER"
-    last_chapter = "LETTER"
+    current_chapter = name
+    last_chapter = name
 
     for elem in document_div.find_all(['p']):
-        if len(elem.text.strip()) > 0:
-            if elem.has_attr('align') and elem.attrs['align'] == 'center':
+        if len(re.sub(r"\W", "", elem.text.strip())) > 0:
+            if (elem.has_attr('align') and elem.attrs['align'].lower() == 'center') or (elem.has_attr('style') and elem.attrs['style'] == 'text-align: center;'):
                 if last_chapter in chapters and current_chapter == last_chapter:
                     current_chapter = elem.text.strip()
                 else:
                     if current_chapter not in chapters:
                         chapters[current_chapter] = {"sub": "", "content": []}
 
-                    chapters[current_chapter]["sub"] += ''.join(map(str, elem.contents)).strip()
+                    chapters[current_chapter]["sub"] += str(elem)
             else:
                 last_chapter = current_chapter
                 if current_chapter not in chapters:
@@ -122,7 +121,21 @@ def save_index():
 
 def process_documents(documents: List[Dict]):
     for doc in documents:
-        chapters = extract_text_and_chapters(doc['url'])
+        chapters = extract_text_and_chapters(doc['name'].upper(), doc['url'])
+
+        struct_path = f"documents/struct/{doc['language']}-{doc['doc_name']}.json"
+        if not os.path.exists(struct_path):
+            with open(struct_path, 'w', encoding='utf-8') as f:
+                json.dump(chapters, f, ensure_ascii=False, indent=4)
+        else:
+            with open(struct_path, 'r', encoding='utf-8') as f:
+                a = f.read()
+                _c = json.loads(a)
+                if _c != chapters:
+                    print("Error")
+                    with open(f"documents/struct/new-{doc['language']}-{doc['doc_name']}.json", 'w', encoding='utf-8') as f:
+                        json.dump(chapters, f, ensure_ascii=False, indent=4)
+
         create_epub(doc, chapters)
     save_index()
 
