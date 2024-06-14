@@ -14,8 +14,6 @@ class AppBlocObserver extends BlocObserver {
 
   @override
   void onChange(BlocBase<dynamic> bloc, Change<dynamic> change) {
-    print(bloc);
-    print(change);
     super.onChange(bloc, change);
   }
 

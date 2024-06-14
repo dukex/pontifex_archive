@@ -37,9 +37,9 @@ class Header extends StatelessWidget {
             width: double.infinity,
             height: (MediaQuery.of(context).size.height / 3) + 1,
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                InternalContainer(
-                    width: double.infinity,
+                SafeArea(
                     child: Text(AppLocalizations.of(context)!.hello,
                         style: Theme.of(context)
                             .textTheme
