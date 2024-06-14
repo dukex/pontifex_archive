@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 class InternalContainer extends StatelessWidget {
   final Widget child;
   final double? width;
@@ -38,7 +40,7 @@ class Header extends StatelessWidget {
               children: <Widget>[
                 InternalContainer(
                     width: double.infinity,
-                    child: Text("Hello!",
+                    child: Text(AppLocalizations.of(context)!.hello,
                         style: Theme.of(context)
                             .textTheme
                             .headlineLarge

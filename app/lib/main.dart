@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:better_router/better_router.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pontifex_archive/router.dart';
+import 'package:pontifex_archive/src/core/application/blocs/language_bloc.dart';
+import 'package:pontifex_archive/src/core/application/blocs/language_event.dart';
+import 'package:pontifex_archive/src/core/application/blocs/language_state.dart';
 import 'package:pontifex_archive/src/core/theme/material_theme.dart';
 import 'package:pontifex_archive/src/core/theme/utils.dart';
 
@@ -10,6 +14,8 @@ class AppBlocObserver extends BlocObserver {
 
   @override
   void onChange(BlocBase<dynamic> bloc, Change<dynamic> change) {
+    print(bloc);
+    print(change);
     super.onChange(bloc, change);
   }
 
@@ -33,12 +39,30 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final betterRoutes = BetterRouter(routes: routes);
+    return BlocProvider<LanguageBloc>(
+        create: (context) => LanguageBloc()..add(LoadLanguageEvent()),
+        child: BlocConsumer<LanguageBloc, LanguageState>(
+            listener: (context, state) {},
+            builder: (context, state) {
+              var bloc = context.read<LanguageBloc>();
+              var state = bloc.state;
 
-    return MaterialApp(
-        title: 'Pontifex Archive',
-        theme: _buildTheme(context),
-        onGenerateRoute: betterRoutes.call);
+              if (state is LanguageLoaded) {
+                final betterRoutes = BetterRouter(routes: routes);
+
+                return MaterialApp(
+                    onGenerateTitle: (context) =>
+                        AppLocalizations.of(context)!.title,
+                    localizationsDelegates:
+                        AppLocalizations.localizationsDelegates,
+                    supportedLocales: AppLocalizations.supportedLocales,
+                    locale: state.locale,
+                    theme: _buildTheme(context),
+                    onGenerateRoute: betterRoutes.call);
+              }
+
+              return const SizedBox.shrink();
+            }));
   }
 
   ThemeData _buildTheme(context) {

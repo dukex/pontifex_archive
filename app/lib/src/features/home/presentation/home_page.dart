@@ -30,13 +30,11 @@ class HomePage extends StatelessWidget {
 
                 if (state is DocumentsLoadedState) {
                   return SafeArea(
-                      minimum: EdgeInsets.all(10),
+                      minimum: const EdgeInsets.all(10),
                       child: HomeScreen(state: state));
                 } else if (state is DocumentsErrorState) {
                   return Center(child: Text('Error: ${state.message}'));
                 } else {
-                  print("NO STAGE");
-                  print(state);
                   return const Center(child: Text('Error: no state'));
                 }
               })),
