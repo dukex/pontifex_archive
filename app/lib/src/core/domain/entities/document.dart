@@ -18,7 +18,7 @@ class DocumentEntity {
   });
 
   String get url =>
-      "https://emersonalmeida.wtf/pontifex_archive/${pope.id}/la/$id.epub";
+      "https://emersonalmeida.wtf/pontifex_archive/${pope.id}/pt/$id.epub";
   String get coverUrl =>
       "https://emersonalmeida.wtf/pontifex_archive/covers/$id.png";
 }
