@@ -1,6 +1,7 @@
 from .repositories import popes;
 from .repositories import structures;
 from .scrapers.vatican import EncyclicalLetterScraper;
+from . import epub
 
 def generate():
   for pope in popes.all():
@@ -10,3 +11,4 @@ def generate():
         scraper.run()
 
         structures.save(document_translation, scraper.structure)
+        epub.create(pope, document, document_translation, scraper.structure)

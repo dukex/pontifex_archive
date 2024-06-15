@@ -1,4 +1,3 @@
-import os
 import json
 from types import SimpleNamespace
 
@@ -8,7 +7,6 @@ class Api:
 
   def popes(self):
     return self.__get(f"popes.json")
-
 
   def __get(self, resource):
     with open(f"{self.base_path}/{resource}") as text:
