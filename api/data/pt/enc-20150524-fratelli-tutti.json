@@ -1,6 +1,6 @@
 {
     "FRATELLI TUTTI": {
-        "sub": "<p align=\"center\"><font color=\"#663300\">CARTA ENCÍCLICA<i> <br> <b><font size=\"4\">FRATELLI TUTTI<br/> </font></b></br></i>DO SANTO PADRE <br/> <b>FRANCISCO <br/> </b>SOBRE A FRATERNIDADE <br/> E A AMIZADE SOCIAL</font></p>",
+        "subtitle": "<p align=\"center\"><font color=\"#663300\">CARTA ENCÍCLICA<i> <br> <b><font size=\"4\">FRATELLI TUTTI<br/> </font></b></br></i>DO SANTO PADRE <br/> <b>FRANCISCO <br/> </b>SOBRE A FRATERNIDADE <br/> E A AMIZADE SOCIAL</font></p>",
         "content": [
             "<p><a name=\"1\">1</a>. «<i>FRATELLI TUTTI</i>»:<a href=\"#_ftn1\" name=\"_ftnref1\" title=\"\">[1]</a> escrevia São Francisco de Assis, dirigindo-se a seus irmãos e irmãs para lhes propor uma forma de vida com sabor a Evangelho. Destes conselhos, quero destacar o convite a um amor que ultrapassa as barreiras da geografia e do espaço; nele declara feliz quem ama o outro, «o seu irmão, tanto quando está longe, como quando está junto de si».<a href=\"#_ftn2\" name=\"_ftnref2\" title=\"\">[2]</a> Com poucas e simples palavras, explicou o essencial duma fraternidade aberta, que permite reconhecer, valorizar e amar todas as pessoas independentemente da sua proximidade física, do ponto da terra onde cada uma nasceu ou habita.</p>",
             "<p><a name=\"2\">2</a>. Este Santo do amor fraterno, da simplicidade e da alegria, que me inspirou a escrever a encíclica <i> <a href=\"http://w2.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html\">Laudato si’</a></i>, volta a inspirar-me para dedicar esta nova encíclica à fraternidade e à amizade social. Com efeito, São Francisco, que se sentia irmão do sol, do mar e do vento, sentia-se ainda mais unido aos que eram da sua própria carne. Semeou paz por toda a parte e andou junto dos pobres, abandonados, doentes, descartados, dos últimos.</p>",
@@ -14,7 +14,7 @@
         ]
     },
     "Capítulo I": {
-        "sub": "<p align=\"center\"><b>AS SOMBRAS DUM MUNDO FECHADO</b></p>",
+        "subtitle": "<p align=\"center\"><b>AS SOMBRAS DUM MUNDO FECHADO</b></p>",
         "content": [
             "<p><a name=\"9\">9</a>. Sem pretender efetuar uma análise exaustiva nem tomar em consideração todos os aspetos da realidade que vivemos, proponho apenas manter-nos atentos a algumas tendências do mundo atual que dificultam o desenvolvimento da fraternidade universal.</p>",
             "<p><i>Sonhos desfeitos em pedaços</i></p>",
@@ -80,7 +80,7 @@
         ]
     },
     "Capítulo II": {
-        "sub": "<p align=\"center\"><b>UM ESTRANHO NO CAMINHO</b></p>",
+        "subtitle": "<p align=\"center\"><b>UM ESTRANHO NO CAMINHO</b></p>",
         "content": [
             "<p><a name=\"56\">56</a>. Tudo o que mencionei no capítulo anterior é mais do que uma asséptica descrição da realidade, pois «as alegrias e as esperanças, as tristezas e as angústias dos homens de hoje, sobretudo dos pobres e de todos aqueles que sofrem, são também as alegrias e as esperanças, as tristezas e as angústias dos discípulos de Cristo; e não há realidade alguma verdadeiramente humana que não encontre eco no seu coração».<a href=\"#_ftn53\" name=\"_ftnref53\" title=\"\">[53]</a> Com a intenção de procurar uma luz no meio do que estamos a viver e antes de propor algumas linhas de ação, quero dedicar um capítulo a uma parábola narrada por Jesus Cristo há dois mil anos. Com efeito, apesar desta encíclica se dirigir a todas as pessoas de boa vontade, independentemente das suas convicções religiosas, a parábola em questão é expressa de tal maneira que qualquer um de nós pode deixar-se interpelar por ela:</p>",
             "<p>«Levantou-se, então, um doutor da Lei e perguntou [a Jesus], para O experimentar: “Mestre, que hei de fazer para possuir a vida eterna?” Disse-lhe Jesus: “Que está escrito na Lei? Como lês?” O outro respondeu: “Amarás ao Senhor, teu Deus, com todo o teu coração, com toda a tua alma, com todas as tuas forças e com todo o teu entendimento, e ao teu próximo como a ti mesmo”. Disse-lhe Jesus: “Respondeste bem; faz isso e viverás”. Mas ele, querendo justificar a pergunta feita, disse a Jesus: “E quem é o meu próximo?” Tomando a palavra, Jesus respondeu: “Certo homem descia de Jerusalém para Jericó e caiu nas mãos dos salteadores que, depois de o despojarem e encherem de pancadas, o abandonaram, deixando-o meio morto. Por coincidência, descia por aquele caminho um sacerdote que, ao vê-lo, passou ao largo. Do mesmo modo, também um levita passou por aquele lugar e, ao vê-lo, passou adiante. Mas um samaritano, que ia de viagem, chegou ao pé dele e, vendo-o, encheu-se de compaixão. Aproximou-se, ligou-lhe as feridas, deitando nelas azeite e vinho, colocou-o sobre a sua própria montada, levou-o para uma estalagem e cuidou dele. No dia seguinte, tirando dois denários, deu-os ao estalajadeiro, dizendo: ‘Trata bem dele e, o que gastares a mais, pagar-to-ei quando voltar’. Qual destes três te parece ter sido o próximo daquele homem que caiu nas mãos dos salteadores?” Respondeu: “O que usou de misericórdia para com ele”. Jesus retorquiu: “Vai e faz tu também o mesmo”» (<i>Lc</i> 10, 25-37).</p>",
@@ -125,7 +125,7 @@
         ]
     },
     "Capítulo III": {
-        "sub": "<p align=\"center\"><b>PENSAR E GERAR UM MUNDO ABERTO</b></p>",
+        "subtitle": "<p align=\"center\"><b>PENSAR E GERAR UM MUNDO ABERTO</b></p>",
         "content": [
             "<p><a name=\"87\">87</a>. O ser humano está feito de tal maneira que não se realiza, não se desenvolve, nem pode encontrar a sua plenitude «a não ser no sincero dom de si mesmo»<a href=\"#_ftn62\" name=\"_ftnref62\" title=\"\">[62]</a> aos outros. E não chega a reconhecer completamente a sua própria verdade, senão no encontro com os outros: «Só comunico realmente comigo mesmo, na medida em que me comunico com o outro».<a href=\"#_ftn63\" name=\"_ftnref63\" title=\"\">[63]</a> Isso explica por que ninguém pode experimentar o valor de viver, sem rostos concretos a quem amar. Aqui está um segredo da existência humana autêntica, já que «a vida subsiste onde há vínculo, comunhão, fraternidade; e é uma vida mais forte do que a morte, quando se constrói sobre verdadeiras relações e vínculos de fidelidade. Pelo contrário, não há vida quando se tem a pretensão de pertencer apenas a si mesmo e de viver como ilhas: nestas atitudes prevalece a morte».<a href=\"#_ftn64\" name=\"_ftnref64\" title=\"\">[64]</a></p>",
             "<p><i>Mais além</i></p>",
@@ -184,7 +184,7 @@
         ]
     },
     "Capítulo IV": {
-        "sub": "<p align=\"center\"><b>UM CORAÇÃO ABERTO AO MUNDO INTEIRO</b></p>",
+        "subtitle": "<p align=\"center\"><b>UM CORAÇÃO ABERTO AO MUNDO INTEIRO</b></p>",
         "content": [
             "<p><a name=\"128\">128</a>. Se esta afirmação – como seres humanos, somos irmãos e irmãs – não ficar pela abstração mas se tornar verdade encarnada e concreta, coloca-nos uma série de desafios que nos fazem mover, obrigam a assumir novas perspetivas e produzir novas reações.</p>",
             "<p><i>O limite das fronteiras</i></p>",
@@ -223,7 +223,7 @@
         ]
     },
     "Capítulo V": {
-        "sub": "<p align=\"center\"><b>A POLÍTICA MELHOR</b></p>",
+        "subtitle": "<p align=\"center\"><b>A POLÍTICA MELHOR</b></p>",
         "content": [
             "<p><a name=\"154\">154</a>. Para se tornar possível o desenvolvimento duma comunidade mundial capaz de realizar a fraternidade a partir de povos e nações que vivam a amizade social, é necessária a política melhor, a política colocada ao serviço do verdadeiro bem comum. Mas hoje, infelizmente, muitas vezes a política assume formas que dificultam o caminho para um mundo diferente.</p>",
             "<p><i>Populismos e liberalismos</i></p>",
@@ -284,7 +284,7 @@
         ]
     },
     "Capítulo VI": {
-        "sub": "<p align=\"center\"><b>DIÁLOGO E AMIZADE SOCIAL</b></p>",
+        "subtitle": "<p align=\"center\"><b>DIÁLOGO E AMIZADE SOCIAL</b></p>",
         "content": [
             "<p><a name=\"198\">198</a>. Aproximar-se, expressar-se, ouvir-se, olhar-se, conhecer-se, esforçar-se por entender-se, procurar pontos de contacto: tudo isto se resume no verbo «dialogar». Para nos encontrar e ajudar mutuamente, precisamos de dialogar. Não é necessário dizer para que serve o diálogo; é suficiente pensar como seria o mundo sem o diálogo paciente de tantas pessoas generosas, que mantiveram unidas famílias e comunidades. O diálogo perseverante e corajoso não faz notícia como as desavenças e os conflitos; e contudo, de forma discreta mas muito mais do que possamos notar, ajuda o mundo a viver melhor.</p>",
             "<p><i>O diálogo social para uma nova cultura</i></p>",
@@ -324,7 +324,7 @@
         ]
     },
     "Capítulo VII": {
-        "sub": "<p align=\"center\"><b>PERCURSOS DUM NOVO ENCONTRO</b></p>",
+        "subtitle": "<p align=\"center\"><b>PERCURSOS DUM NOVO ENCONTRO</b></p>",
         "content": [
             "<p><a name=\"225\">225</a>. Em muitas partes do mundo, fazem falta percursos de paz que levem a cicatrizar as feridas, há necessidade de artesãos de paz prontos a gerar, com inventiva e ousadia, processos de cura e de um novo encontro.</p>",
             "<p><i>Recomeçar a partir da verdade</i></p>",
@@ -387,7 +387,7 @@
         ]
     },
     "Capítulo VIII": {
-        "sub": "<p align=\"center\"><b>AS RELIGIÕES AO SERVIÇO DA FRATERNIDADE NO MUNDO</b></p>",
+        "subtitle": "<p align=\"center\"><b>AS RELIGIÕES AO SERVIÇO DA FRATERNIDADE NO MUNDO</b></p>",
         "content": [
             "<p><a name=\"271\">271</a>. As várias religiões, ao partir do reconhecimento do valor de cada pessoa humana como criatura chamada a ser filho ou filha de Deus, oferecem uma preciosa contribuição para a construção da fraternidade e a defesa da justiça na sociedade. O diálogo entre pessoas de diferentes religiões não se faz apenas por diplomacia, amabilidade ou tolerância. Como ensinaram os bispos da Índia, «o objetivo do diálogo é estabelecer amizade, paz, harmonia e partilhar valores e experiências morais e espirituais num espírito de verdade e amor».<a href=\"#_ftn259\" name=\"_ftnref259\" title=\"\">[259]</a></p>",
             "<p><i>O fundamento último</i></p>",
@@ -424,14 +424,14 @@
         ]
     },
     "Oração ao Criador": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p>Senhor e Pai da humanidade,<br/> que criastes todos os seres humanos com a mesma dignidade,<br/> infundi nos nossos corações um espírito fraterno.<br/> Inspirai-nos o sonho de um novo encontro, de diálogo, de justiça e de paz.<br/> Estimulai-nos a criar sociedades mais sadias e um mundo mais digno,<br/> sem fome, sem pobreza, sem violência, sem guerras.</p>",
             "<p>Que o nosso coração se abra<br/> a todos os povos e nações da terra,<br/> para reconhecer o bem e a beleza<br/> que semeastes em cada um deles,<br/> para estabelecer laços de unidade, de projetos comuns,<br/> de esperanças compartilhadas. Amen.</p>"
         ]
     },
     "Oração cristã ecuménica": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p>Deus nosso, Trindade de amor,<br/> a partir da poderosa comunhão da vossa intimidade divina<br/> infundi no meio de nós o rio do amor fraterno.<br/> Dai-nos o amor que transparecia nos gestos de Jesus,<br/> na sua família de Nazaré e na primeira comunidade cristã.</p>",
             "<p>Concedei-nos, a nós cristãos, que vivamos o Evangelho<br/> e reconheçamos Cristo em cada ser humano,<br/> para O vermos crucificado nas angústias dos abandonados<br/> e dos esquecidos deste mundo<br/> e ressuscitado em cada irmão que se levanta.</p>",
@@ -440,7 +440,7 @@
         ]
     },
     "Franciscus": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\">[1]</a> <i>Admoestações</i>, 6, 1: <i>Fonti francescane</i>, 155. Tradução da expressão italiana: «Todos irmãos».</p>",
             "<p><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\">[2]</a> <i>Ibid.</i>, 25: <i>o. c.</i>, 175.</p>",

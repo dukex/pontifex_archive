@@ -1,10 +1,10 @@
 {
     "LUMEN FIDEI": {
-        "sub": "<p align=\"center\"> <font size=\"1\"> <a href=\"/content/dam/francesco/pdf/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei_po.pdf\"> <img border=\"0\" height=\"22\" src=\"/content/dam/francesco/images/latest/sub_index/img/pdf.png\" width=\"22\"/></a></font><br> <font size=\"1\"> DOWNLOAD PDF</font></br></p>",
+        "subtitle": "<p align=\"center\"> <font size=\"1\"> <a href=\"/content/dam/francesco/pdf/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei_po.pdf\"> <img border=\"0\" height=\"22\" src=\"/content/dam/francesco/images/latest/sub_index/img/pdf.png\" width=\"22\"/></a></font><br> <font size=\"1\"> DOWNLOAD PDF</font></br></p>",
         "content": []
     },
     "CARTA ENCÍCLICA LUMEN FIDEI  DO SUMO PONTÍFICE FRANCISCO AOS BISPOS AOS PRESBÍTEROS E AOS DIÁCONOS ÀS PESSOAS CONSAGRADAS E A TODOS OS FIÉIS LEIGOS": {
-        "sub": "<p align=\"CENTER\"> <font color=\"#663300\">SOBRE A FÉ</font></p>",
+        "subtitle": "<p align=\"CENTER\"> <font color=\"#663300\">SOBRE A FÉ</font></p>",
         "content": [
             "<p>1. A luz da fé é a expressão com que a tradição da Igreja designou o grande dom trazido por Jesus. Eis como Ele Se nos apresenta, no Evangelho de João: « Eu vim ao mundo como luz, para que todo o que crê em Mim não fique nas trevas » (<i>Jo </i>12, 46). E São Paulo exprime-se nestes termos: « Porque o Deus que disse: \"das trevas brilhe a luz\", foi quem brilhou nos nossos corações » (<i>2 Cor </i> 4, 6). No mundo pagão, com fome de luz, tinha-se desenvolvido o culto do deus Sol, <i> Sol invictus</i>, invocado na sua aurora. Embora o sol renascesse cada dia, facilmente se percebia que era incapaz de irradiar a sua luz sobre toda a existência do homem. De facto, o sol não ilumina toda a realidade, sendo os seus raios incapazes de chegar até às sombras da morte, onde a vista humana se fecha para a sua luz. Aliás « nunca se viu ninguém — afirma o mártir São Justino — pronto a morrer pela sua fé no sol ».<a href=\"/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html#_ftn1\" name=\"_ftnref1\" title=\"\">[1]</a> Conscientes do amplo horizonte que a fé lhes abria, os cristãos chamaram a Cristo o verdadeiro Sol, « cujos raios dão a vida ».<a href=\"/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html#_ftn2\" name=\"_ftnref2\" title=\"\">[2]</a> A Marta, em lágrimas pela morte do irmão Lázaro, Jesus diz-lhe: « Eu não te disse que, se acreditares, verás a glória de Deus? » (<i>Jo </i>11, 40). Quem acredita, vê; vê com uma luz que ilumina todo o percurso da estrada, porque nos vem de Cristo ressuscitado, estrela da manhã que não tem ocaso. </p>",
             "<p><b>Uma luz ilusória?</b> </p>",
@@ -16,7 +16,7 @@
         ]
     },
     "CAPÍTULO I": {
-        "sub": "<p align=\"CENTER\"> <b>ACREDITÁMOS NO AMOR<br/> </b>(cf. 1 <i>Jo </i>4, 16) </p>",
+        "subtitle": "<p align=\"CENTER\"> <b>ACREDITÁMOS NO AMOR<br/> </b>(cf. 1 <i>Jo </i>4, 16) </p>",
         "content": [
             "<p><b>Abraão, nosso pai na fé</b> </p>",
             "<p>9. Esta Palavra comunica a Abraão uma chamada e uma promessa. Contém, antes de tudo, uma chamada a sair da própria terra, convite a abrir-se a uma vida nova, início de um êxodo que o encaminha para um futuro inesperado. A perspectiva, que a fé vai proporcionar a Abraão, estará sempre ligada com este passo em frente que ele deve realizar: a fé « vê » na medida em que caminha, em que entra no espaço aberto pela Palavra de Deus. Mas tal Palavra contém ainda uma promessa: a tua descendência será numerosa, serás pai de um grande povo (cf. <i>Gn </i>13, 16; 15, 5; 22, 17). É verdade que a fé de Abraão, enquanto resposta a uma Palavra que a precede, será sempre um acto de memória; contudo esta memória não o fixa no passado, porque, sendo memória de uma promessa, se torna capaz de abrir ao futuro, de iluminar os passos ao longo do caminho. Assim se vê como a fé, enquanto memória do futuro, está intimamente ligada com a esperança. </p>",
@@ -34,7 +34,7 @@
         ]
     },
     "CAPÍTULO II": {
-        "sub": "<p align=\"CENTER\"> <b>SE NÃO ACREDITARDES, <br/> NÃO COMPREENDEREIS<br/> </b> (cf. <i> Is </i>7, 9) </p>",
+        "subtitle": "<p align=\"CENTER\"> <b>SE NÃO ACREDITARDES, <br/> NÃO COMPREENDEREIS<br/> </b> (cf. <i> Is </i>7, 9) </p>",
         "content": [
             "<p align=\"JUSTIFY\"><b>Fé e verdade</b> </p>",
             "<p>24. Lido a esta luz, o texto de Isaías faz-nos concluir: o homem precisa de conhecimento, precisa de verdade, porque sem ela não se mantém de pé, não caminha. Sem verdade, a fé não salva, não torna seguros os nossos passos. Seria uma linda fábula, a projecção dos nossos desejos de felicidade, algo que nos satisfaz só na medida em que nos quisermos iludir; ou então reduzir-se-ia a um sentimento bom que consola e afaga, mas permanece sujeito às nossas mudanças de ânimo, à variação dos tempos, incapaz de sustentar um caminho constante na vida. Se a fé fosse isso, então o rei Acaz teria razão para não jogar a sua vida e a segurança do seu reino sobre uma emoção. Mas não é! Precisamente pela sua ligação intrínseca com a verdade, a fé é capaz de oferecer uma luz nova, superior aos cálculos do rei, porque vê mais longe, compreende o agir de Deus, que é fiel à sua aliança e às suas promessas. </p>",
@@ -59,7 +59,7 @@
         ]
     },
     "CAPÍTULO III": {
-        "sub": "<p align=\"center\"> <b>TRANSMITO-VOS AQUILO QUE RECEBI<br/> </b>(cf. <i>1 Cor </i>15, 3) </p>",
+        "subtitle": "<p align=\"center\"> <b>TRANSMITO-VOS AQUILO QUE RECEBI<br/> </b>(cf. <i>1 Cor </i>15, 3) </p>",
         "content": [
             "<p><b>A Igreja, mãe da nossa fé</b> </p>",
             "<p>38. A transmissão da fé, que brilha para as pessoas de todos os lugares, passa também através do eixo do tempo, de geração em geração. Dado que a fé nasce de um encontro que acontece na história e ilumina o nosso caminho no tempo, a mesma deve ser transmitida ao longo dos séculos. É através de uma cadeia ininterrupta de testemunhos que nos chega o rosto de Jesus. Como é possível isto? Como se pode estar seguro de beber no « verdadeiro Jesus » através dos séculos? Se o homem fosse um indivíduo isolado, se quiséssemos partir apenas do « eu » individual, que pretende encontrar em si mesmo a firmeza do seu conhecimento, tal certeza seria impossível; não posso, por mim mesmo, ver aquilo que aconteceu numa época tão distante de mim. Mas, esta não é a única maneira de o homem conhecer; a pessoa vive sempre em relação: provém de outros, pertence a outros, a sua vida torna-se maior no encontro com os outros; o próprio conhecimento e consciência de nós mesmos são de tipo relacional e estão ligados a outros que nos precederam, a começar pelos nossos pais que nos deram a vida e o nome. A própria linguagem, as palavras com que interpretamos a nossa vida e a realidade inteira chegam-nos através dos outros, conservadas na memória viva de outros; o conhecimento de nós mesmos só é possível quando participamos duma memória mais ampla. O mesmo acontece com a fé, que leva à plenitude o modo humano de entender: o passado da fé, aquele acto de amor de Jesus que gerou no mundo uma vida nova, chega até nós na memória de outros, das testemunhas, guardado vivo naquele sujeito único de memória que é a Igreja; esta é uma Mãe que nos ensina a falar a linguagem da fé. São João insistiu sobre este aspecto no seu Evangelho, unindo conjuntamente fé e memória e associando as duas à acção do Espírito Santo que, como diz Jesus, « há-de recordar-vos tudo » (<i>Jo </i>14, 26). O Amor, que é o Espírito e que habita na Igreja, mantém unidos entre si todos os tempos e faz-nos contemporâneos de Jesus, tornando-Se assim o guia do nosso caminho na fé. </p>",
@@ -80,7 +80,7 @@
         ]
     },
     "CAPÍTULO IV": {
-        "sub": "<p align=\"center\"><b>DEUS PREPARA<br/> PARA ELES UMA CIDADE<br/> </b>(cf. <i>Heb </i>11, 16) </p>",
+        "subtitle": "<p align=\"center\"><b>DEUS PREPARA<br/> PARA ELES UMA CIDADE<br/> </b>(cf. <i>Heb </i>11, 16) </p>",
         "content": [
             "<p><b>A fé e o bem comum </b> </p>",
             "<p>51. Devido precisamente à sua ligação com o amor (cf. <i>Gl </i>5, 6), a luz da fé coloca-se ao serviço concreto da justiça, do direito e da paz. A fé nasce do encontro com o amor gerador de Deus que mostra o sentido e a bondade da nossa vida; esta é iluminada na medida em que entra no dinamismo aberto por este amor, isto é, enquanto se torna caminho e exercício para a plenitude do amor. A luz da fé é capaz de valorizar a riqueza das relações humanas, a sua capacidade de perdurarem, serem fiáveis, enriquecerem a vida comum. A fé não afasta do mundo, nem é alheia ao esforço concreto dos nossos contemporâneos. Sem um amor fiável, nada poderia manter verdadeiramente unidos os homens: a unidade entre eles seria concebível apenas enquanto fundada sobre a utilidade, a conjugação dos interesses, o medo, mas não sobre a beleza de viverem juntos, nem sobre a alegria que a simples presença do outro pode gerar. A fé faz compreender a arquitectura das relações humanas, porque identifica o seu fundamento último e destino definitivo em Deus, no seu amor, e assim ilumina a arte da sua construção, tornando-se um serviço ao bem comum. Por isso, a fé é um bem para todos, um bem comum: a sua luz não ilumina apenas o âmbito da Igreja nem serve somente para construir uma cidade eterna no além, mas ajuda também a construir as nossas sociedades de modo que caminhem para um futuro de esperança. A Carta aos Hebreus oferece um exemplo disto mesmo, ao nomear entre os homens de fé Samuel e David, a quem a fé permitiu « exercerem a justiça » (11, 33). A expressão refere-se aqui à sua justiça no governar, àquela sabedoria que traz a paz ao povo (cf. <i>1 Sm </i>12, 3-5; <i>2 Sm </i>8, 15). As mãos da fé levantam-se para o céu, mas fazem-no ao mesmo tempo que edificam, na caridade, uma cidade construída sobre relações que têm como alicerce o amor de Deus. </p>",
@@ -96,7 +96,7 @@
         ]
     },
     "FELIZ DAQUELA QUE ACREDITOU  (cf. Lc 1, 45)": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p>58. Na parábola do semeador, São Lucas refere estas palavras com que o Senhor explica o significado da « terra boa »: « São aqueles que, tendo ouvido a palavra com um coração bom e virtuoso, conservam-na e dão fruto com a sua perseverança » (<i>Lc </i>8, 15). No contexto do Evangelho de Lucas, a menção do coração bom e virtuoso, em referência à Palavra ouvida e conservada, pode constituir um retrato implícito da fé da Virgem Maria; o próprio evangelista nos fala da memória de Maria, dizendo que conservava no coração tudo aquilo que ouvia e via, de modo que a Palavra produzisse fruto na sua vida. A Mãe do Senhor é ícone perfeito da fé, como dirá Santa Isabel: « Feliz de ti que acreditaste » (<i>Lc </i>1, 45). </p>",
             "<p>Em Maria, Filha de Sião, tem cumprimento a longa história de fé do Antigo Testamento, com a narração de tantas mulheres fiéis a começar por Sara; mulheres que eram, juntamente com os Patriarcas, o lugar onde a promessa de Deus se cumpria e a vida nova desabrochava. Na plenitude dos tempos, a Palavra de Deus dirigiu-se a Maria, e Ela acolheu-a com todo o seu ser, no seu coração, para que n’Ela tomasse carne e nascesse como luz para os homens. O mártir São Justino, na obra <i>Diálogo com Trifão</i>, tem uma expressão significativa ao dizer que Maria, quando aceitou a mensagem do Anjo, concebeu « fé e alegria ».<a href=\"/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html#_ftn49\" name=\"_ftnref49\" title=\"\">[49]</a> De facto, na Mãe de Jesus, a fé mostrou-se cheia de fruto e, quando a nossa vida espiritual dá fruto, enchemo-nos de alegria, que é o sinal mais claro da grandeza da fé. Na sua vida, Maria realizou a peregrinação da fé seguindo o seu Filho.<a href=\"/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html#_ftn50\" name=\"_ftnref50\" title=\"\">[50]</a> Assim, em Maria, o caminho de fé do Antigo Testamento foi assumido no seguimento de Jesus e deixa-se transformar por Ele, entrando no olhar próprio do Filho de Deus encarnado. </p>",
@@ -113,7 +113,7 @@
         ]
     },
     "FRANCISCUS": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p><a href=\"/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html#_ftnref1\" name=\"_ftn1\" title=\"\">[1]</a>  <i>Dialogus cum Tryphone Iudaeo</i>, 121, 2: <i>PG </i>6, 758.</p>",
             "<p><a href=\"/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html#_ftnref2\" name=\"_ftn2\" title=\"\">[2]</a>  Clemente de Alexandria, <i>Protrepticus</i>, IX: <i>PG </i>8, 195.</p>",

@@ -1,6 +1,6 @@
 {
-    "LAUDATO SI'": {
-        "sub": "<p align=\"center\"><font color=\"#663300\">ENCYCLICAL LETTER<i><br> <font size=\"4\"> <b>LAUDATO SI’<br/> </b> </font></br></i>OF THE HOLY FATHER<br/> <b>FRANCIS<br/> </b>ON CARE FOR OUR COMMON HOME</font></p>",
+    "LAUDATO SI": {
+        "subtitle": "<p align=\"center\"><font color=\"#663300\">ENCYCLICAL LETTER<i><br> <font size=\"4\"> <b>LAUDATO SI’<br/> </b> </font></br></i>OF THE HOLY FATHER<br/> <b>FRANCIS<br/> </b>ON CARE FOR OUR COMMON HOME</font></p>",
         "content": [
             "<p>1. <i>“LAUDATO SI’, mi’ Signore” – “Praise be to you, my Lord”.</i> In the words of this beautiful canticle, Saint Francis of Assisi reminds us that our common home is like a sister with whom we share our life and a beautiful mother who opens her arms to embrace us. “Praise be to you, my Lord, through our Sister, Mother Earth, who sustains and governs us, and who produces various fruit with coloured flowers and herbs”.<a href=\"#_ftn1\" name=\"_ftnref1\" title=\"\">[1]</a></p>",
             "<p><a name=\"2\">2</a>. This sister now cries out to us because of the harm we have inflicted on her by our irresponsible use and abuse of the goods with which God has endowed her. We have come to see ourselves as her lords and masters, entitled to plunder her at will. The violence present in our hearts, wounded by sin, is also reflected in the symptoms of sickness evident in the soil, in the water, in the air and in all forms of life. This is why the earth herself, burdened and laid waste, is among the most abandoned and maltreated of our poor; she “groans in travail” (<i>Rom </i>8:22). We have forgotten that we ourselves are dust of the earth (cf. <i>Gen </i>2:7); our very bodies are made up of her elements, we breathe her air and we receive life and refreshment from her waters.</p>",
@@ -25,7 +25,7 @@
         ]
     },
     "CHAPTER ONE": {
-        "sub": "<p align=\"center\"><b>WHAT IS HAPPENING TO OUR COMMON HOME</b></p>",
+        "subtitle": "<p align=\"center\"><b>WHAT IS HAPPENING TO OUR COMMON HOME</b></p>",
         "content": [
             "<p>17. Theological and philosophical reflections on the situation of humanity and the world can sound tiresome and abstract, unless they are grounded in a fresh analysis of our present situation, which is in many ways unprecedented in the history of humanity. So, before considering how faith brings new incentives and requirements with regard to the world of which we are a part, I will briefly turn to what is happening to our common home.</p>",
             "<p>18. The continued acceleration of changes affecting humanity and the planet is coupled today with a more intensified pace of life and work which might be called “rapidification”. Although change is part of the working of complex systems, the speed with which human activity has developed contrasts with the naturally slow pace of biological evolution. Moreover, the goals of this rapid and constant change are not necessarily geared to the common good or to integral and sustainable human development. Change is something desirable, yet it becomes a source of anxiety when it causes harm to the world and to the quality of life of much of humanity.</p>",
@@ -84,7 +84,7 @@
         ]
     },
     "CHAPTER TWO": {
-        "sub": "<p align=\"center\"><b>THE GOSPEL OF CREATION</b></p>",
+        "subtitle": "<p align=\"center\"><b>THE GOSPEL OF CREATION</b></p>",
         "content": [
             "<p>62. Why should this document, addressed to all people of good will, include a chapter dealing with the convictions of believers? I am well aware that in the areas of politics and philosophy there are those who firmly reject the idea of a Creator, or consider it irrelevant, and consequently dismiss as irrational the rich contribution which religions can make towards an integral ecology and the full development of humanity. Others view religions simply as a subculture to be tolerated. Nonetheless, science and religion, with their distinctive approaches to understanding reality, can enter into an intense dialogue fruitful for both.</p>",
             "<p><b>I. THE LIGHT OFFERED BY FAITH</b></p>",
@@ -136,7 +136,7 @@
         ]
     },
     "CHAPTER THREE": {
-        "sub": "<p align=\"center\"><b>THE HUMAN ROOTS OF THE ECOLOGICAL CRISIS</b></p>",
+        "subtitle": "<p align=\"center\"><b>THE HUMAN ROOTS OF THE ECOLOGICAL CRISIS</b></p>",
         "content": [
             "<p>101. It would hardly be helpful to describe symptoms without acknowledging the human origins of the ecological crisis. A certain way of understanding human life and activity has gone awry, to the serious detriment of the world around us. Should we not pause and consider this? At this stage, I propose that we focus on the dominant technocratic paradigm and the place of human beings and of human action in the world.</p>",
             "<p><b>I. TECHNOLOGY: CREATIVITY AND POWER</b></p>",
@@ -183,7 +183,7 @@
         ]
     },
     "CHAPTER FOUR": {
-        "sub": "<p align=\"center\"><b>INTEGRAL ECOLOGY</b></p>",
+        "subtitle": "<p align=\"center\"><b>INTEGRAL ECOLOGY</b></p>",
         "content": [
             "<p><a name=\"137\">137</a>. Since everything is closely interrelated, and today’s problems call for a vision capable of taking into account every aspect of the global crisis, I suggest that we now consider some elements of an<i> integral ecology</i>, one which clearly respects its human and social dimensions.</p>",
             "<p><b>I. ENVIRONMENTAL, ECONOMIC AND SOCIAL ECOLOGY</b> </p>",
@@ -219,7 +219,7 @@
         ]
     },
     "CHAPTER FIVE": {
-        "sub": "<p align=\"center\"><b>LINES OF APPROACH AND ACTION</b></p>",
+        "subtitle": "<p align=\"center\"><b>LINES OF APPROACH AND ACTION</b></p>",
         "content": [
             "<p><a name=\"163\">163</a>. So far I have attempted to take stock of our present situation, pointing to the cracks in the planet that we inhabit as well as to the profoundly human causes of environmental degradation. Although the contemplation of this reality in itself has already shown the need for a change of direction and other courses of action, now we shall try to outline the major paths of dialogue which can help us escape the spiral of self-destruction which currently engulfs us. </p>",
             "<p><b>I. DIALOGUE ON THE ENVIRONMENT IN THE INTERNATIONAL COMMUNITY</b></p>",
@@ -268,7 +268,7 @@
         ]
     },
     "CHAPTER SIX": {
-        "sub": "<p align=\"center\"><b>ECOLOGICAL EDUCATION AND SPIRITUALITY</b></p>",
+        "subtitle": "<p align=\"center\"><b>ECOLOGICAL EDUCATION AND SPIRITUALITY</b></p>",
         "content": [
             "<p><a name=\"202\">202</a>. Many things have to change course, but it is we human beings above all who need to change. We lack an awareness of our common origin, of our mutual belonging, and of a future to be shared with everyone. This basic awareness would enable the development of new convictions, attitudes and forms of life. A great cultural, spiritual and educational challenge stands before us, and it will demand that we set out on the long path of renewal. </p>",
             "<p><b>I. TOWARDS A NEW LIFESTYLE</b></p>",
@@ -336,7 +336,7 @@
         ]
     },
     "Franciscus": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p align=\"left\"> <a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\">[1]</a><i> Canticle of the Creatures</i>, in <i>Francis of Assisi: Early Documents</i>, vol. 1, New York-London-Manila, 1999, 113-114.</p>",
             "<p align=\"left\"> <a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\">[2]</a> Apostolic Letter <i> <a href=\"http://w2.vatican.va/content/paul-vi/en/apost_letters/documents/hf_p-vi_apl_19710514_octogesima-adveniens.html\">Octogesima Adveniens</a> </i>(14 May 1971), 21: AAS 63 (1971), 416-417.</p>",

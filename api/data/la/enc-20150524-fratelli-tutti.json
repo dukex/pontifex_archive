@@ -1,6 +1,6 @@
 {
     "FRATELLI TUTTI": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p>1. «Fratres omnes», <a class=\"cleaner\" href=\"#_ftn1\" name=\"_ftnref1\">[1]</a> scripsit sanctus Franciscus Assisiensis ut ad omnes fratres ac sorores verba converteret iisdemque evangelici saporis vivendi formam proponeret. Ex eius consiliis unum praebere volumus, ubi hortatur ad amorem qui claustra geographica et locorum excedit. Ibi ille beatum declarat qui tantum fratrem suum diligit «cum esset longe ab ipso, sicuti quando esset cum eo». <a class=\"cleaner\" href=\"#_ftn2\" name=\"_ftnref2\">[2]</a> His paucis et simplicibus verbis praecipuam indolem patentis fraternitatis ostendit, quae omnem personam agnoscere, aestimare ac diligere sinit, praeter corporalem propinquitatem et praeter orbis locum ubi ea nata est vel incolit.</p>",
             "<p>2. Hic sanctus fraterni amoris, simplicitatis et laetitiae, qui Nos inspiravit ut Litteras encyclicas <i>Laudato si’</i> scriberemus, denuo rationes Nobis adducit ad has novas Litteras encyclicas fraternitati et sociali amicitiae dedicandum. Nam sanctus Franciscus, qui solis, maris et venti fratrem se sentiebat, magis tamen se coniunctum cum suis carne similibus noverat. Ubique pacem sevit et iuxta pauperes, derelictos, aegrotos, reiectos postremosque ambulavit.</p>",
@@ -14,7 +14,7 @@
         ]
     },
     "CAPUT PRIMUM": {
-        "sub": "<p style=\"text-align: center;\">UMBRAE MUNDI CLAUSI</p>",
+        "subtitle": "<p style=\"text-align: center;\">UMBRAE MUNDI CLAUSI</p>",
         "content": [
             "<p>9. Haud affectantes absolutam analysim perficere, nec omnes rationes considerare rerum condicionis in qua vivimus, proponimus tantummodo ut aliquas inclinationes mundi huius temporis attendamus, quae progressui fraternitatis universalis obsistunt.</p>",
             "<p>Somnia quae comminuuntur</p>",
@@ -80,7 +80,7 @@
         ]
     },
     "CAPUT SECUNDUM": {
-        "sub": "<p style=\"text-align: center;\">ALIENUS IN VIA</p>",
+        "subtitle": "<p style=\"text-align: center;\">ALIENUS IN VIA</p>",
         "content": [
             "<p>56. Omnia quae in superiore capite memoravimus sunt plus quam arida descriptio rerum, quoniam «gaudium et spes, luctus et angor hominum huius temporis, pauperum praesertim et quorumvis afflictorum, gaudium sunt et spes, luctus et angor etiam Christi discipulorum, nihilque vere humanum invenitur, quod in corde eorum non resonet». <a class=\"cleaner\" href=\"#_ftn53\" name=\"_ftnref53\">[53]</a> Intenti in lucem requirendam inter ea quae vivimus et antequam quasdam exponamus agendi rationes, proponimus unum caput dedicare parabolae a Iesu duo abhinc milia annorum narratae. Nam, etsi hae Litterae encyclicae ad omnes homines bonae voluntatis destinantur, praeter eorum religiosas persuasiones, parabola tali modo exprimitur ut quemque nostrum alloqui possit.</p>",
             "<p>«<i>Et ecce quidam legis peritus surrexit tentans illum dicens: “Magister, quid faciendo vitam aeternam possidebo?”. At ille dixit ad eum: “In Lege quid scriptum est? Quomodo legis?”. Ille autem respondens dixit: “Diliges Dominum Deum tuum ex toto corde tuo et ex tota anima tua et ex omnibus viribus tuis et ex omni mente tua et proximum tuum sicut teipsum”. Dixitque illi: „Recte respondisti; hoc fac et vives”. Ille autem, volens iustificare seipsum, dixit ad Iesum: “Et quis est meus proximus?”. Suscipiens autem Iesus dixit: „Homo quidam descendebat ab Ierusalem in Iericho et incidit in latrones, qui etiam despoliaverunt eum et, plagis impositis, abierunt, semivivo relicto. Accidit autem, ut sacerdos quidam descenderet eadem via et, viso illo, praeterivit; similiter et levita, cum esset secus locum et videret eum, pertransiit. Samaritanus autem quidam iter faciens, venit secus eum et videns eum misericordia motus est, et appropians alligavit vulnera eius infundens oleum et vinum; et imponens illum in iumentum suum duxit in stabulum et curam eius egit. Et altera die protulit duos denarios et dedit stabulario et ait: ‘Curam illius habe, et, quodcumque supererogaveris, ego, cum rediero, reddam tibi’. Quis horum trium videtur tibi proximus fuisse illi, qui incidit in latrones?”. At ille dixit: “Qui fecit misericordiam in illum”. Et ait illi Iesus: “Vade et tu fac similiter”</i>»<i> </i>(<i>Lc</i> 10, 25-37).</p>",
@@ -133,7 +133,7 @@
         ]
     },
     "CAPUT TERTIUM": {
-        "sub": "<p style=\"text-align: center;\">COGITARE ET GENERARE MUNDUM APERTUM</p>",
+        "subtitle": "<p style=\"text-align: center;\">COGITARE ET GENERARE MUNDUM APERTUM</p>",
         "content": [
             "<p>87. Homo ita factus est quod non perficitur, non evolvitur nec suam plenitudinem invenire potest «nisi per sincerum donum sui». <a class=\"cleaner\" href=\"#_ftn62\" name=\"_ftnref62\">[62]</a>Neque pervenit ad suam propriam veritatem prorsus agnoscendam nisi in occursu cum aliis: «Revera communico cum me ipso tantum eadem mensura qua cum altero communico». <a class=\"cleaner\" href=\"#_ftn63\" name=\"_ftnref63\">[63]</a> Hoc explanat cur nemo vivendi bonum experiri potest sine veris vultibus amandis. Hic secretum est verae humanae exsistentiae, quoniam «vita adest ubi est vinculum, communio, fraternitas; et est vita morte fortior cum construitur super necessitudines veras et nexus fidelitatis. E contra, non est vita ubi praetendimus ut pertineamus solum ad nos ipsos et vivamus tamquam insulae: his in adiunctis praevalet mors». <a class=\"cleaner\" href=\"#_ftn64\" name=\"_ftnref64\">[64]</a></p>",
             "<p>Ultra mortem</p>",
@@ -192,7 +192,7 @@
         ]
     },
     "CAPUT QUARTUM": {
-        "sub": "<p style=\"text-align: center;\">COR UNIVERSO MUNDO PATENS</p>",
+        "subtitle": "<p style=\"text-align: center;\">COR UNIVERSO MUNDO PATENS</p>",
         "content": [
             "<p>128. Cum asseveratur nos utpote homines omnes fratres sororesque esse, hoc, nisi mera sit mentis cogitatio, sed, sumpta carne, res fit certa, multa vero nobis praebet certamina, quae nos provocant atque obstringunt, ut prospectus novos suscipiamus ac novas praebeamus responsiones.</p>",
             "<p>Limes confiniorum</p>",
@@ -231,7 +231,7 @@
         ]
     },
     "CAPUT QUINTUM": {
-        "sub": "<p style=\"text-align: center;\">DE OPTIMA RE POLITICA</p>",
+        "subtitle": "<p style=\"text-align: center;\">DE OPTIMA RE POLITICA</p>",
         "content": [
             "<p>154. Ut fieri possit mundanae communitatis progressus, quae fraternitatem efficere valeat, initio sumpto a populis ac nationibus sociali amicitia fruentibus, optima re politica opus est, quae vero communi bono inserviat. Pro dolor, contra, res politica hodie saepenumero species sibi sumit, quae iter ad mundum diversum impediunt.</p>",
             "<p>Populismi et liberalismi</p>",
@@ -292,7 +292,7 @@
         ]
     },
     "CAPUT SEXTUM": {
-        "sub": "<p style=\"text-align: center;\">DIALOGUS ET AMICITIA SOCIALIS</p>",
+        "subtitle": "<p style=\"text-align: center;\">DIALOGUS ET AMICITIA SOCIALIS</p>",
         "content": [
             "<p>198. Cum alius ad alium accedit, ad alium se manifestat, alium auscultat, alium contuetur, alium agnoscit, alium intellegere studet, invicem congruere conatur, haec omnia verbo “dialogi instituendi” contrahuntur. Ut nos conveniamus et mutuo nos adiuvemus dialogum instituere oportet. Haud necesse est dicere ad quid indigemus dialogo. Sufficit cogitare quid sit terrarum orbis sine patienti dialogo tot personarum liberalium quae familias communitatesque coniunctas servarunt. Perseverans dialogus ac studiosus haud palam elucet sicut concertationes et contentiones, attamen silenter terrarum orbem adiuvat vivere melius, multo magis quam intellegere possimus.</p>",
             "<p>Dialogus socialis ad novam culturam</p>",
@@ -332,7 +332,7 @@
         ]
     },
     "CAPUT SEPTIMUM": {
-        "sub": "<p style=\"text-align: center;\">IN NOVUM OCCURSUM ITINERA</p>",
+        "subtitle": "<p style=\"text-align: center;\">IN NOVUM OCCURSUM ITINERA</p>",
         "content": [
             "<p>225. Multis in terrarum orbis locis pacis semitis calcandis opus est quae vulneribus sanandis subveniant, pacis opificibus opus est qui ingenio audaciaque sanationis processibus dent operam et novi occursus.</p>",
             "<p>A veritate initium sumere</p>",
@@ -395,7 +395,7 @@
         ]
     },
     "CAPUT OCTAVUM": {
-        "sub": "<p style=\"text-align: center;\">RELIGIONES MUNDANAE FRATERNITATI INSERVIENTES</p>",
+        "subtitle": "<p style=\"text-align: center;\">RELIGIONES MUNDANAE FRATERNITATI INSERVIENTES</p>",
         "content": [
             "<p>271. Religiones diversae, initio sumpto a dignitate agnita uniuscuiusque humanae personae, quae est creatura vocata ut sit Dei filius aut filia, plurimum conferunt ad fraternitatem conflandam et iustitiam in societate defendendam. Dialogus inter homines diversarum religionum non modo fit per prudentiam, urbanitatem vel tolerantiam. Quemadmodum Indiae Episcopi docuerunt, «dialogi est amicitiam, pacem, concordiam constituere et bona ac usus morales spiritalesque participare per veritatis amorisque spiritum». <a class=\"cleaner\" href=\"#_ftn259\" name=\"_ftnref259\">[259]</a></p>",
             "<p>Novissimum fundamentum</p>",
@@ -417,7 +417,7 @@
         ]
     },
     "Commendatio": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p>285. In occursu illo fraterno cum Magno Imano Ahmad al-Tayyeb, quem laetanter commemoramus, «declaramus – firmiter – religiones numquam ad bellum incitare neque odii, inimicitiae, extremismi sensus instigare, neque ad violentiam vel sanguinis effusionem allicere. Hae calamitates ex doctrinis religionis depravatis, politico usu religionum et etiam manipulis religionis hominum abutentibus – in quibusdam historiae aetatibus – religioso sensu, hominum corda afficiente, oriuntur. […] Etenim Deus, Omnipotens, nullius defensionis indiget atque non vult ut nomen suum adhibeatur ad homines conterrendos». <a class=\"cleaner\" href=\"#_ftn284\" name=\"_ftnref284\">[284]</a> Quapropter hic pacis, iustitiae ac fraternitatis commendationem iterare cupimus, quam una fecimus:</p>",
             "<p>«In nomine Dei qui omnes homines creavit, iuribus, officiis ac dignitate aequatis, et eos vocavit ut una viverent tamquam fratres, ad terram occupandam ac per eam ad bona, caritatem ac pacem effundendam.</p>",
@@ -444,14 +444,14 @@
         ]
     },
     "Franciscus": {
-        "sub": "<p style=\"text-align: center;\">INDEX</p>",
+        "subtitle": "<p style=\"text-align: center;\">INDEX</p>",
         "content": [
             "<p>«Fratres omnes» [1-2]</p>",
             "<p>Sine finibus [3-8]</p>"
         ]
     },
     "Caput I": {
-        "sub": "<p style=\"text-align: center;\">UMBRAE MUNDI CLAUSI</p>",
+        "subtitle": "<p style=\"text-align: center;\">UMBRAE MUNDI CLAUSI</p>",
         "content": [
             "<p>[Praemissa] [9]</p>",
             "<p>Somnia quae comminuuntur [10-12]</p>",
@@ -471,7 +471,7 @@
         ]
     },
     "Caput II": {
-        "sub": "<p style=\"text-align: center;\">ALIENUS IN VIA</p>",
+        "subtitle": "<p style=\"text-align: center;\">ALIENUS IN VIA</p>",
         "content": [
             "<p>[Praemissa] [56]</p>",
             "<p>Fundus [57-62]</p>",
@@ -484,7 +484,7 @@
         ]
     },
     "Caput III": {
-        "sub": "<p style=\"text-align: center;\">COGITARE ET GENERARE MUNDUM APERTUM</p>",
+        "subtitle": "<p style=\"text-align: center;\">COGITARE ET GENERARE MUNDUM APERTUM</p>",
         "content": [
             "<p>[Praemissa] [87]</p>",
             "<p>Ultra mortem [88-90]</p>",
@@ -503,7 +503,7 @@
         ]
     },
     "Caput IV": {
-        "sub": "<p style=\"text-align: center;\">COR UNIVERSO MUNDO PATENS</p>",
+        "subtitle": "<p style=\"text-align: center;\">COR UNIVERSO MUNDO PATENS</p>",
         "content": [
             "<p>[Praemissa] [128]</p>",
             "<p>Limes confiniorum [129-132]</p>",
@@ -517,7 +517,7 @@
         ]
     },
     "Caput V": {
-        "sub": "<p style=\"text-align: center;\">DE OPTIMA RE POLITICA</p>",
+        "subtitle": "<p style=\"text-align: center;\">DE OPTIMA RE POLITICA</p>",
         "content": [
             "<p>[Praemissa] [154]</p>",
             "<p>Populismi et liberalismi [155]</p>",
@@ -535,7 +535,7 @@
         ]
     },
     "Caput VI": {
-        "sub": "<p style=\"text-align: center;\">DIALOGUS ET AMICITIA SOCIALIS</p>",
+        "subtitle": "<p style=\"text-align: center;\">DIALOGUS ET AMICITIA SOCIALIS</p>",
         "content": [
             "<p>[Praemissa] [198]</p>",
             "<p>Dialogus socialis ad novam culturam [199-202]</p>",
@@ -549,7 +549,7 @@
         ]
     },
     "Caput VII": {
-        "sub": "<p style=\"text-align: center;\">IN NOVUM OCCURSUM ITINERA</p>",
+        "subtitle": "<p style=\"text-align: center;\">IN NOVUM OCCURSUM ITINERA</p>",
         "content": [
             "<p>[Praemissa] [225]</p>",
             "<p>A veritate initium sumere [226-227] .</p>",
@@ -567,7 +567,7 @@
         ]
     },
     "Caput VIII": {
-        "sub": "<p style=\"text-align: center;\">RELIGIONES MUNDANAE FRATERNITATI INSERVIENTES</p>",
+        "subtitle": "<p style=\"text-align: center;\">RELIGIONES MUNDANAE FRATERNITATI INSERVIENTES</p>",
         "content": [
             "<p>[Praemissa] [271]</p>",
             "<p>Novissimum Fundamentum [272-276]</p>",

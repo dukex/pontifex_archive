@@ -1,6 +1,6 @@
 {
-    "LAUDATO SI'": {
-        "sub": "",
+    "LAUDATO SI": {
+        "subtitle": "",
         "content": [
             "<p><a name=\"1\"></a>1. “ <a name=\"Laudato_si\"></a>Laudato si’, mi’ Signore”, sanctus Franciscus Assisiensis cantabat. Venusto hoc in cantico nos ille monebat nostram communem domum esse quoque sororem, quacum exsistentiam communicamus, atque veluti pulchram matrem in complexum nos recipere. “Laudatus sis, mi Domine, propter sororem nostram matrem terram quae nos sustentat et gubernat, et producit diversos fructus cum coloratis floribus et herba”. <a class=\"cleaner\" href=\"#_ftn1\" name=\"_ftnref1\">[1]</a></p>",
             "<p><a name=\"2\"></a>2. Haec soror obiurgat nos sibi damnum facientes propter insanum usum bonorumque sibi a Deo datorum abusum. Adolevimus cogitantes eius nos esse possessores ac dominos, facultatem eam vastandi habentes. Violentia quae in hominis corde, peccato sauciato, insidet, in morbi etiam indiciis manifestatur, quem inesse in solo, aqua, aëre, animantibus percipimus. Quapropter inter desertiores vexatioresque pauperes nostra annumeratur oppressa vastataque terra, quae «congemiscit et comparturit» (<i>Rom</i> 8,22). Obliviscimur nos de limo terrae ipsos esse (cfr <i>Gn</i> 2,7). Ipsum nostrum corpus orbis terrarum ex elementis constat, eodem ex aëre spiritum trahimus atque eius aqua nos vivificat ac reficit.</p>",
@@ -25,7 +25,7 @@
         ]
     },
     "CAPUT PRIMUM": {
-        "sub": "<p style=\"text-align: center;\"><b><a name=\"DE_HODIERNO_DOMUS_NOSTRAE_STATU\"></a>DE HODIERNO DOMUS NOSTRAE STATU</b></p><p style=\"text-align: center;\"><a href=\"#DE_HODIERNO_DOMUS_NOSTRAE_STATU\">DE HODIERNO DOMUS NOSTRAE STATU</a> [17-19]</p>",
+        "subtitle": "<p style=\"text-align: center;\"><b><a name=\"DE_HODIERNO_DOMUS_NOSTRAE_STATU\"></a>DE HODIERNO DOMUS NOSTRAE STATU</b></p><p style=\"text-align: center;\"><a href=\"#DE_HODIERNO_DOMUS_NOSTRAE_STATU\">DE HODIERNO DOMUS NOSTRAE STATU</a> [17-19]</p>",
         "content": [
             "<p><a name=\"17\"></a>17. Considerationes theologicae vel philosophicae de condicione humani generis et mundi haberi possunt sicut nuntium repetitum et vacuum, si non iterantur, initio sumpto a comparatione cum circumstantiis aetatis nostrae, in hoc quod nondum pro historia humani generis editum est. Quam ob rem, antequam agnoscamus quomodo fides novas rationes et postulata coram mundo afferat cuius nos sumus participes, constituimus breviter id considerare quod communi domui nostrae evenit.</p>",
             "<p><a name=\"18\"></a>18. Continuata mutationum humani generis orbisque celeritas hodie coniungitur cum augmento modulationum vitae et laboris, in illa quam in Hispanico sermone quidam <i>“rapidación”</i> appellant. Quamvis mutatio pars sit progressionis rationum multiplicium, velocitas quam actiones humanae ei hodie imponunt, naturali obsistit evolutionis biologicae lenitati. Cui additur quod proposita huius celeris et constantis mutationis non necessario ad commune bonum diriguntur adque humanam progressionem, tolerabilem integramque. Mutatio quiddam est optabile, sed inquietat cum peiorem reddit mundum et vitae qualitatem maioris partis humani generis.</p>",
@@ -93,7 +93,7 @@
         ]
     },
     "CAPUT SECUNDUM": {
-        "sub": "<p style=\"text-align: center;\"><b><a name=\"CREATIONIS_EVANGELIUM\"></a>CREATIONIS EVANGELIUM</b></p><p style=\"text-align: center;\"><a href=\"#CREATIONIS_EVANGELIUM\">CREATIONIS EVANGELIUM</a> [62]</p>",
+        "subtitle": "<p style=\"text-align: center;\"><b><a name=\"CREATIONIS_EVANGELIUM\"></a>CREATIONIS EVANGELIUM</b></p><p style=\"text-align: center;\"><a href=\"#CREATIONIS_EVANGELIUM\">CREATIONIS EVANGELIUM</a> [62]</p>",
         "content": [
             "<p><a name=\"62\"></a>62. Quid quod huic documento, bonae voluntatis hominibus converso, capitulum de fidei persuasionibus additur? Conscii sumus in rei politicae opinionumque provincia quosdam Creatoris cogitationem prorsus respuere, aut eam nullius momenti putare, ita ut ad irrationalia divitias referant, quas religiones praebere possint integrae oecologiae plenoque profectui humani generis. Alias ipsae ad secundae notae culturam pertinere putantur, quae tantum tolerari debet. Attamen scientia ac religio, quae varia ratione realitatem attingunt, crebrum et utrique frugiferum dialogum instituere possunt.</p>",
             "<p><b><a name=\"I._LUX_FIDE_OBLATA\"></a>I. LUX FIDE OBLATA</b></p>",
@@ -158,7 +158,7 @@
         ]
     },
     "CAPUT TERTIUM": {
-        "sub": "<p style=\"text-align: center;\"><b><a name=\"HUMANA_OECOLOGICI_DISCRIMINIS_RADIX\"></a>HUMANA OECOLOGICI DISCRIMINIS RADIX</b></p><p class=\"MsoNormal\" style=\"text-align: center;\"><a href=\"#HUMANA_OECOLOGICI_DISCRIMINIS_RADIX\">HUMANA OECOLOGICI DISCRIMINIS RADIX</a> [101]</p>",
+        "subtitle": "<p style=\"text-align: center;\"><b><a name=\"HUMANA_OECOLOGICI_DISCRIMINIS_RADIX\"></a>HUMANA OECOLOGICI DISCRIMINIS RADIX</b></p><p class=\"MsoNormal\" style=\"text-align: center;\"><a href=\"#HUMANA_OECOLOGICI_DISCRIMINIS_RADIX\">HUMANA OECOLOGICI DISCRIMINIS RADIX</a> [101]</p>",
         "content": [
             "<p><a name=\"101\"></a>101. Nihil nos iuvabit indicia describere, si oecologici discriminis humanam radicem haud agnoverimus. Adest modus hominis vitam actionemque intellegendi qui aberravit atque rebus contradicit usque ad eas corrumpendas. Cur non possumus sistere ut de hoc cogitemus? Hac in consideratione proponimus ut praecipuum paradigma technocraticum inspiciamus atque locum quem in eo habet homo eiusque actio in mundo.</p>",
             "<p style=\"text-align: left;\"><b><a name=\"I._TECHNOLOGIA:_CREATIVITAS_ET_POTESTAS\"></a>I. TECHNOLOGIA: CREATIVITAS ET POTESTAS</b></p>",
@@ -211,7 +211,7 @@
         ]
     },
     "CAPUT QUARTUM": {
-        "sub": "<p style=\"text-align: center;\"><b><a name=\"INTEGRA_OECOLOGIA\"></a>INTEGRA OECOLOGIA</b></p><p style=\"text-align: center;\"><a href=\"#INTEGRA_OECOLOGIA\">INTEGRA OECOLOGIA</a> [137]</p>",
+        "subtitle": "<p style=\"text-align: center;\"><b><a name=\"INTEGRA_OECOLOGIA\"></a>INTEGRA OECOLOGIA</b></p><p style=\"text-align: center;\"><a href=\"#INTEGRA_OECOLOGIA\">INTEGRA OECOLOGIA</a> [137]</p>",
         "content": [
             "<p><a name=\"137\"></a>137. Eo quod omnia inter se arte coniunguntur nec non quaestiones nostrae aetatis visionem postulant quae omnes aspectus mundani discriminis consideret, quasdam nunc proponimus de diversis aspectibus <i>oecologiae integrae</i> sententias quae liquido rationes humanas socialesque amplectatur.</p>",
             "<p><b><a name=\"I._OECOLOGIA_AMBITALIS,_OECONOMICA_ET_SOCIALIS_\"></a>I. OECOLOGIA AMBITALIS, OECONOMICA ET SOCIALIS</b></p>",
@@ -252,7 +252,7 @@
         ]
     },
     "CAPUT QUINTUM": {
-        "sub": "<p style=\"text-align: center;\"><b><a name=\"QUAEDAM_DISPONENDA_ET_AGENDA\"></a>QUAEDAM DISPONENDA ET AGENDA</b></p><p style=\"text-align: center;\"><a href=\"#QUAEDAM_DISPONENDA_ET_AGENDA\">QUAEDAM DISPONENDA ET AGENDA</a> [163]</p>",
+        "subtitle": "<p style=\"text-align: center;\"><b><a name=\"QUAEDAM_DISPONENDA_ET_AGENDA\"></a>QUAEDAM DISPONENDA ET AGENDA</b></p><p style=\"text-align: center;\"><a href=\"#QUAEDAM_DISPONENDA_ET_AGENDA\">QUAEDAM DISPONENDA ET AGENDA</a> [163]</p>",
         "content": [
             "<p><a name=\"163\"></a>163. Ponderare studuimus hodiernam humanitatis condicionem, tum in rimis orbis, quem incolimus, tum in causis potissimum humanis ambitalis detrimenti. Licet haec rerum contemplatio in se ipsa nobis iam demonstret cursum nobis esse immutandum atque nobis quaedam esse suscipienda patefaciat, magna dialogi curricula describere nunc contendimus, quae nos adiuvent ad nostri interitus, in quem vergimus, complicationem deserendam.</p>",
             "<p><b><a name=\"I._DE_AMBITU_DIALOGUS_APUD_INTERNATIONALEM_REM_POLITICAM\"></a>I. DE AMBITU DIALOGUS APUD INTERNATIONALEM REM POLITICAM</b></p>",
@@ -306,7 +306,7 @@
         ]
     },
     "CAPUT SEXTUM": {
-        "sub": "<p style=\"text-align: center;\"><b><a name=\"EDUCATIO_ET_SPIRITALITAS_OECOLOGICA\"></a>EDUCATIO ET SPIRITALITAS OECOLOGICA</b></p><p class=\"MsoNormal\" style=\"text-align: center;\"><a href=\"#EDUCATIO_ET_SPIRITALITAS_OECOLOGICA\">EDUCATIO ET SPIRITALITAS OECOLOGICA</a> [202]</p>",
+        "subtitle": "<p style=\"text-align: center;\"><b><a name=\"EDUCATIO_ET_SPIRITALITAS_OECOLOGICA\"></a>EDUCATIO ET SPIRITALITAS OECOLOGICA</b></p><p class=\"MsoNormal\" style=\"text-align: center;\"><a href=\"#EDUCATIO_ET_SPIRITALITAS_OECOLOGICA\">EDUCATIO ET SPIRITALITAS OECOLOGICA</a> [202]</p>",
         "content": [
             "<p><a name=\"202\"></a>202. Plurimae res oportet suum denuo convertant cursum, sed cumprimis genus humanum mutare debet. Est necessaria communis originis conscientia, mutuae necessitudinis atque futuri participati cunctis cum hominibus. Haec fundamentalis conscientia sineret ut novae explicerentur persuasiones, habilitates vitaeque formae. Apparet sic magna provocatio culturalis, spiritalis et educativa quae latos regenerationis processus implicabit.</p>",
             "<p><b><a name=\"I._ALIAM_VITAE_FORMAM_INSTITUERE\"></a>I. ALIAM VITAE FORMAM INSTITUERE</b></p>",
@@ -557,7 +557,7 @@
         ]
     },
     "Franciscus PP.": {
-        "sub": "<p style=\"text-align: center;\"><b>Index rerum</b></p>",
+        "subtitle": "<p style=\"text-align: center;\"><b>Index rerum</b></p>",
         "content": [
             "<p><a href=\"#Laudato_si\">Laudato si’, mi’ Signore</a> [1-2]</p>",
             "<p style=\"text-align: left;\"><i><a href=\"#Huius_mundi_nihil_nobis_indifferens_\">Huius mundi nihil nobis indifferens est</a> </i>[3-6]</p>",

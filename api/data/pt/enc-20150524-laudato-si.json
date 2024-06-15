@@ -1,6 +1,6 @@
 {
-    "LAUDATO SI'": {
-        "sub": "<p align=\"center\"><font color=\"#663300\">CARTA ENCÍCLICA<i><br> <b><font size=\"4\">LAUDATO SI’<br/> </font></b></br></i>DO SANTO PADRE<br/> <b>FRANCISCO<br/> </b>SOBRE O CUIDADO DA CASA COMUM </font></p>",
+    "LAUDATO SI": {
+        "subtitle": "<p align=\"center\"><font color=\"#663300\">CARTA ENCÍCLICA<i><br> <b><font size=\"4\">LAUDATO SI’<br/> </font></b></br></i>DO SANTO PADRE<br/> <b>FRANCISCO<br/> </b>SOBRE O CUIDADO DA CASA COMUM </font></p>",
         "content": [
             "<p> <a name=\"1\">1</a>. «<i>LAUDATO SI’, mi’ Signore </i>– Louvado sejas, meu Senhor», cantava São Francisco de Assis. Neste gracioso cântico, recordava-nos que a nossa casa comum se pode comparar ora a uma irmã, com quem partilhamos a existência, ora a uma boa mãe, que nos acolhe nos seus braços: «Louvado sejas, meu Senhor, pela nossa irmã, a mãe terra, que nos sustenta e governa e produz variados frutos com flores coloridas e verduras».<a href=\"#_ftn1\" name=\"_ftnref1\" title=\"\">[1]</a></p>",
             "<p> <a name=\"2\">2</a>. Esta irmã clama contra o mal que lhe provocamos por causa do uso irresponsável e do abuso dos bens que Deus nela colocou. Crescemos a pensar que éramos seus proprietários e dominadores, autorizados a saqueá-la. A violência, que está no coração humano ferido pelo pecado, vislumbra-se nos sintomas de doença que notamos no solo, na água, no ar e nos seres vivos. Por isso, entre os pobres mais abandonados e maltratados, conta-se a nossa terra oprimida e devastada, que «geme e sofre as dores do parto» (<i>Rm </i>8, 22). Esquecemo-nos de que nós mesmos somos terra (cf.<i> Gn </i>2, 7). O nosso corpo é constituído pelos elementos do planeta; o seu ar permite-nos respirar, e a sua água vivifica-nos e restaura-nos.</p>",
@@ -25,7 +25,7 @@
         ]
     },
     "CAPÍTULO I": {
-        "sub": "<p align=\"center\"> <b>O QUE ESTÁ A ACONTECER À NOSSA CASA</b></p>",
+        "subtitle": "<p align=\"center\"> <b>O QUE ESTÁ A ACONTECER À NOSSA CASA</b></p>",
         "content": [
             "<p> <a name=\"17\">17</a>. As reflexões teológicas ou filosóficas sobre a situação da humanidade e do mundo podem soar como uma mensagem repetida e vazia, se não forem apresentadas novamente a partir dum confronto com o contexto actual no que este tem de inédito para a história da humanidade. Por isso, antes de reconhecer como a fé traz novas motivações e exigências face ao mundo de que fazemos parte, proponho que nos detenhamos brevemente a considerar o que está a acontecer à nossa casa comum.</p>",
             "<p> <a name=\"18\">18</a>. A contínua aceleração das mudanças na humanidade e no planeta junta-se, hoje, à intensificação dos ritmos de vida e trabalho, que alguns, em espanhol, designam por «rapidación». Embora a mudança faça parte da dinâmica dos sistemas complexos, a velocidade que hoje lhe impõem as acções humanas contrasta com a lentidão natural da evolução biológica. A isto vem juntar-se o problema de que os objectivos desta mudança rápida e constante não estão necessariamente orientados para o bem comum e para um desenvolvimento humano sustentável e integral. A mudança é algo desejável, mas torna-se preocupante quando se transforma em deterioração do mundo e da qualidade de vida de grande parte da humanidade.</p>",
@@ -84,7 +84,7 @@
         ]
     },
     "CAPÍTULO II": {
-        "sub": "<p align=\"center\"> <b>O EVANGELHO DA CRIAÇÃO</b></p>",
+        "subtitle": "<p align=\"center\"> <b>O EVANGELHO DA CRIAÇÃO</b></p>",
         "content": [
             "<p> <a name=\"62\">62</a>. Por que motivo incluir, neste documento dirigido a todas as pessoas de boa vontade, um capítulo referido às convicções de fé? Não ignoro que alguns, no campo da política e do pensamento, rejeitam decididamente a ideia de um Criador ou consideram-na irrelevante, chegando ao ponto de relegar para o reino do irracional a riqueza que as religiões possam oferecer para uma ecologia integral e o pleno desenvolvimento do género humano; outras vezes, supõe-se que elas constituam uma subcultura, que se deve simplesmente tolerar. Todavia a ciência e a religião, que fornecem diferentes abordagens da realidade, podem entrar num diálogo intenso e frutuoso para ambas.</p>",
             "<p> <b>1. A luz que a fé oferece</b></p>",
@@ -136,7 +136,7 @@
         ]
     },
     "CAPÍTULO III": {
-        "sub": "<p align=\"center\"> <b>A RAIZ HUMANA DA CRISE ECOLÓGICA</b></p>",
+        "subtitle": "<p align=\"center\"> <b>A RAIZ HUMANA DA CRISE ECOLÓGICA</b></p>",
         "content": [
             "<p> <a name=\"101\">101</a>. Para nada serviria descrever os sintomas, se não reconhecêssemos a raiz humana da crise ecológica. Há um modo desordenado de conceber a vida e a acção do ser humano, que contradiz a realidade até ao ponto de a arruinar. Não poderemos deter-nos a pensar nisto mesmo? Proponho, pois, que nos concentremos no paradigma tecnocrático dominante e no lugar que ocupa nele o ser humano e a sua acção no mundo.</p>",
             "<p> <b>1. A tecnologia: criatividade e poder</b></p>",
@@ -183,7 +183,7 @@
         ]
     },
     "CAPÍTULO IV": {
-        "sub": "<p align=\"center\"> <b>UMA ECOLOGIA INTEGRAL</b></p>",
+        "subtitle": "<p align=\"center\"> <b>UMA ECOLOGIA INTEGRAL</b></p>",
         "content": [
             "<p> <a name=\"137\">137</a>. Dado que tudo está intimamente relacionado e que os problemas actuais requerem um olhar que tenha em conta todos os aspectos da crise mundial, proponho que nos detenhamos agora a reflectir sobre os diferentes elementos duma<i> ecologia integral</i>, que inclua claramente as dimensões humanas e sociais.</p>",
             "<p> <b>1. Ecologia ambiental, económica e social</b></p>",
@@ -219,7 +219,7 @@
         ]
     },
     "CAPÍTULO V": {
-        "sub": "<p align=\"center\"> <b>ALGUMAS LINHAS DE ORIENTAÇÃO E ACÇÃO</b></p>",
+        "subtitle": "<p align=\"center\"> <b>ALGUMAS LINHAS DE ORIENTAÇÃO E ACÇÃO</b></p>",
         "content": [
             "<p> <a name=\"163\">163</a>. Procurei examinar a situação actual da humanidade, tanto nas brechas do planeta que habitamos, como nas causas mais profundamente humanas da degradação ambiental. Embora esta contemplação da realidade em si mesma já nos indique a necessidade duma mudança de rumo e sugira algumas acções, procuremos agora delinear grandes percursos de diálogo que nos ajudem a sair da espiral de autodestruição onde estamos a afundar.</p>",
             "<p> <b>1. O diálogo sobre o meio ambiente na política internacional</b></p>",
@@ -268,7 +268,7 @@
         ]
     },
     "CAPÍTULO VI": {
-        "sub": "<p align=\"center\"> <b>EDUCAÇÃO E ESPIRITUALIDADE ECOLÓGICAS</b></p>",
+        "subtitle": "<p align=\"center\"> <b>EDUCAÇÃO E ESPIRITUALIDADE ECOLÓGICAS</b></p>",
         "content": [
             "<p> <a name=\"202\">202</a>. Muitas coisas devem reajustar o próprio rumo, mas antes de tudo é a humanidade que precisa de mudar. Falta a consciência duma origem comum, duma recíproca pertença e dum futuro partilhado por todos. Esta consciência basilar permitiria o desenvolvimento de novas convicções, atitudes e estilos de vida. Surge, assim, um grande desafio cultural, espiritual e educativo que implicará longos processos de regeneração.</p>",
             "<p> <b>1. Apontar para outro estilo de vida</b></p>",
@@ -335,7 +335,7 @@
         ]
     },
     "Franciscus": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\">[2]</a> Carta ap.<i> <a href=\"http://w2.vatican.va/content/paul-vi/pt/apost_letters/documents/hf_p-vi_apl_19710514_octogesima-adveniens.html\">Octogesima adveniens</a> </i>(14 de Maio de 1971), 21:<i> AAS </i>63 (1971), 416-417.</p>",
             "<p><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\">[3]</a><i> <a href=\"http://w2.vatican.va/content/paul-vi/pt/speeches/1970/documents/hf_p-vi_spe_19701116_xxv-istituzione-fao.html\">Discurso à FAO, no seu XXV aniversário</a> </i>(16 de Novembro de 1970), 4:<i> AAS </i>62 (1970), 833;<i> L’Osservatore Romano </i>(ed. portuguesa de 22/XI/1970), 6.</p>",

@@ -40,59 +40,151 @@
     ],
     "documents": [
       {
+        "id": "enc_20090629_caritas-in-veritate",
         "name": "Caritas in veritate",
         "date": "2009-06-29",
         "type": "enc",
         "translations": [
           {
+            "id": "en/enc_20090629_caritas-in-veritate",
             "language": "en",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
           },
           {
+            "id": "la/enc_20090629_caritas-in-veritate",
             "language": "la",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
           },
           {
+            "id": "pt/enc_20090629_caritas-in-veritate",
             "language": "pt",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
           }
         ]
       },
       {
+        "id": "enc_20071130_spe-salvi",
         "name": "Spe salvi",
         "date": "2007-11-30",
         "type": "enc",
         "translations": [
           {
+            "id": "en/enc_20071130_spe-salvi",
             "language": "en",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
           },
           {
+            "id": "la/enc_20071130_spe-salvi",
             "language": "la",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
           },
           {
+            "id": "pt/enc_20071130_spe-salvi",
             "language": "pt",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
           }
         ]
       },
       {
+        "id": "enc_20051225_deus-caritas-est",
         "name": "Deus caritas est",
         "date": "2005-12-25",
         "type": "enc",
         "translations": [
           {
+            "id": "en/enc_20051225_deus-caritas-est",
             "language": "en",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
           },
           {
+            "id": "la/enc_20051225_deus-caritas-est",
             "language": "la",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
           },
           {
+            "id": "pt/enc_20051225_deus-caritas-est",
             "language": "pt",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "franciscus",
+    "name": "Franciscus",
+    "motto": "",
+    "country": "",
+    "startDate": "",
+    "translations": [],
+    "documents": [
+      {
+        "id": "enc-20130524-lumen_fidei",
+        "name": "Lumen fidei",
+        "date": "2013-05-24",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "la/enc-20130524-lumen_fidei",
+            "language": "la",
+            "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
+          },
+          {
+            "id": "en/enc-20130524-lumen_fidei",
+            "language": "en",
+            "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
+            "type": "enc"
+          },
+          {
+            "id": "pt/enc-20130524-lumen_fidei",
+            "language": "pt",
+            "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-20150524-laudato-si",
+        "name": "Laudato Si",
+        "date": "2015-05-24",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "la/enc-20150524-laudato-si",
+            "language": "la",
+            "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+          },
+          {
+            "id": "pt/enc-20150524-laudato-si",
+            "language": "pt",
+            "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+          },
+          {
+            "id": "en/enc-20150524-laudato-si",
+            "language": "en",
+            "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-20150524-fratelli-tutti",
+        "name": "Fratelli tutti",
+        "date": "2020-10-03",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "la/enc-20150524-fratelli-tutti",
+            "language": "la",
+            "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+          },
+          {
+            "id": "pt/enc-20150524-fratelli-tutti",
+            "language": "pt",
+            "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+          },
+          {
+            "id": "en/enc-20150524-fratelli-tutti",
+            "language": "en",
+            "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
           }
         ]
       }

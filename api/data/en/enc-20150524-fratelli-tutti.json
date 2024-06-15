@@ -1,6 +1,6 @@
 {
     "FRATELLI TUTTI": {
-        "sub": "<p style=\"text-align: center;\">ENCYCLICAL LETTER<i><br> <b>FRATELLI TUTTI<br/> </b></br></i>OF THE HOLY FATHER<br/> <b>FRANCIS<br/> </b>ON FRATERNITY AND SOCIAL FRIENDSHIP</p>",
+        "subtitle": "<p style=\"text-align: center;\">ENCYCLICAL LETTER<i><br> <b>FRATELLI TUTTI<br/> </b></br></i>OF THE HOLY FATHER<br/> <b>FRANCIS<br/> </b>ON FRATERNITY AND SOCIAL FRIENDSHIP</p>",
         "content": [
             "<p>1. <i><a name=\"“FRATELLI_TUTTI”\"></a>“FRATELLI TUTTI”.</i> <a class=\"cleaner\" href=\"#_ftn1\" name=\"_ftnref1\">[1]</a> With these words, Saint Francis of Assisi addressed his brothers and sisters and proposed to them a way of life marked by the flavour of the Gospel. Of the counsels Francis offered, I would like to select the one in which he calls for a love that transcends the barriers of geography and distance, and declares blessed all those who love their brother “as much when he is far away from him as when he is with him”. <a class=\"cleaner\" href=\"#_ftn2\" name=\"_ftnref2\">[2]</a> In his simple and direct way, Saint Francis expressed the essence of a fraternal openness that allows us to acknowledge, appreciate and love each person, regardless of physical proximity, regardless of where he or she was born or lives.</p>",
             "<p><a name=\"2\"></a>2. This saint of fraternal love, simplicity and joy, who inspired me to write the Encyclical <i><a href=\"http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html\">Laudato Si’</a></i>, prompts me once more to devote this new Encyclical to fraternity and social friendship. Francis felt himself a brother to the sun, the sea and the wind, yet he knew that he was even closer to those of his own flesh. Wherever he went, he sowed seeds of peace and walked alongside the poor, the abandoned, the infirm and the outcast, the least of his brothers and sisters.</p>",
@@ -14,7 +14,7 @@
         ]
     },
     "CHAPTER ONE": {
-        "sub": "<p style=\"text-align: center;\"><a name=\"DARK_CLOUDS_OVER_A_CLOSED_WORLD\"></a>DARK CLOUDS OVER A CLOSED WORLD</p>",
+        "subtitle": "<p style=\"text-align: center;\"><a name=\"DARK_CLOUDS_OVER_A_CLOSED_WORLD\"></a>DARK CLOUDS OVER A CLOSED WORLD</p>",
         "content": [
             "<p>9. Without claiming to carry out an exhaustive analysis or to study every aspect of our present-day experience, I intend simply to consider certain trends in our world that hinder the development of universal fraternity.</p>",
             "<p><a name=\"SHATTERED_DREAMS\"></a>SHATTERED DREAMS</p>",
@@ -80,7 +80,7 @@
         ]
     },
     "CHAPTER TWO": {
-        "sub": "<p style=\"text-align: center;\"><a name=\"A_STRANGER_ON_THE_ROAD\"></a>A STRANGER ON THE ROAD</p>",
+        "subtitle": "<p style=\"text-align: center;\"><a name=\"A_STRANGER_ON_THE_ROAD\"></a>A STRANGER ON THE ROAD</p>",
         "content": [
             "<p>56. The previous chapter should not be read as a cool and detached description of today’s problems, for “the joys and hopes, the grief and anguish of the people of our time, especially of those who are poor or afflicted, are the joys and hopes, the grief and anguish of the followers of Christ as well. Nothing that is genuinely human fails to find an echo in their hearts”. <a class=\"cleaner\" href=\"#_ftn53\" name=\"_ftnref53\">[53]</a> In the attempt to search for a ray of light in the midst of what we are experiencing, and before proposing a few lines of action, I now wish to devote a chapter to a parable told by Jesus Christ two thousand years ago. Although this Letter is addressed to all people of good will, regardless of their religious convictions, the parable is one that any of us can relate to and find challenging.</p>",
             "<p><i>“Just then a lawyer stood up to test Jesus. ‘Teacher,’ he said, ‘what must I do to inherit eternal life?’ He said to him, ‘What is written in the law? What do you read there?’ He answered, ‘You shall love the Lord your God with all your heart, and with all your soul, and with all your strength, and with all your mind; and your neighbour as yourself.’ And he said to him, ‘You have given the right answer; do this, and you will live.’ But wanting to justify himself, he asked Jesus, ‘And who is my neighbour?’ Jesus replied, ‘A man was going down from Jerusalem to Jericho, and fell into the hands of robbers, who stripped him, beat him, and went away, leaving him half dead. Now by chance a priest was going down that road; and when he saw him, he passed by on the other side. So likewise a Levite, when he came to the place and saw him, passed by on the other side. But a Samaritan while traveling came near him; and when he saw him, he was moved with pity. He went to him and bandaged his wounds, having poured oil and wine on them. Then he put him on his own animal, brought him to an inn, and took care of him. The next day he took out two denarii, gave them to the innkeeper, and said, ‘Take care of him; and when I come back, I will repay you whatever more you spend.’ Which of these three, do you think, was a neighbour to the man who fell into the hands of the robbers?” He said, ‘The one who showed him mercy.’ Jesus said to him, ‘Go and do likewise.’”</i>(<i>Lk</i> 10:25-37).</p>",
@@ -133,7 +133,7 @@
         ]
     },
     "CHAPTER THREE": {
-        "sub": "<p style=\"text-align: center;\"><a name=\"ENVISAGING_AND_ENGENDERING_AN_OPEN_WORLD\"></a>ENVISAGING AND ENGENDERING AN OPEN WORLD</p>",
+        "subtitle": "<p style=\"text-align: center;\"><a name=\"ENVISAGING_AND_ENGENDERING_AN_OPEN_WORLD\"></a>ENVISAGING AND ENGENDERING AN OPEN WORLD</p>",
         "content": [
             "<p>87. Human beings are so made that they cannot live, develop and find fulfilment except “in the sincere gift of self to others”. <a class=\"cleaner\" href=\"#_ftn62\" name=\"_ftnref62\">[62]</a> Nor can they fully know themselves apart from an encounter with other persons: “I communicate effectively with myself only insofar as I communicate with others”. <a class=\"cleaner\" href=\"#_ftn63\" name=\"_ftnref63\">[63]</a> No one can experience the true beauty of life without relating to others, without having real faces to love. This is part of the mystery of authentic human existence. “Life exists where there is bonding, communion, fraternity; and life is stronger than death when it is built on true relationships and bonds of fidelity. On the contrary, there is no life when we claim to be self-sufficient and live as islands: in these attitudes, death prevails”. <a class=\"cleaner\" href=\"#_ftn64\" name=\"_ftnref64\">[64]</a></p>",
             "<p><a name=\"MOVING_BEYOND_OURSELVES\"></a>MOVING BEYOND OURSELVES</p>",
@@ -192,7 +192,7 @@
         ]
     },
     "CHAPTER FOUR": {
-        "sub": "<p style=\"text-align: center;\"><a name=\"A_HEART_OPEN_TO_THE_WHOLE_WORLD_\"></a>A HEART OPEN TO THE WHOLE WORLD</p>",
+        "subtitle": "<p style=\"text-align: center;\"><a name=\"A_HEART_OPEN_TO_THE_WHOLE_WORLD_\"></a>A HEART OPEN TO THE WHOLE WORLD</p>",
         "content": [
             "<p>128. If the conviction that all human beings are brothers and sisters is not to remain an abstract idea but to find concrete embodiment, then numerous related issues emerge, forcing us to see things in a new light and to develop new responses.</p>",
             "<p><a name=\"BORDERS_AND_THEIR_LIMITS\"></a>BORDERS AND THEIR LIMITS</p>",
@@ -231,7 +231,7 @@
         ]
     },
     "CHAPTER FIVE": {
-        "sub": "<p style=\"text-align: center;\"><a name=\"A_BETTER_KIND_OF_POLITICS_\"></a>A BETTER KIND OF POLITICS</p>",
+        "subtitle": "<p style=\"text-align: center;\"><a name=\"A_BETTER_KIND_OF_POLITICS_\"></a>A BETTER KIND OF POLITICS</p>",
         "content": [
             "<p>154. The development of a global community of fraternity based on the practice of social friendship on the part of peoples and nations calls for a better kind of politics, one truly at the service of the common good. Sadly, politics today often takes forms that hinder progress towards a different world.</p>",
             "<p><a name=\"FORMS_OF_POPULISM_AND_LIBERALISM_\"></a>FORMS OF POPULISM AND LIBERALISM</p>",
@@ -292,7 +292,7 @@
         ]
     },
     "CHAPTER SIX": {
-        "sub": "<p style=\"text-align: center;\"><a name=\"DIALOGUE_AND_FRIENDSHIP_IN_SOCIETY_\"></a>DIALOGUE AND FRIENDSHIP IN SOCIETY</p>",
+        "subtitle": "<p style=\"text-align: center;\"><a name=\"DIALOGUE_AND_FRIENDSHIP_IN_SOCIETY_\"></a>DIALOGUE AND FRIENDSHIP IN SOCIETY</p>",
         "content": [
             "<p><a name=\"198\"></a>198. Approaching, speaking, listening, looking at, coming to know and understand one another, and to find common ground: all these things are summed up in the one word “dialogue”. If we want to encounter and help one another, we have to dialogue. There is no need for me to stress the benefits of dialogue. I have only to think of what our world would be like without the patient dialogue of the many generous persons who keep families and communities together. Unlike disagreement and conflict, persistent and courageous dialogue does not make headlines, but quietly helps the world to live much better than we imagine.</p>",
             "<p><a name=\"SOCIAL_DIALOGUE_FOR_A_NEW_CULTURE\"></a>SOCIAL DIALOGUE FOR A NEW CULTURE</p>",
@@ -332,7 +332,7 @@
         ]
     },
     "CHAPTER SEVEN": {
-        "sub": "<p style=\"text-align: center;\"><a name=\"PATHS_OF_RENEWED_ENCOUNTER_\"></a>PATHS OF RENEWED ENCOUNTER</p>",
+        "subtitle": "<p style=\"text-align: center;\"><a name=\"PATHS_OF_RENEWED_ENCOUNTER_\"></a>PATHS OF RENEWED ENCOUNTER</p>",
         "content": [
             "<p><a name=\"225\"></a>225. In many parts of the world, there is a need for paths of peace to heal open wounds. There is also a need for peacemakers, men and women prepared to work boldly and creatively to initiate processes of healing and renewed encounter.</p>",
             "<p><a name=\"STARTING_ANEW_FROM_THE_TRUTH\"></a>STARTING ANEW FROM THE TRUTH</p>",
@@ -395,7 +395,7 @@
         ]
     },
     "CHAPTER EIGHT": {
-        "sub": "<p style=\"text-align: center;\"><a name=\"RELIGIONS_AT_THE_SERVICE_OF_FRATERNITY_IN_OUR_WORLD_\"></a>RELIGIONS AT THE SERVICE OF FRATERNITY IN OUR WORLD</p>",
+        "subtitle": "<p style=\"text-align: center;\"><a name=\"RELIGIONS_AT_THE_SERVICE_OF_FRATERNITY_IN_OUR_WORLD_\"></a>RELIGIONS AT THE SERVICE OF FRATERNITY IN OUR WORLD</p>",
         "content": [
             "<p>271. The different religions, based on their respect for each human person as a creature called to be a child of God, contribute significantly to building fraternity and defending justice in society. Dialogue between the followers of different religions does not take place simply for the sake of diplomacy, consideration or tolerance. In the words of the Bishops of India, “the goal of dialogue is to establish friendship, peace and harmony, and to share spiritual and moral values and experiences in a spirit of truth and love”. <a class=\"cleaner\" href=\"#_ftn259\" name=\"_ftnref259\">[259]</a></p>",
             "<p><a name=\"THE_ULTIMATE_FOUNDATION\"></a>THE ULTIMATE FOUNDATION</p>",
@@ -432,14 +432,14 @@
         ]
     },
     "A Prayer to the Creator": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p>Lord, Father of our human family,<br/> you created all human beings equal in dignity:<br/> pour forth into our hearts a fraternal spirit<br/> and inspire in us a dream of renewed encounter,<br/> dialogue, justice and peace.<br/> Move us to create healthier societies<br/> and a more dignified world,<br/> a world without hunger, poverty, violence and war.</p>",
             "<p>May our hearts be open<br/> to all the peoples and nations of the earth.<br/> May we recognize the goodness and beauty<br/> that you have sown in each of us,<br/> and thus forge bonds of unity, common projects,<br/> and shared dreams. Amen.</p>"
         ]
     },
     "An Ecumenical Christian Prayer": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p>O God, Trinity of love,<br/> from the profound communion of your divine life,<br/> pour out upon us a torrent of fraternal love.<br/> Grant us the love reflected in the actions of Jesus,<br/> in his family of Nazareth,<br/> and in the early Christian community.</p>",
             "<p>Grant that we Christians may live the Gospel,<br/> discovering Christ in each human being,<br/> recognizing him crucified<br/> in the sufferings of the abandoned<br/> and forgotten of our world,<br/> and risen in each brother or sister<br/> who makes a new start.</p>",
@@ -448,7 +448,7 @@
         ]
     },
     "Franciscus": {
-        "sub": "",
+        "subtitle": "",
         "content": [
             "<p><a class=\"cleaner\" href=\"#_ftnref1\" name=\"_ftn1\">[1]</a> <i>Admonitions</i>, 6, 1. English translation in <i>Francis of Assisi: Early Documents</i>, vol 1., New York, London, Manila (1999), 131.</p>",
             "<p><a class=\"cleaner\" href=\"#_ftnref2\" name=\"_ftn2\">[2]</a> Ibid., 25: op. cit., 136.</p>",
