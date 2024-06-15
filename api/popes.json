@@ -1,0 +1,101 @@
+[
+  {
+    "id": "benedictus-xvi",
+    "name": "Benedictus XVI",
+    "motto": "Cooperatores veritatis",
+    "country": "Germany",
+    "startDate": "2005-4-19",
+    "endDate": "2013-2-28",
+    "translations": [
+      {
+        "language": "English",
+        "name": "Benedict XVI",
+        "motto": "Cooperators of the Truth"
+      },
+      {
+        "language": "Portuguese",
+        "name": "Bento XVI",
+        "motto": "Cooperadores da Verdade"
+      },
+      {
+        "language": "Spanish",
+        "name": "Benedicto XVI",
+        "motto": "Cooperadores de la Verdad"
+      },
+      {
+        "language": "French",
+        "name": "Benoit XVI",
+        "motto": "Coopérateurs de la Vérité"
+      },
+      {
+        "language": "Italian",
+        "name": "Benedetto XVI",
+        "motto": "Cooperatori della Verità"
+      },
+      {
+        "language": "German",
+        "name": "Benedikt XVI",
+        "motto": "Mitarbeiter der Wahrheit"
+      }
+    ],
+    "documents": [
+      {
+        "name": "Caritas in veritate",
+        "date": "2009-06-29",
+        "type": "enc",
+        "translations": [
+          {
+            "language": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          },
+          {
+            "language": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          },
+          {
+            "language": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          }
+        ]
+      },
+      {
+        "name": "Spe salvi",
+        "date": "2007-11-30",
+        "type": "enc",
+        "translations": [
+          {
+            "language": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
+          },
+          {
+            "language": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
+          },
+          {
+            "language": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
+          }
+        ]
+      },
+      {
+        "name": "Deus caritas est",
+        "date": "2005-12-25",
+        "type": "enc",
+        "translations": [
+          {
+            "language": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+          },
+          {
+            "language": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html",
+          },
+          {
+            "language": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html",
+          }
+        ]
+      }
+    ]
+  }
+]
