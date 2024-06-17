@@ -137,10 +137,11 @@
             "<p>Adiuva nos ut nos Ipsi plane commendemus, ut eius amori credamus, potissimum tempore tribulationis et crucis, cum fides nostra ad maturationem vocatur. Semina in fide nostra gaudium Resuscitati.</p>",
             "<p>Commone nos credentem numquam solum esse. </p>",
             "<p>Doce nos Iesu oculis contueri, ut in nostro itinere Ille sit lumen; atque hoc fidei lumen in nobis iugiter augeatur, donec dies ille sine occasu adveniat, qui ipse est Christus, Filius tuus, Dominus noster!</p>",
-            "<p><i>Datum Romae, apud Sanctum Petrum, die undetricesimo mensis Iunii, in sollemnitate Apostolorum Petri et Pauli, anno Domini bis millesimo tertio decimo, ipso Anno Fidei, Pontificatus Nostri primo.</i></p>"
+            "<p><i>Datum Romae, apud Sanctum Petrum, die undetricesimo mensis Iunii, in sollemnitate Apostolorum Petri et Pauli, anno Domini bis millesimo tertio decimo, ipso Anno Fidei, Pontificatus Nostri primo.</i></p>",
+            "<p style=\"text-align: center;\"><b>FRANCISCUS</b></p>"
         ]
     },
-    "FRANCISCUS": {
+    "NOTES": {
         "subtitle": "",
         "content": [
             "<p><a class=\"cleaner\" href=\"#_ftnref1\" name=\"_ftn1\">[1]</a> <i>Dialogus cum Tryphone Iudaeo</i>, 121, 2: PG 6, 758.</p>",

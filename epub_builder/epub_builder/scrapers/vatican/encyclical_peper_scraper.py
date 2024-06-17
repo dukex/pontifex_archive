@@ -16,9 +16,10 @@ def is_a_new_chapter(last_chapter, current_chapter, chapters):
     return last_chapter in chapters and current_chapter == last_chapter
 
 class EncyclicalLetterScraper:
-    def __init__(self, name, url) -> None:
+    def __init__(self, name, url, pope_signatures) -> None:
         self._url = url
         self._name = name
+        self._pope_signatures = pope_signatures
         self._chapters = {}
 
     @property
@@ -32,14 +33,23 @@ class EncyclicalLetterScraper:
         elements = self._allParagraphs()
 
         for element in elements:
-            if is_letter_chapter_title(element):
-                if is_a_new_chapter(last_chapter, current_chapter, self._chapters):
+            if is_letter_chapter_title(element) and current_chapter != "NOTES":
+                if self._is_pope_signatures(element):
+                    self._add_chapter(current_chapter, content=str(element))
+                    current_chapter = "NOTES"
+                elif is_a_new_chapter(last_chapter, current_chapter, self._chapters):
                     current_chapter = element.text.strip()
                 else:
                     self._add_chapter(current_chapter, subtitle=str(element))
             else:
                 last_chapter = current_chapter
                 self._add_chapter(current_chapter, content=str(element))
+
+    def _is_pope_signatures(self, element):
+      text = element.text.strip().lower()
+      signatures = [signature.lower() for signature in self._pope_signatures]
+
+      return text in signatures
 
     def _add_chapter(self, name, subtitle=None, content=None):
         if name not in self._chapters:

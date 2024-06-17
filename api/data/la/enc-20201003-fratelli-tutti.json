@@ -440,19 +440,18 @@
             "<p>Deus noster, Trinitas amoris,<br/> ex potenti communione tuae divinae coniunctionis<br/> effunde in nos fraterni amoris flumen.<br/> Dona nobis amorem qui in Iesu actibus elucebat,<br/> in eius Nazarethana familia ac<br/> in prima christiana communitate.</p>",
             "<p>Tribue nobis christianis gratiam Evangelium amplectendi<br/> et Christum in unoquoque homine agnoscendi,<br/> ut eum crucifixum aspiciamus in angoribus desertorum,<br/> neglectorum huius mundi<br/> et in unoquoque fratre se erigente resuscitatum.<br/> Veni, Sancte Spiritus!</p>",
             "<p>Pulchritudinem tuam nobis ostende<br/> in cunctis terrarum orbis populis relucentem,<br/> ut detegamus omnes magnas agere partes,<br/> omnes esse necessarios, dissimiles esse vultus<br/> eiusdem humani generis quod amas. Amen.</p>",
-            "<p><i>Datum Assisi, apud sepulcrum sancti Francisci, die III mensis Octobris, in pervigilio memoriae eiusdem Pauperculi, anno MMXX, Pontificatus Nostri octavo.</i></p>"
+            "<p><i>Datum Assisi, apud sepulcrum sancti Francisci, die III mensis Octobris, in pervigilio memoriae eiusdem Pauperculi, anno MMXX, Pontificatus Nostri octavo.</i></p>",
+            "<p style=\"text-align: center;\">Franciscus</p>"
         ]
     },
-    "Franciscus": {
-        "subtitle": "<p style=\"text-align: center;\">INDEX</p>",
+    "NOTES": {
+        "subtitle": "",
         "content": [
+            "<p style=\"text-align: center;\">INDEX</p>",
             "<p>«Fratres omnes» [1-2]</p>",
-            "<p>Sine finibus [3-8]</p>"
-        ]
-    },
-    "Caput I": {
-        "subtitle": "<p style=\"text-align: center;\">UMBRAE MUNDI CLAUSI</p>",
-        "content": [
+            "<p>Sine finibus [3-8]</p>",
+            "<p style=\"text-align: center;\">Caput I</p>",
+            "<p style=\"text-align: center;\">UMBRAE MUNDI CLAUSI</p>",
             "<p>[Praemissa] [9]</p>",
             "<p>Somnia quae comminuuntur [10-12]</p>",
             "<p><i>Finis conscientiae historicae </i>[13-14]</p>",
@@ -467,12 +466,9 @@
             "<p><i>Vehementia sine pudore </i>[44-46]</p>",
             "<p><i>Nuntiatio sine sapientia </i>[47-50]</p>",
             "<p>Submissiones et despectus sui [51-53]</p>",
-            "<p>Spes [54-55]</p>"
-        ]
-    },
-    "Caput II": {
-        "subtitle": "<p style=\"text-align: center;\">ALIENUS IN VIA</p>",
-        "content": [
+            "<p>Spes [54-55]</p>",
+            "<p style=\"text-align: center;\">Caput II</p>",
+            "<p style=\"text-align: center;\">ALIENUS IN VIA</p>",
             "<p>[Praemissa] [56]</p>",
             "<p>Fundus [57-62]</p>",
             "<p>Derelictus [63-68]</p>",
@@ -480,12 +476,9 @@
             "<p>Personae parabolae [72-76]</p>",
             "<p>Rursus incipere [77-79]</p>",
             "<p>Proximus sine confiniis [80-83]</p>",
-            "<p>Postulatio advenae [84-86]</p>"
-        ]
-    },
-    "Caput III": {
-        "subtitle": "<p style=\"text-align: center;\">COGITARE ET GENERARE MUNDUM APERTUM</p>",
-        "content": [
+            "<p>Postulatio advenae [84-86]</p>",
+            "<p style=\"text-align: center;\">Caput III</p>",
+            "<p style=\"text-align: center;\">COGITARE ET GENERARE MUNDUM APERTUM</p>",
             "<p>[Praemissa] [87]</p>",
             "<p>Ultra mortem [88-90]</p>",
             "<p><i>Unum caritatis bonum </i>[91-94]</p>",
@@ -499,12 +492,9 @@
             "<p><i>Bonum solidarietatis </i>[114-117]</p>",
             "<p>Sociale munus proprietatis rursus proponere [118-120]</p>",
             "<p><i>Iura sine confiniis </i>[121-123]</p>",
-            "<p><i>Iura populorum </i>[124-127]</p>"
-        ]
-    },
-    "Caput IV": {
-        "subtitle": "<p style=\"text-align: center;\">COR UNIVERSO MUNDO PATENS</p>",
-        "content": [
+            "<p><i>Iura populorum </i>[124-127]</p>",
+            "<p style=\"text-align: center;\">Caput IV</p>",
+            "<p style=\"text-align: center;\">COR UNIVERSO MUNDO PATENS</p>",
             "<p>[Praemissa] [128]</p>",
             "<p>Limes confiniorum [129-132]</p>",
             "<p>Mutua dona [133-136]</p>",
@@ -513,12 +503,9 @@
             "<p>Locale et universale [142]</p>",
             "<p><i>Sapor loci </i>[143-145]</p>",
             "<p><i>Prospectus universalis </i>[146-150]</p>",
-            "<p><i>E propria regione </i>[151-153]</p>"
-        ]
-    },
-    "Caput V": {
-        "subtitle": "<p style=\"text-align: center;\">DE OPTIMA RE POLITICA</p>",
-        "content": [
+            "<p><i>E propria regione </i>[151-153]</p>",
+            "<p style=\"text-align: center;\">Caput V</p>",
+            "<p style=\"text-align: center;\">DE OPTIMA RE POLITICA</p>",
             "<p>[Praemissa] [154]</p>",
             "<p>Populismi et liberalismi [155]</p>",
             "<p><i>Popularis vel populismi fautor </i>[156-162]</p>",
@@ -531,12 +518,9 @@
             "<p>De caritate politica agenda [186]</p>",
             "<p><i>Caritatis labores </i>[187-189]</p>",
             "<p><i>Caritas complens et colligens </i>[190-192]</p>",
-            "<p>Plus fecunditatem quam exitus [193-197]</p>"
-        ]
-    },
-    "Caput VI": {
-        "subtitle": "<p style=\"text-align: center;\">DIALOGUS ET AMICITIA SOCIALIS</p>",
-        "content": [
+            "<p>Plus fecunditatem quam exitus [193-197]</p>",
+            "<p style=\"text-align: center;\">Caput VI</p>",
+            "<p style=\"text-align: center;\">DIALOGUS ET AMICITIA SOCIALIS</p>",
             "<p>[Praemissa] [198]</p>",
             "<p>Dialogus socialis ad novam culturam [199-202]</p>",
             "<p><i>Una simul aedificare </i>[203-205]</p>",
@@ -545,12 +529,9 @@
             "<p>Nova cultura [215]</p>",
             "<p><i>Occursus cultura compositus </i>[216-217]</p>",
             "<p><i>Gustus alterius cognoscendi </i>[218-221]</p>",
-            "<p>Affabilitatem recuperare [222-224]</p>"
-        ]
-    },
-    "Caput VII": {
-        "subtitle": "<p style=\"text-align: center;\">IN NOVUM OCCURSUM ITINERA</p>",
-        "content": [
+            "<p>Affabilitatem recuperare [222-224]</p>",
+            "<p style=\"text-align: center;\">Caput VII</p>",
+            "<p style=\"text-align: center;\">IN NOVUM OCCURSUM ITINERA</p>",
             "<p>[Praemissa] [225]</p>",
             "<p>A veritate initium sumere [226-227] .</p>",
             "<p>De architectura et fabrica pacis [228-232]</p>",
@@ -563,12 +544,9 @@
             "<p><i>Venia sine oblivione </i>[250-254]</p>",
             "<p>Bellum et poena capitis [255]</p>",
             "<p><i>Belli iniustitia </i>[256-262]</p>",
-            "<p><i>Capitis poena </i>[263-270]</p>"
-        ]
-    },
-    "Caput VIII": {
-        "subtitle": "<p style=\"text-align: center;\">RELIGIONES MUNDANAE FRATERNITATI INSERVIENTES</p>",
-        "content": [
+            "<p><i>Capitis poena </i>[263-270]</p>",
+            "<p style=\"text-align: center;\">Caput VIII</p>",
+            "<p style=\"text-align: center;\">RELIGIONES MUNDANAE FRATERNITATI INSERVIENTES</p>",
             "<p>[Praemissa] [271]</p>",
             "<p>Novissimum Fundamentum [272-276]</p>",
             "<p><i>Christiana identitas </i>[277-280]</p>",
