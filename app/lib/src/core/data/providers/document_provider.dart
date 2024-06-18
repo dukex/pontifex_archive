@@ -1,21 +1,22 @@
 import 'package:http/http.dart' as http;
-import 'package:pontifex_archive/src/core/data/models/models.dart';
-import 'dart:convert';
+import 'package:pontifex_archive/src/core/data/models/document.dart';
+import 'package:pontifex_archive/src/core/data/providers/popes_provider.dart';
 
 class DocumentProvider {
   final String apiUrl =
       'https://emersonalmeida.wtf/pontifex_archive/documents.json';
 
-  Future<List<Document>> fetchDocuments() async {
-    final response = await http.get(Uri.parse(apiUrl));
+  final PopeProvider _popeProvider = PopeProvider();
 
-    if (response.statusCode == 200) {
-      List jsonResponse = json.decode(response.body);
-      return jsonResponse
-          .map((document) => Document.fromJson(document))
-          .toList();
-    } else {
-      throw Exception('Failed to load documents');
+  Future<List<Document>> fetchDocuments() async {
+    final popes = await _popeProvider.fetchPopes(http.Client());
+
+    List<Document> documents = [];
+
+    for (var pope in popes) {
+      documents.addAll(pope.documents);
     }
+
+    return documents;
   }
 }

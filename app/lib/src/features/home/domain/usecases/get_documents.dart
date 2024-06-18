@@ -11,7 +11,6 @@ class GetDocuments {
     return documents
         .map((doc) => DocumentEntity(
             id: doc.id,
-            pope: doc.pope,
             date: doc.date,
             type: doc.type,
             name: doc.name,

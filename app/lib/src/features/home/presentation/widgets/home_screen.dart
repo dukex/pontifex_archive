@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pontifex_archive/src/core/data/models/models.dart';
 import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/documents_bloc.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/documents_state.dart';
@@ -70,16 +69,10 @@ class HomeScreen extends StatelessWidget {
 
   Widget _buildContinueReadingCard(BuildContext context) {
     final document = DocumentEntity(
-        pope: Pope(
-            id: "2",
-            name: "Benedictus XVI",
-            motto: "TODO",
-            country: "Germany",
-            translations: []),
         id: "enc-20051225-deus_caritas_est",
         type: "enc",
         name: "Deus caritas est",
-        date: "20051225",
+        date: DateTime.parse("2005-12-25"),
         translations: []);
 
     return Card(
