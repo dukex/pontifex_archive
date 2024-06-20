@@ -1,120 +1,5 @@
 [
   {
-    "id": "benedictus-xvi",
-    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/image.png",
-    "name": "Benedictus XVI",
-    "motto": "Cooperatores veritatis",
-    "country": "Germany",
-    "start_date": "2005-04-19",
-    "end_date": "2013-02-28",
-    "signatures": [
-      "BENEDICTUS PP. XVI"
-    ],
-    "translations": [
-      {
-        "language": "English",
-        "name": "Benedict XVI",
-        "motto": "Cooperators of the Truth"
-      },
-      {
-        "language": "Portuguese",
-        "name": "Bento XVI",
-        "motto": "Cooperadores da Verdade"
-      },
-      {
-        "language": "Spanish",
-        "name": "Benedicto XVI",
-        "motto": "Cooperadores de la Verdad"
-      },
-      {
-        "language": "French",
-        "name": "Benoit XVI",
-        "motto": "Coopérateurs de la Vérité"
-      },
-      {
-        "language": "Italian",
-        "name": "Benedetto XVI",
-        "motto": "Cooperatori della Verità"
-      },
-      {
-        "language": "German",
-        "name": "Benedikt XVI",
-        "motto": "Mitarbeiter der Wahrheit"
-      }
-    ],
-    "documents": [
-      {
-        "id": "enc-20090629-caritas-in-veritate",
-        "name": "Caritas in veritate",
-        "date": "2009-06-29",
-        "type": "enc",
-        "translations": [
-          {
-            "id": "en/enc-20090629-caritas-in-veritate",
-            "language": "en",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
-          },
-          {
-            "id": "la/enc-20090629-caritas-in-veritate",
-            "language": "la",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
-          },
-          {
-            "id": "pt/enc-20090629-caritas-in-veritate",
-            "language": "pt",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
-          }
-        ]
-      },
-      {
-        "id": "enc-20071130-spe-salvi",
-        "name": "Spe salvi",
-        "date": "2007-11-30",
-        "type": "enc",
-        "translations": [
-          {
-            "id": "en/enc-20071130-spe-salvi",
-            "language": "en",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
-          },
-          {
-            "id": "la/enc-20071130-spe-salvi",
-            "language": "la",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
-          },
-          {
-            "id": "pt/enc-20071130-spe-salvi",
-            "language": "pt",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
-          }
-        ]
-      },
-      {
-        "id": "enc-20051225-deus-caritas-est",
-        "name": "Deus caritas est",
-        "date": "2005-12-25",
-        "type": "enc",
-        "translations": [
-          {
-            "id": "en/enc-20051225-deus-caritas-est",
-            "language": "en",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
-          },
-          {
-            "id": "la/enc-20051225-deus-caritas-est",
-            "language": "la",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
-          },
-          {
-            "id": "pt/enc-20051225-deus-caritas-est",
-            "language": "pt",
-            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "franciscus",
     "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/franciscus/image.png",
     "name": "Franciscus",
@@ -135,18 +20,18 @@
         "translations": [
           {
             "id": "la/enc-20130524-lumen-fidei",
-            "language": "la",
+            "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
           },
           {
             "id": "en/enc-20130524-lumen-fidei",
-            "language": "en",
+            "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
             "type": "enc"
           },
           {
             "id": "pt/enc-20130524-lumen-fidei",
-            "language": "pt",
+            "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
           }
         ]
@@ -159,17 +44,17 @@
         "translations": [
           {
             "id": "la/enc-20150524-laudato-si",
-            "language": "la",
+            "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
           },
           {
             "id": "pt/enc-20150524-laudato-si",
-            "language": "pt",
+            "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
           },
           {
             "id": "en/enc-20150524-laudato-si",
-            "language": "en",
+            "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
           }
         ]
@@ -182,18 +67,133 @@
         "translations": [
           {
             "id": "la/enc-20201003-fratelli-tutti",
-            "language": "la",
+            "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
           },
           {
             "id": "pt/enc-20201003-fratelli-tutti",
-            "language": "pt",
+            "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
           },
           {
             "id": "en/enc-20201003-fratelli-tutti",
-            "language": "en",
+            "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "benedictus-xvi",
+    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/image.png",
+    "name": "Benedictus XVI",
+    "motto": "Cooperatores veritatis",
+    "country": "Germany",
+    "start_date": "2005-04-19",
+    "end_date": "2013-02-28",
+    "signatures": [
+      "BENEDICTUS PP. XVI"
+    ],
+    "translations": [
+      {
+        "language_code": "en",
+        "name": "Benedict XVI",
+        "motto": "Cooperators of the Truth"
+      },
+      {
+        "language_code": "pt",
+        "name": "Bento XVI",
+        "motto": "Cooperadores da Verdade"
+      },
+      {
+        "language_code": "es",
+        "name": "Benedicto XVI",
+        "motto": "Cooperadores de la Verdad"
+      },
+      {
+        "language_code": "fr",
+        "name": "Benoit XVI",
+        "motto": "Coopérateurs de la Vérité"
+      },
+      {
+        "language_code": "it",
+        "name": "Benedetto XVI",
+        "motto": "Cooperatori della Verità"
+      },
+      {
+        "language_code": "de",
+        "name": "Benedikt XVI",
+        "motto": "Mitarbeiter der Wahrheit"
+      }
+    ],
+    "documents": [
+      {
+        "id": "enc-20090629-caritas-in-veritate",
+        "name": "Caritas in veritate",
+        "date": "2009-06-29",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-20090629-caritas-in-veritate",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          },
+          {
+            "id": "la/enc-20090629-caritas-in-veritate",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          },
+          {
+            "id": "pt/enc-20090629-caritas-in-veritate",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-20071130-spe-salvi",
+        "name": "Spe salvi",
+        "date": "2007-11-30",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-20071130-spe-salvi",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
+          },
+          {
+            "id": "la/enc-20071130-spe-salvi",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
+          },
+          {
+            "id": "pt/enc-20071130-spe-salvi",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-20051225-deus-caritas-est",
+        "name": "Deus caritas est",
+        "date": "2005-12-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-20051225-deus-caritas-est",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+          },
+          {
+            "id": "la/enc-20051225-deus-caritas-est",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+          },
+          {
+            "id": "pt/enc-20051225-deus-caritas-est",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
           }
         ]
       }
