@@ -44,9 +44,10 @@ packages:
   better_router:
     dependency: "direct main"
     description:
-      path: "../../better_router"
-      relative: true
-    source: path
+      name: better_router
+      sha256: "79b782ba79a17ffc5fd5ff9aadcc92e7518be34b07a81d8b0c437edcfadf7038"
+      url: "https://pub.dev"
+    source: hosted
     version: "2.1.0"
   bloc:
     dependency: transitive
