@@ -15,6 +15,6 @@ void main() {
     expect(document.name, equals('Caritas'));
     expect(document.date, equals(DateTime(2020, 1, 1)));
     expect(document.translations[0].vaticanUrl, equals("https://url.com"));
-    expect(document.translations[0].language, equals("pt"));
+    expect(document.translations[0].languageCode, equals("pt"));
   });
 }

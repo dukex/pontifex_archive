@@ -23,6 +23,6 @@ void main() {
     expect(pope.documents[0].date, equals(DateTime(2020, 1, 1)));
     expect(pope.documents[0].translations[0].vaticanUrl,
         equals("https://url.com"));
-    expect(pope.documents[0].translations[0].language, equals("pt"));
+    expect(pope.documents[0].translations[0].languageCode, equals("pt"));
   });
 }

@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 5 (2 per locale)
+/// Strings: 6 (3 per locale)
 ///
-/// Built on 2024-06-20 at 02:48 UTC
+/// Built on 2024-06-20 at 12:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -149,6 +149,7 @@ class Translations implements BaseTranslations<AppLocale, Translations> {
 
 	// Translations
 	late final _I18nAppEn app = _I18nAppEn._(_root);
+	late final _I18nAuthorEn author = _I18nAuthorEn._(_root);
 	late final _I18nHomeEn home = _I18nHomeEn._(_root);
 }
 
@@ -162,6 +163,16 @@ class _I18nAppEn {
 	String get title => 'Pontifex Archive';
 }
 
+// Path: author
+class _I18nAuthorEn {
+	_I18nAuthorEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	late final _I18nAuthorHeaderEn header = _I18nAuthorHeaderEn._(_root);
+}
+
 // Path: home
 class _I18nHomeEn {
 	_I18nHomeEn._(this._root);
@@ -171,6 +182,16 @@ class _I18nHomeEn {
 	// Translations
 	late final _I18nHomeHeaderEn header = _I18nHomeHeaderEn._(_root);
 	late final _I18nHomePopesEn popes = _I18nHomePopesEn._(_root);
+}
+
+// Path: author.header
+class _I18nAuthorHeaderEn {
+	_I18nAuthorHeaderEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get title => 'Author';
 }
 
 // Path: home.header
@@ -260,6 +281,7 @@ extension on Translations {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'app.title': return 'Pontifex Archive';
+			case 'author.header.title': return 'Author';
 			case 'home.header.title': return 'Church Documents';
 			case 'home.popes.title': return 'Popes';
 			default: return null;
@@ -270,7 +292,7 @@ extension on Translations {
 extension on _I18nPt {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
-			case 'app.title': return 'Pontifex Archive';
+			case 'app.title': return 'Arqui Archive';
 			case 'home.header.title': return 'Documentos da Igreja';
 			default: return null;
 		}

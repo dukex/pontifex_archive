@@ -42,8 +42,8 @@ class PopesContainer extends StatelessWidget {
                               ),
                               const SizedBox(height: 8),
                               Text(
-                                pope.nameLocale(TranslationProvider.of(context)
-                                    .flutterLocale),
+                                pope.nameLocale(
+                                    LocaleSettings.currentLocale.flutterLocale),
                                 style: Theme.of(context)
                                     .textTheme
                                     .titleSmall

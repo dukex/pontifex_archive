@@ -56,7 +56,7 @@ class App extends StatelessWidget {
                 onGenerateTitle: (context) => context.t.app.title,
                 localizationsDelegates: GlobalMaterialLocalizations.delegates,
                 supportedLocales: AppLocaleUtils.supportedLocales,
-                locale: TranslationProvider.of(context).flutterLocale,
+                locale: LocaleSettings.currentLocale.flutterLocale,
                 theme: _buildTheme(context),
                 onGenerateRoute: betterRoutes.call);
           }
