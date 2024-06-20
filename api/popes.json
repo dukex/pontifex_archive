@@ -1,11 +1,12 @@
 [
   {
     "id": "benedictus-xvi",
+    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/image.png",
     "name": "Benedictus XVI",
     "motto": "Cooperatores veritatis",
     "country": "Germany",
-    "startDate": "2005-04-19",
-    "endDate": "2013-02-28",
+    "start_date": "2005-04-19",
+    "end_date": "2013-02-28",
     "signatures": [
       "BENEDICTUS PP. XVI"
     ],
@@ -115,10 +116,11 @@
   },
   {
     "id": "franciscus",
+    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/franciscus/image.png",
     "name": "Franciscus",
     "motto": "",
     "country": "Argentina",
-    "startDate": "2013-03-13",
+    "start_date": "2013-03-13",
     "signatures": [
       "FRANCISCUS",
       "Franciscus PP."
