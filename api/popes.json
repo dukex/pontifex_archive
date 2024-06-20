@@ -1,6 +1,7 @@
 [
   {
     "id": "benedictus-xvi",
+    "image_url": "https://emersonalmeida.wtf/pontiflex_archive/popes/benedictus-xvi/image.png",
     "name": "Benedictus XVI",
     "motto": "Cooperatores veritatis",
     "country": "Germany",
@@ -115,6 +116,7 @@
   },
   {
     "id": "franciscus",
+    "image_url": "https://emersonalmeida.wtf/pontiflex_archive/popes/franciscus/image.png",
     "name": "Franciscus",
     "motto": "",
     "country": "Argentina",
