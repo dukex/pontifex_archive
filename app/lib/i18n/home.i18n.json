@@ -3,5 +3,8 @@
   "@context": "HomeFeatures",
   "header": {
     "title": "Church Documents"
+  },
+  "popes": {
+    "title": "Popes"
   }
 }

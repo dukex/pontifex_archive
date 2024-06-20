@@ -117,9 +117,6 @@ class ReaderView extends StatelessWidget {
         );
       }
 
-      print("PAGE");
-      print(state);
-
       return const Center(child: CircularProgressIndicator());
     });
   }

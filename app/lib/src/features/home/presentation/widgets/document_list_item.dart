@@ -35,10 +35,9 @@ class DocumentListItem extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           style: Theme.of(context).textTheme.titleMedium,
                         )),
-                    Padding(
-                        padding: const EdgeInsets.only(left: 5, right: 5),
-                        child: Text(document.pope.name,
-                            overflow: TextOverflow.ellipsis)),
+                    const Padding(
+                        padding: EdgeInsets.only(left: 5, right: 5),
+                        child: Text("Alo", overflow: TextOverflow.ellipsis)),
                   ]))
         ]),
       ),

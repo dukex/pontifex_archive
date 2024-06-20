@@ -6,14 +6,17 @@ class Pope {
   final String name;
   final String motto;
   final String country;
+  final String imageUrl;
   final DateTime startDate;
   final DateTime? endDate;
   final List<PopeTranslation> translations;
   final List<Document> documents;
 
   factory Pope.fromJson(Map<String, dynamic> json) {
-    var documentsFromJson = json['documents'] as List;
-    List<Document> documentList = documentsFromJson
+    List<PopeTranslation> translationList = (json['translations'] as List)
+        .map((translation) => PopeTranslation.fromJson(translation))
+        .toList();
+    List<Document> documentList = (json['documents'] as List)
         .map((document) => Document.fromJson(document))
         .toList();
 
@@ -22,8 +25,9 @@ class Pope {
         name: json['name'],
         motto: json['motto'],
         country: json['country'],
-        startDate: DateTime.parse(json['startDate']),
-        translations: [],
+        imageUrl: json['image_url'],
+        startDate: DateTime.parse(json['start_date']),
+        translations: translationList,
         documents: documentList);
   }
 
@@ -35,6 +39,7 @@ class Pope {
     required this.translations,
     required this.documents,
     required this.startDate,
+    required this.imageUrl,
     this.endDate,
   });
 }

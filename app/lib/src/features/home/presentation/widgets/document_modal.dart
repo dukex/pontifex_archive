@@ -7,8 +7,8 @@ void showDocumentModal(BuildContext context, DocumentEntity document) {
     builder: (BuildContext context) {
       return AlertDialog(
         title: Text(document.name),
-        content: Text(
-            'Do you want to read this document by Pope ${document.pope.name}?'),
+        content: const Text(
+            'Do you want to read this document by Pope document.pope.name?'),
         actions: <Widget>[
           TextButton(
             child: const Text('Cancel'),

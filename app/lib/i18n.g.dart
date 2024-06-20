@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 4 (2 per locale)
+/// Strings: 5 (2 per locale)
 ///
-/// Built on 2024-06-20 at 01:26 UTC
+/// Built on 2024-06-20 at 02:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -170,6 +170,7 @@ class _I18nHomeEn {
 
 	// Translations
 	late final _I18nHomeHeaderEn header = _I18nHomeHeaderEn._(_root);
+	late final _I18nHomePopesEn popes = _I18nHomePopesEn._(_root);
 }
 
 // Path: home.header
@@ -180,6 +181,16 @@ class _I18nHomeHeaderEn {
 
 	// Translations
 	String get title => 'Church Documents';
+}
+
+// Path: home.popes
+class _I18nHomePopesEn {
+	_I18nHomePopesEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get title => 'Popes';
 }
 
 // Path: <root>
@@ -250,6 +261,7 @@ extension on Translations {
 		switch (path) {
 			case 'app.title': return 'Pontifex Archive';
 			case 'home.header.title': return 'Church Documents';
+			case 'home.popes.title': return 'Popes';
 			default: return null;
 		}
 	}

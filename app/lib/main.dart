@@ -7,7 +7,7 @@ import 'package:pontifex_archive/router.dart';
 import 'package:pontifex_archive/src/core/application/blocs/language_bloc.dart';
 import 'package:pontifex_archive/src/core/application/blocs/language_event.dart';
 import 'package:pontifex_archive/src/core/application/blocs/language_state.dart';
-import 'package:pontifex_archive/src/core/theme/material_theme.dart';
+import 'package:pontifex_archive/src/core/theme/theme.dart';
 import 'package:pontifex_archive/src/core/theme/utils.dart';
 
 class AppBlocObserver extends BlocObserver {
@@ -42,7 +42,9 @@ class App extends StatelessWidget {
         create: (context) => LanguageBloc()..add(LoadLanguageEvent()),
         child: BlocConsumer<LanguageBloc, LanguageState>(
             listener: (context, state) {
-          LocaleSettings.setLocale(state.locale!);
+          if (state is LanguageLoaded) {
+            LocaleSettings.setLocale(state.locale!);
+          }
         }, builder: (context, state) {
           var bloc = context.read<LanguageBloc>();
           var state = bloc.state;

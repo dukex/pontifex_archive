@@ -56,7 +56,7 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
     try {
       await saveReadingPosition(event.document, event.cfi);
     } catch (e) {
-      print(e);
+      // nothing
     }
   }
 }

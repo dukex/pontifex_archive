@@ -1,29 +1,36 @@
 class PopeTranslation {
-  final String language;
+  final String languageCode;
   final String name;
   final String motto;
 
   PopeTranslation({
-    required this.language,
+    required this.languageCode,
     required this.name,
     required this.motto,
   });
+
+  factory PopeTranslation.fromJson(Map<String, dynamic> json) {
+    return PopeTranslation(
+        languageCode: json['language_code'],
+        name: json['name'],
+        motto: json['motto']);
+  }
 }
 
 class DocumentTranslation {
-  final String language;
+  final String languageCode;
   final String vaticanUrl; // vaticanUrl do texto online
   String? offlinePath; // Caminho do arquivo do texto offline
 
   DocumentTranslation({
-    required this.language,
+    required this.languageCode,
     required this.vaticanUrl,
     this.offlinePath,
   });
 
   factory DocumentTranslation.fromJson(Map<String, dynamic> json) {
     return DocumentTranslation(
-      language: json['language'],
+      languageCode: json['language_code'],
       vaticanUrl: json['vatican_url'],
     );
   }

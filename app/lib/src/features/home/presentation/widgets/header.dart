@@ -21,51 +21,84 @@ class Header extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final size = (MediaQuery.of(context).size.height / 12) * 5.5;
     return Stack(
       children: [
         Container(
             width: double.infinity,
-            height: (MediaQuery.of(context).size.height / 3),
+            height: size,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/vatican.png'),
+                image: AssetImage('assets/images/cathedral-pattern.png'),
                 alignment: Alignment(0.0, -0.2),
                 fit: BoxFit.cover,
               ),
             )),
         SizedBox(
             width: double.infinity,
-            height: (MediaQuery.of(context).size.height / 3) + 1,
+            height: size + 1,
+            child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[Spacer(), BottomGradientHeader()])),
+        SizedBox(
+            width: double.infinity,
+            height: size - 10,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                SafeArea(
-                    child: Text(AppLocalizations.of(context)!.hello,
-                        style: Theme.of(context)
-                            .textTheme
-                            .headlineLarge
-                            ?.copyWith())),
                 const Spacer(),
-                Container(
-                  foregroundDecoration: BoxDecoration(
-                      gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [
-                      Theme.of(context).colorScheme.surface.withOpacity(0),
-                      Theme.of(context).colorScheme.surface.withOpacity(0.5),
-                      Theme.of(context).colorScheme.surface.withOpacity(0.8),
-                      Theme.of(context).colorScheme.surface.withOpacity(1),
-                    ],
-                  )),
-                  child: const SizedBox(
-                    width: double.infinity,
-                    height: 50,
-                  ),
-                )
+                Row(
+                  children: [
+                    const Spacer(),
+                    Container(
+                        alignment: Alignment.center,
+                        padding: const EdgeInsets.only(
+                            top: 3, bottom: 3, left: 20, right: 20),
+                        decoration: BoxDecoration(
+                            borderRadius:
+                                const BorderRadius.all(Radius.circular(3)),
+                            color: Theme.of(context).colorScheme.primary),
+                        child: Text(context.t.home.header.title,
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleSmall
+                                ?.copyWith(
+                                    color: Theme.of(context)
+                                        .colorScheme
+                                        .onPrimary))),
+                    const Spacer()
+                  ],
+                ),
               ],
-            ))
+            )),
       ],
+    );
+  }
+}
+
+class BottomGradientHeader extends StatelessWidget {
+  const BottomGradientHeader({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      foregroundDecoration: BoxDecoration(
+          gradient: LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [
+          Theme.of(context).colorScheme.surface.withOpacity(0),
+          Theme.of(context).colorScheme.surface.withOpacity(0.5),
+          Theme.of(context).colorScheme.surface.withOpacity(0.8),
+          Theme.of(context).colorScheme.surface.withOpacity(1),
+        ],
+      )),
+      child: const SizedBox(
+        width: double.infinity,
+        height: 20,
+      ),
     );
   }
 }

@@ -32,7 +32,4 @@ flutter:
   generate: true
   uses-material-design: true
   assets:
-    - assets/images/vatican.png
-    - assets/images/benedetto_XVI.png
-    - assets/images/francesco.png
     - assets/images/cathedral-pattern.png
