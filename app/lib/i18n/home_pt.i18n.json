@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "@context": "HomeFeatures",
+  "header": {
+    "title": "Documentos da Igreja"
+  }
+}

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:better_router/better_router.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/router.dart';
 import 'package:pontifex_archive/src/core/application/blocs/language_bloc.dart';
 import 'package:pontifex_archive/src/core/application/blocs/language_event.dart';
@@ -27,9 +28,9 @@ class AppBlocObserver extends BlocObserver {
 }
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = const AppBlocObserver();
-
-  runApp(const App());
+  runApp(TranslationProvider(child: const App()));
 }
 
 class App extends StatelessWidget {
@@ -40,27 +41,26 @@ class App extends StatelessWidget {
     return BlocProvider<LanguageBloc>(
         create: (context) => LanguageBloc()..add(LoadLanguageEvent()),
         child: BlocConsumer<LanguageBloc, LanguageState>(
-            listener: (context, state) {},
-            builder: (context, state) {
-              var bloc = context.read<LanguageBloc>();
-              var state = bloc.state;
+            listener: (context, state) {
+          LocaleSettings.setLocale(state.locale!);
+        }, builder: (context, state) {
+          var bloc = context.read<LanguageBloc>();
+          var state = bloc.state;
 
-              if (state is LanguageLoaded) {
-                final betterRoutes = BetterRouter(routes: routes);
+          if (state is LanguageLoaded) {
+            final betterRoutes = BetterRouter(routes: routes);
 
-                return MaterialApp(
-                    onGenerateTitle: (context) =>
-                        AppLocalizations.of(context)!.title,
-                    localizationsDelegates:
-                        AppLocalizations.localizationsDelegates,
-                    supportedLocales: AppLocalizations.supportedLocales,
-                    locale: state.locale,
-                    theme: _buildTheme(context),
-                    onGenerateRoute: betterRoutes.call);
-              }
+            return MaterialApp(
+                onGenerateTitle: (context) => context.t.app.title,
+                localizationsDelegates: GlobalMaterialLocalizations.delegates,
+                supportedLocales: AppLocaleUtils.supportedLocales,
+                locale: TranslationProvider.of(context).flutterLocale,
+                theme: _buildTheme(context),
+                onGenerateRoute: betterRoutes.call);
+          }
 
-              return const SizedBox.shrink();
-            }));
+          return const SizedBox.shrink();
+        }));
   }
 
   ThemeData _buildTheme(context) {

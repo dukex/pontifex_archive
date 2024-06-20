@@ -6,11 +6,8 @@ import 'package:pontifex_archive/src/features/onboarding/presentation/onboarding
 import 'package:pontifex_archive/src/features/reader/presentation/reader_page.dart';
 
 final routes = <String, PageRoute<dynamic> Function(RouteSettings)>{
-  "/onboarding":
-      DefaultPageRouteBuilder((_) => const AppScalfold(child: OnboardingPage()))
-          .call,
-  "/":
-      DefaultPageRouteBuilder((_) => const AppScalfold(child: HomePage())).call,
+  "/onboarding": DefaultPageRouteBuilder((_) => const OnboardingPage()).call,
+  "/": DefaultPageRouteBuilder((_) => const HomePage()).call,
   r"\/reader\/(?<id>.+)": DefaultPageRouteBuilder((context) {
     final params = RouteParams.of(context);
 
@@ -26,7 +23,7 @@ class AppScalfold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const selectedTab = 1;
+    const selectedTab = 0;
 
     return AdaptiveScaffold(
       smallBreakpoint: const WidthPlatformBreakpoint(end: 700),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:pontifex_archive/i18n.g.dart';
 
 class InternalContainer extends StatelessWidget {
   final Widget child;

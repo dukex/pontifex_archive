@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pontifex_archive/i18n.g.dart';
 
 abstract class LanguageState {
-  Locale? locale;
+  AppLocale? locale;
 
   LanguageState(this.locale);
 }

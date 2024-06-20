@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pontifex_archive/i18n.g.dart';
 
 abstract class LanguageEvent {}
 
@@ -7,7 +8,7 @@ class LoadLanguageEvent extends LanguageEvent {
 }
 
 class ToggleLanguageEvent extends LanguageEvent {
-  final Locale locale;
+  final AppLocale locale;
 
   ToggleLanguageEvent(this.locale);
 }
