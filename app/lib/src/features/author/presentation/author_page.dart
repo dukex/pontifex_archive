@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_bloc.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_event.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_state.dart';

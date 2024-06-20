@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_bloc.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_state.dart';
-import 'package:pontifex_archive/src/features/home/presentation/widgets/header.dart';
 import 'package:pontifex_archive/src/features/home/presentation/widgets/toggle_language.dart';
 
 class AuthorScreen extends StatelessWidget {
