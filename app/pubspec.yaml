@@ -19,7 +19,7 @@ dependencies:
   slang_flutter: ^3.31.0
   flutter_localizations:
     sdk: flutter
-  better_router: ^2.1.0
+  better_router: ^2.2.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
