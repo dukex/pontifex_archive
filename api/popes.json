@@ -1,9 +1,10 @@
 [
   {
     "id": "franciscus",
-    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/franciscus/image.png",
+    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/franciscus/image.jpg",
     "name": "Franciscus",
-    "motto": "",
+    "personal_name": "Jorge Mario Bergoglio",
+    "motto": "Miserando atque Eligendo",
     "country": "Argentina",
     "start_date": "2013-03-13",
     "signatures": [
@@ -85,9 +86,11 @@
     ]
   },
   {
+    "number": 265,
     "id": "benedictus-xvi",
-    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/image.png",
+    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/image.jpg",
     "name": "Benedictus XVI",
+    "personal_name": "Joseph Aloisius Ratzinger",
     "motto": "Cooperatores veritatis",
     "country": "Germany",
     "start_date": "2005-04-19",
