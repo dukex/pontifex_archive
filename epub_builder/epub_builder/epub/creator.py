@@ -5,7 +5,7 @@ __dirname = os.path.dirname(__file__)
 __api_path = f"{__dirname}/../../../api"
 
 def create(author, document, document_translation, structure):
-    file_path = f"{__api_path}/popes/{author.id}/{document_translation.language}/{document.id}.epub"
+    file_path = f"{__api_path}/popes/{author.id}/{document_translation.language_code}/{document.id}.epub"
 
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
@@ -16,7 +16,7 @@ def create(author, document, document_translation, structure):
         book.set_cover("image.jpg", open(f"{__api_path}/covers/{document.id}.png", 'rb').read())
 
         for i, (title, data) in enumerate(structure.items(), 1):
-            _add_chapter(book, title, data, document_translation.language, i)
+            _add_chapter(book, title, data, document_translation.language_code, i)
 
         book.add_item(epub.EpubNcx())
         book.add_item(epub.EpubNav())
