@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "image_url",
+      "name",
+      "personal_name",
+      "motto",
+      "country",
+      "start_date",
+      "signatures",
+      "documents",
+      "translations"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "image_url": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "personal_name": {
+        "type": "string"
+      },
+      "motto": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "start_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "end_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "signatures": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "translations": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "language_code",
+            "name",
+            "motto"
+          ],
+          "properties": {
+            "language_code": {
+              "type": "string",
+              "enum": [
+                "la",
+                "en",
+                "pt"
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "motto": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "documents": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "authorId",
+            "name",
+            "date",
+            "type",
+            "translations"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "authorId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string",
+              "format": "date"
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "enc"
+              ]
+            },
+            "translations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "id",
+                  "epub_url",
+                  "language_code",
+                  "vatican_url"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "epub_url": {
+                    "type": "string"
+                  },
+                  "language_code": {
+                    "type": "string",
+                    "enum": [
+                      "la",
+                      "en",
+                      "pt"
+                    ]
+                  },
+                  "vatican_url": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

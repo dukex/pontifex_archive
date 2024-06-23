@@ -1,5 +1,6 @@
 [
   {
+    "$schema": "./pope.schema.json",
     "id": "franciscus",
     "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/franciscus/image.jpg",
     "name": "Franciscus",
@@ -11,7 +12,13 @@
       "FRANCISCUS",
       "Franciscus PP."
     ],
-    "translations": [],
+    "translations": [
+      {
+        "language_code": "pt",
+        "name": "Fransciso",
+        "motto": "Olhou-o com misericórdia e o escolheu"
+      }
+    ],
     "documents": [
       {
         "id": "enc-20130524-lumen-fidei",
