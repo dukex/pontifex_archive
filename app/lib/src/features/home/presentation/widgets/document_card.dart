@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pontifex_archive/src/core/domain/entities/document.dart';
-import 'package:pontifex_archive/src/features/home/presentation/widgets/document_modal.dart';
 
 class DocumentCard extends StatelessWidget {
   final DocumentEntity document;
@@ -13,7 +12,7 @@ class DocumentCard extends StatelessWidget {
       clipBehavior: Clip.antiAliasWithSaveLayer,
       child: InkWell(
         onTap: () {
-          showDocumentModal(context, document);
+          Navigator.pushNamed(context, "/reader/${document.id}");
         },
         child:
             Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
