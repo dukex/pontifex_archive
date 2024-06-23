@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:pontifex_archive/src/core/data/models/models.dart';
+import 'package:pontifex_archive/src/core/data/models/document_translation.dart';
 
 class DocumentEntity {
   final String authorId;

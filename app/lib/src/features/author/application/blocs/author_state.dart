@@ -1,4 +1,4 @@
-import 'package:pontifex_archive/src/features/author/domain/entities/author_entity.dart';
+import 'package:pontifex_archive/src/core/domain/entities/author.dart';
 
 abstract class AuthorState {
   final bool loading;

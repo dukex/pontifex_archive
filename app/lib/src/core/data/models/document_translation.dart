@@ -1,22 +1,3 @@
-class PopeTranslation {
-  final String languageCode;
-  final String name;
-  final String motto;
-
-  PopeTranslation({
-    required this.languageCode,
-    required this.name,
-    required this.motto,
-  });
-
-  factory PopeTranslation.fromJson(Map<String, dynamic> json) {
-    return PopeTranslation(
-        languageCode: json['language_code'],
-        name: json['name'],
-        motto: json['motto']);
-  }
-}
-
 class DocumentTranslation {
   final String languageCode;
   final String vaticanUrl; // vaticanUrl do texto online

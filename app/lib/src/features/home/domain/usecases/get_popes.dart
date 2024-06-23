@@ -1,4 +1,5 @@
 import 'package:pontifex_archive/src/core/data/repositories/pope_repository.dart';
+import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/core/domain/entities/pope.dart';
 
 class GetPopes {
@@ -15,7 +16,15 @@ class GetPopes {
             name: pope.name,
             translations: pope.translations,
             country: pope.country,
-            documents: pope.documents,
+            documents: pope.documents
+                .map((document) => DocumentEntity(
+                    authorId: pope.id,
+                    id: document.id,
+                    date: document.date,
+                    type: document.type,
+                    name: document.name,
+                    translations: document.translations))
+                .toList(),
             startDate: pope.startDate,
             imageUrl: pope.imageUrl))
         .toList();

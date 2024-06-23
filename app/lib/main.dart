@@ -66,7 +66,7 @@ class App extends StatelessWidget {
   }
 
   ThemeData _buildTheme(context) {
-    TextTheme textTheme = createTextTheme(context, "Open Sans", "Ubuntu");
+    TextTheme textTheme = createTextTheme(context, "Open Sans", "Open Sans");
 
     final brightness = View.of(context).platformDispatcher.platformBrightness;
 

@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:pontifex_archive/src/features/author/data/models/author.dart';
+import 'package:pontifex_archive/src/core/data/models/author.dart';
 
 class AuthorProvider {
   static String apiUrl =
