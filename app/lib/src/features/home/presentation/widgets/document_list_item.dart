@@ -10,7 +10,7 @@ class DocumentListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      clipBehavior: Clip.hardEdge,
+      clipBehavior: Clip.antiAliasWithSaveLayer,
       child: InkWell(
         onTap: () {
           showDocumentModal(context, document);
@@ -19,8 +19,7 @@ class DocumentListItem extends StatelessWidget {
           SizedBox(
             child: Image.network(
               document.coverUrl,
-              // width: 50,
-              // height: 50,
+              fit: BoxFit.fitWidth,
             ),
           ),
           Padding(

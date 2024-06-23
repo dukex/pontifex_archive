@@ -20,6 +20,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   better_router: ^2.2.0
+  collection: ^1.18.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

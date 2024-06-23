@@ -12,6 +12,7 @@ class GetDocument {
     final doc = documents.where((d) => d.id == id).toList()[0];
 
     return DocumentEntity(
+        authorId: doc.id, // TODO: fix it
         id: doc.id,
         date: doc.date,
         type: doc.type,

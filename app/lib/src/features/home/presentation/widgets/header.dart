@@ -29,7 +29,7 @@ class Header extends StatelessWidget {
             height: size,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/cathedral-pattern.png'),
+                image: AssetImage('assets/images/Ste_Chapelle_Basse_s.jpg'),
                 alignment: Alignment(0.0, -0.2),
                 fit: BoxFit.cover,
               ),
@@ -89,10 +89,10 @@ class BottomGradientHeader extends StatelessWidget {
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
         colors: [
-          Theme.of(context).colorScheme.surface.withOpacity(0),
-          Theme.of(context).colorScheme.surface.withOpacity(0.5),
-          Theme.of(context).colorScheme.surface.withOpacity(0.8),
-          Theme.of(context).colorScheme.surface.withOpacity(1),
+          Theme.of(context).colorScheme.surfaceContainer.withOpacity(0),
+          Theme.of(context).colorScheme.surfaceContainer.withOpacity(0.5),
+          Theme.of(context).colorScheme.surfaceContainer.withOpacity(0.8),
+          Theme.of(context).colorScheme.surfaceContainer.withOpacity(1),
         ],
       )),
       child: const SizedBox(

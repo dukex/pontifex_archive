@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:pontifex_archive/src/core/data/models/document.dart';
+import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 
 class AuthorEntity {
   final String id;
@@ -10,7 +10,8 @@ class AuthorEntity {
   final DateTime startDate;
   final DateTime? endDate;
   final List<AuthorTranslation> translations;
-  final List<Document> documents;
+  final List<DocumentEntity> documents;
+  final Map<String, List<DocumentEntity>> documentsGroupedByType;
   final String imageUrl;
 
   AuthorEntity({
@@ -20,6 +21,7 @@ class AuthorEntity {
     required this.country,
     required this.translations,
     required this.documents,
+    required this.documentsGroupedByType,
     required this.startDate,
     required this.imageUrl,
     this.endDate,
