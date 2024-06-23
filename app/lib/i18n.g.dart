@@ -6,7 +6,7 @@
 /// Locales: 2
 /// Strings: 9 (4 per locale)
 ///
-/// Built on 2024-06-23 at 23:15 UTC
+/// Built on 2024-06-23 at 23:27 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -193,6 +193,7 @@ class _I18nReaderEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+	String get closeTooltip => 'Close reader';
 	late final _I18nReaderNavigationDrawerEn navigation_drawer = _I18nReaderNavigationDrawerEn._(_root);
 }
 
@@ -243,7 +244,6 @@ class _I18nReaderNavigationDrawerEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get close => 'Close reader';
 	late final _I18nReaderNavigationDrawerChaptersEn chapters = _I18nReaderNavigationDrawerChaptersEn._(_root);
 }
 
@@ -338,7 +338,7 @@ extension on Translations {
 			case 'author.documents.type.enc': return 'Encyclicals';
 			case 'home.header.title': return 'My library';
 			case 'home.popes.title': return 'Popes';
-			case 'reader.navigation_drawer.close': return 'Close reader';
+			case 'reader.closeTooltip': return 'Close reader';
 			case 'reader.navigation_drawer.chapters.title': return 'Chapters';
 			default: return null;
 		}

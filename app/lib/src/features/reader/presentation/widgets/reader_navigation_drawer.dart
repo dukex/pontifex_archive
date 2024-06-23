@@ -23,15 +23,6 @@ class ReaderNavigationDrawer extends StatelessWidget {
         Navigator.of(context).pop();
       },
       children: <Widget>[
-        ListTile(
-          leading: const Icon(Icons.arrow_back),
-          title: Text(context.t.reader.navigation_drawer.close),
-          onTap: () {
-            Navigator.of(context).pop(); // Fechar the drawer
-            Navigator.of(context).pop(); // Back to previous page
-          },
-        ),
-        const Divider(),
         Padding(
           padding: const EdgeInsets.fromLTRB(28, 16, 16, 10),
           child: Text(

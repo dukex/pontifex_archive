@@ -1,6 +1,6 @@
 {
+  "closeTooltip": "Close reader",
   "navigation_drawer": {
-    "close": "Back",
     "chapters": {
       "title": "Chapters"
     }
