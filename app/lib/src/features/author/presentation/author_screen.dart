@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_bloc.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_state.dart';
-import 'package:pontifex_archive/src/features/home/presentation/widgets/toggle_language.dart';
 
 class AuthorScreen extends StatelessWidget {
   final AuthorState state;
@@ -13,43 +12,72 @@ class AuthorScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final state = context.read<AuthorBloc>().state as AuthorLoadedState;
+
+    return LayoutBuilder(
+        builder: (BuildContext context, BoxConstraints viewportConstraints) {
+      return SingleChildScrollView(
+          primary: true,
+          child: ConstrainedBox(
+            constraints: BoxConstraints(
+              minHeight: viewportConstraints.maxHeight,
+            ),
+            child: Column(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: _buildChildren(context, state)),
+          ));
+    });
+  }
+
+  List<Widget> _buildChildren(BuildContext context, AuthorLoadedState state) {
     final author = state.author;
 
-    const padding = 5.0;
+    const padding = 12.0;
     final width = (MediaQuery.of(context).size.width);
 
-    final List<Widget> children = <Widget>[
+    return <Widget>[
       SafeArea(
           child: Padding(
-              padding: const EdgeInsets.all(padding),
+              padding: const EdgeInsets.only(
+                  top: padding, left: padding, right: padding),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Image.network(
-                    author.imageUrl,
-                    width: (width / 12) * 5.5,
-                    height: (width / 12) * 5.5,
-                    fit: BoxFit.fitWidth,
-                  ),
+                  Card(
+                      elevation: 1,
+                      clipBehavior: Clip.antiAliasWithSaveLayer,
+                      child: Image.network(
+                        author.imageUrl,
+                        fit: BoxFit.fitWidth,
+                        width: (width / 12) * 4,
+                        height: (width / 12) * 4,
+                      )),
                   Expanded(
                       child: Container(
+                    padding: const EdgeInsets.only(
+                        left: padding / 2, right: padding),
                     margin: const EdgeInsets.all(padding),
-                    child: Column(children: [
-                      Text(
-                        context.t.author.header.title,
-                        style: Theme.of(context).textTheme.headlineLarge,
-                      ),
-                      Text(
-                        author.nameLocale(
-                            LocaleSettings.currentLocale.flutterLocale),
-                        style: Theme.of(context).textTheme.headlineLarge,
-                      )
-                    ]),
+                    child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          Text(
+                            context.t.author.header.title,
+                            style: Theme.of(context).textTheme.bodyLarge,
+                          ),
+                          Text(
+                            author.nameLocale(
+                                LocaleSettings.currentLocale.flutterLocale),
+                            style: Theme.of(context)
+                                .textTheme
+                                .displayMedium
+                                ?.copyWith(fontWeight: FontWeight.bold),
+                          )
+                        ]),
                   ))
                 ],
               ))),
-      const ToggleLanguage(),
       state.loading
           ? Container(
               padding: const EdgeInsets.only(top: 5),
@@ -57,20 +85,5 @@ class AuthorScreen extends StatelessWidget {
               child: const CircularProgressIndicator())
           : const SizedBox()
     ];
-
-    return LayoutBuilder(
-        builder: (BuildContext context, BoxConstraints viewportConstraints) {
-      return SingleChildScrollView(
-          child: ConstrainedBox(
-        constraints: BoxConstraints(
-          minHeight: viewportConstraints.maxHeight,
-        ),
-        child: Column(
-            mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: children),
-      ));
-    });
   }
 }

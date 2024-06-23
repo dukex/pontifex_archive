@@ -27,31 +27,30 @@ class PopesContainer extends StatelessWidget {
                       Navigator.pushNamed(context, "/author/${pope.id}");
                     },
                     child: Card(
-                      color: Theme.of(context).colorScheme.surfaceContainer,
-                      borderOnForeground: true,
-                      child: Container(
-                          padding: const EdgeInsets.all(5),
-                          width: 110,
-                          child: Column(
-                            children: [
-                              Image.network(
-                                pope.imageUrl,
-                                width: 100,
-                                height: 100,
-                                fit: BoxFit.fitWidth,
-                              ),
-                              const SizedBox(height: 8),
-                              Text(
-                                pope.nameLocale(
-                                    LocaleSettings.currentLocale.flutterLocale),
-                                style: Theme.of(context)
-                                    .textTheme
-                                    .titleSmall
-                                    ?.copyWith(),
-                              ),
-                            ],
-                          )),
-                    ),
+                        clipBehavior: Clip.antiAliasWithSaveLayer,
+                        color: Theme.of(context).colorScheme.surfaceContainer,
+                        borderOnForeground: true,
+                        child: Column(
+                          children: [
+                            Image.network(
+                              pope.imageUrl,
+                              width: 100,
+                              height: 100,
+                              fit: BoxFit.cover,
+                            ),
+                            const Spacer(),
+                            Text(
+                              pope.nameLocale(
+                                  LocaleSettings.currentLocale.flutterLocale),
+                              textAlign: TextAlign.start,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleSmall
+                                  ?.copyWith(),
+                            ),
+                            const Spacer(),
+                          ],
+                        )),
                   );
                 },
               )))
