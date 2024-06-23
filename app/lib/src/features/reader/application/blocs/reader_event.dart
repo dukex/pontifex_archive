@@ -17,11 +17,6 @@ class LoadDocumentEvent extends ReaderEvent {
   List<Object> get props => [id];
 }
 
-class LoadEbookEvent extends ReaderEvent {
-  final DocumentEntity document;
-  const LoadEbookEvent(this.document);
-}
-
 class SaveReadingPositionEvent extends ReaderEvent {
   final DocumentEntity document;
   final String? cfi;

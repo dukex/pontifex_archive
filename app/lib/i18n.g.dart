@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 7 (3 per locale)
+/// Strings: 9 (4 per locale)
 ///
-/// Built on 2024-06-23 at 18:47 UTC
+/// Built on 2024-06-23 at 23:15 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -151,6 +151,7 @@ class Translations implements BaseTranslations<AppLocale, Translations> {
 	late final _I18nAppEn app = _I18nAppEn._(_root);
 	late final _I18nAuthorEn author = _I18nAuthorEn._(_root);
 	late final _I18nHomeEn home = _I18nHomeEn._(_root);
+	late final _I18nReaderEn reader = _I18nReaderEn._(_root);
 }
 
 // Path: app
@@ -183,6 +184,16 @@ class _I18nHomeEn {
 	// Translations
 	late final _I18nHomeHeaderEn header = _I18nHomeHeaderEn._(_root);
 	late final _I18nHomePopesEn popes = _I18nHomePopesEn._(_root);
+}
+
+// Path: reader
+class _I18nReaderEn {
+	_I18nReaderEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	late final _I18nReaderNavigationDrawerEn navigation_drawer = _I18nReaderNavigationDrawerEn._(_root);
 }
 
 // Path: author.header
@@ -225,6 +236,17 @@ class _I18nHomePopesEn {
 	String get title => 'Popes';
 }
 
+// Path: reader.navigation_drawer
+class _I18nReaderNavigationDrawerEn {
+	_I18nReaderNavigationDrawerEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get close => 'Close reader';
+	late final _I18nReaderNavigationDrawerChaptersEn chapters = _I18nReaderNavigationDrawerChaptersEn._(_root);
+}
+
 // Path: author.documents.type
 class _I18nAuthorDocumentsTypeEn {
 	_I18nAuthorDocumentsTypeEn._(this._root);
@@ -233,6 +255,16 @@ class _I18nAuthorDocumentsTypeEn {
 
 	// Translations
 	String get enc => 'Encyclicals';
+}
+
+// Path: reader.navigation_drawer.chapters
+class _I18nReaderNavigationDrawerChaptersEn {
+	_I18nReaderNavigationDrawerChaptersEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get title => 'Chapters';
 }
 
 // Path: <root>
@@ -306,6 +338,8 @@ extension on Translations {
 			case 'author.documents.type.enc': return 'Encyclicals';
 			case 'home.header.title': return 'My library';
 			case 'home.popes.title': return 'Popes';
+			case 'reader.navigation_drawer.close': return 'Close reader';
+			case 'reader.navigation_drawer.chapters.title': return 'Chapters';
 			default: return null;
 		}
 	}

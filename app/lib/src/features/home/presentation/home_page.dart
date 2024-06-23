@@ -6,7 +6,7 @@ import 'package:pontifex_archive/src/features/home/application/blocs/home_bloc.d
 import 'package:pontifex_archive/src/features/home/application/blocs/home_event.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_state.dart';
 import 'package:pontifex_archive/src/features/home/domain/usecases/get_popes.dart';
-import 'package:pontifex_archive/src/features/home/presentation/home_view.dart';
+import 'package:pontifex_archive/src/features/home/presentation/widgets/home_view.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

@@ -19,8 +19,6 @@ class DocumentEntity {
     required this.translations,
   });
 
-  String get url =>
-      "https://emersonalmeida.wtf/pontifex_archive/$authorId/pt/$id.epub";
   String get coverUrl =>
       "https://emersonalmeida.wtf/pontifex_archive/covers/$id.png";
 

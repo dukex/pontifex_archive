@@ -14,7 +14,6 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
   ReaderBloc(this.getDocument, this.downloadEbook, this.saveReadingPosition)
       : super(ReaderInitial()) {
     on<LoadDocumentEvent>(_onLoadDocument);
-    on<LoadEbookEvent>(_onLoadEbook);
     on<SaveReadingPositionEvent>(_onSaveReadingPosition);
   }
 
@@ -29,23 +28,8 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
         emit(const ReaderError('Failed to load document from URL'));
       } else {
         emit(DocumentLoaded(document));
-      }
-    } catch (e) {
-      emit(ReaderError(e.toString()));
-    }
-  }
 
-  Future<void> _onLoadEbook(
-      LoadEbookEvent event, Emitter<ReaderState> emit) async {
-    emit(ReaderLoading());
-
-    try {
-      final controller = await downloadEbook(event.document);
-
-      if (controller == null) {
-        emit(const ReaderError('Failed to load document from URL'));
-      } else {
-        emit(EbookDownloaded(event.document, controller));
+        await _loadEbook(document, emit);
       }
     } catch (e) {
       emit(ReaderError(e.toString()));
@@ -58,6 +42,21 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
       await saveReadingPosition(event.document, event.cfi);
     } catch (e) {
       // nothing
+    }
+  }
+
+  Future<void> _loadEbook(
+      DocumentEntity document, Emitter<ReaderState> emit) async {
+    try {
+      final controller = await downloadEbook(document);
+
+      if (controller == null) {
+        emit(const ReaderError('Failed to load document from URL'));
+      } else {
+        emit(EbookDownloaded(document, controller));
+      }
+    } catch (e) {
+      emit(ReaderError(e.toString()));
     }
   }
 }

@@ -3,12 +3,6 @@ import 'package:pontifex_archive/src/core/data/repositories/document_repository.
 import 'package:pontifex_archive/src/core/data/repositories/preferences_repository.dart';
 import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 
-class DocumentPreferences {
-  final String cfi;
-
-  DocumentPreferences({required this.cfi});
-}
-
 class DownloadEbook {
   final DocumentRepository repository;
   final PreferencesRepository preferences;
@@ -19,7 +13,7 @@ class DownloadEbook {
     final cfi = await preferences.cfiTo(document.id);
 
     return EpubController(
-      document: repository.fetchEpub(document.url),
+      document: repository.fetchEpub(document.translations[2].epubUrl),
       epubCfi: cfi,
     );
   }
