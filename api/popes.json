@@ -15,6 +15,7 @@
     "documents": [
       {
         "id": "enc-20130524-lumen-fidei",
+        "authorId": "franciscus",
         "name": "Lumen fidei",
         "date": "2013-05-24",
         "type": "enc",
@@ -39,6 +40,7 @@
       },
       {
         "id": "enc-20150524-laudato-si",
+        "authorId": "franciscus",
         "name": "Laudato Si",
         "date": "2015-05-24",
         "type": "enc",
@@ -62,6 +64,7 @@
       },
       {
         "id": "enc-20201003-fratelli-tutti",
+        "authorId": "franciscus",
         "name": "Fratelli tutti",
         "date": "2020-10-03",
         "type": "enc",
@@ -133,6 +136,7 @@
     "documents": [
       {
         "id": "enc-20090629-caritas-in-veritate",
+        "authorId": "benedictus-xvi",
         "name": "Caritas in veritate",
         "date": "2009-06-29",
         "type": "enc",
@@ -156,6 +160,7 @@
       },
       {
         "id": "enc-20071130-spe-salvi",
+        "authorId": "benedictus-xvi",
         "name": "Spe salvi",
         "date": "2007-11-30",
         "type": "enc",
@@ -179,6 +184,7 @@
       },
       {
         "id": "enc-20051225-deus-caritas-est",
+        "authorId": "benedictus-xvi",
         "name": "Deus caritas est",
         "date": "2005-12-25",
         "type": "enc",

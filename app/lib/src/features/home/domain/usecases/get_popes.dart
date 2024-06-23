@@ -18,7 +18,7 @@ class GetPopes {
             country: pope.country,
             documents: pope.documents
                 .map((document) => DocumentEntity(
-                    authorId: pope.id,
+                    authorId: document.authorId,
                     id: document.id,
                     date: document.date,
                     type: document.type,
