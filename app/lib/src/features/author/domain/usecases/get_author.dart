@@ -1,7 +1,6 @@
 import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/features/author/data/repositories/author_repository.dart';
-import 'package:pontifex_archive/src/features/author/domain/entities/author_entity.dart';
-import "package:collection/collection.dart";
+import 'package:pontifex_archive/src/core/domain/entities/author.dart';
 
 class GetAuthor {
   final AuthorRepository repository;
@@ -45,14 +44,10 @@ class GetAuthor {
 
     return AuthorEntity(
         id: author.id,
-        motto: author.motto,
         name: author.name,
         translations: author.translations,
         country: author.country,
         documents: documents,
-        documentsGroupedByType:
-            groupBy(documents, (DocumentEntity document) => document.type),
-        startDate: author.startDate,
         imageUrl: author.imageUrl);
   }
 }

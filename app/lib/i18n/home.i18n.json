@@ -2,7 +2,7 @@
   "@@locale": "en",
   "@context": "HomeFeatures",
   "header": {
-    "title": "Church Documents"
+    "title": "My library"
   },
   "popes": {
     "title": "Popes"

@@ -6,7 +6,7 @@ import 'package:pontifex_archive/src/features/home/application/blocs/home_bloc.d
 import 'package:pontifex_archive/src/features/home/application/blocs/home_event.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_state.dart';
 import 'package:pontifex_archive/src/features/home/domain/usecases/get_popes.dart';
-import 'package:pontifex_archive/src/features/home/presentation/home_screen.dart';
+import 'package:pontifex_archive/src/features/home/presentation/home_view.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
                 if (state is HomeErrorState) {
                   return Center(child: Text('Error: ${state.message}'));
                 } else {
-                  return HomeScreen(state: state);
+                  return HomeView(state: state);
                 }
               })),
     );

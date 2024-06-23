@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_bloc.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_state.dart';
-import 'package:pontifex_archive/src/features/home/presentation/widgets/document_list_item.dart';
 
 class AuthorScreen extends StatelessWidget {
   final AuthorState state;
@@ -78,31 +77,31 @@ class AuthorScreen extends StatelessWidget {
       ))),
     ];
 
-    author.documentsGroupedByType.keys.forEach((key) {
-      children.addAll([
-        SaferContainer(
-          child: Text(
-              context.t.$meta.getTranslation("author.documents.type.$key"),
-              style: Theme.of(context).textTheme.titleLarge?.copyWith()),
-        ),
-        SaferContainer(
-            child: GridView.builder(
-                padding: EdgeInsets.zero,
-                physics: const NeverScrollableScrollPhysics(),
-                shrinkWrap: true,
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 3,
-                  mainAxisSpacing: 6,
-                  crossAxisSpacing: 6,
-                  childAspectRatio: 2 / 2.70,
-                ),
-                itemCount: author.documentsGroupedByType[key]?.length,
-                itemBuilder: (context, index) {
-                  return DocumentListItem(
-                      document: author.documentsGroupedByType[key]![index]);
-                }))
-      ]);
-    });
+    // author.documentsGroupedByType.keys.forEach((key) {
+    //   children.addAll([
+    //     SaferContainer(
+    //       child: Text(
+    //           context.t.$meta.getTranslation("author.documents.type.$key"),
+    //           style: Theme.of(context).textTheme.titleLarge?.copyWith()),
+    //     ),
+    //     SaferContainer(
+    //         child: GridView.builder(
+    //             padding: EdgeInsets.zero,
+    //             physics: const NeverScrollableScrollPhysics(),
+    //             shrinkWrap: true,
+    //             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+    //               crossAxisCount: 3,
+    //               mainAxisSpacing: 6,
+    //               crossAxisSpacing: 6,
+    //               childAspectRatio: 2 / 2.70,
+    //             ),
+    //             itemCount: author.documentsGroupedByType[key]?.length,
+    //             itemBuilder: (context, index) {
+    //               return DocumentListItem(
+    //                   document: author.documentsGroupedByType[key]![index]);
+    //             }))
+    //   ]);
+    // });
 
     return children;
   }

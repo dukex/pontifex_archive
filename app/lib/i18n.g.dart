@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 6 (3 per locale)
+/// Strings: 7 (3 per locale)
 ///
-/// Built on 2024-06-20 at 12:11 UTC
+/// Built on 2024-06-23 at 18:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -171,6 +171,7 @@ class _I18nAuthorEn {
 
 	// Translations
 	late final _I18nAuthorHeaderEn header = _I18nAuthorHeaderEn._(_root);
+	late final _I18nAuthorDocumentsEn documents = _I18nAuthorDocumentsEn._(_root);
 }
 
 // Path: home
@@ -194,6 +195,16 @@ class _I18nAuthorHeaderEn {
 	String get title => 'Author';
 }
 
+// Path: author.documents
+class _I18nAuthorDocumentsEn {
+	_I18nAuthorDocumentsEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	late final _I18nAuthorDocumentsTypeEn type = _I18nAuthorDocumentsTypeEn._(_root);
+}
+
 // Path: home.header
 class _I18nHomeHeaderEn {
 	_I18nHomeHeaderEn._(this._root);
@@ -201,7 +212,7 @@ class _I18nHomeHeaderEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get title => 'Church Documents';
+	String get title => 'My library';
 }
 
 // Path: home.popes
@@ -212,6 +223,16 @@ class _I18nHomePopesEn {
 
 	// Translations
 	String get title => 'Popes';
+}
+
+// Path: author.documents.type
+class _I18nAuthorDocumentsTypeEn {
+	_I18nAuthorDocumentsTypeEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get enc => 'Encyclicals';
 }
 
 // Path: <root>
@@ -251,7 +272,7 @@ class _I18nAppPt extends _I18nAppEn {
 	@override final _I18nPt _root; // ignore: unused_field
 
 	// Translations
-	@override String get title => 'Pontifex Archive';
+	@override String get title => 'Arqui Archive';
 }
 
 // Path: home
@@ -282,7 +303,8 @@ extension on Translations {
 		switch (path) {
 			case 'app.title': return 'Pontifex Archive';
 			case 'author.header.title': return 'Author';
-			case 'home.header.title': return 'Church Documents';
+			case 'author.documents.type.enc': return 'Encyclicals';
+			case 'home.header.title': return 'My library';
 			case 'home.popes.title': return 'Popes';
 			default: return null;
 		}

@@ -5,27 +5,18 @@ import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 class AuthorEntity {
   final String id;
   final String name;
-  final String motto;
   final String country;
-  final DateTime startDate;
-  final DateTime? endDate;
   final List<AuthorTranslation> translations;
   final List<DocumentEntity> documents;
-  final Map<String, List<DocumentEntity>> documentsGroupedByType;
   final String imageUrl;
 
-  AuthorEntity({
-    required this.id,
-    required this.name,
-    required this.motto,
-    required this.country,
-    required this.translations,
-    required this.documents,
-    required this.documentsGroupedByType,
-    required this.startDate,
-    required this.imageUrl,
-    this.endDate,
-  });
+  AuthorEntity(
+      {required this.id,
+      required this.name,
+      required this.country,
+      required this.translations,
+      required this.documents,
+      required this.imageUrl});
 
   String nameLocale(Locale locale) {
     return translations
