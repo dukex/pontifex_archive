@@ -22,17 +22,20 @@
         "translations": [
           {
             "id": "la/enc-20130524-lumen-fidei",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/la/enc-20130524-lumen-fidei.epub",
             "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
           },
           {
             "id": "en/enc-20130524-lumen-fidei",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/en/enc-20130524-lumen-fidei.epub",
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
             "type": "enc"
           },
           {
             "id": "pt/enc-20130524-lumen-fidei",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/pt/enc-20130524-lumen-fidei.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
           }
@@ -47,16 +50,19 @@
         "translations": [
           {
             "id": "la/enc-20150524-laudato-si",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/la/enc-20150524-laudato-si.epub",
             "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
           },
           {
             "id": "pt/enc-20150524-laudato-si",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/pt/enc-20150524-laudato-si.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
           },
           {
             "id": "en/enc-20150524-laudato-si",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/en/enc-20150524-laudato-si.epub",
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
           }
@@ -71,16 +77,19 @@
         "translations": [
           {
             "id": "la/enc-20201003-fratelli-tutti",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/la/enc-20201003-fratelli-tutti.epub",
             "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
           },
           {
             "id": "pt/enc-20201003-fratelli-tutti",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/pt/enc-20201003-fratelli-tutti.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
           },
           {
             "id": "en/enc-20201003-fratelli-tutti",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/franciscus/en/enc-20201003-fratelli-tutti.epub",
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
           }
@@ -143,16 +152,19 @@
         "translations": [
           {
             "id": "en/enc-20090629-caritas-in-veritate",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/en/enc-20090629-caritas-in-veritate.epub",
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
           },
           {
             "id": "la/enc-20090629-caritas-in-veritate",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/la/enc-20090629-caritas-in-veritate.epub",
             "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
           },
           {
             "id": "pt/enc-20090629-caritas-in-veritate",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/pt/enc-20090629-caritas-in-veritate.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
           }
@@ -167,16 +179,19 @@
         "translations": [
           {
             "id": "en/enc-20071130-spe-salvi",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/en/enc-20071130-spe-salvi.epub",
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
           },
           {
             "id": "la/enc-20071130-spe-salvi",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/la/enc-20071130-spe-salvi.epub",
             "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
           },
           {
             "id": "pt/enc-20071130-spe-salvi",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/pt/enc-20071130-spe-salvi.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
           }
@@ -191,16 +206,19 @@
         "translations": [
           {
             "id": "en/enc-20051225-deus-caritas-est",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/en/enc-20051225-deus-caritas-est.epub",
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
           },
           {
             "id": "la/enc-20051225-deus-caritas-est",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/la/enc-20051225-deus-caritas-est.epub",
             "language_code": "la",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
           },
           {
             "id": "pt/enc-20051225-deus-caritas-est",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/pt/enc-20051225-deus-caritas-est.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
           }
