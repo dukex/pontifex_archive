@@ -29,7 +29,7 @@ class Header extends StatelessWidget {
             height: size,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/Ste_Chapelle_Basse_s.jpg'),
+                image: AssetImage('assets/images/cathedral-pattern.png'),
                 alignment: Alignment(0.0, -0.2),
                 fit: BoxFit.cover,
               ),
