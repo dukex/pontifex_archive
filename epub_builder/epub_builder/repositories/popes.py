@@ -7,3 +7,7 @@ def all():
   api = Api(f"{__dirname}/../../../api")
 
   return api.popes()
+
+def save(popes):
+  api = Api(f"{__dirname}/../../../api")
+  api.save_popes(popes)

@@ -9,11 +9,16 @@ def create(author, document, document_translation, structure):
 
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
+    image_path = f"{__api_path}/covers/{document.id}.png" if os.path.exists(f"{__api_path}/covers/{document.id}.png") else f"{__api_path}/covers/fallback.png"
+
+    document.cover_url = image_path.replace(__api_path, "https://emersonalmeida.wtf/pontifex_archive")
+
     if not os.path.exists(file_path):
         book = epub.EpubBook()
         book.set_title(document.name)
         book.add_author(author.name)
-        book.set_cover("image.jpg", open(f"{__api_path}/covers/{document.id}.png", 'rb').read())
+        if os.path.exists(f"{__api_path}/covers/{document.id}.png"):
+            book.set_cover("image.jpg", open(f"{__api_path}/covers/{document.id}.png", 'rb').read())
 
         for i, (title, data) in enumerate(structure.items(), 1):
             _add_chapter(book, title, data, document_translation.language_code, i)

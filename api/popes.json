@@ -46,7 +46,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/enc-20130524-lumen-fidei.png"
       },
       {
         "id": "enc-20150524-laudato-si",
@@ -73,7 +74,8 @@
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/enc-20150524-laudato-si.png"
       },
       {
         "id": "enc-20201003-fratelli-tutti",
@@ -100,7 +102,8 @@
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/enc-20201003-fratelli-tutti.png"
       }
     ]
   },
@@ -175,7 +178,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/enc-20090629-caritas-in-veritate.png"
       },
       {
         "id": "enc-20071130-spe-salvi",
@@ -202,7 +206,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/enc-20071130-spe-salvi.png"
       },
       {
         "id": "enc-20051225-deus-caritas-est",
@@ -229,7 +234,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/enc-20051225-deus-caritas-est.png"
       }
     ]
   },
@@ -278,7 +284,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19800515-dives-in-misericordia",
@@ -299,7 +306,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19810914-laborem-exercens",
@@ -320,7 +328,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19850602-slavorum-apostoli",
@@ -341,7 +350,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19860518-dominum-et-vivificantem",
@@ -362,7 +372,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19900815-redemptoris-mater",
@@ -383,7 +394,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19871230-sollicitudo-rei-socialis",
@@ -404,7 +416,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19900325-redemptoris-missio",
@@ -425,7 +438,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19910325-cessimus-annus",
@@ -446,7 +460,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19930525-veritatis-splendor",
@@ -467,7 +482,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19950325-evangelium-vitae",
@@ -488,7 +504,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19950525-ut-unum-sint",
@@ -509,7 +526,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19980325-fides-et-ratio",
@@ -530,7 +548,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-20030417-ecclesia-de-eucharistia",
@@ -551,7 +570,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       }
     ]
   },
@@ -600,7 +620,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19670624-sacerdotalis-caelibatus",
@@ -621,7 +642,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19671126-populorum-progressio",
@@ -642,7 +664,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19660915-christi-matri",
@@ -663,7 +686,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19650629-mysterium-fidei",
@@ -684,7 +708,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19650429-mense-maio",
@@ -705,7 +730,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       },
       {
         "id": "enc-19640806-ecclesiam-suam",
@@ -726,7 +752,8 @@
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html"
           }
-        ]
+        ],
+        "cover_url": "https://emersonalmeida.wtf/pontifex_archive/covers/fallback.png"
       }
     ]
   }
