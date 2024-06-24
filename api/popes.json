@@ -582,23 +582,44 @@
     ],
     "documents": [
       {
-        "id": "enc-19650629-mysterium-fidei",
+        "id": "enc-19680725-humanae-vitae",
         "authorId": "paulus-vi",
-        "name": "Mysterium Fidei",
-        "date": "1965-09-03",
+        "name": "Humanae Vitae",
+        "date": "1968-07-25",
         "type": "enc",
         "translations": [
           {
-            "id": "en/enc-19650629-mysterium-fidei",
-            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19650629-mysterium-fidei.epub",
+            "id": "en/enc-19680725-humanae-vitae",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19680725-humanae-vitae.epub",
             "language_code": "en",
-            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html"
           },
           {
-            "id": "pt/enc-19650629-mysterium-fidei",
-            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19650629-mysterium-fidei.epub",
+            "id": "pt/enc-19680725-humanae-vitae",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19680725-humanae-vitae.epub",
             "language_code": "pt",
-            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19670624-sacerdotalis-caelibatus",
+        "authorId": "paulus-vi",
+        "name": "Sacerdotalis Caelibatus",
+        "date": "1967-06-24",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19670624-sacerdotalis-caelibatus",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19670624-sacerdotalis-caelibatus.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html"
+          },
+          {
+            "id": "pt/enc-19670624-sacerdotalis-caelibatus",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19670624-sacerdotalis-caelibatus.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html"
           }
         ]
       },
@@ -620,6 +641,90 @@
             "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19671126-populorum-progressio.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19660915-christi-matri",
+        "authorId": "paulus-vi",
+        "name": "Christi Matri",
+        "date": "1966-09-15",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19660915-christi-matri",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19660915-christi-matri.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html"
+          },
+          {
+            "id": "pt/enc-19660915-christi-matri",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19660915-christi-matri.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19650629-mysterium-fidei",
+        "authorId": "paulus-vi",
+        "name": "Mysterium Fidei",
+        "date": "1965-09-03",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19650629-mysterium-fidei",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19650629-mysterium-fidei.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
+          },
+          {
+            "id": "pt/enc-19650629-mysterium-fidei",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19650629-mysterium-fidei.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19650429-mense-maio",
+        "authorId": "paulus-vi",
+        "name": "Mense Maio",
+        "date": "1965-04-29",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19650429-mense-maio",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19650429-mense-maio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html"
+          },
+          {
+            "id": "pt/enc-19650429-mense-maio",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19650429-mense-maio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19640806-ecclesiam-suam",
+        "authorId": "paulus-vi",
+        "name": "Ecclesiam Suam",
+        "date": "1964-08-06",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19640806-ecclesiam-suam",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19640806-ecclesiam-suam.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html"
+          },
+          {
+            "id": "pt/enc-19640806-ecclesiam-suam",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19640806-ecclesiam-suam.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html"
           }
         ]
       }
