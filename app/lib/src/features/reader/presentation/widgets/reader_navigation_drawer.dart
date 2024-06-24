@@ -13,9 +13,11 @@ class ReaderNavigationDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tableOfContents = state.controller.tableOfContents();
+    final selectedIndex =
+        (state.controller.currentValue?.chapterNumber ?? 1) - 1;
 
     return NavigationDrawer(
-      selectedIndex: state.controller.currentValue?.chapterNumber,
+      selectedIndex: selectedIndex,
       onDestinationSelected: (chapterIndex) {
         final chapter = tableOfContents[chapterIndex];
 
