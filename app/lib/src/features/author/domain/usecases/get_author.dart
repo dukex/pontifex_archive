@@ -34,11 +34,12 @@ class GetAuthor {
       author.documents[2]
     ]
         .map((document) => DocumentEntity(
-            authorId: author.id,
+            authorId: document.authorId,
             id: document.id,
             date: document.date,
             type: document.type,
             name: document.name,
+            coverUrl: document.coverUrl,
             translations: document.translations))
         .toList();
 

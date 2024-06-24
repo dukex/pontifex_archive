@@ -6,6 +6,7 @@ class Document {
   final String type;
   final String name;
   final DateTime date;
+  final String coverUrl;
   final List<DocumentTranslation> translations;
 
   Document({
@@ -14,6 +15,7 @@ class Document {
     required this.type,
     required this.name,
     required this.date,
+    required this.coverUrl,
     required this.translations,
   });
 
@@ -29,6 +31,7 @@ class Document {
       date: DateTime.parse(json['date']),
       type: json['type'],
       name: json['name'],
+      coverUrl: json['cover_url'],
       translations: translationList,
     );
   }

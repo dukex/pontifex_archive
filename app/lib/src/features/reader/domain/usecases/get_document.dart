@@ -17,6 +17,7 @@ class GetDocument {
         date: doc.date,
         type: doc.type,
         name: doc.name,
+        coverUrl: doc.coverUrl,
         translations: doc.translations);
   }
 }

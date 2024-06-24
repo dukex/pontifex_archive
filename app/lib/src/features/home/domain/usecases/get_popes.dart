@@ -23,6 +23,7 @@ class GetPopes {
                     date: document.date,
                     type: document.type,
                     name: document.name,
+                    coverUrl: document.coverUrl,
                     translations: document.translations))
                 .toList(),
             startDate: pope.startDate,

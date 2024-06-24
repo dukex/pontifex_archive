@@ -8,6 +8,7 @@ class DocumentEntity {
   final DateTime date;
   final String type;
   final String name;
+  final String coverUrl;
   final List<DocumentTranslation> translations;
 
   DocumentEntity({
@@ -16,11 +17,9 @@ class DocumentEntity {
     required this.date,
     required this.type,
     required this.name,
+    required this.coverUrl,
     required this.translations,
   });
-
-  String get coverUrl =>
-      "https://emersonalmeida.wtf/pontifex_archive/covers/$id.png";
 
   String nameLocale(Locale flutterLocale) {
     return name;
