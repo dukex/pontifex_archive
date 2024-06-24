@@ -15,7 +15,7 @@ dependencies:
   equatable: any
   google_fonts: ^6.2.1
   flutter_adaptive_scaffold: ^0.1.11
-  slang: ^3.31.0
+  slang: ^3.31.1
   slang_flutter: ^3.31.0
   flutter_localizations:
     sdk: flutter
