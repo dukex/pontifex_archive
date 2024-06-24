@@ -1,7 +1,7 @@
 [
   {
-    "$schema": "./pope.schema.json",
     "id": "franciscus",
+    "number": 266,
     "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/franciscus/image.jpg",
     "name": "Franciscus",
     "personal_name": "Jorge Mario Bergoglio",
@@ -228,6 +228,398 @@
             "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/benedictus-xvi/pt/enc-20051225-deus-caritas-est.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 264,
+    "id": "ioannes-paulus-ii",
+    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/image.jpg",
+    "name": "Ioannes Paulus II",
+    "personal_name": "Karol Józef Wojtyła",
+    "motto": "Totus Tuus",
+    "country": "Poland",
+    "start_date": "1978-10-16",
+    "end_date": "2005-04-02",
+    "signatures": [
+      "IOANNES PAULUS PP. II"
+    ],
+    "translations": [
+      {
+        "language_code": "en",
+        "name": "John Paul II",
+        "motto": "Totally Yours"
+      },
+      {
+        "language_code": "pt",
+        "name": "João Paulo II",
+        "motto": "Todo Teu"
+      }
+    ],
+    "documents": [
+      {
+        "id": "enc-19790304-redemptor-hominis",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Redemptor Hominis",
+        "date": "1979-03-04",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19790304-redemptor-hominis",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19790304-redemptor-hominis.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html"
+          },
+          {
+            "id": "pt/enc-19790304-redemptor-hominis",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19790304-redemptor-hominis.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19800515-dives-in-misericordia",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Dives in Misericordia",
+        "date": "1980-11-30",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19800515-dives-in-misericordia",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19800515-dives-in-misericordia.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html"
+          },
+          {
+            "id": "pt/enc-19800515-dives-in-misericordia",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19800515-dives-in-misericordia.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19810914-laborem-exercens",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Laborem Exercens",
+        "date": "1981-09-14",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19810914-laborem-exercens",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19810914-laborem-exercens.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html"
+          },
+          {
+            "id": "pt/enc-19810914-laborem-exercens",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19810914-laborem-exercens.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19850602-slavorum-apostoli",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Slavorum Apostoli",
+        "date": "1985-06-02",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19850602-slavorum-apostoli",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19850602-slavorum-apostoli.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
+          },
+          {
+            "id": "pt/enc-19850602-slavorum-apostoli",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19850602-slavorum-apostoli.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19860518-dominum-et-vivificantem",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Dominum et Vivificantem",
+        "date": "1986-05-18",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19860518-dominum-et-vivificantem",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19860518-dominum-et-vivificantem.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html"
+          },
+          {
+            "id": "pt/enc-19860518-dominum-et-vivificantem",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19860518-dominum-et-vivificantem.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19900815-redemptoris-mater",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Redemptoris Mater",
+        "date": "1987-03-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19900815-redemptoris-mater",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19900815-redemptoris-mater.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
+          },
+          {
+            "id": "pt/enc-19900815-redemptoris-mater",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19900815-redemptoris-mater.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19871230-sollicitudo-rei-socialis",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Sollicitudo Rei Socialis",
+        "date": "1987-12-30",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19871230-sollicitudo-rei-socialis",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19871230-sollicitudo-rei-socialis.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html"
+          },
+          {
+            "id": "pt/enc-19871230-sollicitudo-rei-socialis",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19871230-sollicitudo-rei-socialis.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19900325-redemptoris-missio",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Redemptoris Missio",
+        "date": "1990-12-07",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19900325-redemptoris-missio",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19900325-redemptoris-missio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html"
+          },
+          {
+            "id": "pt/enc-19900325-redemptoris-missio",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19900325-redemptoris-missio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19910325-cessimus-annus",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Centesimus Annus",
+        "date": "1991-05-01",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19910325-cessimus-annus",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19910325-cessimus-annus.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html"
+          },
+          {
+            "id": "pt/enc-19910325-cessimus-annus",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19910325-cessimus-annus.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19930525-veritatis-splendor",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Veritatis Splendor",
+        "date": "1993-08-06",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19930525-veritatis-splendor",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19930525-veritatis-splendor.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html"
+          },
+          {
+            "id": "pt/enc-19930525-veritatis-splendor",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19930525-veritatis-splendor.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19950325-evangelium-vitae",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Evangelium Vitae",
+        "date": "1995-03-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19950325-evangelium-vitae",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19950325-evangelium-vitae.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
+          },
+          {
+            "id": "pt/enc-19950325-evangelium-vitae",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19950325-evangelium-vitae.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19950525-ut-unum-sint",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Ut Unum Sint",
+        "date": "1995-05-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19950525-ut-unum-sint",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19950525-ut-unum-sint.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html"
+          },
+          {
+            "id": "pt/enc-19950525-ut-unum-sint",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19950525-ut-unum-sint.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19980325-fides-et-ratio",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Fides et Ratio",
+        "date": "1998-09-14",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19980325-fides-et-ratio",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-19980325-fides-et-ratio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html"
+          },
+          {
+            "id": "pt/enc-19980325-fides-et-ratio",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-19980325-fides-et-ratio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-20030417-ecclesia-de-eucharistia",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Ecclesia de Eucharistia",
+        "date": "2003-04-17",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-20030417-ecclesia-de-eucharistia",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/en/enc-20030417-ecclesia-de-eucharistia.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html"
+          },
+          {
+            "id": "pt/enc-20030417-ecclesia-de-eucharistia",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/ioannes-paulus-ii/pt/enc-20030417-ecclesia-de-eucharistia.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 262,
+    "id": "paulus-vi",
+    "image_url": "https://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/image.jpg",
+    "name": "Paulus VI",
+    "personal_name": "Giovanni Battista Enrico Antonio Maria Montini",
+    "motto": "In nomine Domini",
+    "country": "Italy",
+    "start_date": "1963-06-21",
+    "end_date": "1978-08-06",
+    "signatures": [
+      "PAULUS PP. VI"
+    ],
+    "translations": [
+      {
+        "language_code": "en",
+        "name": "Paul VI",
+        "motto": "In the name of the Lord"
+      },
+      {
+        "language_code": "pt",
+        "name": "Paulo VI",
+        "motto": "Em nome do Senhor"
+      }
+    ],
+    "documents": [
+      {
+        "id": "enc-19650629-mysterium-fidei",
+        "authorId": "paulus-vi",
+        "name": "Mysterium Fidei",
+        "date": "1965-09-03",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19650629-mysterium-fidei",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19650629-mysterium-fidei.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
+          },
+          {
+            "id": "pt/enc-19650629-mysterium-fidei",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19650629-mysterium-fidei.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
+          }
+        ]
+      },
+      {
+        "id": "enc-19671126-populorum-progressio",
+        "authorId": "paulus-vi",
+        "name": "Populorum Progressio",
+        "date": "1967-03-26",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19671126-populorum-progressio",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/en/enc-19671126-populorum-progressio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
+          },
+          {
+            "id": "pt/enc-19671126-populorum-progressio",
+            "epub_url": "http://emersonalmeida.wtf/pontifex_archive/popes/paulus-vi/pt/enc-19671126-populorum-progressio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
           }
         ]
       }
