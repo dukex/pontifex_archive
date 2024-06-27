@@ -12,28 +12,32 @@ class ReaderView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: EpubViewActualChapter(
-            controller: state.controller,
-            builder: (chapterValue) => Text(
-                  (chapterValue?.chapter?.Title?.replaceAll('\n', '').trim() ??
-                      ''),
-                  textAlign: TextAlign.start,
-                )),
-        actions: <Widget>[
-          IconButton(
-            icon: const Icon(Icons.close),
-            tooltip: context.t.reader.closeTooltip,
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-          )
-        ],
-      ),
-      drawer: ReaderNavigationDrawer(state: state),
-      body: EpubView(
-        controller: state.controller,
-      ),
-    );
+        appBar: AppBar(
+          title: EpubViewActualChapter(
+              controller: state.controller,
+              builder: (chapterValue) => Text(
+                    (chapterValue?.chapter?.Title
+                            ?.replaceAll('\n', '')
+                            .trim() ??
+                        ''),
+                    textAlign: TextAlign.start,
+                  )),
+          actions: <Widget>[
+            IconButton(
+              icon: const Icon(Icons.close),
+              tooltip: context.t.reader.closeTooltip,
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            )
+          ],
+        ),
+        drawer: ReaderNavigationDrawer(state: state),
+        body: SelectionArea(
+          child: EpubView(
+              controller: state.controller,
+              builders: const EpubViewBuilders<DefaultBuilderOptions>(
+                  options: DefaultBuilderOptions())),
+        ));
   }
 }
