@@ -13,7 +13,9 @@ class DownloadEbook {
     final cfi = await preferences.cfiTo(document.id);
 
     return EpubController(
-      document: repository.fetchEpub(document.translations[2].epubUrl),
+      document: repository.fetchEpub(document.translations
+          .firstWhere((t) => t.languageCode == "pt")
+          .epubUrl),
       epubCfi: cfi,
     );
   }
