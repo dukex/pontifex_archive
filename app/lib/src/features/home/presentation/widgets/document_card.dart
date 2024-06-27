@@ -30,6 +30,16 @@ class DocumentCard extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
                 style: Theme.of(context).textTheme.titleMedium,
               )),
+          Padding(
+              padding: const EdgeInsets.only(left: 5, right: 5),
+              child: Text(
+                document.date.year.toString(),
+                overflow: TextOverflow.ellipsis,
+                style: Theme.of(context)
+                    .textTheme
+                    .titleSmall
+                    ?.copyWith(fontStyle: FontStyle.italic),
+              )),
           const Spacer()
         ]),
       ),
