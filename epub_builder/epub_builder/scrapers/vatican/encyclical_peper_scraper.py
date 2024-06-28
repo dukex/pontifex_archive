@@ -26,6 +26,17 @@ class EncyclicalLetterScraper:
     def structure(self):
         return self._chapters;
 
+    def index_it(self, cur, document, document_translation):
+        for (title, chapter) in self._chapters.items():
+            if title != "NOTES":
+                content = "\n".join([
+                    BeautifulSoup(chapter['subtitle']).get_text(),
+                    "\n".join([BeautifulSoup(c).get_text() for c in chapter['content']])
+                ])
+
+                cur.execute(f"INSERT INTO chapters(document_id, document_name, title, body, language_code) VALUES(?, ?, ?, ?)", (document.id, document.name, title, content, document_translation.language_code))
+
+
     def run(self):
         print(f"running {self._name}")
         current_chapter = self._name.upper()
