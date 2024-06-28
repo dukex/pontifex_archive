@@ -34,7 +34,7 @@ class EncyclicalLetterScraper:
                     "\n".join([BeautifulSoup(c).get_text() for c in chapter['content']])
                 ])
 
-                cur.execute(f"INSERT INTO chapters(document_id, document_name, title, body, language_code) VALUES(?, ?, ?, ?)", (document.id, document.name, title, content, document_translation.language_code))
+                cur.execute(f"INSERT INTO chapters(document_id, document_name, title, body, language_code) VALUES(?, ?, ?, ?, ?)", (document.id, document.name, title, content, document_translation.language_code))
 
 
     def run(self):

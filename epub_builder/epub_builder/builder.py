@@ -8,7 +8,8 @@ import sqlite3
 def generate():
     _popes = popes.all()
     database_path = f"{os.path.dirname(__file__)}/../../api/data/database.sqlite"
-    os.remove(database_path)
+    if os.path.exists(database_path):
+        os.remove(database_path)
     con = sqlite3.connect(database_path)
     cur = con.cursor()
     cur.execute("CREATE VIRTUAL TABLE IF NOT EXISTS chapters USING FTS5(document_id, document_name, title, body, language_code);")
