@@ -10,55 +10,6 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //final state = context.read<HomeBloc>().state;
-
-    // final List<Widget> children = <Widget>[
-    //   state.loading
-    //       ? Container(
-    //           padding: const EdgeInsets.only(top: 5),
-    //           alignment: Alignment.center,
-    //           child: const CircularProgressIndicator())
-    //       : const SizedBox(),
-    //   Padding(
-    //       padding: const EdgeInsets.only(top: 15, left: 15, right: 15),
-    //       child: PopesListWithDocuments(
-    //         state: state,
-    //       ))
-    // const ToggleLanguage(),
-
-    // Text(
-    //   'Continue reading',
-    //   style: Theme.of(context).textTheme.titleMedium,
-    // ),
-    // const SizedBox(height: 8),
-    // _buildContinueReadingCard(context),
-    // const SizedBox(height: 16),
-    // // Carrossel dos Papas
-    // Text(
-    //   'Popes',
-    //   style: Theme.of(context).textTheme.titleMedium,
-    // ),
-    // const SizedBox(height: 8),
-    // _buildPopeCarousel(context),
-    // Text(
-    //   'Documents',
-    //   style: Theme.of(context).textTheme.titleMedium,
-    // ),
-    // GridView.builder(
-    //     physics: const NeverScrollableScrollPhysics(),
-    //     shrinkWrap: true,
-    //     gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-    //       crossAxisCount: 3,
-    //       // childAspectRatio: 2 / 3,
-    //       mainAxisSpacing: 10.0,
-    //       crossAxisSpacing: 10.0,
-    //     ),
-    //     itemCount: state.documents.length,
-    //     itemBuilder: (context, index) {
-    //       return DocumentListItem(document: state.documents[index]);
-    //     })
-    //];
-
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
       return SingleChildScrollView(
@@ -85,39 +36,4 @@ class HomeView extends StatelessWidget {
       )
     ];
   }
-
-  // Widget _buildContinueReadingCard(BuildContext context) {
-  //   final document = DocumentEntity(
-  //       id: "enc-20051225-deus_caritas_est",
-  //       type: "enc",
-  //       name: "Deus caritas est",
-  //       date: DateTime.parse("2005-12-25"),
-  //       translations: []);
-
-  //   return Card(
-  //     clipBehavior: Clip.hardEdge,
-  //     child: InkWell(
-  //       onTap: () {
-  //         showDocumentModal(context, document);
-  //       },
-  //       child: ListTile(
-  //         leading: Container(
-  //           width: 75,
-  //           height: 75,
-  //           decoration: BoxDecoration(
-  //             image: DecorationImage(
-  //               image: NetworkImage(document.coverUrl),
-  //               fit: BoxFit.cover,
-  //             ),
-  //           ),
-  //         ),
-  //         title: Text(
-  //           document.name,
-  //           style: Theme.of(context).textTheme.titleLarge,
-  //         ),
-  //         subtitle: Text("Pope"),
-  //       ),
-  //     ),
-  //   );
-  // }
 }
