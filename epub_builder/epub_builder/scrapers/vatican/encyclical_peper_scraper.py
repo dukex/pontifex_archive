@@ -27,14 +27,14 @@ class EncyclicalLetterScraper:
         return self._chapters;
 
     def index_it(self, cur, document, document_translation):
-        for (title, chapter) in self._chapters.items():
+        for i,(title, chapter) in enumerate(self._chapters.items()):
             if title != "NOTES":
                 content = "\n".join([
                     BeautifulSoup(chapter['subtitle']).get_text(),
                     "\n".join([BeautifulSoup(c).get_text() for c in chapter['content']])
                 ])
 
-                cur.execute(f"INSERT INTO chapters(document_id, document_name, title, body, language_code) VALUES(?, ?, ?, ?, ?)", (document.id, document.name, title, content, document_translation.language_code))
+                cur.execute(f"INSERT INTO chapters(id, document_id, document_name, title, content, language_code) VALUES(?, ?, ?, ?, ?, ?)", (f"{document_translation.language_code}/{document.id}/{i}", document.id, document.name, title, content, document_translation.language_code, ))
 
 
     def run(self):
