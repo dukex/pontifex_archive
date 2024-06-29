@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
+version = "1.0.0"
+
 def has_content(element):
     return len(re.sub(r"\W", "", element.text.strip())) > 0
 
@@ -34,7 +36,7 @@ class EncyclicalLetterScraper:
                     "\n".join([BeautifulSoup(c).get_text() for c in chapter['content']])
                 ])
 
-                cur.execute(f"INSERT INTO chapters(id, document_id, document_name, title, content, language_code) VALUES(?, ?, ?, ?, ?, ?)", (f"{document_translation.language_code}/{document.id}/{i}", document.id, document.name, title, content, document_translation.language_code, ))
+                cur.execute(f"INSERT INTO chapters(id, document_id, document_name, title, content, language_code, version) VALUES(?, ?, ?, ?, ?, ?, ?)", (f"{document_translation.language_code}/{document.id}/{i}", document.id, document.name, title, content, document_translation.language_code, version))
 
 
     def run(self):

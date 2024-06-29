@@ -12,7 +12,7 @@ def generate():
         os.remove(database_path)
     con = sqlite3.connect(database_path)
     cur = con.cursor()
-    cur.execute("CREATE TABLE IF NOT EXISTS chapters(id TEXT PRIMARY KEY, document_id TEXT, document_name TEXT, title TEXT, content TEXT, language_code TEXT);")
+    cur.execute("CREATE TABLE IF NOT EXISTS chapters(id TEXT PRIMARY KEY, document_id TEXT, document_name TEXT, title TEXT, content TEXT, language_code TEXT, version TEXT);")
     cur.execute("CREATE VIRTUAL TABLE IF NOT EXISTS search USING FTS5(id UNINDEXED, content, content='chapters');")
     cur.execute("CREATE TRIGGER update_search AFTER INSERT ON chapters BEGIN INSERT INTO search(id, content) VALUES (new.id, new.content); END;")
 
