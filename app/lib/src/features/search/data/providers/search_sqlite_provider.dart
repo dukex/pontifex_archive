@@ -12,7 +12,7 @@ import 'package:http/http.dart' as http;
 var httpClient = HttpClient();
 
 class SearchSQLiteProvider implements SearchProvider {
-  late Database database;
+  late Database? database;
   late String databasePath;
   late SearchMetadata metadata;
 
@@ -39,7 +39,7 @@ class SearchSQLiteProvider implements SearchProvider {
       // TODO: handle error
     }
 
-    ResultSet results = database.select("""
+    ResultSet results = database!.select("""
     SELECT c.document_id, c.document_name, COUNT(c.id) as count
     FROM (
       SELECT id
