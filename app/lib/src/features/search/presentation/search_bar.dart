@@ -23,7 +23,7 @@ class SearchBar extends StatelessWidget {
         create: (_) => SearchBloc(search)..add(CheckSearchDataEvent()),
         child:
             BlocConsumer<SearchBloc, SearchState>(listener: (context, state) {
-          print(state);
+          //OK
         }, builder: (context, state) {
           if (state is SearchConnectedState) {
             return SearchAnchor(

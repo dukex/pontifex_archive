@@ -10,7 +10,7 @@ import 'popes_provider_test.mocks.dart';
 void main() {
   test('PopeProvider#fetchPopes get popes from api', () async {
     var textResponse =
-        '[{"id": "benedictus", "motto": "motto test", "country": "German", "startDate": "2019-12-10", "name": "Benedictus", "translations": [{"name": "Bento", "language": "pt"}], "documents": [{"id": "caritas", "type": "enc", "name": "Caritas", "date": "2020-01-01", "translations": [{"language": "pt", "vatican_url": "https://url.com"}]}] }]';
+        '[{ "number": 265, "id": "benedictus-xvi","image_url": "https://url/benedictus-xvi/image.jpg", "name": "Benedictus XVI", "personal_name": "Joseph Aloisius Ratzinger", "motto": "Cooperatores veritatis", "country": "Germany", "start_date": "2005-04-19", "end_date": "2013-02-28","translations": [{"language_code": "en","name": "Benedict XVI","motto": "Cooperators of the Truth"}],"documents": [{"id": "enc-20090629-caritas-in-veritate","authorId": "benedictus-xvi", "name": "Caritas in veritate","date": "2009-06-29","type": "enc","translations": [{"id": "en/enc-20090629-caritas-in-veritate","epub_url": "http://url/enc-20090629-caritas-in-veritate.epub","language_code": "en","vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"}  ],"cover_url": "https://url/enc-20090629-caritas-in-veritate.png"}]}]';
 
     final client = MockClient();
 
@@ -22,7 +22,7 @@ void main() {
     var popes = await popeProvider.fetchPopes(client);
     var pope = popes[0];
 
-    expect(pope.id, equals("benedictus"));
+    expect(pope.id, equals("benedictus-xvi"));
     // expect(pope.name, equals("Benedictus"));
     // expect(pope.motto, equals("motto test"));
     // expect(pope.country, equals("German"));

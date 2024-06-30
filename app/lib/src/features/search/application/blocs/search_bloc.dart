@@ -21,7 +21,6 @@ class SearchBloc extends Bloc<SearchEvent, SearchState> {
       }
     } catch (e) {
       // OK
-      print(e);
     }
   }
 }
