@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 9 (4 per locale)
+/// Strings: 11 (5 per locale)
 ///
-/// Built on 2024-06-23 at 23:27 UTC
+/// Built on 2024-06-29 at 22:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -152,6 +152,7 @@ class Translations implements BaseTranslations<AppLocale, Translations> {
 	late final _I18nAuthorEn author = _I18nAuthorEn._(_root);
 	late final _I18nHomeEn home = _I18nHomeEn._(_root);
 	late final _I18nReaderEn reader = _I18nReaderEn._(_root);
+	late final _I18nSearchEn search = _I18nSearchEn._(_root);
 }
 
 // Path: app
@@ -195,6 +196,19 @@ class _I18nReaderEn {
 	// Translations
 	String get closeTooltip => 'Close reader';
 	late final _I18nReaderNavigationDrawerEn navigation_drawer = _I18nReaderNavigationDrawerEn._(_root);
+}
+
+// Path: search
+class _I18nSearchEn {
+	_I18nSearchEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String found({required num n}) => (_root.$meta.cardinalResolver ?? PluralResolvers.cardinal('en'))(n,
+		one: 'Found in ${n} chapter',
+		other: 'Found in ${n} chapters',
+	);
 }
 
 // Path: author.header
@@ -340,6 +354,10 @@ extension on Translations {
 			case 'home.popes.title': return 'Popes';
 			case 'reader.closeTooltip': return 'Close reader';
 			case 'reader.navigation_drawer.chapters.title': return 'Chapters';
+			case 'search.found': return ({required num n}) => (_root.$meta.cardinalResolver ?? PluralResolvers.cardinal('en'))(n,
+				one: 'Found in ${n} chapter',
+				other: 'Found in ${n} chapters',
+			);
 			default: return null;
 		}
 	}
