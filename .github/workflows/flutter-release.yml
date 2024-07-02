@@ -66,20 +66,19 @@ jobs:
           echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> app/android/key.properties
           echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> app/android/key.properties
       - name: Build Android App Bundle
-        run: cd app && flutter build appbundle
-
+        run: cd app && flutter build appbundle --release
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
           bundler-cache: true
-      - name: Release to Google Play (beta)
+      - name: Release to Google Play (internal)
         env:
           SUPPLY_PACKAGE_NAME: ${{ secrets.ANDROID_PACKAGE_NAME }}
           SUPPLY_JSON_KEY_DATA: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
-          bundle exec fastlane supply \
-          --aab app/build/app/outputs/bundle/release/app-release.aab \
-          --track beta
+          cd app/fastlane && bundle exec fastlane supply \
+          --aab ../build/app/outputs/bundle/release/app-release.aab \
+          --track internal
   web:
     needs: [build]
     name: Web
