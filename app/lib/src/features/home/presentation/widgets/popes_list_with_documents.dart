@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/src/core/application/by_desc.dart';
+import 'package:pontifex_archive/src/core/data/models/document.dart';
 import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/core/domain/entities/pope.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_state.dart';
 import 'package:pontifex_archive/src/features/home/presentation/widgets/document_card.dart';
+import 'package:pontifex_archive/src/features/home/presentation/widgets/document_list.dart';
 
 class PopesListWithDocuments extends StatelessWidget {
   final HomeState state;
@@ -21,33 +23,19 @@ class PopesListWithDocuments extends StatelessWidget {
           final documents = pope.documents;
           documents.sort(byDesc<DocumentEntity>((document) => document.date));
 
-          return Container(
-              padding: const EdgeInsets.only(top: 20),
-              child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Text(
-                      pope.nameLocale(
-                          LocaleSettings.currentLocale.flutterLocale),
-                      textAlign: TextAlign.start,
-                      style: Theme.of(context).textTheme.titleLarge?.copyWith(),
-                    ),
-                    GridView.builder(
-                        padding: EdgeInsets.zero,
-                        physics: const NeverScrollableScrollPhysics(),
-                        shrinkWrap: true,
-                        gridDelegate:
-                            const SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 3,
-                          mainAxisSpacing: 6,
-                          crossAxisSpacing: 6,
-                          childAspectRatio: 2 / 2.70,
-                        ),
-                        itemCount: documents.length,
-                        itemBuilder: (context, index) {
-                          return DocumentCard(document: documents[index]);
-                        }),
-                  ]));
+          return Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text(
+                    pope.nameLocale(LocaleSettings.currentLocale.flutterLocale),
+                    textAlign: TextAlign.start,
+                    style: Theme.of(context)
+                        .textTheme
+                        .titleLarge
+                        ?.copyWith(fontWeight: FontWeight.bold)),
+                const SizedBox(height: 6),
+                DocumentList(documents: documents)
+              ]);
         }).toList());
   }
 }

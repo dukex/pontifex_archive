@@ -34,7 +34,7 @@ class AuthorScreen extends StatelessWidget {
     final author = state.author;
 
     const padding = 12.0;
-    final width = (MediaQuery.of(context).size.width);
+    final width = (MediaQuery.sizeOf(context).width);
 
     var children = <Widget>[
       SafeArea(
