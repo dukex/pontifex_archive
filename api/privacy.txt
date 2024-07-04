@@ -1,0 +1,35 @@
+Privacy Notes for The Papal Documents Reader App
+
+1. Introduction
+The Papal Documents Reader app is designed to provide users with easy and elegant access to a comprehensive collection of papal documents. These include encyclicals, the catechism, canon law, papal bulls, and other important writings from the Church. Inspired by the grandeur and tradition of cathedrals, the app offers a visually appealing and reverent reading experience.
+
+2. Data Collection
+We collect the following data:
+
+    Name: To personalize the user experience.
+    Email: For user login and registration.
+    Reading Preferences: Such as font size, books already read, and reading progress to enhance the reading experience.
+
+3. Use of Data
+The collected data is used as follows:
+
+    Name: To personalize the app experience.
+    Email: For user login.
+    Font Size: To customize the reading experience.
+    Books Read and Reading Progress: To enhance the reading experience.
+
+4. Data Sharing
+We do not share user data with third parties.
+
+5. Data Storage and Security
+
+    Login Data: Email and password are stored on secure servers with encryption. Employees and developers do not have access to this data.
+    Other Data: Stored internally on the user’s device.
+
+6. User Rights
+Users have the right to:
+
+    Access, Correct, and Delete Data: Device-stored data can be deleted using the mechanisms available on the device. For email and password data, users can contact pontifexarchive@emersonalmeida.wtf.
+
+7. Changes to the Privacy Policy
+Users will be informed of any changes to the privacy policy via the link: https://emersonalmeida.wtf/pontifex_archive/privacy.txt.
