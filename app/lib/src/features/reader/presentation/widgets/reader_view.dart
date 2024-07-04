@@ -1,7 +1,9 @@
 import 'package:epub_view/epub_view.dart';
 import 'package:flutter/material.dart';
 import 'package:pontifex_archive/i18n.g.dart';
+import 'package:pontifex_archive/src/core/theme/media_utils.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_state.dart';
+import 'package:pontifex_archive/src/features/reader/presentation/widgets/reader_chapters.dart';
 import 'package:pontifex_archive/src/features/reader/presentation/widgets/reader_navigation_drawer.dart';
 
 class ReaderView extends StatelessWidget {
@@ -11,6 +13,8 @@ class ReaderView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final u = MediaUtils.of(context);
+
     return Scaffold(
         appBar: AppBar(
           title: EpubViewActualChapter(
@@ -32,12 +36,21 @@ class ReaderView extends StatelessWidget {
             )
           ],
         ),
-        drawer: ReaderNavigationDrawer(state: state),
-        body: SelectionArea(
-          child: EpubView(
-              controller: state.controller,
-              builders: const EpubViewBuilders<DefaultBuilderOptions>(
-                  options: DefaultBuilderOptions())),
-        ));
+        drawer: u.isLargeScreen ? null : ReaderNavigationDrawer(state: state),
+        body: Row(children: [
+          if (u.isLargeScreen) ReaderChapters(state: state),
+          if (u.isLargeScreen)
+            SizedBox(
+              width: u.padding,
+            ),
+          Expanded(
+              child: SelectionArea(
+            child: EpubView(controller: state.controller),
+          )),
+          if (u.isLargeScreen)
+            SizedBox(
+              width: u.padding,
+            ),
+        ]));
   }
 }

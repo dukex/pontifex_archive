@@ -20,7 +20,8 @@ class HomePage extends StatelessWidget {
 
     final utils = MediaUtils.of(context);
 
-    var padding = EdgeInsets.only(left: utils.padding, right: utils.padding);
+    var padding = EdgeInsets.only(
+        left: utils.padding, right: utils.padding, top: utils.padding);
 
     return BlocProvider<HomeBloc>(
       create: (_) => HomeBloc(getDocuments)..add(LoadHomeEvent()),
