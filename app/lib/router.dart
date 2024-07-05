@@ -1,6 +1,5 @@
 import 'package:better_router/better_router.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:pontifex_archive/src/features/author/presentation/author_page.dart';
 import 'package:pontifex_archive/src/features/home/presentation/home_page.dart';
 import 'package:pontifex_archive/src/features/onboarding/presentation/onboarding_page.dart';
