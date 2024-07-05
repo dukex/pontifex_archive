@@ -83,7 +83,7 @@ jobs:
         run: |
           cd app/fastlane && bundle exec fastlane supply \
           --aab ../build/app/outputs/bundle/release/app-release.aab \
-          --track alpha
+          --track alpha --release_status draft
 
   android-beta:
     needs: [android]
