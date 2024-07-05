@@ -76,40 +76,17 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: true
-      - name: Release to Google Play (internal)
-        env:
-          SUPPLY_PACKAGE_NAME: ${{ secrets.ANDROID_PACKAGE_NAME }}
-          SUPPLY_JSON_KEY_DATA: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
-        run: |
-          cd app/fastlane && bundle exec fastlane supply \
-          --aab ../build/app/outputs/bundle/release/app-release.aab \
-          --track internal
-
-  android-alpha:
-    needs: [android]
-    name: Android Alpha
-    runs-on: ubuntu-latest
-    environment: android-alpha
-    env:
-      BUNDLE_GEMFILE: ${{ github.workspace }}/app/fastlane/Gemfile
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3"
-          bundler-cache: true
       - name: Release to Google Play (alpha)
         env:
           SUPPLY_PACKAGE_NAME: ${{ secrets.ANDROID_PACKAGE_NAME }}
           SUPPLY_JSON_KEY_DATA: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
           cd app/fastlane && bundle exec fastlane supply \
-          --track alpha --track_promote_to
+          --aab ../build/app/outputs/bundle/release/app-release.aab \
+          --track alpha
 
   android-beta:
-    needs: [android-alpha]
+    needs: [android]
     name: Android Beta
     runs-on: ubuntu-latest
     environment: android-beta
