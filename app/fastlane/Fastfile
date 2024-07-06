@@ -1,0 +1,23 @@
+require 'yaml'
+
+update_fastlane
+
+default_platform(:android)
+
+pubspec = YAML.load(File.read("../pubspec.yaml"))
+version_name,version_code = pubspec["version"].split("+")
+
+platform :android do
+  desc "Deploy a new version to the Google Play"
+  lane :deploy do
+    sh("flutter build appbundle --release")
+
+    changelog_from_git_commits
+
+    upload_to_play_store(version_name: version_name, version_code: version_code, release_status: "completed", track: "alpha", aab: "build/app/outputs/bundle/release/app-release.aab")
+  end
+
+  lane :promote_to_beta do
+    upload_to_play_store(version_name: "#{version_name}-#{version_code}", version_code: version_code, release_status: "completed", track: "alpha", track_promote_to: "beta")
+  end
+end
