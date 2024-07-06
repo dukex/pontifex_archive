@@ -45,12 +45,41 @@ class ReaderView extends StatelessWidget {
             ),
           Expanded(
               child: SelectionArea(
-            child: EpubView(controller: state.controller),
+            child: EpubView(
+              controller: state.controller,
+              builders: EpubViewBuilders<DefaultBuilderOptions>(
+                  chapterDividerBuilder: _chapterDividerBuilder(context),
+                  options: const DefaultBuilderOptions()),
+            ),
           )),
           if (u.isLargeScreen)
             SizedBox(
               width: u.padding,
             ),
         ]));
+  }
+
+  _chapterDividerBuilder(BuildContext context) {
+    final theme = Theme.of(context);
+    final u = MediaUtils.of(context);
+
+    return (EpubChapter chapter) {
+      return Container(
+        decoration: BoxDecoration(
+            border: Border(
+          top: BorderSide(width: 1, color: theme.colorScheme.secondary),
+        )),
+        width: double.infinity,
+        padding: EdgeInsets.only(
+            top: u.padding * 2,
+            left: u.padding,
+            right: u.padding,
+            bottom: u.padding),
+        child: Text(
+          chapter.Title ?? '',
+          style: theme.textTheme.headlineLarge,
+        ),
+      );
+    };
   }
 }

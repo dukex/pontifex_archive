@@ -1,5 +1,3 @@
-import 'package:epub_view/src/data/models/chapter_view_value.dart';
-import 'package:epub_view/src/ui/epub_view.dart';
 import 'package:flutter/material.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_state.dart';
 import 'package:pontifex_archive/src/features/reader/presentation/widgets/reader_navigation_drawer.dart';

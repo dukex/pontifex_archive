@@ -13,10 +13,10 @@ class DocumentList extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: 24),
       physics: const NeverScrollableScrollPhysics(),
       shrinkWrap: true,
-      maxCrossAxisExtent: 160,
+      maxCrossAxisExtent: 150,
       mainAxisSpacing: 16,
       crossAxisSpacing: 6,
-      childAspectRatio: 2 / 2.70,
+      childAspectRatio: 6 / 9,
       children: documents
           .map<DocumentCard>((document) => DocumentCard(document: document))
           .toList(),
