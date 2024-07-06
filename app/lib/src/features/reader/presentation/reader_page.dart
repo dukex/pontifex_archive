@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pontifex_archive/injection_container.dart';
 import 'package:pontifex_archive/src/core/data/providers/document_provider.dart';
 import 'package:pontifex_archive/src/core/data/providers/preferences_provider.dart';
 import 'package:pontifex_archive/src/core/data/repositories/document_repository_impl.dart';
@@ -19,22 +20,8 @@ class ReaderPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final documentProvider = DocumentProvider();
-    final preferencesProvider = PreferencesProvider();
-
-    final documentRepository = DocumentRepositoryImpl(documentProvider);
-    final preferencesRepository =
-        PreferencesRepositoryImpl(preferencesProvider);
-
-    final getDocument = GetDocument(documentRepository);
-    final downloadEbook =
-        DownloadEbook(documentRepository, preferencesRepository);
-    final saveReadingPosition = SaveReadingPosition(preferencesRepository);
-
     return BlocProvider<ReaderBloc>(
-        create: (context) =>
-            ReaderBloc(getDocument, downloadEbook, saveReadingPosition)
-              ..add(LoadDocumentEvent(id)),
+        create: (context) => sl<ReaderBloc>()..add(LoadDocumentEvent(id)),
         child:
             BlocConsumer<ReaderBloc, ReaderState>(listener: (context, state) {
           if (state is EbookDownloaded) {
