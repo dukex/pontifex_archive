@@ -39,7 +39,7 @@ class ReaderBloc extends Bloc<ReaderEvent, ReaderState> {
   Future<void> _onSaveReadingPosition(
       SaveReadingPositionEvent event, Emitter<ReaderState> emit) async {
     try {
-      await saveReadingPosition(event.document, event.cfi);
+      await saveReadingPosition(event.document, event.cfi, event.progress);
     } catch (e) {
       // nothing
     }

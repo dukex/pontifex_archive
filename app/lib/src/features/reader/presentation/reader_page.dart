@@ -40,7 +40,9 @@ class ReaderPage extends StatelessWidget {
           if (state is EbookDownloaded) {
             state.controller.currentValueListenable.addListener(() {
               context.read<ReaderBloc>().add(SaveReadingPositionEvent(
-                  state.document, state.controller.generateEpubCfi()));
+                  state.document,
+                  state.controller.generateEpubCfi(),
+                  state.controller.currentValue?.progress));
             });
           }
         }, builder: (context, state) {

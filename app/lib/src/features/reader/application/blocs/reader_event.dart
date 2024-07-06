@@ -20,6 +20,7 @@ class LoadDocumentEvent extends ReaderEvent {
 class SaveReadingPositionEvent extends ReaderEvent {
   final DocumentEntity document;
   final String? cfi;
+  final double? progress;
 
-  const SaveReadingPositionEvent(this.document, this.cfi);
+  const SaveReadingPositionEvent(this.document, this.cfi, this.progress);
 }

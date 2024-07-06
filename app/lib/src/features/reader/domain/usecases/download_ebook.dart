@@ -10,7 +10,7 @@ class DownloadEbook {
   DownloadEbook(this.repository, this.preferences);
 
   Future<EpubController?> call(DocumentEntity document) async {
-    final cfi = await preferences.cfiTo(document.id);
+    final cfi = await preferences.getPosition(document.id);
 
     return EpubController(
       document: repository.fetchEpub(document.translations

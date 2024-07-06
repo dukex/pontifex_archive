@@ -7,17 +7,22 @@ class PreferencesRepositoryImpl extends PreferencesRepository {
   PreferencesRepositoryImpl(this.provider);
 
   @override
-  Future<String> get(String id, String fallback) async {
-    return await provider.getString(id) ?? fallback;
+  Future<String> getPosition(String id) async {
+    return await provider.getString("position:$id") ?? "";
   }
 
   @override
-  Future<String> cfiTo(String id) {
-    return get("cfi:$id", "");
+  Future<double> getProgress(String id) async {
+    return await provider.getDouble("progress:$id") ?? 0;
   }
 
   @override
-  Future<bool> saveCfi(String id, String cfi) {
-    return provider.setString("cfi:$id", cfi);
+  Future<bool> saveReadingProgress(
+      String id, String position, double progress) async {
+    Future<bool> savePosition = provider.setString("position:$id", position);
+    Future<bool> saveProgress = provider.setDouble("progress:$id", progress);
+
+    return Future.value(savePosition)
+        .then((save) => save ? saveProgress : false);
   }
 }
