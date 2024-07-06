@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pontifex_archive/i18n.g.dart';
+import 'package:pontifex_archive/injection_container.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_bloc.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_event.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_state.dart';
-import 'package:pontifex_archive/src/features/search/data/providers/search_sqlite_provider.dart';
-import 'package:pontifex_archive/src/features/search/data/repositories/search_repository_impl.dart';
 import 'package:pontifex_archive/src/features/search/domain/usercases/search.dart';
 
 class SearchBar extends StatelessWidget {
@@ -15,12 +14,10 @@ class SearchBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final searchProvider = SearchSQLiteProvider();
-    final searchRepository = SearchRepositoryImpl(searchProvider);
-    final search = Search(searchRepository);
+    final search = sl<Search>();
 
     return BlocProvider<SearchBloc>(
-        create: (_) => SearchBloc(search)..add(CheckSearchDataEvent()),
+        create: (_) => sl<SearchBloc>()..add(CheckSearchDataEvent()),
         child:
             BlocConsumer<SearchBloc, SearchState>(listener: (context, state) {
           //OK

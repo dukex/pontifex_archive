@@ -19,6 +19,12 @@ import 'package:pontifex_archive/src/features/reader/application/blocs/reader_bl
 import 'package:pontifex_archive/src/features/reader/domain/usecases/download_ebook.dart';
 import 'package:pontifex_archive/src/features/reader/domain/usecases/get_document.dart';
 import 'package:pontifex_archive/src/features/reader/domain/usecases/save_reading_position.dart';
+import 'package:pontifex_archive/src/features/search/application/blocs/search_bloc.dart';
+import 'package:pontifex_archive/src/features/search/data/providers/search_provider.dart';
+import 'package:pontifex_archive/src/features/search/data/providers/search_sqlite_provider.dart';
+import 'package:pontifex_archive/src/features/search/data/repositories/search_repository.dart';
+import 'package:pontifex_archive/src/features/search/data/repositories/search_repository_impl.dart';
+import 'package:pontifex_archive/src/features/search/domain/usercases/search.dart';
 
 final sl = GetIt.instance;
 
@@ -29,6 +35,7 @@ Future<void> init() async {
   );
   sl.registerFactory(() => AuthorBloc(sl()));
   sl.registerFactory(() => ReaderBloc(sl(), sl(), sl()));
+  sl.registerFactory(() => SearchBloc(sl()));
 
   // Use cases
   sl.registerLazySingleton(() => GetPopes(sl()));
@@ -36,6 +43,7 @@ Future<void> init() async {
   sl.registerLazySingleton(() => GetDocument(sl()));
   sl.registerLazySingleton(() => DownloadEbook(sl(), sl()));
   sl.registerLazySingleton(() => SaveReadingPosition(sl()));
+  sl.registerLazySingleton(() => Search(sl()));
 
   // Repository
   sl.registerLazySingleton<PopeRepository>(
@@ -46,6 +54,7 @@ Future<void> init() async {
   sl.registerLazySingleton<AuthorRepository>(() => AuthorRepositoryImpl(sl()));
   sl.registerLazySingleton<DocumentRepository>(
       () => DocumentRepositoryImpl(sl()));
+  sl.registerLazySingleton<SearchRepository>(() => SearchRepositoryImpl(sl()));
 
   // Provider
   sl.registerFactory(
@@ -54,4 +63,5 @@ Future<void> init() async {
   sl.registerFactory(() => PreferencesProvider());
   sl.registerFactory(() => AuthorProvider());
   sl.registerFactory(() => DocumentProvider());
+  sl.registerLazySingleton<SearchProvider>(() => SearchSQLiteProvider());
 }
