@@ -1,16 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pontifex_archive/injection_container.dart';
-import 'package:pontifex_archive/src/core/data/providers/document_provider.dart';
-import 'package:pontifex_archive/src/core/data/providers/preferences_provider.dart';
-import 'package:pontifex_archive/src/core/data/repositories/document_repository_impl.dart';
-import 'package:pontifex_archive/src/core/data/repositories/preferences_repository_impl.dart';
-import 'package:pontifex_archive/src/features/reader/domain/usecases/save_reading_position.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_bloc.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_event.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_state.dart';
-import 'package:pontifex_archive/src/features/reader/domain/usecases/download_ebook.dart';
-import 'package:pontifex_archive/src/features/reader/domain/usecases/get_document.dart';
 import 'package:pontifex_archive/src/features/reader/presentation/widgets/reader_view.dart';
 
 class ReaderPage extends StatelessWidget {

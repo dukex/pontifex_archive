@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/src/core/application/by_desc.dart';
-import 'package:pontifex_archive/src/core/data/models/document.dart';
 import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/core/domain/entities/pope.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_state.dart';
-import 'package:pontifex_archive/src/features/home/presentation/widgets/document_card.dart';
 import 'package:pontifex_archive/src/features/home/presentation/widgets/document_list.dart';
 
 class PopesListWithDocuments extends StatelessWidget {

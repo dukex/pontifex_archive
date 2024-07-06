@@ -24,7 +24,7 @@ import 'package:pontifex_archive/src/features/search/data/providers/search_provi
 import 'package:pontifex_archive/src/features/search/data/providers/search_sqlite_provider.dart';
 import 'package:pontifex_archive/src/features/search/data/repositories/search_repository.dart';
 import 'package:pontifex_archive/src/features/search/data/repositories/search_repository_impl.dart';
-import 'package:pontifex_archive/src/features/search/domain/usercases/search.dart';
+import 'package:pontifex_archive/src/features/search/domain/usecases/search.dart';
 
 final sl = GetIt.instance;
 
