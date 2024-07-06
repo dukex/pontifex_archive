@@ -1,4 +1,4 @@
-import 'package:pontifex_archive/src/features/search/domain/usercases/search.dart';
+import 'package:pontifex_archive/src/features/search/domain/usecases/search.dart';
 
 abstract class SearchState {
   final bool exists;

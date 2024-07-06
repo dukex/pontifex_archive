@@ -5,7 +5,7 @@ import 'package:pontifex_archive/injection_container.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_bloc.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_event.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_state.dart';
-import 'package:pontifex_archive/src/features/search/domain/usercases/search.dart';
+import 'package:pontifex_archive/src/features/search/domain/usecases/search.dart';
 
 class SearchBar extends StatelessWidget {
   const SearchBar({

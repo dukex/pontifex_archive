@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pontifex_archive/src/features/search/domain/usercases/search.dart';
+import 'package:pontifex_archive/src/features/search/domain/usecases/search.dart';
 import 'search_event.dart';
 import 'search_state.dart';
 

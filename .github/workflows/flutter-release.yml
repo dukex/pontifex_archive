@@ -70,8 +70,6 @@ jobs:
           echo "storePassword=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" >> app/android/key.properties
           echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> app/android/key.properties
           echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> app/android/key.properties
-      - name: Build Android App Bundle
-        run: cd app && flutter build appbundle --release
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
@@ -81,9 +79,7 @@ jobs:
           SUPPLY_PACKAGE_NAME: ${{ secrets.ANDROID_PACKAGE_NAME }}
           SUPPLY_JSON_KEY_DATA: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
-          cd app/fastlane && bundle exec fastlane supply \
-          --aab ../build/app/outputs/bundle/release/app-release.aab \
-          --track alpha --release_status draft
+          cd app/fastlane && bundle exec fastlane deploy
 
   android-beta:
     needs: [android]
@@ -105,8 +101,7 @@ jobs:
           SUPPLY_PACKAGE_NAME: ${{ secrets.ANDROID_PACKAGE_NAME }}
           SUPPLY_JSON_KEY_DATA: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
-          cd app/fastlane && bundle exec fastlane supply \
-          --track beta --track_promote_to
+          cd app/fastlane && bundle exec fastlane promote_to_beta
 
   android-production:
     needs: [android-beta]
@@ -125,11 +120,9 @@ jobs:
           bundler-cache: true
       - name: Release to Google Play (production)
         env:
-          SUPPLY_PACKAGE_NAME: ${{ secrets.ANDROID_PACKAGE_NAME }}
           SUPPLY_JSON_KEY_DATA: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
-          cd app/fastlane && bundle exec fastlane supply \
-          --track production --track_promote_to
+          cd app/fastlane && bundle exec fastlane promote_to_production
 
   web:
     needs: [build]
