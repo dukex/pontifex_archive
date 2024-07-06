@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pontifex_archive/injection_container.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_bloc.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_event.dart';
 import 'package:pontifex_archive/src/features/author/application/blocs/author_state.dart';
-import 'package:pontifex_archive/src/features/author/data/providers/author_provider.dart';
-import 'package:pontifex_archive/src/features/author/data/repositories/author_repository_impl.dart';
-import 'package:pontifex_archive/src/features/author/domain/usecases/get_author.dart';
 import 'package:pontifex_archive/src/features/author/presentation/author_screen.dart';
 
 class AuthorPage extends StatelessWidget {
@@ -14,12 +12,8 @@ class AuthorPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final authorProvider = AuthorProvider();
-    final authorRepository = AuthorRepositoryImpl(authorProvider);
-    final getDocuments = GetAuthor(authorRepository);
-
     return BlocProvider<AuthorBloc>(
-      create: (_) => AuthorBloc(getDocuments)..add(LoadAuthorEvent(id: id)),
+      create: (_) => sl<AuthorBloc>()..add(LoadAuthorEvent(id: id)),
       child: Scaffold(
           body: BlocConsumer<AuthorBloc, AuthorState>(
               listener: (context, state) {},
