@@ -25,6 +25,7 @@ dependencies:
   sqflite: ^2.3.3+1
   sqlite3_flutter_libs: ^0.5.24
   sqlite3: ^2.4.4
+  get_it: ^7.7.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
