@@ -59,6 +59,11 @@ android {
     buildTypes {
         release {
             signingConfig = signingConfigs.release
+            manifestPlaceholders = [appName: "Pontifex Archive"]
+        }
+        debug {
+            applicationIdSuffix = ".debug"
+            manifestPlaceholders = [appName: "[Debug] Pontifex Archive"]
         }
     }
 }
