@@ -79,7 +79,6 @@ jobs:
           bundler-cache: true
       - name: Release to Google Play (alpha)
         env:
-          SUPPLY_PACKAGE_NAME: ${{ secrets.ANDROID_PACKAGE_NAME }}
           SUPPLY_JSON_KEY_DATA: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
           cd app/fastlane && bundle exec fastlane deploy

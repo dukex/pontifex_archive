@@ -1,4 +1,4 @@
-package wtf.emersonalmeida.pontifex_archive
+package fm.leigo.pontifex_archive
 
 import io.flutter.embedding.android.FlutterActivity
 
