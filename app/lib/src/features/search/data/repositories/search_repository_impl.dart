@@ -1,6 +1,6 @@
 import 'package:pontifex_archive/src/features/search/data/providers/search_provider.dart';
 import 'package:pontifex_archive/src/features/search/data/repositories/search_repository.dart';
-import 'package:pontifex_archive/src/features/search/domain/entities/search_found.dart';
+import 'package:pontifex_archive/src/features/search/domain/entities/search_result.dart';
 
 class SearchRepositoryImpl implements SearchRepository {
   final SearchProvider searchProvider;

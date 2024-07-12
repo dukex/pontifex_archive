@@ -1,4 +1,4 @@
-import 'package:pontifex_archive/src/features/search/domain/entities/search_found.dart';
+import 'package:pontifex_archive/src/features/search/domain/entities/search_result.dart';
 
 abstract class SearchRepository {
   Future<bool> setup();

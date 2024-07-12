@@ -2,5 +2,11 @@
   "found": {
     "one": "Found in $n chapter",
     "other": "Found in $n chapters"
-  }
+  },
+  "title": {
+    "zero": "Not found any document",
+    "one": "Found $n document",
+    "other": "Found in $n documents"
+  },
+  "defaultTitle": "Search for documents"
 }

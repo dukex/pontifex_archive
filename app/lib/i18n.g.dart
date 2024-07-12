@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 11 (5 per locale)
+/// Strings: 15 (7 per locale)
 ///
-/// Built on 2024-06-29 at 22:20 UTC
+/// Built on 2024-07-06 at 17:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -209,6 +209,12 @@ class _I18nSearchEn {
 		one: 'Found in ${n} chapter',
 		other: 'Found in ${n} chapters',
 	);
+	String title({required num n}) => (_root.$meta.cardinalResolver ?? PluralResolvers.cardinal('en'))(n,
+		zero: 'Not found any document',
+		one: 'Found ${n} document',
+		other: 'Found in ${n} documents',
+	);
+	String get defaultTitle => 'Search for documents';
 }
 
 // Path: author.header
@@ -358,6 +364,12 @@ extension on Translations {
 				one: 'Found in ${n} chapter',
 				other: 'Found in ${n} chapters',
 			);
+			case 'search.title': return ({required num n}) => (_root.$meta.cardinalResolver ?? PluralResolvers.cardinal('en'))(n,
+				zero: 'Not found any document',
+				one: 'Found ${n} document',
+				other: 'Found in ${n} documents',
+			);
+			case 'search.defaultTitle': return 'Search for documents';
 			default: return null;
 		}
 	}

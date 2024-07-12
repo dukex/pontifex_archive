@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/injection_container.dart';
+import 'package:pontifex_archive/src/core/theme/media_utils.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_bloc.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_event.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_state.dart';
@@ -28,18 +29,28 @@ class SearchBar extends StatelessWidget {
                     const Icon(Icons.search),
                 suggestionsBuilder:
                     (BuildContext context, SearchController controller) async {
-                  var searchSuggestions = search.doSearch(controller.text);
+                  final searchSuggestions = search.doSearch(controller.text);
+                  final u = MediaUtils.of(context);
 
-                  return searchSuggestions.results.map((result) {
-                    return ListTile(
-                      title: Text(result.title),
-                      subtitle: Text(context.t.search.found(n: result.count)),
-                      onTap: () {
-                        controller.closeView("");
-                        Navigator.pushNamed(context, "/reader/${result.id}");
-                      },
-                    );
-                  });
+                  return [
+                    Padding(
+                      padding: EdgeInsets.symmetric(
+                          vertical: u.padding, horizontal: u.padding),
+                      child: Text(controller.text.isNotEmpty
+                          ? context.t.search.title(n: searchSuggestions.length)
+                          : context.t.search.defaultTitle),
+                    ),
+                    ...searchSuggestions.map((result) {
+                      return ListTile(
+                        title: Text(result.title),
+                        subtitle: Text(context.t.search.found(n: result.count)),
+                        onTap: () {
+                          controller.closeView("");
+                          Navigator.pushNamed(context, "/reader/${result.id}");
+                        },
+                      );
+                    })
+                  ];
                 });
           }
 

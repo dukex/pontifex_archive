@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart';
 import 'package:pontifex_archive/src/features/search/data/providers/search_provider.dart';
-import 'package:pontifex_archive/src/features/search/domain/entities/search_found.dart';
+import 'package:pontifex_archive/src/features/search/domain/entities/search_result.dart';
 import 'package:sqlite3/sqlite3.dart';
 import 'dart:io';
 import 'package:path/path.dart';
@@ -37,6 +37,10 @@ class SearchSQLiteProvider implements SearchProvider {
   List<SearchResult> search(String text) {
     if (database == null) {
       // TODO: handle error
+    }
+
+    if (text.isEmpty) {
+      return [];
     }
 
     ResultSet results = database!.select("""
