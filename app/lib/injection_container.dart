@@ -38,9 +38,9 @@ Future<void> init() async {
   sl.registerFactory(() => SearchBloc(sl()));
 
   // Use cases
-  sl.registerLazySingleton(() => GetPopes(sl()));
+  sl.registerLazySingleton(() => GetPopes(sl(), sl()));
   sl.registerLazySingleton(() => GetAuthor(sl()));
-  sl.registerLazySingleton(() => GetDocument(sl()));
+  sl.registerLazySingleton(() => GetDocument(sl(), sl()));
   sl.registerLazySingleton(() => DownloadEbook(sl(), sl()));
   sl.registerLazySingleton(() => SaveReadingPosition(sl()));
   sl.registerLazySingleton(() => Search(sl()));

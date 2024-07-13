@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:pontifex_archive/src/core/data/models/document.dart';
 import 'package:pontifex_archive/src/core/data/models/document_translation.dart';
 
 class DocumentEntity {
@@ -10,6 +11,7 @@ class DocumentEntity {
   final String name;
   final String coverUrl;
   final List<DocumentTranslation> translations;
+  final double readingProgress;
 
   DocumentEntity({
     required this.authorId,
@@ -19,9 +21,23 @@ class DocumentEntity {
     required this.name,
     required this.coverUrl,
     required this.translations,
+    required this.readingProgress,
   });
 
   String nameLocale(Locale flutterLocale) {
     return name;
+  }
+
+  factory DocumentEntity.fromDocument(
+      Document document, double readingProgress) {
+    return DocumentEntity(
+        authorId: document.authorId,
+        id: document.id,
+        date: document.date,
+        type: document.type,
+        name: document.name,
+        coverUrl: document.coverUrl,
+        translations: document.translations,
+        readingProgress: readingProgress);
   }
 }

@@ -19,4 +19,10 @@ class DocumentProvider {
 
     return documents;
   }
+
+  Future<Document> fetchDocument(String id) async {
+    final documents = await fetchDocuments();
+
+    return documents.firstWhere((document) => document.id == id);
+  }
 }
