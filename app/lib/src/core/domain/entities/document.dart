@@ -40,4 +40,8 @@ class DocumentEntity {
         translations: document.translations,
         readingProgress: readingProgress);
   }
+
+  bool readingStarted() {
+    return readingProgress > 0;
+  }
 }
