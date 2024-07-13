@@ -1,4 +1,6 @@
+import 'package:pontifex_archive/src/core/data/models/pope.dart';
 import 'package:pontifex_archive/src/core/domain/entities/author.dart';
+import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 
 class PopeEntity extends AuthorEntity {
   final DateTime startDate;
@@ -15,4 +17,16 @@ class PopeEntity extends AuthorEntity {
       required this.startDate,
       required super.imageUrl,
       this.endDate});
+
+  factory PopeEntity.fromPope(Pope pope, List<DocumentEntity> documents) {
+    return PopeEntity(
+        id: pope.id,
+        motto: pope.motto,
+        name: pope.name,
+        translations: pope.translations,
+        country: pope.country,
+        documents: documents,
+        startDate: pope.startDate,
+        imageUrl: pope.imageUrl);
+  }
 }

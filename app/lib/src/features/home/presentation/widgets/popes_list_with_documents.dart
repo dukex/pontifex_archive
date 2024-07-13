@@ -5,6 +5,7 @@ import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/core/domain/entities/pope.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_state.dart';
 import 'package:pontifex_archive/src/features/home/presentation/widgets/document_list.dart';
+import 'package:pontifex_archive/src/features/home/presentation/widgets/documents_section.dart';
 
 class PopesListWithDocuments extends StatelessWidget {
   final HomeState state;
@@ -13,27 +14,18 @@ class PopesListWithDocuments extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final popes = state.popes;
-    popes.sort(byDesc<PopeEntity>((a) => a.startDate));
+    popes.sort(byDesc<PopeEntity, DateTime>((a) => a.startDate));
 
     return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: popes.map((pope) {
           final documents = pope.documents;
-          documents.sort(byDesc<DocumentEntity>((document) => document.date));
+          documents.sort(
+              byDesc<DocumentEntity, DateTime>((document) => document.date));
 
-          return Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Text(
-                    pope.nameLocale(LocaleSettings.currentLocale.flutterLocale),
-                    textAlign: TextAlign.start,
-                    style: Theme.of(context)
-                        .textTheme
-                        .titleLarge
-                        ?.copyWith(fontWeight: FontWeight.bold)),
-                const SizedBox(height: 6),
-                DocumentList(documents: documents)
-              ]);
+          return DocumentsSection(
+              name: pope.nameLocale(LocaleSettings.currentLocale.flutterLocale),
+              documents: documents);
         }).toList());
   }
 }

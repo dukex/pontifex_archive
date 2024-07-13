@@ -31,7 +31,8 @@ class ReaderView extends StatelessWidget {
               icon: const Icon(Icons.close),
               tooltip: context.t.reader.closeTooltip,
               onPressed: () {
-                Navigator.of(context).pop();
+                Navigator.of(context)
+                    .pop(state.controller.currentValue?.progress);
               },
             )
           ],

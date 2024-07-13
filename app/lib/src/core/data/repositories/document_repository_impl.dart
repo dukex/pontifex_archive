@@ -15,6 +15,11 @@ class DocumentRepositoryImpl implements DocumentRepository {
   }
 
   @override
+  Future<Document> getDocument(String id) {
+    return provider.fetchDocument(id);
+  }
+
+  @override
   Future<EpubBook> fetchEpub(String url) async {
     final response = await http.get(Uri.parse(url));
     if (response.statusCode == 200) {
