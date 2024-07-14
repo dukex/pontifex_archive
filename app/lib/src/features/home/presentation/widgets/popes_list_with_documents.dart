@@ -13,14 +13,13 @@ class PopesListWithDocuments extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final popes = state.popes;
-    popes.sort(byDesc<PopeEntity, DateTime>((a) => a.startDate));
+    popes.sort(byDesc<PopeEntity>((a) => a.startDate));
 
     return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: popes.map((pope) {
           final documents = pope.documents;
-          documents.sort(
-              byDesc<DocumentEntity, DateTime>((document) => document.date));
+          documents.sort(byDesc<DocumentEntity>((document) => document.date));
 
           return DocumentsSection(
               name: pope.nameLocale(LocaleSettings.currentLocale.flutterLocale),

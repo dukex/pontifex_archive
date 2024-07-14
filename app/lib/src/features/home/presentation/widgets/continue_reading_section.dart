@@ -30,8 +30,8 @@ class ContinueReadingSection extends StatelessWidget {
       documents.addAll(documentsStarted);
     }
 
-    documents.sort(
-        byDesc<DocumentEntity, double>((document) => document.readingProgress));
+    documents
+        .sort(byDesc<DocumentEntity>((document) => document.readingProgress));
 
     return documents;
   }
