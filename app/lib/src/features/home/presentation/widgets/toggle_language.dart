@@ -14,14 +14,14 @@ class ToggleLanguage extends StatelessWidget {
           child: const Text("Set locale to Pt"),
           onPressed: () => {
                 BlocProvider.of<LanguageBloc>(context).add(
-                  ToggleLanguageEvent(AppLocale.pt), // 0 - en, 1 - es
+                  ChangeLanguageEvent(AppLocale.pt), // 0 - en, 1 - es
                 )
               }),
       TextButton(
           child: const Text("Set locale to English"),
           onPressed: () => {
                 BlocProvider.of<LanguageBloc>(context).add(
-                  ToggleLanguageEvent(AppLocale.en), // 0 - en, 1 - es
+                  ChangeLanguageEvent(AppLocale.en), // 0 - en, 1 - es
                 )
               }),
     ]);

@@ -6,8 +6,8 @@ class LoadLanguageEvent extends LanguageEvent {
   LoadLanguageEvent();
 }
 
-class ToggleLanguageEvent extends LanguageEvent {
+class ChangeLanguageEvent extends LanguageEvent {
   final AppLocale locale;
 
-  ToggleLanguageEvent(this.locale);
+  ChangeLanguageEvent(this.locale);
 }
