@@ -1,15 +1,13 @@
-import 'package:http/http.dart' as http;
 import 'package:pontifex_archive/src/core/data/models/document.dart';
 import 'package:pontifex_archive/src/core/data/providers/popes_provider.dart';
 
 class DocumentProvider {
-  final String apiUrl =
-      'https://emersonalmeida.wtf/pontifex_archive/documents.json';
+  final PopeProvider popeProvider;
 
-  final PopeProvider _popeProvider = PopeProvider();
+  DocumentProvider(this.popeProvider);
 
   Future<List<Document>> fetchDocuments() async {
-    final popes = await _popeProvider.fetchPopes(http.Client());
+    final popes = await popeProvider.fetchPopes();
 
     List<Document> documents = [];
 

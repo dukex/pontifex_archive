@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
+import 'package:pontifex_archive/src/core/data/providers/leigo_fm_provider.dart';
 import 'package:pontifex_archive/src/core/data/providers/popes_provider.dart';
 import 'package:http/http.dart' as http;
 
@@ -14,12 +15,12 @@ void main() {
 
     final client = MockClient();
 
-    when(client.get(Uri.parse(PopeProvider.apiUrl)))
+    when(client.get(Uri.parse('https://pontifexarchive.leigo.fm/popes.json')))
         .thenAnswer((_) async => http.Response(textResponse, 200));
 
-    var popeProvider = PopeProvider();
+    var popeProvider = PopeProvider(LeigoFmProvider(client));
 
-    var popes = await popeProvider.fetchPopes(client);
+    var popes = await popeProvider.fetchPopes();
     var pope = popes[0];
 
     expect(pope.id, equals("benedictus-xvi"));

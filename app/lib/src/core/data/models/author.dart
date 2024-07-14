@@ -16,21 +16,4 @@ class Author {
       required this.translations,
       required this.documents,
       required this.imageUrl});
-
-  factory Author.fromJson(Map<String, dynamic> json) {
-    List<AuthorTranslation> translationList = (json['translations'] as List)
-        .map((translation) => AuthorTranslation.fromJson(translation))
-        .toList();
-    List<Document> documentList = (json['documents'] as List)
-        .map((document) => Document.fromJson(document))
-        .toList();
-
-    return Author(
-        id: json['id'],
-        name: json['name'],
-        country: json['country'],
-        imageUrl: json['image_url'],
-        translations: translationList,
-        documents: documentList);
-  }
 }

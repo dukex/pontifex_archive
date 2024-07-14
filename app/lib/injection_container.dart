@@ -1,5 +1,7 @@
 import 'package:get_it/get_it.dart';
+import 'package:http/http.dart' as http;
 import 'package:pontifex_archive/src/core/data/providers/document_provider.dart';
+import 'package:pontifex_archive/src/core/data/providers/leigo_fm_provider.dart';
 import 'package:pontifex_archive/src/core/data/providers/popes_provider.dart';
 import 'package:pontifex_archive/src/core/data/providers/preferences_provider.dart';
 import 'package:pontifex_archive/src/core/data/repositories/document_repository.dart';
@@ -49,10 +51,11 @@ Future<void> init() async {
   sl.registerLazySingleton<SearchRepository>(() => SearchRepositoryImpl(sl()));
 
   // Provider
+  sl.registerFactory(() => LeigoFmProvider(http.Client()));
   sl.registerFactory(
-    () => PopeProvider(),
+    () => PopeProvider(sl()),
   );
   sl.registerFactory(() => PreferencesProvider());
-  sl.registerFactory(() => DocumentProvider());
+  sl.registerFactory(() => DocumentProvider(sl()));
   sl.registerLazySingleton<SearchProvider>(() => SearchSQLiteProvider());
 }
