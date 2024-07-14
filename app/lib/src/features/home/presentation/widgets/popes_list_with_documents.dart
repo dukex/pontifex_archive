@@ -4,7 +4,6 @@ import 'package:pontifex_archive/src/core/application/by_desc.dart';
 import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/core/domain/entities/pope.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_state.dart';
-import 'package:pontifex_archive/src/features/home/presentation/widgets/document_list.dart';
 import 'package:pontifex_archive/src/features/home/presentation/widgets/documents_section.dart';
 
 class PopesListWithDocuments extends StatelessWidget {
