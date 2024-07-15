@@ -15,7 +15,8 @@ void main() {
 
     final client = MockClient();
 
-    when(client.get(Uri.parse('https://pontifexarchive.leigo.fm/popes.json')))
+    when(client
+            .get(Uri.parse('https://pontifexarchive.leigo.fm/api/popes.json')))
         .thenAnswer((_) async => http.Response(textResponse, 200));
 
     var popeProvider = PopeProvider(LeigoFmProvider(client));
