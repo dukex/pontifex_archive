@@ -122,7 +122,7 @@ jobs:
 
   web:
     environment:
-      name: github-pages
+      name: web
       url: ${{ steps.deployment.outputs.page_url }}
     needs: [build]
     name: Web
