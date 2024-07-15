@@ -29,13 +29,6 @@ class HomeView extends StatelessWidget {
           child: ContinueReadingSection(
             state: state,
           )),
-      Container(
-        margin: const EdgeInsets.only(bottom: 25),
-        decoration: BoxDecoration(
-            border: Border(
-                top: BorderSide(
-                    color: Theme.of(context).colorScheme.secondary))),
-      ),
       ConstrainedBox(
           constraints:
               BoxConstraints(maxWidth: MediaUtils.of(context).mainMaxWidth),

@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 15 (7 per locale)
+/// Strings: 14 (7 per locale)
 ///
-/// Built on 2024-07-06 at 17:04 UTC
+/// Built on 2024-07-15 at 00:19 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -148,21 +148,10 @@ class Translations implements BaseTranslations<AppLocale, Translations> {
 	late final Translations _root = this; // ignore: unused_field
 
 	// Translations
-	late final _I18nAppEn app = _I18nAppEn._(_root);
 	late final _I18nAuthorEn author = _I18nAuthorEn._(_root);
 	late final _I18nHomeEn home = _I18nHomeEn._(_root);
 	late final _I18nReaderEn reader = _I18nReaderEn._(_root);
 	late final _I18nSearchEn search = _I18nSearchEn._(_root);
-}
-
-// Path: app
-class _I18nAppEn {
-	_I18nAppEn._(this._root);
-
-	final Translations _root; // ignore: unused_field
-
-	// Translations
-	String get title => 'Pontifex Archive';
 }
 
 // Path: author
@@ -185,6 +174,7 @@ class _I18nHomeEn {
 	// Translations
 	late final _I18nHomeHeaderEn header = _I18nHomeHeaderEn._(_root);
 	late final _I18nHomePopesEn popes = _I18nHomePopesEn._(_root);
+	late final _I18nHomeContinueReadingEn continueReading = _I18nHomeContinueReadingEn._(_root);
 }
 
 // Path: reader
@@ -257,6 +247,16 @@ class _I18nHomePopesEn {
 	String get title => 'Popes';
 }
 
+// Path: home.continueReading
+class _I18nHomeContinueReadingEn {
+	_I18nHomeContinueReadingEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get title => 'Continue Reading';
+}
+
 // Path: reader.navigation_drawer
 class _I18nReaderNavigationDrawerEn {
 	_I18nReaderNavigationDrawerEn._(this._root);
@@ -313,18 +313,7 @@ class _I18nPt extends Translations {
 	@override late final _I18nPt _root = this; // ignore: unused_field
 
 	// Translations
-	@override late final _I18nAppPt app = _I18nAppPt._(_root);
 	@override late final _I18nHomePt home = _I18nHomePt._(_root);
-}
-
-// Path: app
-class _I18nAppPt extends _I18nAppEn {
-	_I18nAppPt._(_I18nPt root) : this._root = root, super._(root);
-
-	@override final _I18nPt _root; // ignore: unused_field
-
-	// Translations
-	@override String get title => 'Arqui Archive';
 }
 
 // Path: home
@@ -353,11 +342,11 @@ class _I18nHomeHeaderPt extends _I18nHomeHeaderEn {
 extension on Translations {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
-			case 'app.title': return 'Pontifex Archive';
 			case 'author.header.title': return 'Author';
 			case 'author.documents.type.enc': return 'Encyclicals';
 			case 'home.header.title': return 'My library';
 			case 'home.popes.title': return 'Popes';
+			case 'home.continueReading.title': return 'Continue Reading';
 			case 'reader.closeTooltip': return 'Close reader';
 			case 'reader.navigation_drawer.chapters.title': return 'Chapters';
 			case 'search.found': return ({required num n}) => (_root.$meta.cardinalResolver ?? PluralResolvers.cardinal('en'))(n,
@@ -378,7 +367,6 @@ extension on Translations {
 extension on _I18nPt {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
-			case 'app.title': return 'Arqui Archive';
 			case 'home.header.title': return 'Documentos da Igreja';
 			default: return null;
 		}

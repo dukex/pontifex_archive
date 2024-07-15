@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/src/core/application/by_desc.dart';
 import 'package:pontifex_archive/src/core/domain/entities/document.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_state.dart';
@@ -13,7 +14,17 @@ class ContinueReadingSection extends StatelessWidget {
     List<DocumentEntity> documents = _documents();
 
     if (documents.isNotEmpty) {
-      return DocumentsSection(name: "Continue reading", documents: documents);
+      return Column(children: [
+        DocumentsSection(
+            name: context.t.home.continueReading.title, documents: documents),
+        Container(
+          margin: const EdgeInsets.only(bottom: 25),
+          decoration: BoxDecoration(
+              border: Border(
+                  top: BorderSide(
+                      color: Theme.of(context).colorScheme.secondary))),
+        ),
+      ]);
     }
 
     return const SizedBox();
