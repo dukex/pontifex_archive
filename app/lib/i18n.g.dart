@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 14 (7 per locale)
+/// Strings: 15 (7 per locale)
 ///
-/// Built on 2024-07-15 at 00:19 UTC
+/// Built on 2024-07-15 at 00:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -148,10 +148,21 @@ class Translations implements BaseTranslations<AppLocale, Translations> {
 	late final Translations _root = this; // ignore: unused_field
 
 	// Translations
+	late final _I18nAppEn app = _I18nAppEn._(_root);
 	late final _I18nAuthorEn author = _I18nAuthorEn._(_root);
 	late final _I18nHomeEn home = _I18nHomeEn._(_root);
 	late final _I18nReaderEn reader = _I18nReaderEn._(_root);
 	late final _I18nSearchEn search = _I18nSearchEn._(_root);
+}
+
+// Path: app
+class _I18nAppEn {
+	_I18nAppEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get title => 'Pontifex Archive';
 }
 
 // Path: author
@@ -342,6 +353,7 @@ class _I18nHomeHeaderPt extends _I18nHomeHeaderEn {
 extension on Translations {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
+			case 'app.title': return 'Pontifex Archive';
 			case 'author.header.title': return 'Author';
 			case 'author.documents.type.enc': return 'Encyclicals';
 			case 'home.header.title': return 'My library';
