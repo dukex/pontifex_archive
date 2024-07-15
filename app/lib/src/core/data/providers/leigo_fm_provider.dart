@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class LeigoFmProvider {
-  final baseURL = 'https://pontifexarchive.leigo.fm';
+  final baseURL = 'https://pontifexarchive.leigo.fm/api';
 
   final http.Client client;
 
