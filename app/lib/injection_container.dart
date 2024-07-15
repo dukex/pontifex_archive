@@ -57,5 +57,5 @@ Future<void> init() async {
   );
   sl.registerFactory(() => PreferencesProvider());
   sl.registerFactory(() => DocumentProvider(sl()));
-  sl.registerLazySingleton<SearchProvider>(() => SearchSQLiteProvider());
+  sl.registerLazySingleton<SearchProvider>(() => SearchSQLiteProvider(sl()));
 }

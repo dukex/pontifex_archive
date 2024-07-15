@@ -11,7 +11,7 @@ def create(author, document, document_translation, structure):
 
     image_path = f"{__api_path}/covers/{document.id}.png" if os.path.exists(f"{__api_path}/covers/{document.id}.png") else f"{__api_path}/covers/fallback.png"
 
-    document.cover_url = image_path.replace(__api_path, "https://emersonalmeida.wtf/pontifex_archive")
+    document.cover_url = image_path.replace(__api_path, "https://pontifexarchive.leigo.fm")
 
     if not os.path.exists(file_path):
         book = epub.EpubBook()

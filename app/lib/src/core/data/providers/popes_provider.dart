@@ -2,9 +2,6 @@ import 'package:pontifex_archive/src/core/data/models/pope.dart';
 import 'package:pontifex_archive/src/core/data/providers/leigo_fm_provider.dart';
 
 class PopeProvider {
-  static String apiUrl =
-      'https://emersonalmeida.wtf/pontifex_archive/popes.json';
-
   final LeigoFmProvider leigofm;
 
   PopeProvider(this.leigofm);

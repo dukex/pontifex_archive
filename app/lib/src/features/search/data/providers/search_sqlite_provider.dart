@@ -1,7 +1,7 @@
-import 'dart:convert';
-
 import 'package:http/http.dart';
+import 'package:pontifex_archive/src/core/data/providers/leigo_fm_provider.dart';
 import 'package:pontifex_archive/src/features/search/data/providers/search_provider.dart';
+import 'package:pontifex_archive/src/features/search/data/models/search_metadata.dart';
 import 'package:pontifex_archive/src/features/search/domain/entities/search_result.dart';
 import 'package:sqlite3/sqlite3.dart';
 import 'dart:io';
@@ -15,6 +15,9 @@ class SearchSQLiteProvider implements SearchProvider {
   late Database? database;
   late String databasePath;
   late SearchMetadata metadata;
+  final LeigoFmProvider leigofm;
+
+  SearchSQLiteProvider(this.leigofm);
 
   @override
   Future<bool> setup() async {
@@ -115,27 +118,7 @@ class SearchSQLiteProvider implements SearchProvider {
   }
 
   Future<SearchMetadata> _searchMetadata() async {
-    const apiUrl =
-        "https://emersonalmeida.wtf/pontifex_archive/data/search.json";
-    final client = http.Client();
-    final response = await client.get(Uri.parse(apiUrl));
-
-    if (response.statusCode == 200) {
-      Map<String, dynamic> jsonResponse = json.decode(response.body);
-      return SearchMetadata.fromJson(jsonResponse);
-    } else {
-      throw Exception('Failed to load documents');
-    }
+    return leigofm.get<SearchMetadata>("/data/search.json",
+        decode: (body) => SearchMetadata.fromJson(body));
   }
-}
-
-class SearchMetadata {
-  final String url;
-  final String version;
-
-  factory SearchMetadata.fromJson(Map<String, dynamic> json) {
-    return SearchMetadata(url: json['url'], version: json['version']);
-  }
-
-  SearchMetadata({required this.url, required this.version});
 }

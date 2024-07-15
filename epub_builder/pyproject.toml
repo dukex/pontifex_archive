@@ -2,7 +2,7 @@
 name = "epub-builder"
 version = "0.1.0"
 description = ""
-authors = ["Emerson Almeida <emersonalmeidax@gmail.com>"]
+authors = ["Emerson Almeida <pontifexarchive@leigo.fm>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

@@ -29,7 +29,7 @@ We do not share user data with third parties.
 6. User Rights
 Users have the right to:
 
-    Access, Correct, and Delete Data: Device-stored data can be deleted using the mechanisms available on the device. For email and password data, users can contact pontifexarchive@emersonalmeida.wtf.
+    Access, Correct, and Delete Data: Device-stored data can be deleted using the mechanisms available on the device. For email and password data, users can contact pontifexarchive@leigo.fm.
 
 7. Changes to the Privacy Policy
-Users will be informed of any changes to the privacy policy via the link: https://emersonalmeida.wtf/pontifex_archive/privacy.txt.
+Users will be informed of any changes to the privacy policy via the link: https://pontifexarchive.leigo.fm/privacy.txt.
