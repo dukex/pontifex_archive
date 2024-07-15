@@ -4,6 +4,11 @@ on:
     types: [published]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     name: Test, build and release
@@ -116,6 +121,9 @@ jobs:
           cd app/fastlane && bundle exec fastlane promote_to_production
 
   web:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     needs: [build]
     name: Web
     runs-on: ubuntu-latest
@@ -141,6 +149,18 @@ jobs:
         run: cd app && flutter pub run build_runner build --delete-conflicting-outputs
       - name: Build
         run: cd app && flutter build web --release -t lib/web/main.dart
+      - name: Move API
+        run: cp -r api app/build/web/api
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./app/build/web"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
   linux:
     needs: [build]
     name: Linux
