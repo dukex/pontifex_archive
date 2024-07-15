@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pontifex_archive/i18n.g.dart';
-import 'package:pontifex_archive/injection_container.dart';
+import 'package:pontifex_archive/src/injection_container/sl.dart';
 import 'package:pontifex_archive/src/core/theme/media_utils.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_bloc.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_event.dart';

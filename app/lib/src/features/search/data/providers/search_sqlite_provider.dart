@@ -6,10 +6,8 @@ import 'package:pontifex_archive/src/features/search/domain/entities/search_resu
 import 'package:sqlite3/sqlite3.dart';
 import 'dart:io';
 import 'package:path/path.dart';
-import 'package:sqflite/sqflite.dart' as sqflite;
 import 'package:http/http.dart' as http;
-
-var httpClient = HttpClient();
+import 'package:path_provider/path_provider.dart';
 
 class SearchSQLiteProvider implements SearchProvider {
   late Database? database;
@@ -22,9 +20,7 @@ class SearchSQLiteProvider implements SearchProvider {
   @override
   Future<bool> setup() async {
     metadata = await _searchMetadata();
-
-    String databasesPath = await sqflite.getDatabasesPath();
-    databasePath = join(databasesPath, "search.db");
+    databasePath = await _databasePath();
 
     var validatedDatabase = await _validateDatabase(retry: 5);
 
@@ -92,7 +88,7 @@ class SearchSQLiteProvider implements SearchProvider {
   }
 
   Future<bool> _checkFile() async {
-    return await sqflite.databaseExists(databasePath);
+    return await File(databasePath).exists();
   }
 
   Future<Database> _sqliteDatabase() async {
@@ -120,5 +116,11 @@ class SearchSQLiteProvider implements SearchProvider {
   Future<SearchMetadata> _searchMetadata() async {
     return leigofm.get<SearchMetadata>("/data/search.json",
         decode: (body) => SearchMetadata.fromJson(body));
+  }
+
+  Future<String> _databasePath() async {
+    final dir = await getTemporaryDirectory();
+
+    return "${dir.path}/search.db";
   }
 }

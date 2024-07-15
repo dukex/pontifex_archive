@@ -1,5 +1,5 @@
-import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
+import 'package:pontifex_archive/src/injection_container/sl.dart';
 import 'package:pontifex_archive/src/core/data/providers/document_provider.dart';
 import 'package:pontifex_archive/src/core/data/providers/leigo_fm_provider.dart';
 import 'package:pontifex_archive/src/core/data/providers/popes_provider.dart';
@@ -17,13 +17,9 @@ import 'package:pontifex_archive/src/features/reader/domain/usecases/download_eb
 import 'package:pontifex_archive/src/features/reader/domain/usecases/get_document.dart';
 import 'package:pontifex_archive/src/features/reader/domain/usecases/save_reading_position.dart';
 import 'package:pontifex_archive/src/features/search/application/blocs/search_bloc.dart';
-import 'package:pontifex_archive/src/features/search/data/providers/search_provider.dart';
-import 'package:pontifex_archive/src/features/search/data/providers/search_sqlite_provider.dart';
 import 'package:pontifex_archive/src/features/search/data/repositories/search_repository.dart';
 import 'package:pontifex_archive/src/features/search/data/repositories/search_repository_impl.dart';
 import 'package:pontifex_archive/src/features/search/domain/usecases/search.dart';
-
-final sl = GetIt.instance;
 
 Future<void> init() async {
   // Bloc
@@ -57,5 +53,4 @@ Future<void> init() async {
   );
   sl.registerFactory(() => PreferencesProvider());
   sl.registerFactory(() => DocumentProvider(sl()));
-  sl.registerLazySingleton<SearchProvider>(() => SearchSQLiteProvider(sl()));
 }

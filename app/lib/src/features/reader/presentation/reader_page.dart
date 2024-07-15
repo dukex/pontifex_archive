@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pontifex_archive/injection_container.dart';
+import 'package:pontifex_archive/src/injection_container/sl.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_bloc.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_event.dart';
 import 'package:pontifex_archive/src/features/reader/application/blocs/reader_state.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pontifex_archive/injection_container.dart';
+import 'package:pontifex_archive/src/injection_container/sl.dart';
 import 'package:pontifex_archive/src/core/theme/media_utils.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_bloc.dart';
 import 'package:pontifex_archive/src/features/home/application/blocs/home_event.dart';
