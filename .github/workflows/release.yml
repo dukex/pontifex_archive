@@ -24,8 +24,47 @@ jobs:
           flutter-version-file: app/pubspec.yaml
       - name: Flutter version
         run: flutter --version
-      - run: cd app && flutter test
+      - name: Cache pub dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.PUB_CACHE }}
+          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
+          restore-keys: ${{ runner.os }}-pub-
+      - name: Download pub dependencies
+        run: cd app && flutter pub get
+      - name: Testing
+        run: cd app && flutter test
+      - name: Run build_runner
+        run: cd app && flutter pub run build_runner build --delete-conflicting-outputs
+      # Web
+      - name: Build Web
+        run: cd app && flutter build web --release -t lib/web/main.dart
+      # Android
+      # - name: Setup Java
+      #   uses: actions/setup-java@v4
+      #   with:
+      #     distribution: "temurin"
+      #     java-version: "17"
+      # - name: Download Android keystore
+      #   id: android_keystore
+      #   uses: timheuer/base64-to-file@v1.2
+      #   with:
+      #     fileName: key.jks
+      #     encodedString: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+      # - name: Create key.properties
+      #   run: |
+      #     echo "storeFile=${{ steps.android_keystore.outputs.filePath }}" > app/android/key.properties
+      #     echo "storePassword=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" >> app/android/key.properties
+      #     echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> app/android/key.properties
+      #     echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> app/android/key.properties
 
+      # Finish
+      - name: Save build
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: |
+            app/build
   android:
     needs: [build]
     name: Android
