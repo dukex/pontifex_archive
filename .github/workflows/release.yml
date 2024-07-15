@@ -1,7 +1,8 @@
 name: Release
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -11,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    name: Test, build and release
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -29,6 +30,7 @@ jobs:
     needs: [build]
     name: Android
     runs-on: ubuntu-latest
+    environment: android-alpha
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/app/fastlane/Gemfile
     steps:
@@ -165,6 +167,7 @@ jobs:
     needs: [build]
     name: Linux
     runs-on: ubuntu-latest
+    environment: linux
     steps:
       - name: Checkout
         uses: actions/checkout@v4
