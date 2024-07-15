@@ -1,10 +1,5 @@
 name: Release
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'app/**/*'
   release:
     types: [published]
   workflow_dispatch:
@@ -157,3 +152,22 @@ jobs:
         uses: samuelmeuli/action-snapcraft@v2
       - name: Use Snapcraft
         run: snapcraft --help
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version-file: app/pubspec.yaml
+      - name: Flutter version
+        run: flutter --version
+      - name: Cache pub dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.PUB_CACHE }}
+          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
+          restore-keys: ${{ runner.os }}-pub-
+      - name: Download pub dependencies
+        run: cd app && flutter pub get
+      - name: Run build_runner
+        run: cd app && flutter pub run build_runner build --delete-conflicting-outputs
+      - name: Build
+        run: cd app && flutter build linux --release
