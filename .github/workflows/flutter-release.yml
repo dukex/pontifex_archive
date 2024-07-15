@@ -9,10 +9,6 @@ on:
     types: [published]
   workflow_dispatch:
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build:
     name: Test, build and release
