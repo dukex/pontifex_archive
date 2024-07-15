@@ -39,6 +39,8 @@ jobs:
       # Web
       - name: Build Web
         run: cd app && flutter build web --release -t lib/web/main.dart
+      - name: Build Linux
+        run: cd app && flutter build linux --release
       # Android
       # - name: Setup Java
       #   uses: actions/setup-java@v4
@@ -174,12 +176,13 @@ jobs:
       - name: Download a single artifact
         uses: actions/download-artifact@v4
         with:
+          path: app/build
           name: build
       - name: Move API
         run: cp -r api app/build/web/api
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact
+      - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
           path: "./app/build/web"
@@ -195,26 +198,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Download a single artifact
+        uses: actions/download-artifact@v4
+        with:
+          path: app/build
+          name: build
       - name: Install Snapcraft
         uses: samuelmeuli/action-snapcraft@v2
       - name: Use Snapcraft
         run: snapcraft --help
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: stable
-          flutter-version-file: app/pubspec.yaml
-      - name: Flutter version
-        run: flutter --version
-      - name: Cache pub dependencies
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.PUB_CACHE }}
-          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
-          restore-keys: ${{ runner.os }}-pub-
-      - name: Download pub dependencies
-        run: cd app && flutter pub get
-      - name: Run build_runner
-        run: cd app && flutter pub run build_runner build --delete-conflicting-outputs
-      - name: Build
-        run: cd app && flutter build linux --release
