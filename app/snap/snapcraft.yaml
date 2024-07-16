@@ -1,0 +1,24 @@
+name: pontifex-archive
+version: "1.0.0"
+summary: Read a comprehensive collection of papal documents and church writings.
+description: |
+  Read a comprehensive collection of papal documents and church writings.
+confinement: strict
+base: core24
+grade: stable
+
+icon: snap/gui/icon.png
+
+apps:
+  pontifex-archive:
+    command: pontifex_archive
+    extensions: [gnome]
+    plugs:
+      - network
+      - desktop
+
+parts:
+  pontifex-archive:
+    source: app
+    plugin: flutter
+    flutter-target: lib/main.dart

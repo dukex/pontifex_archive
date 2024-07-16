@@ -37,10 +37,15 @@ jobs:
       - name: Run build_runner
         run: cd app && flutter pub run build_runner build --delete-conflicting-outputs
       # Web
-      - name: Build Web
-        run: cd app && flutter build web --release -t lib/web/main.dart
-      - name: Build Linux
-        run: cd app && flutter build linux --release
+      # - name: Build Web
+      #   run: cd app && flutter build web --release -t lib/web/main.dart
+      # Linux
+      - uses: snapcore/action-build@v1
+        id: build-snap
+        with:
+          path: app/snap
+          build-info: true
+          snapcraft-channel: stable
       # Android
       # - name: Setup Java
       #   uses: actions/setup-java@v4
@@ -59,7 +64,6 @@ jobs:
       #     echo "storePassword=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" >> app/android/key.properties
       #     echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> app/android/key.properties
       #     echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> app/android/key.properties
-
       # Finish
       - name: Save build
         uses: actions/upload-artifact@v4
@@ -203,7 +207,5 @@ jobs:
         with:
           path: app/build
           name: build
-      - name: Install Snapcraft
-        uses: samuelmeuli/action-snapcraft@v2
-      - name: Use Snapcraft
-        run: snapcraft --help
+
+
