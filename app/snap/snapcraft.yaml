@@ -19,6 +19,6 @@ apps:
 
 parts:
   pontifex-archive:
-    source: app
+    source: ..
     plugin: flutter
     flutter-target: lib/main.dart
