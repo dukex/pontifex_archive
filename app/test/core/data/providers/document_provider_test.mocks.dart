@@ -6,10 +6,10 @@
 import 'dart:async' as _i4;
 
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:pontifex_archive/src/core/data/models/pope.dart' as _i5;
-import 'package:pontifex_archive/src/core/data/providers/leigo_fm_provider.dart'
+import 'package:pontifex_archive/core/data/models/pope.dart' as _i5;
+import 'package:pontifex_archive/core/data/providers/remote/leigo_fm_provider.dart'
     as _i2;
-import 'package:pontifex_archive/src/core/data/providers/popes_provider.dart'
+import 'package:pontifex_archive/core/data/providers/popes_provider.dart'
     as _i3;
 
 // ignore_for_file: type=lint

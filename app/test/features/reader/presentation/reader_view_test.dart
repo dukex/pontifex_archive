@@ -2,15 +2,15 @@ import 'package:epub_view/epub_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:pontifex_archive/i18n.g.dart';
-import 'package:pontifex_archive/src/core/domain/entities/document.dart';
-import 'package:pontifex_archive/src/features/reader/application/blocs/reader_state.dart';
-import 'package:pontifex_archive/src/features/reader/presentation/widgets/reader_view.dart';
-import 'package:pontifex_archive/src/features/search/data/providers/search_web_provider.dart';
-import 'package:pontifex_archive/src/features/search/data/repositories/search_repository_impl.dart';
-import 'package:pontifex_archive/src/injection_container/sl.dart';
-import 'package:pontifex_archive/src/core/theme/theme.dart';
-import 'package:pontifex_archive/src/features/search/application/blocs/search_bloc.dart';
-import 'package:pontifex_archive/src/features/search/domain/usecases/search.dart';
+import 'package:pontifex_archive/core/domain/entities/document.dart';
+import 'package:pontifex_archive/features/reader/application/blocs/reader_state.dart';
+import 'package:pontifex_archive/features/reader/presentation/widgets/reader_view.dart';
+import 'package:pontifex_archive/features/search/data/providers/search_web_provider.dart';
+import 'package:pontifex_archive/features/search/data/repositories/search_repository_impl.dart';
+import 'package:pontifex_archive/injection_container/sl.dart';
+import 'package:pontifex_archive/core/theme/theme.dart';
+import 'package:pontifex_archive/features/search/application/blocs/search_bloc.dart';
+import 'package:pontifex_archive/features/search/domain/usecases/search.dart';
 
 void main() {
   group("ReaderView tests", () {

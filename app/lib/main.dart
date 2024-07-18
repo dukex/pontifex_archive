@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pontifex_archive/app.dart';
 import 'package:pontifex_archive/i18n.g.dart';
-import 'src/injection_container/app.dart' as di;
+import 'injection_container/app.dart' as di;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

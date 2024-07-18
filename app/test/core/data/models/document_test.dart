@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pontifex_archive/src/core/data/models/document.dart';
+import 'package:pontifex_archive/core/data/models/document.dart';
 
 void main() {
   test('Document.fromJson create a new document', () {

@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:pontifex_archive/src/core/data/providers/leigo_fm_provider.dart';
-import 'package:pontifex_archive/src/core/data/providers/popes_provider.dart';
+import 'package:pontifex_archive/core/data/providers/remote/leigo_fm_provider.dart';
+import 'package:pontifex_archive/core/data/providers/popes_provider.dart';
 import 'package:http/http.dart' as http;
 
 import 'popes_provider_test.mocks.dart';

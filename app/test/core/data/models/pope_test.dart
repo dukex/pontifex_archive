@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pontifex_archive/src/core/data/models/pope.dart';
+import 'package:pontifex_archive/core/data/models/pope.dart';
 
 void main() {
   test('Pope.fromJson create a new pope', () {

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:pontifex_archive/i18n.g.dart';
-import 'package:pontifex_archive/src/features/search/data/providers/search_web_provider.dart';
-import 'package:pontifex_archive/src/features/search/data/repositories/search_repository_impl.dart';
-import 'package:pontifex_archive/src/injection_container/sl.dart';
-import 'package:pontifex_archive/src/core/domain/entities/pope.dart';
-import 'package:pontifex_archive/src/core/theme/theme.dart';
-import 'package:pontifex_archive/src/features/home/application/blocs/home_state.dart';
-import 'package:pontifex_archive/src/features/home/presentation/widgets/home_view.dart';
-import 'package:pontifex_archive/src/features/search/application/blocs/search_bloc.dart';
-import 'package:pontifex_archive/src/features/search/domain/usecases/search.dart';
+import 'package:pontifex_archive/features/search/data/providers/search_web_provider.dart';
+import 'package:pontifex_archive/features/search/data/repositories/search_repository_impl.dart';
+import 'package:pontifex_archive/injection_container/sl.dart';
+import 'package:pontifex_archive/core/domain/entities/pope.dart';
+import 'package:pontifex_archive/core/theme/theme.dart';
+import 'package:pontifex_archive/features/home/application/blocs/home_state.dart';
+import 'package:pontifex_archive/features/home/presentation/widgets/home_view.dart';
+import 'package:pontifex_archive/features/search/application/blocs/search_bloc.dart';
+import 'package:pontifex_archive/features/search/domain/usecases/search.dart';
 
 void main() {
   group("HomeView tests", () {

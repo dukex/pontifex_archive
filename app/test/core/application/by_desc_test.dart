@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pontifex_archive/src/core/application/by_desc.dart';
+import 'package:pontifex_archive/core/by_desc.dart';
 
 void main() {
   group('byDesc tests', () {

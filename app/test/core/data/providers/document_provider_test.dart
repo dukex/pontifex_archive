@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:pontifex_archive/src/core/data/models/document.dart';
-import 'package:pontifex_archive/src/core/data/models/pope.dart';
-import 'package:pontifex_archive/src/core/data/providers/document_provider.dart';
-import 'package:pontifex_archive/src/core/data/providers/popes_provider.dart';
+import 'package:pontifex_archive/core/data/models/document.dart';
+import 'package:pontifex_archive/core/data/models/pope.dart';
+import 'package:pontifex_archive/core/data/providers/document_provider.dart';
+import 'package:pontifex_archive/core/data/providers/popes_provider.dart';
 
 import 'document_provider_test.mocks.dart';
 

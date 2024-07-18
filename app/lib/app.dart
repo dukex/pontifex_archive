@@ -4,11 +4,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/router.dart';
-import 'package:pontifex_archive/src/core/application/blocs/language_bloc.dart';
-import 'package:pontifex_archive/src/core/application/blocs/language_event.dart';
-import 'package:pontifex_archive/src/core/application/blocs/language_state.dart';
-import 'package:pontifex_archive/src/core/theme/theme.dart';
-import 'package:pontifex_archive/src/core/theme/utils.dart';
+import 'package:pontifex_archive/core/application/blocs/language_bloc.dart';
+import 'package:pontifex_archive/core/application/blocs/language_event.dart';
+import 'package:pontifex_archive/core/application/blocs/language_state.dart';
+import 'package:pontifex_archive/core/theme/theme.dart';
+import 'package:pontifex_archive/core/theme/utils.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

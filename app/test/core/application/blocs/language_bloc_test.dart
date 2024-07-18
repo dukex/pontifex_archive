@@ -1,9 +1,9 @@
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:pontifex_archive/i18n.g.dart';
-import 'package:pontifex_archive/src/core/application/blocs/language_bloc.dart';
-import 'package:pontifex_archive/src/core/application/blocs/language_event.dart';
-import 'package:pontifex_archive/src/core/application/blocs/language_state.dart';
+import 'package:pontifex_archive/core/application/blocs/language_bloc.dart';
+import 'package:pontifex_archive/core/application/blocs/language_event.dart';
+import 'package:pontifex_archive/core/application/blocs/language_state.dart';
 
 void main() {
   group(LanguageBloc, () {
