@@ -233,6 +233,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+  cv:
+    dependency: "direct main"
+    description:
+      name: cv
+      sha256: "36b80f1c2be88afe734c9e4ecd98c637b1b7c36dd9a60faf24843047fa23acef"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.20+1"
   dart_style:
     dependency: transitive
     description:
