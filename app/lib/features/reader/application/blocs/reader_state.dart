@@ -1,6 +1,6 @@
 import 'package:epub_view/epub_view.dart';
 import 'package:equatable/equatable.dart';
-import 'package:pontifex_archive/core/domain/entities/document.dart';
+import 'package:pontifex_archive/features/reader/domain/entities/document.dart';
 
 abstract class ReaderState extends Equatable {
   const ReaderState();

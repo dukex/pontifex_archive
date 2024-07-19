@@ -1,6 +1,4 @@
 {
-  "@@locale": "en",
-  "@context": "HomeFeatures",
   "header": {
     "title": "My library"
   },

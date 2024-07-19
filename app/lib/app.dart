@@ -23,8 +23,8 @@ class App extends StatelessWidget {
             LocaleSettings.setLocale(state.locale!);
           }
         }, builder: (context, state) {
-          var bloc = context.read<LanguageBloc>();
-          var state = bloc.state;
+          final bloc = context.read<LanguageBloc>();
+          final state = bloc.state;
 
           if (state is LanguageLoaded) {
             final betterRoutes = BetterRouter(routes: routes);

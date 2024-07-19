@@ -32,7 +32,7 @@ Future<void> init() async {
 
   // Use cases
   sl.registerLazySingleton(() => GetPopes(sl(), sl()));
-  sl.registerLazySingleton(() => GetDocument(sl(), sl()));
+  sl.registerLazySingleton(() => GetDocument(sl()));
   sl.registerLazySingleton(() => DownloadEbook(sl(), sl()));
   sl.registerLazySingleton(() => SaveReadingPosition(sl()));
   sl.registerLazySingleton(() => Search(sl()));

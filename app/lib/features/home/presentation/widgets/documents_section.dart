@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pontifex_archive/core/domain/entities/document.dart';
+import 'package:pontifex_archive/features/home/domain/entities/document.dart';
 import 'package:pontifex_archive/features/home/presentation/widgets/document_list.dart';
 
 class DocumentsSection extends StatelessWidget {

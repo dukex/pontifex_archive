@@ -1,8 +1,8 @@
 import 'package:epub_view/epub_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:pontifex_archive/features/reader/domain/entities/document.dart';
 import 'package:pontifex_archive/i18n.g.dart';
-import 'package:pontifex_archive/core/domain/entities/document.dart';
 import 'package:pontifex_archive/features/reader/application/blocs/reader_state.dart';
 import 'package:pontifex_archive/features/reader/presentation/widgets/reader_view.dart';
 import 'package:pontifex_archive/features/search/data/providers/search_web_provider.dart';
@@ -41,17 +41,7 @@ void main() {
               theme: const MaterialTheme(TextTheme()).light(),
               home: ReaderView(
                   state: EbookDownloaded(
-                      DocumentEntity(
-                        id: '',
-                        authorId: '',
-                        date: DateTime.now(),
-                        type: '',
-                        name: '',
-                        coverUrl: '',
-                        translations: [],
-                        readingProgress: 50.0,
-                      ),
-                      controller)))));
+                      DocumentEntity(id: '', translations: []), controller)))));
 
       await tester.pump();
       await tester.pump();
