@@ -1,19 +1,15 @@
+import 'package:cv/cv.dart';
+import 'package:pontifex_archive/core/data/models/author_translation.dart';
 import 'package:pontifex_archive/core/data/models/document.dart';
-import 'package:pontifex_archive/core/domain/entities/author.dart';
 
-class Author {
-  final String id;
-  final String name;
-  final String country;
-  final List<AuthorTranslation> translations;
-  final List<Document> documents;
-  final String imageUrl;
+class Author extends CvModelBase {
+  final id = CvField<String>('id');
+  final name = CvField<String>('name');
+  final country = CvField<String>('country');
+  final translations = CvModelListField<AuthorTranslation>('translations');
+  final documents = CvModelListField<Document>('documents');
+  final imageUrl = CvField<String>('image_url');
 
-  Author(
-      {required this.id,
-      required this.name,
-      required this.country,
-      required this.translations,
-      required this.documents,
-      required this.imageUrl});
+  @override
+  CvFields get fields => [id, name, country, translations, documents, imageUrl];
 }

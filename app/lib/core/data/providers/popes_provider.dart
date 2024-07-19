@@ -9,6 +9,6 @@ class PopeProvider {
   Future<List<Pope>> fetchPopes() async {
     return leigofm.get<List<Pope>>('/popes.json',
         decode: (body) =>
-            body.map<Pope>((document) => Pope.fromJson(document)).toList());
+            body.map<Pope>((document) => Pope()..fromMap(document)).toList());
   }
 }

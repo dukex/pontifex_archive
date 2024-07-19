@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pontifex_archive/core/domain/entities/document.dart';
+import 'package:pontifex_archive/features/home/domain/entities/document.dart';
 
 class DocumentCard extends StatefulWidget {
   final DocumentEntity document;

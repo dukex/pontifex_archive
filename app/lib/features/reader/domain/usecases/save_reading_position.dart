@@ -1,5 +1,5 @@
 import 'package:pontifex_archive/core/data/repositories/preferences_repository.dart';
-import 'package:pontifex_archive/core/domain/entities/document.dart';
+import 'package:pontifex_archive/features/reader/domain/entities/document.dart';
 
 class SaveReadingPosition {
   final PreferencesRepository preferences;

@@ -12,7 +12,7 @@ class DocumentProvider {
     List<Document> documents = [];
 
     for (var pope in popes) {
-      documents.addAll(pope.documents);
+      documents.addAll(pope.documents.valueOrThrow);
     }
 
     return documents;
@@ -21,6 +21,6 @@ class DocumentProvider {
   Future<Document> fetchDocument(String id) async {
     final documents = await fetchDocuments();
 
-    return documents.firstWhere((document) => document.id == id);
+    return documents.firstWhere((document) => document.id.valueOrThrow == id);
   }
 }

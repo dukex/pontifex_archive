@@ -26,14 +26,13 @@ class HomeView extends StatelessWidget {
       ConstrainedBox(
           constraints:
               BoxConstraints(maxWidth: MediaUtils.of(context).mainMaxWidth),
-          child: ContinueReadingSection(
-            state: state,
-          )),
+          child:
+              ContinueReadingSection(readingDocuments: state.readingDocuments)),
       ConstrainedBox(
           constraints:
               BoxConstraints(maxWidth: MediaUtils.of(context).mainMaxWidth),
           child: PopesListWithDocuments(
-            state: state,
+            popes: state.popes,
           ))
     ];
   }

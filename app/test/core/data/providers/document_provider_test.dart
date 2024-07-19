@@ -1,7 +1,9 @@
+import 'package:cv/cv.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:pontifex_archive/core/data/models/document.dart';
+import 'package:pontifex_archive/core/data/models/document_translation.dart';
 import 'package:pontifex_archive/core/data/models/pope.dart';
 import 'package:pontifex_archive/core/data/providers/document_provider.dart';
 import 'package:pontifex_archive/core/data/providers/popes_provider.dart';
@@ -11,45 +13,56 @@ import 'document_provider_test.mocks.dart';
 @GenerateMocks([PopeProvider])
 void main() {
   group('DocumentProvider tests', () {
+    cvAddConstructor(Document.new);
+    cvAddConstructor(DocumentTranslation.new);
+
     late DocumentProvider documentProvider;
     late MockPopeProvider mockPopeProvider;
     final mockDocuments = [
-      Document(
-          id: '1',
-          authorId: '',
-          type: 'enc',
-          name: 'Deus caritas est',
-          date: DateTime.now(),
-          coverUrl: '',
-          translations: []),
-      Document(
-          id: '2',
-          authorId: '',
-          type: 'enc',
-          name: 'Deus caritas est II',
-          date: DateTime.now(),
-          coverUrl: '',
-          translations: []),
+      Document()
+        ..fromMap({
+          "id": '1',
+          "authorId": '',
+          "type": 'enc',
+          "name": 'Deus caritas est',
+          "date": DateTime.now(),
+          "cover_url": '',
+          "translations": []
+        }),
+      Document()
+        ..fromMap({
+          "id": '2',
+          "authorId": '',
+          "type": 'enc',
+          "name": 'Deus caritas est II',
+          "date": DateTime.now(),
+          "cover_url": '',
+          "translations": []
+        }),
     ];
     final mockPopes = [
-      Pope(
-          name: 'Pope 1',
-          documents: [mockDocuments[0]],
-          id: '',
-          motto: '',
-          country: '',
-          translations: [],
-          startDate: DateTime.now(),
-          imageUrl: ''),
-      Pope(
-          name: 'Pope 2',
-          documents: [mockDocuments[1]],
-          id: '',
-          motto: '',
-          country: '',
-          translations: [],
-          startDate: DateTime.now(),
-          imageUrl: '')
+      Pope()
+        ..fromMap({
+          "name": 'Pope 1',
+          "documents": [mockDocuments[0].toMap()],
+          "id": '',
+          "motto": '',
+          "country": '',
+          "translations": [],
+          "startDate": DateTime.now().toIso8601String(),
+          "imageUrl": '',
+        }),
+      Pope()
+        ..fromMap({
+          "name": 'Pope 2',
+          "documents": [mockDocuments[1].toMap()],
+          "id": '',
+          "motto": '',
+          "country": '',
+          "translations": [],
+          "startDate": DateTime.now().toIso8601String(),
+          "imageUrl": ''
+        })
     ];
 
     setUp(() {
@@ -69,8 +82,8 @@ void main() {
     test('fetchDocument returns a document by id', () async {
       final document = await documentProvider.fetchDocument('1');
 
-      expect(document.id, '1');
-      expect(document.name, 'Deus caritas est');
+      expect(document.id.v, '1');
+      expect(document.name.v, 'Deus caritas est');
     });
   });
 }

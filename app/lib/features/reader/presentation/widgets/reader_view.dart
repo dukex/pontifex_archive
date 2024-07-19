@@ -1,5 +1,6 @@
 import 'package:epub_view/epub_view.dart';
 import 'package:flutter/material.dart';
+import 'package:pontifex_archive/features/reader/presentation/widgets/chapter_title.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/core/theme/media_utils.dart';
 import 'package:pontifex_archive/features/reader/application/blocs/reader_state.dart';
@@ -19,13 +20,7 @@ class ReaderView extends StatelessWidget {
         appBar: AppBar(
           title: EpubViewActualChapter(
               controller: state.controller,
-              builder: (chapterValue) => Text(
-                    (chapterValue?.chapter?.Title
-                            ?.replaceAll('\n', '')
-                            .trim() ??
-                        ''),
-                    textAlign: TextAlign.start,
-                  )),
+              builder: (chapterValue) => ChapterTitle(chapterValue)),
           actions: <Widget>[
             IconButton(
               icon: const Icon(Icons.close),

@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pontifex_archive/core/domain/entities/document.dart';
+import 'package:pontifex_archive/features/reader/domain/entities/document.dart';
 import 'package:pontifex_archive/features/reader/domain/usecases/save_reading_position.dart';
 import 'package:pontifex_archive/features/reader/application/blocs/reader_event.dart';
 import 'package:pontifex_archive/features/reader/application/blocs/reader_state.dart';

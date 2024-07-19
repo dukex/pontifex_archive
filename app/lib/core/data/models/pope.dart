@@ -1,40 +1,24 @@
-import 'package:pontifex_archive/core/data/models/document.dart';
+import 'package:cv/cv.dart';
+import 'package:pontifex_archive/core/codecs/date_time_to_string_codec.dart';
 import 'package:pontifex_archive/core/data/models/author.dart';
-import 'package:pontifex_archive/core/domain/entities/author.dart';
 
 class Pope extends Author {
-  final String motto;
-  final DateTime startDate;
-  final DateTime? endDate;
+  final motto = CvField<String>('motto');
+  final startDate = CvField.encoded<DateTime, String>('start_date',
+      codec: DateTimeToStringCodec());
+  final endDate = CvField.encoded<DateTime, String>('end_date',
+      codec: DateTimeToStringCodec());
 
-  factory Pope.fromJson(Map<String, dynamic> json) {
-    List<AuthorTranslation> translationList = (json['translations'] as List)
-        .map((translation) => AuthorTranslation.fromJson(translation))
-        .toList();
-    List<Document> documentList = (json['documents'] as List)
-        .map((document) => Document.fromJson(document))
-        .toList();
-
-    return Pope(
-        id: json['id'],
-        name: json['name'],
-        motto: json['motto'],
-        country: json['country'],
-        imageUrl: json['image_url'],
-        startDate: DateTime.parse(json['start_date']),
-        translations: translationList,
-        documents: documentList);
-  }
-
-  Pope({
-    required super.id,
-    required super.name,
-    required this.motto,
-    required super.country,
-    required super.translations,
-    required super.documents,
-    required this.startDate,
-    required super.imageUrl,
-    this.endDate,
-  });
+  @override
+  CvFields get fields => [
+        id,
+        name,
+        country,
+        translations,
+        documents,
+        imageUrl,
+        motto,
+        startDate,
+        endDate
+      ];
 }
