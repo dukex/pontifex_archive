@@ -37,33 +37,35 @@ jobs:
       - name: Run build_runner
         run: cd app && flutter pub run build_runner build --delete-conflicting-outputs
       # Web
-      # - name: Build Web
-      #   run: cd app && flutter build web --release -t lib/web/main.dart
+      - name: Build Web
+        run: cd app && flutter build web --release -t lib/web/main.dart
       # Linux
-      - uses: snapcore/action-build@v1
-        id: build-snap
-        with:
-          path: app/snap
-          build-info: true
-          snapcraft-channel: stable
+      # - uses: snapcore/action-build@v1
+      #   id: build-snap
+      #   with:
+      #     path: app/snap
+      #     build-info: true
+      #     snapcraft-channel: stable
       # Android
-      # - name: Setup Java
-      #   uses: actions/setup-java@v4
-      #   with:
-      #     distribution: "temurin"
-      #     java-version: "17"
-      # - name: Download Android keystore
-      #   id: android_keystore
-      #   uses: timheuer/base64-to-file@v1.2
-      #   with:
-      #     fileName: key.jks
-      #     encodedString: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-      # - name: Create key.properties
-      #   run: |
-      #     echo "storeFile=${{ steps.android_keystore.outputs.filePath }}" > app/android/key.properties
-      #     echo "storePassword=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" >> app/android/key.properties
-      #     echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> app/android/key.properties
-      #     echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> app/android/key.properties
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+      - name: Download Android keystore
+        id: android_keystore
+        uses: timheuer/base64-to-file@v1.2
+        with:
+          fileName: key.jks
+          encodedString: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+      - name: Create key.properties
+        run: |
+          echo "storeFile=${{ steps.android_keystore.outputs.filePath }}" > app/android/key.properties
+          echo "storePassword=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" >> app/android/key.properties
+          echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> app/android/key.properties
+          echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> app/android/key.properties
+      - name: Build Android
+        run: cd app && flutter build appbundle --release
       # Finish
       - name: Save build
         uses: actions/upload-artifact@v4
@@ -81,40 +83,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Java
-        uses: actions/setup-java@v4
+      - name: Download a single artifact
+        uses: actions/download-artifact@v4
         with:
-          distribution: "temurin"
-          java-version: "17"
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: stable
-          flutter-version-file: app/pubspec.yaml
-      - name: Flutter version
-        run: flutter --version
-      - name: Cache pub dependencies
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.PUB_CACHE }}
-          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
-          restore-keys: ${{ runner.os }}-pub-
-      - name: Download pub dependencies
-        run: cd app && flutter pub get
-      - name: Run build_runner
-        run: cd app && flutter pub run build_runner build --delete-conflicting-outputs
-      - name: Download Android keystore
-        id: android_keystore
-        uses: timheuer/base64-to-file@v1.2
-        with:
-          fileName: key.jks
-          encodedString: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-      - name: Create key.properties
-        run: |
-          echo "storeFile=${{ steps.android_keystore.outputs.filePath }}" > app/android/key.properties
-          echo "storePassword=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" >> app/android/key.properties
-          echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> app/android/key.properties
-          echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> app/android/key.properties
+          path: app/build
+          name: build
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
@@ -135,7 +108,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
@@ -156,7 +128,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
