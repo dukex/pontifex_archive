@@ -1,5 +1,7 @@
 # Pontifex Archive
 
+Read a comprehensive collection of papal documents and church writings.
+
 ## Download
 
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://play.google.com/store/apps/details?id=fm.leigo.pontifex_archive)
@@ -7,7 +9,6 @@
 [![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://pontifexarchive.leigo.fm/)
 [![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white)](https://pontifexarchive.leigo.fm/)
 
-Read a comprehensive collection of papal documents and church writings.
 
 ## Structures
 
