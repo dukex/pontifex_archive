@@ -5,7 +5,6 @@ import 'package:pontifex_archive/app.dart';
 import 'package:pontifex_archive/core/data/models/author_translation.dart';
 import 'package:pontifex_archive/core/data/models/document.dart';
 import 'package:pontifex_archive/core/data/models/document_translation.dart';
-import 'package:pontifex_archive/features/home/presentation/widgets/document_card.dart';
 import 'package:pontifex_archive/i18n.g.dart';
 import 'package:pontifex_archive/injection_container/app.dart' as di;
 
