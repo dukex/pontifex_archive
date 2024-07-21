@@ -1,0 +1,23 @@
+Welcome to Pontifex Archive, your go-to app for accessing a comprehensive collection of papal documents and church writings. 
+
+Dive deep into the rich tradition and teachings of the Church with our extensive library, beautifully categorized and easy to navigate.
+
+Features:
+
+Extensive Library: Explore a wide range of papal documents including encyclicals, the catechism, canon law, papal bulls, motu proprio, and writings of the Church Fathers.
+
+Reading Interface: Enjoy a seamless reading experience with features like font size adjustment and night mode to enhance readability and comfort.
+
+Continue Reading: Easily pick up where you left off with our progress tracking feature. Never lose your place in your reading journey.
+
+Search Functionality: Quickly find the documents you need with our powerful search feature. Search by keyword, pope, or document type.
+
+Offline Access: Download your favorite documents to read offline, ensuring you have access anytime, anywhere.
+
+Multi-language Support: Access documents and the app interface in multiple languages. Choose your preferred language for a personalized experience.
+
+User Accounts: Create an account to personalize your reading experience. Manage bookmarks, highlights, and notes, and sync your reading progress across devices.
+
+Categorized Documents: Browse documents by category for easy access to encyclicals, the catechism, canon law, papal bulls, motu proprio, and more.
+
+With Pontifex Archive, stay connected to the rich tradition and teachings of the Church. Download now and start your journey through the papal documents and church writings.
