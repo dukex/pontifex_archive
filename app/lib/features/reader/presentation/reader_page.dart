@@ -27,13 +27,13 @@ class ReaderPage extends StatelessWidget {
           }
         }, builder: (context, state) {
           if (state is ReaderLoading) {
-            return const Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator.adaptive());
           } else if (state is ReaderError) {
             return Center(child: Text(state.message));
           } else if (state is EbookDownloaded) {
             return ReaderView(state: state);
           } else if (state is DocumentLoaded) {
-            return const Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator.adaptive());
           } else {
             return Center(child: Text("No state to $state"));
           }

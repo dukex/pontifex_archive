@@ -30,7 +30,7 @@ class _DocumentCardState extends State<DocumentCard> {
               context, "/reader/${widget.document.id}");
 
           setState(() {
-            readingProgress = newReadingProgress as double;
+            readingProgress = (newReadingProgress ?? 0.0) as double;
           });
         },
         child:
