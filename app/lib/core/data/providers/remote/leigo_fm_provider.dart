@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
 class LeigoFmProvider {
@@ -17,18 +16,11 @@ class LeigoFmProvider {
     final response = await client.get(_buildURL(path));
 
     if (response.statusCode == 200) {
-      return compute<String, T>(parseBody<T>(decode), response.body);
+      var result = json.decode(response.body);
+
+      return decode(result);
     } else {
       throw Exception('Failed to load documents');
     }
-  }
-
-  T Function(String message) parseBody<T>(
-      T Function(dynamic responseBody) decode) {
-    return (String message) {
-      var result = json.decode(message);
-
-      return decode(result);
-    };
   }
 }
