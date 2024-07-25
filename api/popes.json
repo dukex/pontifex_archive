@@ -796,6 +796,28 @@
           }
         ],
         "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19590801-sacerdotii",
+        "authorId": "john-xxiii",
+        "name": "Sacerdotii Nostri Primordia",
+        "date": "1959-08-01",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19590801-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19590801-sacerdotii.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html"
+          },
+          {
+            "id": "pt/enc-19590801-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19590801-sacerdotii.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
       }
     ]
   }
