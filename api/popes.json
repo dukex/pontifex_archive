@@ -756,5 +756,46 @@
         "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
       }
     ]
+  },
+  {
+    "number": 261,
+    "id": "john-xxiii",
+    "image_url": "",
+    "name": "S. Ioannes PP. XXIII",
+    "personal_name": "Angelo Giuseppe Roncalli",
+    "motto": "Oboedientia et pax",
+    "country": "Italy",
+    "start_date": "1958-10-28",
+    "end_date": "1963-06-03",
+    "signatures": [
+      "JOÃO PP. XXIII",
+      "JOHN XXIII",
+      "IOANNES PP. XXIII"
+    ],
+    "translations": [],
+    "documents": [
+      {
+        "id": "enc-19590625-ad-petri",
+        "authorId": "john-xxiii",
+        "name": "Ad Petri Cathedram",
+        "date": "1959-06-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19590625-ad-petri-cathedram",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19590625-ad-petri.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
+          },
+          {
+            "id": "pt/enc-19590625-ad-petri-cathedram",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19590625-ad-petri.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      }
+    ]
   }
 ]
