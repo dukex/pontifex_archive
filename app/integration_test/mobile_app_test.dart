@@ -24,7 +24,7 @@ void main() {
       await tester.pumpWidget(TranslationProvider(child: const App()));
       await tester.pumpAndSettle(const Duration(milliseconds: 3000));
 
-      var bookFinder = find.textContaining("Deus caritas est");
+      var bookFinder = find.textContaining("Deus caritas est").first;
 
       await waitFor(tester, bookFinder);
 
