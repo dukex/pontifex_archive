@@ -783,13 +783,13 @@
         "type": "enc",
         "translations": [
           {
-            "id": "en/enc-19590625-ad-petri-cathedram",
+            "id": "en/enc-19590625-ad-petri",
             "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19590625-ad-petri.epub",
             "language_code": "en",
             "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
           },
           {
-            "id": "pt/enc-19590625-ad-petri-cathedram",
+            "id": "pt/enc-19590625-ad-petri",
             "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19590625-ad-petri.epub",
             "language_code": "pt",
             "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
