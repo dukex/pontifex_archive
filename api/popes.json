@@ -1,7 +1,6 @@
 [
   {
     "id": "franciscus",
-    "number": 266,
     "image_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/image.jpg",
     "name": "Franciscus",
     "personal_name": "Jorge Mario Bergoglio",
@@ -111,7 +110,6 @@
     ]
   },
   {
-    "number": 265,
     "id": "benedictus-xvi",
     "image_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/image.jpg",
     "name": "Benedictus XVI",
@@ -246,7 +244,6 @@
     ]
   },
   {
-    "number": 264,
     "id": "ioannes-paulus-ii",
     "image_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/image.jpg",
     "name": "Ioannes Paulus II",
@@ -597,7 +594,6 @@
     ]
   },
   {
-    "number": 262,
     "id": "paulus-vi",
     "image_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/image.jpg",
     "name": "Paulus VI",
@@ -786,7 +782,6 @@
     ]
   },
   {
-    "number": 261,
     "id": "ioannes-pp-xxiii",
     "image_url": "",
     "name": "S. Ioannes PP. XXIII",
