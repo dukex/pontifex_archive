@@ -18,6 +18,8 @@ def generate():
 
     for pope in _popes:
         for document in pope.documents:
+            document.type = "enc"
+            document.author_id = pope.id
             for document_translation in document.translations:
                 document_translation.id = f"{document_translation.language_code}/{document.id}"
                 document_translation.epub_url = f"https://pontifexarchive.leigo.fm/api/popes/{pope.id}/{document_translation.id}.epub"
