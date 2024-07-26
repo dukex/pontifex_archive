@@ -5,7 +5,7 @@ __dirname = os.path.dirname(__file__)
 __api_path = f"{__dirname}/../../../api"
 
 def create(author, document, document_translation, structure):
-    file_path = f"{__api_path}/popes/{author.id}/{document_translation.language_code}/{document.id}.epub"
+    file_path = f"{__api_path}/popes/{author.id}/{document_translation.id}.epub"
 
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
