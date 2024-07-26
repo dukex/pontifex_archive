@@ -776,6 +776,28 @@
     "translations": [],
     "documents": [
       {
+        "id": "enc-19610515-mater",
+        "authorId": "ioannes-pp-xxiii",
+        "name": "Mater et Magistra",
+        "date": "1961-05-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html",
+            "id": "en/enc-19610515-mater",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/en/enc-19610515-mater.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html",
+            "id": "pt/enc-19610515-mater",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/pt/enc-19610515-mater.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
         "id": "enc-19591128-princeps",
         "authorId": "ioannes-pp-xxiii",
         "name": "Princeps Pastorum",
