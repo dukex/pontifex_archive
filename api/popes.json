@@ -803,6 +803,75 @@
     "translations": [],
     "documents": [
       {
+        "id": "enc-19630411-pacem",
+        "authorId": "ioannes-pp-xxiii",
+        "name": "Pacem in Terris",
+        "date": "1963-04-11",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html",
+            "id": "en/enc-19630411-pacem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/en/enc-19630411-pacem.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html",
+            "id": "pt/enc-19630411-pacem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/pt/enc-19630411-pacem.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "type": "enc",
+        "author_id": "ioannes-pp-xxiii"
+      },
+      {
+        "id": "enc-19610701-paenitentiam",
+        "authorId": "ioannes-pp-xxiii",
+        "name": "Paenitentiam Agere",
+        "date": "1961-07-01",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_01071962_paenitentiam.html",
+            "id": "en/enc-19610701-paenitentiam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/en/enc-19610701-paenitentiam.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_01071962_paenitentiam.html",
+            "id": "pt/enc-19610701-paenitentiam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/pt/enc-19610701-paenitentiam.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "type": "enc",
+        "author_id": "ioannes-pp-xxiii"
+      },
+      {
+        "id": "enc-19611111-aeterna-dei",
+        "authorId": "ioannes-pp-xxiii",
+        "name": "Aeterna Dei Sapientia",
+        "date": "1961-11-11",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11111961_aeterna-dei.html",
+            "id": "en/enc-19611111-aeterna-dei",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/en/enc-19611111-aeterna-dei.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_11111961_aeterna-dei.html",
+            "id": "pt/enc-19611111-aeterna-dei",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/pt/enc-19611111-aeterna-dei.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "type": "enc",
+        "author_id": "ioannes-pp-xxiii"
+      },
+      {
         "id": "enc-19610515-mater",
         "authorId": "ioannes-pp-xxiii",
         "name": "Mater et Magistra",
