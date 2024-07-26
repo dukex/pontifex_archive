@@ -1,846 +1,846 @@
 [
-    {
-        "id": "franciscus",
-        "number": 266,
-        "image_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/image.jpg",
-        "name": "Franciscus",
-        "personal_name": "Jorge Mario Bergoglio",
-        "motto": "Miserando atque Eligendo",
-        "country": "Argentina",
-        "start_date": "2013-03-13",
-        "signatures": [
-            "FRANCISCUS",
-            "Franciscus PP."
-        ],
+  {
+    "id": "franciscus",
+    "number": 266,
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/image.jpg",
+    "name": "Franciscus",
+    "personal_name": "Jorge Mario Bergoglio",
+    "motto": "Miserando atque Eligendo",
+    "country": "Argentina",
+    "start_date": "2013-03-13",
+    "signatures": [
+      "FRANCISCUS",
+      "Franciscus PP."
+    ],
+    "translations": [
+      {
+        "language_code": "pt",
+        "name": "Fransciso",
+        "motto": "Olhou-o com misericórdia e o escolheu"
+      }
+    ],
+    "documents": [
+      {
+        "id": "enc-20130524-lumen-fidei",
+        "authorId": "franciscus",
+        "name": "Lumen fidei",
+        "date": "2013-05-24",
+        "type": "enc",
         "translations": [
-            {
-                "language_code": "pt",
-                "name": "Fransciso",
-                "motto": "Olhou-o com misericórdia e o escolheu"
-            }
+          {
+            "id": "la/enc-20130524-lumen-fidei",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/la/enc-20130524-lumen-fidei.epub",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
+          },
+          {
+            "id": "en/enc-20130524-lumen-fidei",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/en/enc-20130524-lumen-fidei.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
+            "type": "enc"
+          },
+          {
+            "id": "pt/enc-20130524-lumen-fidei",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/pt/enc-20130524-lumen-fidei.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
+          }
         ],
-        "documents": [
-            {
-                "id": "enc-20130524-lumen-fidei",
-                "authorId": "franciscus",
-                "name": "Lumen fidei",
-                "date": "2013-05-24",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "la/enc-20130524-lumen-fidei",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/la/enc-20130524-lumen-fidei.epub",
-                        "language_code": "la",
-                        "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
-                    },
-                    {
-                        "id": "en/enc-20130524-lumen-fidei",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/en/enc-20130524-lumen-fidei.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
-                        "type": "enc"
-                    },
-                    {
-                        "id": "pt/enc-20130524-lumen-fidei",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/pt/enc-20130524-lumen-fidei.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20130524-lumen-fidei.png"
-            },
-            {
-                "id": "enc-20150524-laudato-si",
-                "authorId": "franciscus",
-                "name": "Laudato Si",
-                "date": "2015-05-24",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "la/enc-20150524-laudato-si",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/la/enc-20150524-laudato-si.epub",
-                        "language_code": "la",
-                        "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
-                    },
-                    {
-                        "id": "pt/enc-20150524-laudato-si",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/pt/enc-20150524-laudato-si.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
-                    },
-                    {
-                        "id": "en/enc-20150524-laudato-si",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/en/enc-20150524-laudato-si.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20150524-laudato-si.png"
-            },
-            {
-                "id": "enc-20201003-fratelli-tutti",
-                "authorId": "franciscus",
-                "name": "Fratelli tutti",
-                "date": "2020-10-03",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "la/enc-20201003-fratelli-tutti",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/la/enc-20201003-fratelli-tutti.epub",
-                        "language_code": "la",
-                        "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
-                    },
-                    {
-                        "id": "pt/enc-20201003-fratelli-tutti",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/pt/enc-20201003-fratelli-tutti.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
-                    },
-                    {
-                        "id": "en/enc-20201003-fratelli-tutti",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/en/enc-20201003-fratelli-tutti.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20201003-fratelli-tutti.png"
-            }
-        ]
-    },
-    {
-        "number": 265,
-        "id": "benedictus-xvi",
-        "image_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/image.jpg",
-        "name": "Benedictus XVI",
-        "personal_name": "Joseph Aloisius Ratzinger",
-        "motto": "Cooperatores veritatis",
-        "country": "Germany",
-        "start_date": "2005-04-19",
-        "end_date": "2013-02-28",
-        "signatures": [
-            "BENEDICTUS PP. XVI"
-        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20130524-lumen-fidei.png"
+      },
+      {
+        "id": "enc-20150524-laudato-si",
+        "authorId": "franciscus",
+        "name": "Laudato Si",
+        "date": "2015-05-24",
+        "type": "enc",
         "translations": [
-            {
-                "language_code": "en",
-                "name": "Benedict XVI",
-                "motto": "Cooperators of the Truth"
-            },
-            {
-                "language_code": "pt",
-                "name": "Bento XVI",
-                "motto": "Cooperadores da Verdade"
-            },
-            {
-                "language_code": "es",
-                "name": "Benedicto XVI",
-                "motto": "Cooperadores de la Verdad"
-            },
-            {
-                "language_code": "fr",
-                "name": "Benoit XVI",
-                "motto": "Coopérateurs de la Vérité"
-            },
-            {
-                "language_code": "it",
-                "name": "Benedetto XVI",
-                "motto": "Cooperatori della Verità"
-            },
-            {
-                "language_code": "de",
-                "name": "Benedikt XVI",
-                "motto": "Mitarbeiter der Wahrheit"
-            }
+          {
+            "id": "la/enc-20150524-laudato-si",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/la/enc-20150524-laudato-si.epub",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+          },
+          {
+            "id": "pt/enc-20150524-laudato-si",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/pt/enc-20150524-laudato-si.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+          },
+          {
+            "id": "en/enc-20150524-laudato-si",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/en/enc-20150524-laudato-si.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+          }
         ],
-        "documents": [
-            {
-                "id": "enc-20090629-caritas-in-veritate",
-                "authorId": "benedictus-xvi",
-                "name": "Caritas in veritate",
-                "date": "2009-06-29",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-20090629-caritas-in-veritate",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/en/enc-20090629-caritas-in-veritate.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
-                    },
-                    {
-                        "id": "la/enc-20090629-caritas-in-veritate",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/la/enc-20090629-caritas-in-veritate.epub",
-                        "language_code": "la",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
-                    },
-                    {
-                        "id": "pt/enc-20090629-caritas-in-veritate",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/pt/enc-20090629-caritas-in-veritate.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20090629-caritas-in-veritate.png"
-            },
-            {
-                "id": "enc-20071130-spe-salvi",
-                "authorId": "benedictus-xvi",
-                "name": "Spe salvi",
-                "date": "2007-11-30",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-20071130-spe-salvi",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/en/enc-20071130-spe-salvi.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
-                    },
-                    {
-                        "id": "la/enc-20071130-spe-salvi",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/la/enc-20071130-spe-salvi.epub",
-                        "language_code": "la",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
-                    },
-                    {
-                        "id": "pt/enc-20071130-spe-salvi",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/pt/enc-20071130-spe-salvi.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20071130-spe-salvi.png"
-            },
-            {
-                "id": "enc-20051225-deus-caritas-est",
-                "authorId": "benedictus-xvi",
-                "name": "Deus caritas est",
-                "date": "2005-12-25",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-20051225-deus-caritas-est",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/en/enc-20051225-deus-caritas-est.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
-                    },
-                    {
-                        "id": "la/enc-20051225-deus-caritas-est",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/la/enc-20051225-deus-caritas-est.epub",
-                        "language_code": "la",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
-                    },
-                    {
-                        "id": "pt/enc-20051225-deus-caritas-est",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/pt/enc-20051225-deus-caritas-est.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20051225-deus-caritas-est.png"
-            }
-        ]
-    },
-    {
-        "number": 264,
-        "id": "ioannes-paulus-ii",
-        "image_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/image.jpg",
-        "name": "Ioannes Paulus II",
-        "personal_name": "Karol Józef Wojtyła",
-        "motto": "Totus Tuus",
-        "country": "Poland",
-        "start_date": "1978-10-16",
-        "end_date": "2005-04-02",
-        "signatures": [
-            "IOANNES PAULUS PP. II",
-            "JOHN PAUL II"
-        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20150524-laudato-si.png"
+      },
+      {
+        "id": "enc-20201003-fratelli-tutti",
+        "authorId": "franciscus",
+        "name": "Fratelli tutti",
+        "date": "2020-10-03",
+        "type": "enc",
         "translations": [
-            {
-                "language_code": "en",
-                "name": "John Paul II",
-                "motto": "Totally Yours"
-            },
-            {
-                "language_code": "pt",
-                "name": "João Paulo II",
-                "motto": "Todo Teu"
-            }
+          {
+            "id": "la/enc-20201003-fratelli-tutti",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/la/enc-20201003-fratelli-tutti.epub",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/francesco/la/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+          },
+          {
+            "id": "pt/enc-20201003-fratelli-tutti",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/pt/enc-20201003-fratelli-tutti.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+          },
+          {
+            "id": "en/enc-20201003-fratelli-tutti",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/en/enc-20201003-fratelli-tutti.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+          }
         ],
-        "documents": [
-            {
-                "id": "enc-19790304-redemptor-hominis",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Redemptor Hominis",
-                "date": "1979-03-04",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19790304-redemptor-hominis",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19790304-redemptor-hominis.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html"
-                    },
-                    {
-                        "id": "pt/enc-19790304-redemptor-hominis",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19790304-redemptor-hominis.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19800515-dives-in-misericordia",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Dives in Misericordia",
-                "date": "1980-11-30",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19800515-dives-in-misericordia",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19800515-dives-in-misericordia.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html"
-                    },
-                    {
-                        "id": "pt/enc-19800515-dives-in-misericordia",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19800515-dives-in-misericordia.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19810914-laborem-exercens",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Laborem Exercens",
-                "date": "1981-09-14",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19810914-laborem-exercens",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19810914-laborem-exercens.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html"
-                    },
-                    {
-                        "id": "pt/enc-19810914-laborem-exercens",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19810914-laborem-exercens.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19850602-slavorum-apostoli",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Slavorum Apostoli",
-                "date": "1985-06-02",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19850602-slavorum-apostoli",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19850602-slavorum-apostoli.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
-                    },
-                    {
-                        "id": "pt/enc-19850602-slavorum-apostoli",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19850602-slavorum-apostoli.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19860518-dominum-et-vivificantem",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Dominum et Vivificantem",
-                "date": "1986-05-18",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19860518-dominum-et-vivificantem",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19860518-dominum-et-vivificantem.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html"
-                    },
-                    {
-                        "id": "pt/enc-19860518-dominum-et-vivificantem",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19860518-dominum-et-vivificantem.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19900815-redemptoris-mater",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Redemptoris Mater",
-                "date": "1987-03-25",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19900815-redemptoris-mater",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19900815-redemptoris-mater.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
-                    },
-                    {
-                        "id": "pt/enc-19900815-redemptoris-mater",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19900815-redemptoris-mater.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19871230-sollicitudo-rei-socialis",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Sollicitudo Rei Socialis",
-                "date": "1987-12-30",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19871230-sollicitudo-rei-socialis",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19871230-sollicitudo-rei-socialis.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html"
-                    },
-                    {
-                        "id": "pt/enc-19871230-sollicitudo-rei-socialis",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19871230-sollicitudo-rei-socialis.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19900325-redemptoris-missio",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Redemptoris Missio",
-                "date": "1990-12-07",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19900325-redemptoris-missio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19900325-redemptoris-missio.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html"
-                    },
-                    {
-                        "id": "pt/enc-19900325-redemptoris-missio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19900325-redemptoris-missio.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19910325-cessimus-annus",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Centesimus Annus",
-                "date": "1991-05-01",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19910325-cessimus-annus",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19910325-cessimus-annus.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html"
-                    },
-                    {
-                        "id": "pt/enc-19910325-cessimus-annus",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19910325-cessimus-annus.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19930525-veritatis-splendor",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Veritatis Splendor",
-                "date": "1993-08-06",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19930525-veritatis-splendor",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19930525-veritatis-splendor.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html"
-                    },
-                    {
-                        "id": "pt/enc-19930525-veritatis-splendor",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19930525-veritatis-splendor.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19950325-evangelium-vitae",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Evangelium Vitae",
-                "date": "1995-03-25",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19950325-evangelium-vitae",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19950325-evangelium-vitae.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
-                    },
-                    {
-                        "id": "pt/enc-19950325-evangelium-vitae",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19950325-evangelium-vitae.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19950525-ut-unum-sint",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Ut Unum Sint",
-                "date": "1995-05-25",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19950525-ut-unum-sint",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19950525-ut-unum-sint.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html"
-                    },
-                    {
-                        "id": "pt/enc-19950525-ut-unum-sint",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19950525-ut-unum-sint.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19980325-fides-et-ratio",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Fides et Ratio",
-                "date": "1998-09-14",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19980325-fides-et-ratio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19980325-fides-et-ratio.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html"
-                    },
-                    {
-                        "id": "pt/enc-19980325-fides-et-ratio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19980325-fides-et-ratio.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-20030417-ecclesia-de-eucharistia",
-                "authorId": "ioannes-paulus-ii",
-                "name": "Ecclesia de Eucharistia",
-                "date": "2003-04-17",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-20030417-ecclesia-de-eucharistia",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-20030417-ecclesia-de-eucharistia.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html"
-                    },
-                    {
-                        "id": "pt/enc-20030417-ecclesia-de-eucharistia",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-20030417-ecclesia-de-eucharistia.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            }
-        ]
-    },
-    {
-        "number": 262,
-        "id": "paulus-vi",
-        "image_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/image.jpg",
-        "name": "Paulus VI",
-        "personal_name": "Giovanni Battista Enrico Antonio Maria Montini",
-        "motto": "In nomine Domini",
-        "country": "Italy",
-        "start_date": "1963-06-21",
-        "end_date": "1978-08-06",
-        "signatures": [
-            "PAULUS PP. VI"
-        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20201003-fratelli-tutti.png"
+      }
+    ]
+  },
+  {
+    "number": 265,
+    "id": "benedictus-xvi",
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/image.jpg",
+    "name": "Benedictus XVI",
+    "personal_name": "Joseph Aloisius Ratzinger",
+    "motto": "Cooperatores veritatis",
+    "country": "Germany",
+    "start_date": "2005-04-19",
+    "end_date": "2013-02-28",
+    "signatures": [
+      "BENEDICTUS PP. XVI"
+    ],
+    "translations": [
+      {
+        "language_code": "en",
+        "name": "Benedict XVI",
+        "motto": "Cooperators of the Truth"
+      },
+      {
+        "language_code": "pt",
+        "name": "Bento XVI",
+        "motto": "Cooperadores da Verdade"
+      },
+      {
+        "language_code": "es",
+        "name": "Benedicto XVI",
+        "motto": "Cooperadores de la Verdad"
+      },
+      {
+        "language_code": "fr",
+        "name": "Benoit XVI",
+        "motto": "Coopérateurs de la Vérité"
+      },
+      {
+        "language_code": "it",
+        "name": "Benedetto XVI",
+        "motto": "Cooperatori della Verità"
+      },
+      {
+        "language_code": "de",
+        "name": "Benedikt XVI",
+        "motto": "Mitarbeiter der Wahrheit"
+      }
+    ],
+    "documents": [
+      {
+        "id": "enc-20090629-caritas-in-veritate",
+        "authorId": "benedictus-xvi",
+        "name": "Caritas in veritate",
+        "date": "2009-06-29",
+        "type": "enc",
         "translations": [
-            {
-                "language_code": "en",
-                "name": "Paul VI",
-                "motto": "In the name of the Lord"
-            },
-            {
-                "language_code": "pt",
-                "name": "Paulo VI",
-                "motto": "Em nome do Senhor"
-            }
+          {
+            "id": "en/enc-20090629-caritas-in-veritate",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/en/enc-20090629-caritas-in-veritate.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          },
+          {
+            "id": "la/enc-20090629-caritas-in-veritate",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/la/enc-20090629-caritas-in-veritate.epub",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          },
+          {
+            "id": "pt/enc-20090629-caritas-in-veritate",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/pt/enc-20090629-caritas-in-veritate.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html"
+          }
         ],
-        "documents": [
-            {
-                "id": "enc-19680725-humanae-vitae",
-                "authorId": "paulus-vi",
-                "name": "Humanae Vitae",
-                "date": "1968-07-25",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19680725-humanae-vitae",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19680725-humanae-vitae.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html"
-                    },
-                    {
-                        "id": "pt/enc-19680725-humanae-vitae",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19680725-humanae-vitae.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19670624-sacerdotalis-caelibatus",
-                "authorId": "paulus-vi",
-                "name": "Sacerdotalis Caelibatus",
-                "date": "1967-06-24",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19670624-sacerdotalis-caelibatus",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19670624-sacerdotalis-caelibatus.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html"
-                    },
-                    {
-                        "id": "pt/enc-19670624-sacerdotalis-caelibatus",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19670624-sacerdotalis-caelibatus.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19671126-populorum-progressio",
-                "authorId": "paulus-vi",
-                "name": "Populorum Progressio",
-                "date": "1967-03-26",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19671126-populorum-progressio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19671126-populorum-progressio.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
-                    },
-                    {
-                        "id": "pt/enc-19671126-populorum-progressio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19671126-populorum-progressio.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19660915-christi-matri",
-                "authorId": "paulus-vi",
-                "name": "Christi Matri",
-                "date": "1966-09-15",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19660915-christi-matri",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19660915-christi-matri.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html"
-                    },
-                    {
-                        "id": "pt/enc-19660915-christi-matri",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19660915-christi-matri.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19650629-mysterium-fidei",
-                "authorId": "paulus-vi",
-                "name": "Mysterium Fidei",
-                "date": "1965-09-03",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19650629-mysterium-fidei",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19650629-mysterium-fidei.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
-                    },
-                    {
-                        "id": "pt/enc-19650629-mysterium-fidei",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19650629-mysterium-fidei.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19650429-mense-maio",
-                "authorId": "paulus-vi",
-                "name": "Mense Maio",
-                "date": "1965-04-29",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19650429-mense-maio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19650429-mense-maio.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html"
-                    },
-                    {
-                        "id": "pt/enc-19650429-mense-maio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19650429-mense-maio.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19640806-ecclesiam-suam",
-                "authorId": "paulus-vi",
-                "name": "Ecclesiam Suam",
-                "date": "1964-08-06",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19640806-ecclesiam-suam",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19640806-ecclesiam-suam.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html"
-                    },
-                    {
-                        "id": "pt/enc-19640806-ecclesiam-suam",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19640806-ecclesiam-suam.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            }
-        ]
-    },
-    {
-        "number": 261,
-        "id": "john-xxiii",
-        "image_url": "",
-        "name": "S. Ioannes PP. XXIII",
-        "personal_name": "Angelo Giuseppe Roncalli",
-        "motto": "Oboedientia et pax",
-        "country": "Italy",
-        "start_date": "1958-10-28",
-        "end_date": "1963-06-03",
-        "signatures": [
-            "JOÃO PP. XXIII",
-            "JOHN XXIII",
-            "IOANNES PP. XXIII"
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20090629-caritas-in-veritate.png"
+      },
+      {
+        "id": "enc-20071130-spe-salvi",
+        "authorId": "benedictus-xvi",
+        "name": "Spe salvi",
+        "date": "2007-11-30",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-20071130-spe-salvi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/en/enc-20071130-spe-salvi.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
+          },
+          {
+            "id": "la/enc-20071130-spe-salvi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/la/enc-20071130-spe-salvi.epub",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
+          },
+          {
+            "id": "pt/enc-20071130-spe-salvi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/pt/enc-20071130-spe-salvi.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
+          }
         ],
-        "translations": [],
-        "documents": [
-            {
-                "id": "enc-19590926-grata-recordatio",
-                "authorId": "john-xxiii",
-                "name": "Grata Recordatio",
-                "date": "1959-09-26",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19590926-grata-recordatio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/john-xxiii/en/enc-19590926-grata-recordatio.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_26091959_grata-recordatio.html"
-                    },
-                    {
-                        "id": "pt/enc-19590926-grata-recordatio",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/john-xxiii/pt/enc-19590926-grata-recordatio.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_26091959_grata-recordatio.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19590801-sacerdotii",
-                "authorId": "john-xxiii",
-                "name": "Sacerdotii Nostri Primordia",
-                "date": "1959-08-01",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19590801-sacerdotii",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/john-xxiii/en/enc-19590801-sacerdotii.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html"
-                    },
-                    {
-                        "id": "pt/enc-19590801-sacerdotii",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/john-xxiii/pt/enc-19590801-sacerdotii.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            },
-            {
-                "id": "enc-19590625-ad-petri",
-                "authorId": "john-xxiii",
-                "name": "Ad Petri Cathedram",
-                "date": "1959-06-29",
-                "type": "enc",
-                "translations": [
-                    {
-                        "id": "en/enc-19590629-ad-petri",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19590629-ad-petri.epub",
-                        "language_code": "en",
-                        "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
-                    },
-                    {
-                        "id": "pt/enc-19590629-ad-petri",
-                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19590629-ad-petri.epub",
-                        "language_code": "pt",
-                        "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
-                    }
-                ],
-                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
-            }
-        ]
-    }
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20071130-spe-salvi.png"
+      },
+      {
+        "id": "enc-20051225-deus-caritas-est",
+        "authorId": "benedictus-xvi",
+        "name": "Deus caritas est",
+        "date": "2005-12-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-20051225-deus-caritas-est",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/en/enc-20051225-deus-caritas-est.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+          },
+          {
+            "id": "la/enc-20051225-deus-caritas-est",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/la/enc-20051225-deus-caritas-est.epub",
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/la/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+          },
+          {
+            "id": "pt/enc-20051225-deus-caritas-est",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedictus-xvi/pt/enc-20051225-deus-caritas-est.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/enc-20051225-deus-caritas-est.png"
+      }
+    ]
+  },
+  {
+    "number": 264,
+    "id": "ioannes-paulus-ii",
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/image.jpg",
+    "name": "Ioannes Paulus II",
+    "personal_name": "Karol Józef Wojtyła",
+    "motto": "Totus Tuus",
+    "country": "Poland",
+    "start_date": "1978-10-16",
+    "end_date": "2005-04-02",
+    "signatures": [
+      "IOANNES PAULUS PP. II",
+      "JOHN PAUL II"
+    ],
+    "translations": [
+      {
+        "language_code": "en",
+        "name": "John Paul II",
+        "motto": "Totally Yours"
+      },
+      {
+        "language_code": "pt",
+        "name": "João Paulo II",
+        "motto": "Todo Teu"
+      }
+    ],
+    "documents": [
+      {
+        "id": "enc-19790304-redemptor-hominis",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Redemptor Hominis",
+        "date": "1979-03-04",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19790304-redemptor-hominis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19790304-redemptor-hominis.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html"
+          },
+          {
+            "id": "pt/enc-19790304-redemptor-hominis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19790304-redemptor-hominis.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19800515-dives-in-misericordia",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Dives in Misericordia",
+        "date": "1980-11-30",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19800515-dives-in-misericordia",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19800515-dives-in-misericordia.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html"
+          },
+          {
+            "id": "pt/enc-19800515-dives-in-misericordia",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19800515-dives-in-misericordia.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19810914-laborem-exercens",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Laborem Exercens",
+        "date": "1981-09-14",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19810914-laborem-exercens",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19810914-laborem-exercens.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html"
+          },
+          {
+            "id": "pt/enc-19810914-laborem-exercens",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19810914-laborem-exercens.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19850602-slavorum-apostoli",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Slavorum Apostoli",
+        "date": "1985-06-02",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19850602-slavorum-apostoli",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19850602-slavorum-apostoli.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
+          },
+          {
+            "id": "pt/enc-19850602-slavorum-apostoli",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19850602-slavorum-apostoli.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19860518-dominum-et-vivificantem",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Dominum et Vivificantem",
+        "date": "1986-05-18",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19860518-dominum-et-vivificantem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19860518-dominum-et-vivificantem.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html"
+          },
+          {
+            "id": "pt/enc-19860518-dominum-et-vivificantem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19860518-dominum-et-vivificantem.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19900815-redemptoris-mater",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Redemptoris Mater",
+        "date": "1987-03-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19900815-redemptoris-mater",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19900815-redemptoris-mater.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
+          },
+          {
+            "id": "pt/enc-19900815-redemptoris-mater",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19900815-redemptoris-mater.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19871230-sollicitudo-rei-socialis",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Sollicitudo Rei Socialis",
+        "date": "1987-12-30",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19871230-sollicitudo-rei-socialis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19871230-sollicitudo-rei-socialis.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html"
+          },
+          {
+            "id": "pt/enc-19871230-sollicitudo-rei-socialis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19871230-sollicitudo-rei-socialis.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19900325-redemptoris-missio",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Redemptoris Missio",
+        "date": "1990-12-07",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19900325-redemptoris-missio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19900325-redemptoris-missio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html"
+          },
+          {
+            "id": "pt/enc-19900325-redemptoris-missio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19900325-redemptoris-missio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19910325-cessimus-annus",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Centesimus Annus",
+        "date": "1991-05-01",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19910325-cessimus-annus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19910325-cessimus-annus.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html"
+          },
+          {
+            "id": "pt/enc-19910325-cessimus-annus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19910325-cessimus-annus.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19930525-veritatis-splendor",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Veritatis Splendor",
+        "date": "1993-08-06",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19930525-veritatis-splendor",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19930525-veritatis-splendor.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html"
+          },
+          {
+            "id": "pt/enc-19930525-veritatis-splendor",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19930525-veritatis-splendor.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19950325-evangelium-vitae",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Evangelium Vitae",
+        "date": "1995-03-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19950325-evangelium-vitae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19950325-evangelium-vitae.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
+          },
+          {
+            "id": "pt/enc-19950325-evangelium-vitae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19950325-evangelium-vitae.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19950525-ut-unum-sint",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Ut Unum Sint",
+        "date": "1995-05-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19950525-ut-unum-sint",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19950525-ut-unum-sint.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html"
+          },
+          {
+            "id": "pt/enc-19950525-ut-unum-sint",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19950525-ut-unum-sint.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19980325-fides-et-ratio",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Fides et Ratio",
+        "date": "1998-09-14",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19980325-fides-et-ratio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-19980325-fides-et-ratio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html"
+          },
+          {
+            "id": "pt/enc-19980325-fides-et-ratio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-19980325-fides-et-ratio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-20030417-ecclesia-de-eucharistia",
+        "authorId": "ioannes-paulus-ii",
+        "name": "Ecclesia de Eucharistia",
+        "date": "2003-04-17",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-20030417-ecclesia-de-eucharistia",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/en/enc-20030417-ecclesia-de-eucharistia.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html"
+          },
+          {
+            "id": "pt/enc-20030417-ecclesia-de-eucharistia",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-paulus-ii/pt/enc-20030417-ecclesia-de-eucharistia.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      }
+    ]
+  },
+  {
+    "number": 262,
+    "id": "paulus-vi",
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/image.jpg",
+    "name": "Paulus VI",
+    "personal_name": "Giovanni Battista Enrico Antonio Maria Montini",
+    "motto": "In nomine Domini",
+    "country": "Italy",
+    "start_date": "1963-06-21",
+    "end_date": "1978-08-06",
+    "signatures": [
+      "PAULUS PP. VI"
+    ],
+    "translations": [
+      {
+        "language_code": "en",
+        "name": "Paul VI",
+        "motto": "In the name of the Lord"
+      },
+      {
+        "language_code": "pt",
+        "name": "Paulo VI",
+        "motto": "Em nome do Senhor"
+      }
+    ],
+    "documents": [
+      {
+        "id": "enc-19680725-humanae-vitae",
+        "authorId": "paulus-vi",
+        "name": "Humanae Vitae",
+        "date": "1968-07-25",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19680725-humanae-vitae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19680725-humanae-vitae.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html"
+          },
+          {
+            "id": "pt/enc-19680725-humanae-vitae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19680725-humanae-vitae.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19670624-sacerdotalis-caelibatus",
+        "authorId": "paulus-vi",
+        "name": "Sacerdotalis Caelibatus",
+        "date": "1967-06-24",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19670624-sacerdotalis-caelibatus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19670624-sacerdotalis-caelibatus.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html"
+          },
+          {
+            "id": "pt/enc-19670624-sacerdotalis-caelibatus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19670624-sacerdotalis-caelibatus.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19671126-populorum-progressio",
+        "authorId": "paulus-vi",
+        "name": "Populorum Progressio",
+        "date": "1967-03-26",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19671126-populorum-progressio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19671126-populorum-progressio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
+          },
+          {
+            "id": "pt/enc-19671126-populorum-progressio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19671126-populorum-progressio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19660915-christi-matri",
+        "authorId": "paulus-vi",
+        "name": "Christi Matri",
+        "date": "1966-09-15",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19660915-christi-matri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19660915-christi-matri.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html"
+          },
+          {
+            "id": "pt/enc-19660915-christi-matri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19660915-christi-matri.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_15091966_christi-matri.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19650629-mysterium-fidei",
+        "authorId": "paulus-vi",
+        "name": "Mysterium Fidei",
+        "date": "1965-09-03",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19650629-mysterium-fidei",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19650629-mysterium-fidei.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
+          },
+          {
+            "id": "pt/enc-19650629-mysterium-fidei",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19650629-mysterium-fidei.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19650429-mense-maio",
+        "authorId": "paulus-vi",
+        "name": "Mense Maio",
+        "date": "1965-04-29",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19650429-mense-maio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19650429-mense-maio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html"
+          },
+          {
+            "id": "pt/enc-19650429-mense-maio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19650429-mense-maio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_29041965_mense-maio.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19640806-ecclesiam-suam",
+        "authorId": "paulus-vi",
+        "name": "Ecclesiam Suam",
+        "date": "1964-08-06",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19640806-ecclesiam-suam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/en/enc-19640806-ecclesiam-suam.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html"
+          },
+          {
+            "id": "pt/enc-19640806-ecclesiam-suam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/paulus-vi/pt/enc-19640806-ecclesiam-suam.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/paul-vi/pt/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      }
+    ]
+  },
+  {
+    "number": 261,
+    "id": "ioannes-pp-xxiii",
+    "image_url": "",
+    "name": "S. Ioannes PP. XXIII",
+    "personal_name": "Angelo Giuseppe Roncalli",
+    "motto": "Oboedientia et pax",
+    "country": "Italy",
+    "start_date": "1958-10-28",
+    "end_date": "1963-06-03",
+    "signatures": [
+      "JOÃO PP. XXIII",
+      "JOHN XXIII",
+      "IOANNES PP. XXIII"
+    ],
+    "translations": [],
+    "documents": [
+      {
+        "id": "enc-19590926-grata-recordatio",
+        "authorId": "ioannes-pp-xxiii",
+        "name": "Grata Recordatio",
+        "date": "1959-09-26",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19590926-grata-recordatio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/en/enc-19590926-grata-recordatio.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_26091959_grata-recordatio.html"
+          },
+          {
+            "id": "pt/enc-19590926-grata-recordatio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/pt/enc-19590926-grata-recordatio.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_26091959_grata-recordatio.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19590801-sacerdotii",
+        "authorId": "ioannes-pp-xxiii",
+        "name": "Sacerdotii Nostri Primordia",
+        "date": "1959-08-01",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19590801-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/en/enc-19590801-sacerdotii.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html"
+          },
+          {
+            "id": "pt/enc-19590801-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/pt/enc-19590801-sacerdotii.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_19590801_sacerdotii.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      },
+      {
+        "id": "enc-19590625-ad-petri",
+        "authorId": "ioannes-pp-xxiii",
+        "name": "Ad Petri Cathedram",
+        "date": "1959-06-29",
+        "type": "enc",
+        "translations": [
+          {
+            "id": "en/enc-19590629-ad-petri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/en/enc-19590629-ad-petri.epub",
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
+          },
+          {
+            "id": "pt/enc-19590629-ad-petri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/ioannes-pp-xxiii/pt/enc-19590629-ad-petri.epub",
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/john-xxiii/pt/encyclicals/documents/hf_j-xxiii_enc_29061959_ad-petri.html"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+      }
+    ]
+  }
 ]
