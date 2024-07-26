@@ -982,5 +982,70 @@
         "author_id": "ioannes-pp-xxiii"
       }
     ]
+  },
+  {
+    "id": "pius-xii",
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/image.jpg",
+    "name": "Pius PP. XII",
+    "personal_name": "Eugenio Pacelli",
+    "motto": "",
+    "country": "",
+    "start_date": "1939-03-9",
+    "end_date": "1958-10-9",
+    "signatures": [],
+    "translations": [],
+    "documents": []
+  },
+  {
+    "id": "pius-xi",
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/image.jpg",
+    "name": "Pius PP. XI",
+    "personal_name": "Achille Ratti",
+    "motto": "",
+    "country": "",
+    "start_date": "1922-02-10",
+    "end_date": "1939-02-10",
+    "signatures": [],
+    "translations": [],
+    "documents": []
+  },
+  {
+    "id": "benedict-xv",
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/image.jpg",
+    "name": "Benedictus PP. XV",
+    "personal_name": "Giacomo della Chiesa",
+    "motto": "",
+    "country": "",
+    "start_date": "1914-09-22",
+    "end_date": "1922-01-22",
+    "signatures": [],
+    "translations": [],
+    "documents": []
+  },
+  {
+    "id": "pius-x",
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/image.jpg",
+    "name": "S. Pius PP. X",
+    "personal_name": "Giuseppe Sarto",
+    "motto": "",
+    "country": "",
+    "start_date": "1903-08-20",
+    "end_date": "1914-08-20",
+    "signatures": [],
+    "translations": [],
+    "documents": []
+  },
+  {
+    "id": "leo-xiii",
+    "image_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/image.jpg",
+    "name": "Leo PP. XIII",
+    "personal_name": "Gioacchino Pecci",
+    "motto": "",
+    "country": "",
+    "start_date": "1878-02-20",
+    "end_date": "1903-07-20",
+    "signatures": [],
+    "translations": [],
+    "documents": []
   }
 ]
