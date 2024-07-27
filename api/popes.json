@@ -990,11 +990,742 @@
     "personal_name": "Eugenio Pacelli",
     "motto": "",
     "country": "",
-    "start_date": "1939-03-9",
-    "end_date": "1958-10-9",
-    "signatures": [],
+    "start_date": "1939-03-09",
+    "end_date": "1958-10-09",
+    "signatures": [
+      "PIUS PP. XII",
+      "PIUS XII.",
+      "PIO PP. XII",
+      "PIUS XII POPE",
+      "PIUS XII"
+    ],
     "translations": [],
-    "documents": []
+    "documents": [
+      {
+        "id": "enc-19580714-meminisse-iuvat",
+        "authorId": "pius-xii",
+        "name": "Meminisse Iuvat",
+        "date": "1958-07-14",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_14071958_meminisse-iuvat.html",
+            "id": "en/enc-19580714-meminisse-iuvat",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19580714-meminisse-iuvat.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_14071958_meminisse-iuvat.html",
+            "id": "it/enc-19580714-meminisse-iuvat",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19580714-meminisse-iuvat.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_14071958_meminisse-iuvat.html",
+            "id": "la/enc-19580714-meminisse-iuvat",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19580714-meminisse-iuvat.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_14071958_meminisse-iuvat.html",
+            "id": "pt/enc-19580714-meminisse-iuvat",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19580714-meminisse-iuvat.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19580629-ad-apostolorum-principis",
+        "authorId": "pius-xii",
+        "name": "Ad Apostolorum Principis",
+        "date": "1958-06-29",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+            "id": "en/enc-19580629-ad-apostolorum-principis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19580629-ad-apostolorum-principis.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+            "id": "it/enc-19580629-ad-apostolorum-principis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19580629-ad-apostolorum-principis.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+            "id": "la/enc-19580629-ad-apostolorum-principis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19580629-ad-apostolorum-principis.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+            "id": "pt/enc-19580629-ad-apostolorum-principis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19580629-ad-apostolorum-principis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-1957098-miranda-prorsus",
+        "authorId": "pius-xii",
+        "name": "Miranda Prorsus",
+        "date": "1957-09-08",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
+            "id": "en/enc-1957098-miranda-prorsus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-1957098-miranda-prorsus.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/fr/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
+            "id": "fr/enc-1957098-miranda-prorsus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/fr/enc-1957098-miranda-prorsus.epub"
+          },
+          {
+            "language_code": "de",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/de/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
+            "id": "de/enc-1957098-miranda-prorsus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/de/enc-1957098-miranda-prorsus.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
+            "id": "it/enc-1957098-miranda-prorsus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-1957098-miranda-prorsus.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
+            "id": "la/enc-1957098-miranda-prorsus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-1957098-miranda-prorsus.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
+            "id": "pt/enc-1957098-miranda-prorsus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-1957098-miranda-prorsus.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html",
+            "id": "es/enc-1957098-miranda-prorsus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/es/enc-1957098-miranda-prorsus.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-1957072-le-pelerinage-de-lourdes",
+        "authorId": "pius-xii",
+        "name": "Le Pèlerinage de Lourdes",
+        "date": "1957-07-02",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html",
+            "id": "en/enc-1957072-le-pelerinage-de-lourdes",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-1957072-le-pelerinage-de-lourdes.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/fr/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html",
+            "id": "fr/enc-1957072-le-pelerinage-de-lourdes",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/fr/enc-1957072-le-pelerinage-de-lourdes.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html",
+            "id": "it/enc-1957072-le-pelerinage-de-lourdes",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-1957072-le-pelerinage-de-lourdes.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html",
+            "id": "pt/enc-1957072-le-pelerinage-de-lourdes",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-1957072-le-pelerinage-de-lourdes.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19570516-invicti-athletae",
+        "authorId": "pius-xii",
+        "name": "Invicti Athletae",
+        "date": "1957-05-16",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_16051957_invicti-athletae.html",
+            "id": "en/enc-19570516-invicti-athletae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19570516-invicti-athletae.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_16051957_invicti-athletae.html",
+            "id": "it/enc-19570516-invicti-athletae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19570516-invicti-athletae.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_16051957_invicti-athletae.html",
+            "id": "la/enc-19570516-invicti-athletae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19570516-invicti-athletae.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19570421-fidei-donum",
+        "authorId": "pius-xii",
+        "name": "Fidei Donum",
+        "date": "1957-04-21",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html",
+            "id": "en/enc-19570421-fidei-donum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19570421-fidei-donum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html",
+            "id": "it/enc-19570421-fidei-donum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19570421-fidei-donum.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html",
+            "id": "la/enc-19570421-fidei-donum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19570421-fidei-donum.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html",
+            "id": "pt/enc-19570421-fidei-donum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19570421-fidei-donum.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html",
+            "id": "es/enc-19570421-fidei-donum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/es/enc-19570421-fidei-donum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-1956115-datis-nuperrime",
+        "authorId": "pius-xii",
+        "name": "Datis Nuperrime",
+        "date": "1956-11-05",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_05111956_datis-nuperrime.html",
+            "id": "en/enc-1956115-datis-nuperrime",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-1956115-datis-nuperrime.epub"
+          },
+          {
+            "language_code": "hu",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/hu/encyclicals/documents/hf_p-xii_enc_05111956_datis-nuperrime.html",
+            "id": "hu/enc-1956115-datis-nuperrime",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/hu/enc-1956115-datis-nuperrime.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_05111956_datis-nuperrime.html",
+            "id": "it/enc-1956115-datis-nuperrime",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-1956115-datis-nuperrime.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_05111956_datis-nuperrime.html",
+            "id": "la/enc-1956115-datis-nuperrime",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-1956115-datis-nuperrime.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-1956111-laetamur-admodum",
+        "authorId": "pius-xii",
+        "name": "Laetamur Admodum",
+        "date": "1956-11-01",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_01111956_laetamur-admodum.html",
+            "id": "en/enc-1956111-laetamur-admodum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-1956111-laetamur-admodum.epub"
+          },
+          {
+            "language_code": "hu",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/hu/encyclicals/documents/hf_p-xii_enc_01111956_laetamur-admodum.html",
+            "id": "hu/enc-1956111-laetamur-admodum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/hu/enc-1956111-laetamur-admodum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_01111956_laetamur-admodum.html",
+            "id": "it/enc-1956111-laetamur-admodum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-1956111-laetamur-admodum.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_01111956_laetamur-admodum.html",
+            "id": "la/enc-1956111-laetamur-admodum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-1956111-laetamur-admodum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19561028-luctuosissimi-eventus",
+        "authorId": "pius-xii",
+        "name": "Luctuosissimi Eventus",
+        "date": "1956-10-28",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_28101956_luctuosissimi-eventus.html",
+            "id": "en/enc-19561028-luctuosissimi-eventus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19561028-luctuosissimi-eventus.epub"
+          },
+          {
+            "language_code": "hu",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/hu/encyclicals/documents/hf_p-xii_enc_28101956_luctuosissimi-eventus.html",
+            "id": "hu/enc-19561028-luctuosissimi-eventus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/hu/enc-19561028-luctuosissimi-eventus.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_28101956_luctuosissimi-eventus.html",
+            "id": "it/enc-19561028-luctuosissimi-eventus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19561028-luctuosissimi-eventus.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_28101956_luctuosissimi-eventus.html",
+            "id": "la/enc-19561028-luctuosissimi-eventus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19561028-luctuosissimi-eventus.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19560515-haurietis-aquas",
+        "authorId": "pius-xii",
+        "name": "Haurietis Aquas",
+        "date": "1956-05-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+            "id": "en/enc-19560515-haurietis-aquas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19560515-haurietis-aquas.epub"
+          },
+          {
+            "language_code": "de",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/de/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+            "id": "de/enc-19560515-haurietis-aquas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/de/enc-19560515-haurietis-aquas.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+            "id": "it/enc-19560515-haurietis-aquas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19560515-haurietis-aquas.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+            "id": "la/enc-19560515-haurietis-aquas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19560515-haurietis-aquas.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+            "id": "pt/enc-19560515-haurietis-aquas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19560515-haurietis-aquas.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+            "id": "es/enc-19560515-haurietis-aquas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/es/enc-19560515-haurietis-aquas.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19551225-musicae-sacrae",
+        "authorId": "pius-xii",
+        "name": "Musicae Sacrae",
+        "date": "1955-12-25",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html",
+            "id": "en/enc-19551225-musicae-sacrae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19551225-musicae-sacrae.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html",
+            "id": "it/enc-19551225-musicae-sacrae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19551225-musicae-sacrae.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html",
+            "id": "la/enc-19551225-musicae-sacrae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19551225-musicae-sacrae.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html",
+            "id": "pt/enc-19551225-musicae-sacrae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19551225-musicae-sacrae.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html",
+            "id": "es/enc-19551225-musicae-sacrae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/es/enc-19551225-musicae-sacrae.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19541011-ad-caeli-reginam",
+        "authorId": "pius-xii",
+        "name": "Ad Caeli Reginam",
+        "date": "1954-10-11",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
+            "id": "en/enc-19541011-ad-caeli-reginam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19541011-ad-caeli-reginam.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
+            "id": "it/enc-19541011-ad-caeli-reginam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19541011-ad-caeli-reginam.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
+            "id": "la/enc-19541011-ad-caeli-reginam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19541011-ad-caeli-reginam.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
+            "id": "pt/enc-19541011-ad-caeli-reginam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19541011-ad-caeli-reginam.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
+            "id": "es/enc-19541011-ad-caeli-reginam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/es/enc-19541011-ad-caeli-reginam.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-1954107-ad-sinarum-gentem",
+        "authorId": "pius-xii",
+        "name": "Ad Sinarum Gentem",
+        "date": "1954-10-07",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_07101954_ad-sinarum-gentem.html",
+            "id": "en/enc-1954107-ad-sinarum-gentem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-1954107-ad-sinarum-gentem.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_07101954_ad-sinarum-gentem.html",
+            "id": "it/enc-1954107-ad-sinarum-gentem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-1954107-ad-sinarum-gentem.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_07101954_ad-sinarum-gentem.html",
+            "id": "la/enc-1954107-ad-sinarum-gentem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-1954107-ad-sinarum-gentem.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-1954065-ecclesiae-fastos",
+        "authorId": "pius-xii",
+        "name": "Ecclesiae Fastos",
+        "date": "1954-06-05",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_05061954_ecclesiae-fastos.html",
+            "id": "en/enc-1954065-ecclesiae-fastos",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-1954065-ecclesiae-fastos.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_05061954_ecclesiae-fastos.html",
+            "id": "it/enc-1954065-ecclesiae-fastos",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-1954065-ecclesiae-fastos.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_05061954_ecclesiae-fastos.html",
+            "id": "pt/enc-1954065-ecclesiae-fastos",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-1954065-ecclesiae-fastos.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19540325-sacra-virginitas",
+        "authorId": "pius-xii",
+        "name": "Sacra Virginitas",
+        "date": "1954-03-25",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_25031954_sacra-virginitas.html",
+            "id": "en/enc-19540325-sacra-virginitas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19540325-sacra-virginitas.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_25031954_sacra-virginitas.html",
+            "id": "it/enc-19540325-sacra-virginitas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19540325-sacra-virginitas.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_25031954_sacra-virginitas.html",
+            "id": "la/enc-19540325-sacra-virginitas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19540325-sacra-virginitas.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_25031954_sacra-virginitas.html",
+            "id": "pt/enc-19540325-sacra-virginitas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19540325-sacra-virginitas.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-1953098-fulgens-corona",
+        "authorId": "pius-xii",
+        "name": "Fulgens Corona",
+        "date": "1953-09-08",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091953_fulgens-corona.html",
+            "id": "en/enc-1953098-fulgens-corona",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-1953098-fulgens-corona.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_08091953_fulgens-corona.html",
+            "id": "it/enc-1953098-fulgens-corona",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-1953098-fulgens-corona.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_08091953_fulgens-corona.html",
+            "id": "la/enc-1953098-fulgens-corona",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-1953098-fulgens-corona.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_08091953_fulgens-corona.html",
+            "id": "pt/enc-1953098-fulgens-corona",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-1953098-fulgens-corona.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19530524-doctor-mellifluus",
+        "authorId": "pius-xii",
+        "name": "Doctor Mellifluus",
+        "date": "1953-05-24",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html",
+            "id": "en/enc-19530524-doctor-mellifluus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19530524-doctor-mellifluus.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html",
+            "id": "it/enc-19530524-doctor-mellifluus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19530524-doctor-mellifluus.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html",
+            "id": "la/enc-19530524-doctor-mellifluus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19530524-doctor-mellifluus.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html",
+            "id": "pt/enc-19530524-doctor-mellifluus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19530524-doctor-mellifluus.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19521215-orientales",
+        "authorId": "pius-xii",
+        "name": "Orientales Ecclesias",
+        "date": "1952-12-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_15121952_orientales.html",
+            "id": "it/enc-19521215-orientales",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19521215-orientales.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/la/encyclicals/documents/hf_p-xii_enc_15121952_orientales.html",
+            "id": "la/enc-19521215-orientales",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/la/enc-19521215-orientales.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_15121952_orientales.html",
+            "id": "pt/enc-19521215-orientales",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19521215-orientales.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-19510915-ingruentium-malorum",
+        "authorId": "pius-xii",
+        "name": "Ingruentium Malorum",
+        "date": "1951-09-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_15091951_ingruentium-malorum.html",
+            "id": "en/enc-19510915-ingruentium-malorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-19510915-ingruentium-malorum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_15091951_ingruentium-malorum.html",
+            "id": "it/enc-19510915-ingruentium-malorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-19510915-ingruentium-malorum.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_15091951_ingruentium-malorum.html",
+            "id": "pt/enc-19510915-ingruentium-malorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-19510915-ingruentium-malorum.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_15091951_ingruentium-malorum.html",
+            "id": "es/enc-19510915-ingruentium-malorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/es/enc-19510915-ingruentium-malorum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      },
+      {
+        "id": "enc-1951098-sempiternus-rex-christus",
+        "authorId": "pius-xii",
+        "name": "Sempiternus Rex Christus",
+        "date": "1951-09-08",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_08091951_sempiternus-rex-christus.html",
+            "id": "en/enc-1951098-sempiternus-rex-christus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/en/enc-1951098-sempiternus-rex-christus.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/it/encyclicals/documents/hf_p-xii_enc_08091951_sempiternus-rex-christus.html",
+            "id": "it/enc-1951098-sempiternus-rex-christus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/it/enc-1951098-sempiternus-rex-christus.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_08091951_sempiternus-rex-christus.html",
+            "id": "pt/enc-1951098-sempiternus-rex-christus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/pt/enc-1951098-sempiternus-rex-christus.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_08091951_sempiternus-rex-christus.html",
+            "id": "es/enc-1951098-sempiternus-rex-christus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xii/es/enc-1951098-sempiternus-rex-christus.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xii"
+      }
+    ]
   },
   {
     "id": "pius-xi",
@@ -1005,9 +1736,560 @@
     "country": "",
     "start_date": "1922-02-10",
     "end_date": "1939-02-10",
-    "signatures": [],
+    "signatures": [
+      "PAPST PIUS XI.",
+      "PIUS PP. XI.",
+      "PIUS XI"
+    ],
     "translations": [],
-    "documents": []
+    "documents": [
+      {
+        "id": "enc-19370929-ingravescentibus-malis",
+        "authorId": "pius-xi",
+        "name": "Ingravescentibus Malis",
+        "date": "1937-09-29",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091937_ingravescentibus-malis.html",
+            "id": "en/enc-19370929-ingravescentibus-malis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19370929-ingravescentibus-malis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19370328-firmissimam-constantiam",
+        "authorId": "pius-xi",
+        "name": "Firmissimam Constantiam",
+        "date": "1937-03-28",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html",
+            "id": "en/enc-19370328-firmissimam-constantiam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19370328-firmissimam-constantiam.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html",
+            "id": "it/enc-19370328-firmissimam-constantiam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19370328-firmissimam-constantiam.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html",
+            "id": "la/enc-19370328-firmissimam-constantiam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19370328-firmissimam-constantiam.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19370319-divini-redemptoris",
+        "authorId": "pius-xi",
+        "name": "Divini Redemptoris",
+        "date": "1937-03-19",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
+            "id": "en/enc-19370319-divini-redemptoris",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19370319-divini-redemptoris.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/fr/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
+            "id": "fr/enc-19370319-divini-redemptoris",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/fr/enc-19370319-divini-redemptoris.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
+            "id": "it/enc-19370319-divini-redemptoris",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19370319-divini-redemptoris.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
+            "id": "la/enc-19370319-divini-redemptoris",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19370319-divini-redemptoris.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
+            "id": "pt/enc-19370319-divini-redemptoris",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/pt/enc-19370319-divini-redemptoris.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
+            "id": "es/enc-19370319-divini-redemptoris",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/es/enc-19370319-divini-redemptoris.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19370314-mit-brennender-sorge",
+        "authorId": "pius-xi",
+        "name": "Mit Brennender Sorge",
+        "date": "1937-03-14",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html",
+            "id": "en/enc-19370314-mit-brennender-sorge",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19370314-mit-brennender-sorge.epub"
+          },
+          {
+            "language_code": "de",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/de/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html",
+            "id": "de/enc-19370314-mit-brennender-sorge",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/de/enc-19370314-mit-brennender-sorge.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html",
+            "id": "it/enc-19370314-mit-brennender-sorge",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19370314-mit-brennender-sorge.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html",
+            "id": "es/enc-19370314-mit-brennender-sorge",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/es/enc-19370314-mit-brennender-sorge.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19360629-vigilanti-cura",
+        "authorId": "pius-xi",
+        "name": "Vigilanti Cura",
+        "date": "1936-06-29",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",
+            "id": "en/enc-19360629-vigilanti-cura",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19360629-vigilanti-cura.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/fr/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",
+            "id": "fr/enc-19360629-vigilanti-cura",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/fr/enc-19360629-vigilanti-cura.epub"
+          },
+          {
+            "language_code": "de",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/de/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",
+            "id": "de/enc-19360629-vigilanti-cura",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/de/enc-19360629-vigilanti-cura.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",
+            "id": "it/enc-19360629-vigilanti-cura",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19360629-vigilanti-cura.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",
+            "id": "la/enc-19360629-vigilanti-cura",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19360629-vigilanti-cura.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html",
+            "id": "pt/enc-19360629-vigilanti-cura",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/pt/enc-19360629-vigilanti-cura.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19351220-ad-catholici-sacerdotii",
+        "authorId": "pius-xi",
+        "name": "Ad Catholici Sacerdotii",
+        "date": "1935-12-20",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html",
+            "id": "en/enc-19351220-ad-catholici-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19351220-ad-catholici-sacerdotii.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/fr/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html",
+            "id": "fr/enc-19351220-ad-catholici-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/fr/enc-19351220-ad-catholici-sacerdotii.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html",
+            "id": "it/enc-19351220-ad-catholici-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19351220-ad-catholici-sacerdotii.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html",
+            "id": "la/enc-19351220-ad-catholici-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19351220-ad-catholici-sacerdotii.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html",
+            "id": "es/enc-19351220-ad-catholici-sacerdotii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/es/enc-19351220-ad-catholici-sacerdotii.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-1933063-dilectissima-nobis",
+        "authorId": "pius-xi",
+        "name": "Dilectissima Nobis",
+        "date": "1933-06-03",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03061933_dilectissima-nobis.html",
+            "id": "en/enc-1933063-dilectissima-nobis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-1933063-dilectissima-nobis.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_03061933_dilectissima-nobis.html",
+            "id": "la/enc-1933063-dilectissima-nobis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-1933063-dilectissima-nobis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19320929-acerba-animi",
+        "authorId": "pius-xi",
+        "name": "Acerba Animi",
+        "date": "1932-09-29",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29091932_acerba-animi.html",
+            "id": "en/enc-19320929-acerba-animi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19320929-acerba-animi.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-1932053-caritate-christi-compulsi",
+        "authorId": "pius-xi",
+        "name": "Caritate Christi Compulsi",
+        "date": "1932-05-03",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_03051932_caritate-christi-compulsi.html",
+            "id": "en/enc-1932053-caritate-christi-compulsi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-1932053-caritate-christi-compulsi.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19311225-lux-veritatis",
+        "authorId": "pius-xi",
+        "name": "Lux Veritatis",
+        "date": "1931-12-25",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19311225_lux-veritatis.html",
+            "id": "it/enc-19311225-lux-veritatis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19311225-lux-veritatis.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19311225_lux-veritatis.html",
+            "id": "la/enc-19311225-lux-veritatis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19311225-lux-veritatis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-1931102-nova-impendet",
+        "authorId": "pius-xi",
+        "name": "Nova Impendet",
+        "date": "1931-10-02",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_02101931_nova-impendet.html",
+            "id": "en/enc-1931102-nova-impendet",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-1931102-nova-impendet.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19310629-non-abbiamo-bisogno",
+        "authorId": "pius-xi",
+        "name": "Non Abbiamo Bisogno",
+        "date": "1931-06-29",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_29061931_non-abbiamo-bisogno.html",
+            "id": "en/enc-19310629-non-abbiamo-bisogno",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19310629-non-abbiamo-bisogno.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19310515-quadragesimo-anno",
+        "authorId": "pius-xi",
+        "name": "Quadragesimo Anno",
+        "date": "1931-05-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+            "id": "en/enc-19310515-quadragesimo-anno",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19310515-quadragesimo-anno.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+            "id": "it/enc-19310515-quadragesimo-anno",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19310515-quadragesimo-anno.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+            "id": "la/enc-19310515-quadragesimo-anno",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19310515-quadragesimo-anno.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+            "id": "pt/enc-19310515-quadragesimo-anno",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/pt/enc-19310515-quadragesimo-anno.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+            "id": "es/enc-19310515-quadragesimo-anno",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/es/enc-19310515-quadragesimo-anno.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19301231-casti-connubii",
+        "authorId": "pius-xi",
+        "name": "Casti Connubii",
+        "date": "1930-12-31",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
+            "id": "en/enc-19301231-casti-connubii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19301231-casti-connubii.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/fr/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
+            "id": "fr/enc-19301231-casti-connubii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/fr/enc-19301231-casti-connubii.epub"
+          },
+          {
+            "language_code": "hu",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/hu/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
+            "id": "hu/enc-19301231-casti-connubii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/hu/enc-19301231-casti-connubii.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
+            "id": "it/enc-19301231-casti-connubii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19301231-casti-connubii.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
+            "id": "la/enc-19301231-casti-connubii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19301231-casti-connubii.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
+            "id": "es/enc-19301231-casti-connubii",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/es/enc-19301231-casti-connubii.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19300420-ad-salutem-humani",
+        "authorId": "pius-xi",
+        "name": "Ad Salutem Humani",
+        "date": "1930-04-20",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19300420_ad-salutem-humani.html",
+            "id": "it/enc-19300420-ad-salutem-humani",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19300420-ad-salutem-humani.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19300420_ad-salutem-humani.html",
+            "id": "la/enc-19300420-ad-salutem-humani",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19300420-ad-salutem-humani.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19291231-divini-illius-magistri",
+        "authorId": "pius-xi",
+        "name": "Divini Illius Magistri",
+        "date": "1929-12-31",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
+            "id": "en/enc-19291231-divini-illius-magistri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19291231-divini-illius-magistri.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/fr/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
+            "id": "fr/enc-19291231-divini-illius-magistri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/fr/enc-19291231-divini-illius-magistri.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
+            "id": "it/enc-19291231-divini-illius-magistri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19291231-divini-illius-magistri.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
+            "id": "la/enc-19291231-divini-illius-magistri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19291231-divini-illius-magistri.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
+            "id": "pt/enc-19291231-divini-illius-magistri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/pt/enc-19291231-divini-illius-magistri.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
+            "id": "es/enc-19291231-divini-illius-magistri",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/es/enc-19291231-divini-illius-magistri.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19291223-quinquagesimo-ante-anno",
+        "authorId": "pius-xi",
+        "name": "Quinquagesimo Ante Anno",
+        "date": "1929-12-23",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19291223_quinquagesimo-ante-anno.html",
+            "id": "it/enc-19291223-quinquagesimo-ante-anno",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19291223-quinquagesimo-ante-anno.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19291223_quinquagesimo-ante-anno.html",
+            "id": "la/enc-19291223-quinquagesimo-ante-anno",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19291223-quinquagesimo-ante-anno.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      },
+      {
+        "id": "enc-19291220-mens-nostra",
+        "authorId": "pius-xi",
+        "name": "Mens Nostra",
+        "date": "1929-12-20",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19291220_mens-nostra.html",
+            "id": "en/enc-19291220-mens-nostra",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/en/enc-19291220-mens-nostra.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19291220_mens-nostra.html",
+            "id": "it/enc-19291220-mens-nostra",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/it/enc-19291220-mens-nostra.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19291220_mens-nostra.html",
+            "id": "la/enc-19291220-mens-nostra",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/la/enc-19291220-mens-nostra.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19291220_mens-nostra.html",
+            "id": "es/enc-19291220-mens-nostra",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-xi/es/enc-19291220-mens-nostra.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-xi"
+      }
+    ]
   },
   {
     "id": "benedict-xv",
@@ -1018,9 +2300,390 @@
     "country": "",
     "start_date": "1914-09-22",
     "end_date": "1922-01-22",
-    "signatures": [],
+    "signatures": [
+      "BENEDICT XV"
+    ],
     "translations": [],
-    "documents": []
+    "documents": [
+      {
+        "id": "enc-19210629-fausto-appetente-die",
+        "authorId": "benedict-xv",
+        "name": "Fausto Appetente Die",
+        "date": "1921-06-29",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_29061921_fausto-appetente-die.html",
+            "id": "en/enc-19210629-fausto-appetente-die",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-19210629-fausto-appetente-die.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/fr/encyclicals/documents/hf_ben-xv_enc_29061921_fausto-appetente-die.html",
+            "id": "fr/enc-19210629-fausto-appetente-die",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/fr/enc-19210629-fausto-appetente-die.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_29061921_fausto-appetente-die.html",
+            "id": "it/enc-19210629-fausto-appetente-die",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-19210629-fausto-appetente-die.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-19210430-in-praeclara-summorum",
+        "authorId": "benedict-xv",
+        "name": "In Praeclara Summorum",
+        "date": "1921-04-30",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_30041921_in-praeclara-summorum.html",
+            "id": "en/enc-19210430-in-praeclara-summorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-19210430-in-praeclara-summorum.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/fr/encyclicals/documents/hf_ben-xv_enc_30041921_in-praeclara-summorum.html",
+            "id": "fr/enc-19210430-in-praeclara-summorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/fr/enc-19210430-in-praeclara-summorum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_30041921_in-praeclara-summorum.html",
+            "id": "it/enc-19210430-in-praeclara-summorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-19210430-in-praeclara-summorum.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_30041921_in-praeclara-summorum.html",
+            "id": "la/enc-19210430-in-praeclara-summorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-19210430-in-praeclara-summorum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-1921016-sacra-propediem",
+        "authorId": "benedict-xv",
+        "name": "Sacra Propediem",
+        "date": "1921-01-06",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_06011921_sacra-propediem.html",
+            "id": "en/enc-1921016-sacra-propediem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-1921016-sacra-propediem.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_06011921_sacra-propediem.html",
+            "id": "it/enc-1921016-sacra-propediem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-1921016-sacra-propediem.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-1920121-annus-iam-plenus",
+        "authorId": "benedict-xv",
+        "name": "Annus Iam Plenus",
+        "date": "1920-12-01",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01121920_annus-iam-plenus.html",
+            "id": "en/enc-1920121-annus-iam-plenus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-1920121-annus-iam-plenus.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_01121920_annus-iam-plenus.html",
+            "id": "it/enc-1920121-annus-iam-plenus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-1920121-annus-iam-plenus.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_01121920_annus-iam-plenus.html",
+            "id": "la/enc-1920121-annus-iam-plenus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-1920121-annus-iam-plenus.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-1920105-principi-apostolorum-petro",
+        "authorId": "benedict-xv",
+        "name": "Principi Apostolorum Petro",
+        "date": "1920-10-05",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html",
+            "id": "en/enc-1920105-principi-apostolorum-petro",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-1920105-principi-apostolorum-petro.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html",
+            "id": "it/enc-1920105-principi-apostolorum-petro",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-1920105-principi-apostolorum-petro.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html",
+            "id": "la/enc-1920105-principi-apostolorum-petro",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-1920105-principi-apostolorum-petro.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-19200915-spiritus-paraclitus",
+        "authorId": "benedict-xv",
+        "name": "Spiritus Paraclitus",
+        "date": "1920-09-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html",
+            "id": "en/enc-19200915-spiritus-paraclitus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-19200915-spiritus-paraclitus.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html",
+            "id": "it/enc-19200915-spiritus-paraclitus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-19200915-spiritus-paraclitus.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html",
+            "id": "la/enc-19200915-spiritus-paraclitus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-19200915-spiritus-paraclitus.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/es/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html",
+            "id": "es/enc-19200915-spiritus-paraclitus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/es/enc-19200915-spiritus-paraclitus.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-19200523-pacem-dei-munus-pulcherrimum",
+        "authorId": "benedict-xv",
+        "name": "Pacem, Dei Munus Pulcherrimum",
+        "date": "1920-05-23",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html",
+            "id": "en/enc-19200523-pacem-dei-munus-pulcherrimum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-19200523-pacem-dei-munus-pulcherrimum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html",
+            "id": "it/enc-19200523-pacem-dei-munus-pulcherrimum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-19200523-pacem-dei-munus-pulcherrimum.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html",
+            "id": "la/enc-19200523-pacem-dei-munus-pulcherrimum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-19200523-pacem-dei-munus-pulcherrimum.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/es/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html",
+            "id": "es/enc-19200523-pacem-dei-munus-pulcherrimum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/es/enc-19200523-pacem-dei-munus-pulcherrimum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-19191124-paterno-iam-diu",
+        "authorId": "benedict-xv",
+        "name": "Paterno Iam Diu",
+        "date": "1919-11-24",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_24111919_paterno-iam-diu.html",
+            "id": "en/enc-19191124-paterno-iam-diu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-19191124-paterno-iam-diu.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_24111919_paterno-iam-diu.html",
+            "id": "it/enc-19191124-paterno-iam-diu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-19191124-paterno-iam-diu.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_24111919_paterno-iam-diu.html",
+            "id": "la/enc-19191124-paterno-iam-diu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-19191124-paterno-iam-diu.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-19190514-in-hac-tanta",
+        "authorId": "benedict-xv",
+        "name": "In Hac Tanta",
+        "date": "1919-05-14",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_14051919_in-hac-tanta.html",
+            "id": "en/enc-19190514-in-hac-tanta",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-19190514-in-hac-tanta.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_14051919_in-hac-tanta.html",
+            "id": "it/enc-19190514-in-hac-tanta",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-19190514-in-hac-tanta.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_14051919_in-hac-tanta.html",
+            "id": "la/enc-19190514-in-hac-tanta",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-19190514-in-hac-tanta.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-1918121-quod-iam-diu",
+        "authorId": "benedict-xv",
+        "name": "Quod Iam Diu",
+        "date": "1918-12-01",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01121918_quod-iam-diu.html",
+            "id": "en/enc-1918121-quod-iam-diu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-1918121-quod-iam-diu.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_01121918_quod-iam-diu.html",
+            "id": "it/enc-1918121-quod-iam-diu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-1918121-quod-iam-diu.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_01121918_quod-iam-diu.html",
+            "id": "la/enc-1918121-quod-iam-diu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-1918121-quod-iam-diu.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/es/encyclicals/documents/hf_ben-xv_enc_01121918_quod-iam-diu.html",
+            "id": "es/enc-1918121-quod-iam-diu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/es/enc-1918121-quod-iam-diu.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-19170615-humani-generis-redemptionem",
+        "authorId": "benedict-xv",
+        "name": "Humani Generis Redemptionem",
+        "date": "1917-06-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html",
+            "id": "en/enc-19170615-humani-generis-redemptionem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-19170615-humani-generis-redemptionem.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/fr/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html",
+            "id": "fr/enc-19170615-humani-generis-redemptionem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/fr/enc-19170615-humani-generis-redemptionem.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html",
+            "id": "it/enc-19170615-humani-generis-redemptionem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-19170615-humani-generis-redemptionem.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html",
+            "id": "la/enc-19170615-humani-generis-redemptionem",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-19170615-humani-generis-redemptionem.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      },
+      {
+        "id": "enc-1914111-ad-beatissimi-apostolorum",
+        "authorId": "benedict-xv",
+        "name": "Ad Beatissimi Apostolorum",
+        "date": "1914-11-01",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html",
+            "id": "en/enc-1914111-ad-beatissimi-apostolorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/en/enc-1914111-ad-beatissimi-apostolorum.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/fr/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html",
+            "id": "fr/enc-1914111-ad-beatissimi-apostolorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/fr/enc-1914111-ad-beatissimi-apostolorum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/it/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html",
+            "id": "it/enc-1914111-ad-beatissimi-apostolorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/it/enc-1914111-ad-beatissimi-apostolorum.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html",
+            "id": "la/enc-1914111-ad-beatissimi-apostolorum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/benedict-xv/la/enc-1914111-ad-beatissimi-apostolorum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "benedict-xv"
+      }
+    ]
   },
   {
     "id": "pius-x",
@@ -1031,9 +2694,500 @@
     "country": "",
     "start_date": "1903-08-20",
     "end_date": "1914-08-20",
-    "signatures": [],
+    "signatures": [
+      "PIUS X"
+    ],
     "translations": [],
-    "documents": []
+    "documents": [
+      {
+        "id": "enc-19120924-singulari-quadam",
+        "authorId": "pius-x",
+        "name": "Singulari quadam",
+        "date": "1912-09-24",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24091912_singulari-quadam.html",
+            "id": "en/enc-19120924-singulari-quadam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19120924-singulari-quadam.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_24091912_singulari-quadam.html",
+            "id": "it/enc-19120924-singulari-quadam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19120924-singulari-quadam.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_24091912_singulari-quadam.html",
+            "id": "la/enc-19120924-singulari-quadam",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-19120924-singulari-quadam.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-1912067-lacrimabili-statu",
+        "authorId": "pius-x",
+        "name": "Lacrimabili Statu",
+        "date": "1912-06-07",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_07061912_lacrimabili-statu.html",
+            "id": "en/enc-1912067-lacrimabili-statu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-1912067-lacrimabili-statu.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_07061912_lacrimabili-statu.html",
+            "id": "it/enc-1912067-lacrimabili-statu",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-1912067-lacrimabili-statu.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19110524-iamdudum",
+        "authorId": "pius-x",
+        "name": "Iamdudum",
+        "date": "1911-05-24",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_24051911_iamdudum.html",
+            "id": "en/enc-19110524-iamdudum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19110524-iamdudum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_24051911_iamdudum.html",
+            "id": "it/enc-19110524-iamdudum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19110524-iamdudum.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_24051911_iamdudum.html",
+            "id": "la/enc-19110524-iamdudum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-19110524-iamdudum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19100526-editae-saepe",
+        "authorId": "pius-x",
+        "name": "Editae Saepe",
+        "date": "1910-05-26",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_26051910_editae-saepe.html",
+            "id": "en/enc-19100526-editae-saepe",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19100526-editae-saepe.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_26051910_editae-saepe.html",
+            "id": "it/enc-19100526-editae-saepe",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19100526-editae-saepe.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_26051910_editae-saepe.html",
+            "id": "la/enc-19100526-editae-saepe",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-19100526-editae-saepe.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19090421-communium-rerum",
+        "authorId": "pius-x",
+        "name": "Communium Rerum",
+        "date": "1909-04-21",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_21041909_communium-rerum.html",
+            "id": "en/enc-19090421-communium-rerum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19090421-communium-rerum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_21041909_communium-rerum.html",
+            "id": "it/enc-19090421-communium-rerum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19090421-communium-rerum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-1907098-pascendi-dominici-gregis",
+        "authorId": "pius-x",
+        "name": "Pascendi Dominici Gregis",
+        "date": "1907-09-08",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
+            "id": "en/enc-1907098-pascendi-dominici-gregis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-1907098-pascendi-dominici-gregis.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-x/fr/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
+            "id": "fr/enc-1907098-pascendi-dominici-gregis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/fr/enc-1907098-pascendi-dominici-gregis.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
+            "id": "it/enc-1907098-pascendi-dominici-gregis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-1907098-pascendi-dominici-gregis.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
+            "id": "la/enc-1907098-pascendi-dominici-gregis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-1907098-pascendi-dominici-gregis.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
+            "id": "pt/enc-1907098-pascendi-dominici-gregis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/pt/enc-1907098-pascendi-dominici-gregis.epub"
+          },
+          {
+            "language_code": "es",
+            "vatican_url": "https://www.vatican.va/content/pius-x/es/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
+            "id": "es/enc-1907098-pascendi-dominici-gregis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/es/enc-1907098-pascendi-dominici-gregis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-1907016-une-fois-encore",
+        "authorId": "pius-x",
+        "name": "Une Fois Encore",
+        "date": "1907-01-06",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_06011907_une-fois-encore.html",
+            "id": "en/enc-1907016-une-fois-encore",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-1907016-une-fois-encore.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-x/fr/encyclicals/documents/hf_p-x_enc_06011907_une-fois-encore.html",
+            "id": "fr/enc-1907016-une-fois-encore",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/fr/enc-1907016-une-fois-encore.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19060810-gravissimo-officii-munere",
+        "authorId": "pius-x",
+        "name": "Gravissimo Officii Munere",
+        "date": "1906-08-10",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_10081906_gravissimo-officii-munere.html",
+            "id": "en/enc-19060810-gravissimo-officii-munere",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19060810-gravissimo-officii-munere.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_10081906_gravissimo-officii-munere.html",
+            "id": "it/enc-19060810-gravissimo-officii-munere",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19060810-gravissimo-officii-munere.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_10081906_gravissimo-officii-munere.html",
+            "id": "la/enc-19060810-gravissimo-officii-munere",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-19060810-gravissimo-officii-munere.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19060728-pieni-l-animo",
+        "authorId": "pius-x",
+        "name": "Pieni L'Animo",
+        "date": "1906-07-28",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_28071906_pieni-l-animo.html",
+            "id": "en/enc-19060728-pieni-l-animo",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19060728-pieni-l-animo.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_28071906_pieni-l-animo.html",
+            "id": "it/enc-19060728-pieni-l-animo",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19060728-pieni-l-animo.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-1906045-tribus-circiter",
+        "authorId": "pius-x",
+        "name": "Tribus Circiter",
+        "date": "1906-04-05",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_05041906_tribus-circiter.html",
+            "id": "en/enc-1906045-tribus-circiter",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-1906045-tribus-circiter.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_05041906_tribus-circiter.html",
+            "id": "la/enc-1906045-tribus-circiter",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-1906045-tribus-circiter.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19060211-vehementer-nos",
+        "authorId": "pius-x",
+        "name": "Vehementer Nos",
+        "date": "1906-02-11",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_11021906_vehementer-nos.html",
+            "id": "en/enc-19060211-vehementer-nos",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19060211-vehementer-nos.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-x/fr/encyclicals/documents/hf_p-x_enc_11021906_vehementer-nos.html",
+            "id": "fr/enc-19060211-vehementer-nos",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/fr/enc-19060211-vehementer-nos.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_11021906_vehementer-nos.html",
+            "id": "it/enc-19060211-vehementer-nos",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19060211-vehementer-nos.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_11021906_vehementer-nos.html",
+            "id": "la/enc-19060211-vehementer-nos",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-19060211-vehementer-nos.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19050611-il-fermo-proposito",
+        "authorId": "pius-x",
+        "name": "Il Fermo Proposito",
+        "date": "1905-06-11",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_11061905_il-fermo-proposito.html",
+            "id": "en/enc-19050611-il-fermo-proposito",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19050611-il-fermo-proposito.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-x/fr/encyclicals/documents/hf_p-x_enc_11061905_il-fermo-proposito.html",
+            "id": "fr/enc-19050611-il-fermo-proposito",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/fr/enc-19050611-il-fermo-proposito.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_11061905_il-fermo-proposito.html",
+            "id": "it/enc-19050611-il-fermo-proposito",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19050611-il-fermo-proposito.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_11061905_il-fermo-proposito.html",
+            "id": "la/enc-19050611-il-fermo-proposito",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-19050611-il-fermo-proposito.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19050415-acerbo-nimis",
+        "authorId": "pius-x",
+        "name": "Acerbo Nimis",
+        "date": "1905-04-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html",
+            "id": "en/enc-19050415-acerbo-nimis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19050415-acerbo-nimis.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-x/fr/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html",
+            "id": "fr/enc-19050415-acerbo-nimis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/fr/enc-19050415-acerbo-nimis.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html",
+            "id": "it/enc-19050415-acerbo-nimis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19050415-acerbo-nimis.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html",
+            "id": "la/enc-19050415-acerbo-nimis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-19050415-acerbo-nimis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-19040312-iucunda-sane",
+        "authorId": "pius-x",
+        "name": "Iucunda Sane",
+        "date": "1904-03-12",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_12031904_iucunda-sane.html",
+            "id": "en/enc-19040312-iucunda-sane",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-19040312-iucunda-sane.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-x/fr/encyclicals/documents/hf_p-x_enc_12031904_iucunda-sane.html",
+            "id": "fr/enc-19040312-iucunda-sane",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/fr/enc-19040312-iucunda-sane.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_12031904_iucunda-sane.html",
+            "id": "it/enc-19040312-iucunda-sane",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-19040312-iucunda-sane.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_12031904_iucunda-sane.html",
+            "id": "la/enc-19040312-iucunda-sane",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-19040312-iucunda-sane.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-1904022-ad-diem-illum-laetissimum",
+        "authorId": "pius-x",
+        "name": "Ad Diem Illum Laetissimum",
+        "date": "1904-02-02",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_02021904_ad-diem-illum-laetissimum.html",
+            "id": "en/enc-1904022-ad-diem-illum-laetissimum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-1904022-ad-diem-illum-laetissimum.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-x/fr/encyclicals/documents/hf_p-x_enc_02021904_ad-diem-illum-laetissimum.html",
+            "id": "fr/enc-1904022-ad-diem-illum-laetissimum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/fr/enc-1904022-ad-diem-illum-laetissimum.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_02021904_ad-diem-illum-laetissimum.html",
+            "id": "it/enc-1904022-ad-diem-illum-laetissimum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-1904022-ad-diem-illum-laetissimum.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_02021904_ad-diem-illum-laetissimum.html",
+            "id": "la/enc-1904022-ad-diem-illum-laetissimum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-1904022-ad-diem-illum-laetissimum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      },
+      {
+        "id": "enc-1903104-e-supremi",
+        "authorId": "pius-x",
+        "name": "E Supremi",
+        "date": "1903-10-04",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html",
+            "id": "en/enc-1903104-e-supremi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/en/enc-1903104-e-supremi.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/pius-x/fr/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html",
+            "id": "fr/enc-1903104-e-supremi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/fr/enc-1903104-e-supremi.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/pius-x/it/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html",
+            "id": "it/enc-1903104-e-supremi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/it/enc-1903104-e-supremi.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html",
+            "id": "la/enc-1903104-e-supremi",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/pius-x/la/enc-1903104-e-supremi.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "pius-x"
+      }
+    ]
   },
   {
     "id": "leo-xiii",
@@ -1044,8 +3198,424 @@
     "country": "",
     "start_date": "1878-02-20",
     "end_date": "1903-07-20",
-    "signatures": [],
+    "signatures": [
+      "LEO XIII",
+      "LEO PP. XIII"
+    ],
     "translations": [],
-    "documents": []
+    "documents": [
+      {
+        "id": "enc-19021224-dum-multa",
+        "authorId": "leo-xiii",
+        "name": "Dum Multa",
+        "date": "1902-12-24",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_24121902_dum-multa.html",
+            "id": "en/enc-19021224-dum-multa",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19021224-dum-multa.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-1902128-fin-dal-principio",
+        "authorId": "leo-xiii",
+        "name": "Fin dal Principio",
+        "date": "1902-12-08",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121902_fin-dal-principio.html",
+            "id": "en/enc-1902128-fin-dal-principio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-1902128-fin-dal-principio.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/it/encyclicals/documents/hf_l-xiii_enc_08121902_fin-dal-principio.html",
+            "id": "it/enc-1902128-fin-dal-principio",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/it/enc-1902128-fin-dal-principio.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19021122-quae-ad-nos",
+        "authorId": "leo-xiii",
+        "name": "Quae Ad Nos",
+        "date": "1902-11-22",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_22111902_quae-ad-nos.html",
+            "id": "en/enc-19021122-quae-ad-nos",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19021122-quae-ad-nos.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19020528-mirae-caritatis",
+        "authorId": "leo-xiii",
+        "name": "Mirae Caritatis",
+        "date": "1902-05-28",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_28051902_mirae-caritatis.html",
+            "id": "en/enc-19020528-mirae-caritatis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19020528-mirae-caritatis.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/it/encyclicals/documents/hf_l-xiii_enc_28051902_mirae-caritatis.html",
+            "id": "it/enc-19020528-mirae-caritatis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/it/enc-19020528-mirae-caritatis.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_28051902_mirae-caritatis.html",
+            "id": "la/enc-19020528-mirae-caritatis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/la/enc-19020528-mirae-caritatis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19020430-quod-votis",
+        "authorId": "leo-xiii",
+        "name": "Quod Votis",
+        "date": "1902-04-30",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_30041902_quod-votis.html",
+            "id": "en/enc-19020430-quod-votis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19020430-quod-votis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19020415-in-amplissimo",
+        "authorId": "leo-xiii",
+        "name": "In Amplissimo",
+        "date": "1902-04-15",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15041902_in-amplissimo.html",
+            "id": "en/enc-19020415-in-amplissimo",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19020415-in-amplissimo.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19011120-urbanitatis-veteris",
+        "authorId": "leo-xiii",
+        "name": "Urbanitatis Veteris",
+        "date": "1901-11-20",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20111901_urbanitatis-veteris.html",
+            "id": "en/enc-19011120-urbanitatis-veteris",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19011120-urbanitatis-veteris.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19010820-reputantibus",
+        "authorId": "leo-xiii",
+        "name": "Reputantibus",
+        "date": "1901-08-20",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20081901_reputantibus.html",
+            "id": "en/enc-19010820-reputantibus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19010820-reputantibus.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19010516-gravissimas",
+        "authorId": "leo-xiii",
+        "name": "Gravissimas",
+        "date": "1901-05-16",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16051901_gravissimas.html",
+            "id": "en/enc-19010516-gravissimas",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19010516-gravissimas.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19010118-graves-de-communi-re",
+        "authorId": "leo-xiii",
+        "name": "Graves de Communi Re",
+        "date": "1901-01-18",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18011901_graves-de-communi-re.html",
+            "id": "en/enc-19010118-graves-de-communi-re",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19010118-graves-de-communi-re.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/fr/encyclicals/documents/hf_l-xiii_enc_18011901_graves-de-communi-re.html",
+            "id": "fr/enc-19010118-graves-de-communi-re",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/fr/enc-19010118-graves-de-communi-re.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-1900111-tametsi-futura-prospicientibus",
+        "authorId": "leo-xiii",
+        "name": "Tametsi Futura Prospicientibus",
+        "date": "1900-11-01",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111900_tametsi-futura-prospicientibus.html",
+            "id": "en/enc-1900111-tametsi-futura-prospicientibus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-1900111-tametsi-futura-prospicientibus.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_01111900_tametsi-futura-prospicientibus.html",
+            "id": "la/enc-1900111-tametsi-futura-prospicientibus",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/la/enc-1900111-tametsi-futura-prospicientibus.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-19000721-omnibus-compertum",
+        "authorId": "leo-xiii",
+        "name": "Omnibus Compertum",
+        "date": "1900-07-21",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_21071900_omnibus-compertum.html",
+            "id": "en/enc-19000721-omnibus-compertum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-19000721-omnibus-compertum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-18990918-paternae",
+        "authorId": "leo-xiii",
+        "name": "Paternae",
+        "date": "1899-09-18",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_18091899_paternae.html",
+            "id": "en/enc-18990918-paternae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-18990918-paternae.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_18091899_paternae.html",
+            "id": "la/enc-18990918-paternae",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/la/enc-18990918-paternae.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-1899098-depuis-le-jour",
+        "authorId": "leo-xiii",
+        "name": "Depuis le Jour",
+        "date": "1899-09-08",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091899_depuis-le-jour.html",
+            "id": "en/enc-1899098-depuis-le-jour",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-1899098-depuis-le-jour.epub"
+          },
+          {
+            "language_code": "fr",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/fr/encyclicals/documents/hf_l-xiii_enc_08091899_depuis-le-jour.html",
+            "id": "fr/enc-1899098-depuis-le-jour",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/fr/enc-1899098-depuis-le-jour.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-18990525-annum-sacrum",
+        "authorId": "leo-xiii",
+        "name": "Annum Sacrum",
+        "date": "1899-05-25",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25051899_annum-sacrum.html",
+            "id": "en/enc-18990525-annum-sacrum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-18990525-annum-sacrum.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_25051899_annum-sacrum.html",
+            "id": "la/enc-18990525-annum-sacrum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/la/enc-18990525-annum-sacrum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-18981225-quum-diuturnum",
+        "authorId": "leo-xiii",
+        "name": "Quum Diuturnum",
+        "date": "1898-12-25",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25121898_quum-diuturnum.html",
+            "id": "en/enc-18981225-quum-diuturnum",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-18981225-quum-diuturnum.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-1898095-diuturni-temporis",
+        "authorId": "leo-xiii",
+        "name": "Diuturni Temporis",
+        "date": "1898-09-05",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05091898_diuturni-temporis.html",
+            "id": "en/enc-1898095-diuturni-temporis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-1898095-diuturni-temporis.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_05091898_diuturni-temporis.html",
+            "id": "la/enc-1898095-diuturni-temporis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/la/enc-1898095-diuturni-temporis.epub"
+          },
+          {
+            "language_code": "pt",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/pt/encyclicals/documents/hf_l-xiii_enc_05091898_diuturni-temporis.html",
+            "id": "pt/enc-1898095-diuturni-temporis",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/pt/enc-1898095-diuturni-temporis.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-18980816-quam-religiosa",
+        "authorId": "leo-xiii",
+        "name": "Quam Religiosa",
+        "date": "1898-08-16",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_16081898_quam-religiosa.html",
+            "id": "en/enc-18980816-quam-religiosa",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-18980816-quam-religiosa.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-1898085-spesse-volte",
+        "authorId": "leo-xiii",
+        "name": "Spesse Volte",
+        "date": "1898-08-05",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_05081898_spesse-volte.html",
+            "id": "en/enc-1898085-spesse-volte",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-1898085-spesse-volte.epub"
+          },
+          {
+            "language_code": "it",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/it/encyclicals/documents/hf_l-xiii_enc_05081898_spesse-volte.html",
+            "id": "it/enc-1898085-spesse-volte",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/it/enc-1898085-spesse-volte.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      },
+      {
+        "id": "enc-18980725-caritatis-studium",
+        "authorId": "leo-xiii",
+        "name": "Caritatis Studium",
+        "date": "1898-07-25",
+        "type": "enc",
+        "translations": [
+          {
+            "language_code": "en",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_25071898_caritatis-studium.html",
+            "id": "en/enc-18980725-caritatis-studium",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/en/enc-18980725-caritatis-studium.epub"
+          },
+          {
+            "language_code": "la",
+            "vatican_url": "https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_25071898_caritatis-studium.html",
+            "id": "la/enc-18980725-caritatis-studium",
+            "epub_url": "https://pontifexarchive.leigo.fm/api/popes/leo-xiii/la/enc-18980725-caritatis-studium.epub"
+          }
+        ],
+        "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png",
+        "author_id": "leo-xiii"
+      }
+    ]
   }
 ]

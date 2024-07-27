@@ -50,7 +50,6 @@
       },
       "translations": {
         "type": "array",
-        "minItems": 1,
         "items": {
           "type": "object",
           "required": [
@@ -68,7 +67,8 @@
                 "es",
                 "fr",
                 "it",
-                "de"
+                "de",
+                "hu"
               ]
             },
             "name": {
@@ -139,7 +139,8 @@
                       "es",
                       "fr",
                       "it",
-                      "de"
+                      "de",
+                      "hu"
                     ]
                   },
                   "vatican_url": {
