@@ -1,24 +1,21 @@
 import os
 from ebooklib import epub
 
-__dirname = os.path.dirname(__file__)
-__api_path = f"{__dirname}/../../../api"
-
-def create(author, document, document_translation, structure):
-    file_path = f"{__api_path}/popes/{author.id}/{document_translation.id}.epub"
+def create(root_path, author, document, document_translation, structure):
+    file_path = f"{root_path}/popes/{author.id}/{document_translation.id}.epub"
 
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-    image_path = f"{__api_path}/covers/{document.id}.png" if os.path.exists(f"{__api_path}/covers/{document.id}.png") else f"{__api_path}/covers/fallback.png"
+    image_path = f"{root_path}/covers/{document.id}.png" if os.path.exists(f"{root_path}/covers/{document.id}.png") else f"{root_path}/covers/fallback.png"
 
-    document.cover_url = image_path.replace(__api_path, "https://pontifexarchive.leigo.fm/api")
+    document.cover_url = image_path.replace(root_path, "https://pontifexarchive.leigo.fm/api")
 
     if not os.path.exists(file_path):
         book = epub.EpubBook()
         book.set_title(document.name)
         book.add_author(author.name)
-        if os.path.exists(f"{__api_path}/covers/{document.id}.png"):
-            book.set_cover("image.jpg", open(f"{__api_path}/covers/{document.id}.png", 'rb').read())
+        if os.path.exists(f"{root_path}/covers/{document.id}.png"):
+            book.set_cover("image.jpg", open(f"{root_path}/covers/{document.id}.png", 'rb').read())
 
         for i, (title, data) in enumerate(structure.items(), 1):
             _add_chapter(book, title, data, document_translation.language_code, i)

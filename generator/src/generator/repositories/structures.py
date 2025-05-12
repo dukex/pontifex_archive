@@ -1,10 +1,8 @@
 import os
 import json
 
-__dirname = os.path.dirname(__file__)
-
-def save(item, data):
-    structure_path = f"{__dirname}/../../../api/data/{item.id}.json"
+def save(root_path, item, data):
+    structure_path = f"{root_path}/api/data/{item.id}.json"
 
     os.makedirs(os.path.dirname(structure_path), exist_ok=True)
 

@@ -83,4 +83,5 @@ class EncyclicalLetterScraper:
         return BeautifulSoup(self._fetchHTML(), 'html.parser')
 
     def _fetchHTML(self):
+        print(self._url)
         return requests.get(self._url).content

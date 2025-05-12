@@ -5,11 +5,14 @@ from . import epub
 import os
 import sqlite3
 
-def generate():
-    _popes = popes.all()
-    database_path = f"{os.path.dirname(__file__)}/../../api/data/search.sqlite"
+def main():
+    root_path = f"{os.path.dirname(__file__)}/../../.."
+    database_path = f"{root_path}/api/data/search.sqlite"
     if os.path.exists(database_path):
         os.remove(database_path)
+
+    _popes = popes.all(root_path)
+
     con = sqlite3.connect(database_path)
     cur = con.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS chapters(id TEXT PRIMARY KEY, document_id TEXT, document_name TEXT, title TEXT, content TEXT, language_code TEXT, version TEXT);")
@@ -18,7 +21,6 @@ def generate():
 
     for pope in _popes:
         for document in pope.documents:
-            document.type = "enc"
             document.author_id = pope.id
             for document_translation in document.translations:
                 document_translation.id = f"{document_translation.language_code}/{document.id}"
@@ -29,9 +31,9 @@ def generate():
 
                 scraper.index_it(cur, document, document_translation)
 
-                structures.save(document_translation, scraper.structure)
-                epub.create(pope, document, document_translation, scraper.structure)
+                structures.save(root_path, document_translation, scraper.structure)
+                epub.create(root_path + "/api", pope, document, document_translation, scraper.structure)
 
     con.commit()
     cur.close()
-    popes.save(_popes)
+    popes.save(root_path, _popes)

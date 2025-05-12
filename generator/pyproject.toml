@@ -1,0 +1,18 @@
+[project]
+name = "generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bs4>=0.0.2",
+    "ebooklib>=0.19",
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+generator = "generator:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
