@@ -1,24 +1,25 @@
 {
   "version": "0.2.0",
-  "configurations": [
+  "configurations": [ 
     {
-      "name": "Run",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uv",
+      "python": "${workspaceFolder}/generator/.venv/bin/python",
+      "name": "generate",
+      "cwd": "${workspaceFolder}/generator",
+      "args": [
+        "run",
+        "generator"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "run",
       "type": "dart",
       "request": "launch",
       "cwd": "${workspaceFolder}/app",
       "program": "lib/main.dart"
-    },
-    {
-      "type": "debugpy",
-      "request": "launch",
-      "module": "poetry",
-      "name": "Generate",
-      "cwd": "${workspaceFolder}/epub_builder",
-      "args": [
-        "run",
-        "generate"
-      ],
-      "console": "integratedTerminal"
     },
     {
       "name": "run: chrome",
