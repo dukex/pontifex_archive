@@ -70,7 +70,7 @@ body {
     margin: 0 auto 1.2cm;
 }
 
-.cover-langs {
+.cover-volume {
     font-size: 9pt;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -158,30 +158,52 @@ font { color: inherit; }
 """)
 
 
-def _read_structure(data_pt_path, doc_id):
-    path = os.path.join(data_pt_path, f"{doc_id}.json")
+def _read_books(root_path):
+    path = os.path.join(root_path, "api", "data", "books.json")
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _read_structure(root_path, language_code, doc_id):
+    path = os.path.join(root_path, "api", "data", language_code, f"{doc_id}.json")
     if not os.path.exists(path):
         return None
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
-def _doc_date_from_id(doc_id):
-    # Format: enc-DDMMYYYY-name  e.g. enc-15051891-rerum-novarum
-    parts = doc_id.split("-")
-    if len(parts) < 2:
+def _format_date(doc):
+    date = getattr(doc, "date", None)
+    if not date:
         return ""
-    raw = parts[1]
-    if len(raw) == 8:
-        return f"{raw[0:2]}/{raw[2:4]}/{raw[4:8]}"
-    return ""
+    parts = date.split("-")
+    if len(parts) == 3:
+        return f"{parts[2]}/{parts[1]}/{parts[0]}"
+    return date
 
 
-def _render_document(doc_id, doc_name, structure):
-    date_str = _doc_date_from_id(doc_id)
+def _render_cover(volume):
+    return (
+        f'<div class="cover">\n'
+        f'  <div class="cover-eyebrow">Pontifex Archive</div>\n'
+        f'  <h1>Encíclicas<br>Pontifícias</h1>\n'
+        f'  <div class="cover-subtitle">{volume["subtitle"]}</div>\n'
+        f'  <hr class="cover-rule">\n'
+        f'  <div class="cover-volume">{volume["title"]}</div>\n'
+        f'</div>\n'
+    )
+
+
+def _render_document(root_path, language_code, doc):
+    structure = _read_structure(root_path, language_code, doc.id)
+    if structure is None:
+        print(f"  [aviso] estrutura não encontrada para {doc.id}, pulando")
+        return ""
+
+    date_str = _format_date(doc)
     html = f'<section class="document-section">\n'
     html += f'  <div class="document-title">\n'
-    html += f'    <h3>{doc_name}</h3>\n'
+    html += f'    <h3>{doc.name}</h3>\n'
     if date_str:
         html += f'    <div class="doc-date">{date_str}</div>\n'
     html += f'  </div>\n'
@@ -200,51 +222,69 @@ def _render_document(doc_id, doc_name, structure):
     return html
 
 
-def create(root_path, popes):
-    data_pt_path = os.path.join(root_path, "api", "data", "pt")
-    output_path = os.path.join(root_path, "api", "encyclicals-pt.pdf")
+def _docs_for_section(pope, section):
+    date_from = section.get("date_from")
+    date_to = section.get("date_to")
 
-    body = '<div class="cover">\n'
-    body += '  <div class="cover-eyebrow">Pontifex Archive</div>\n'
-    body += '  <h1>Encíclicas<br>Pontifícias</h1>\n'
-    body += '  <div class="cover-subtitle">De Leão XIII a Francisco</div>\n'
-    body += '  <hr class="cover-rule">\n'
-    body += '  <div class="cover-langs">Português</div>\n'
-    body += '</div>\n'
+    docs = [
+        doc for doc in pope.documents
+        if any(t.language_code == section.get("language", "pt") for t in doc.translations)
+    ]
 
-    # popes.json lists newest-first; reverse for chronological order
-    for pope in reversed(popes):
-        has_pt_docs = any(
-            any(t.language_code == "pt" for t in doc.translations)
-            for doc in pope.documents
-        )
-        if not has_pt_docs:
+    if date_from:
+        docs = [d for d in docs if getattr(d, "date", "") >= date_from]
+    if date_to:
+        docs = [d for d in docs if getattr(d, "date", "") <= date_to]
+
+    return sorted(docs, key=lambda d: getattr(d, "date", d.id))
+
+
+def _generate_volume(root_path, volume, popes_by_id):
+    language = volume.get("language", "pt")
+    body = _render_cover(volume)
+
+    for section in volume["sections"]:
+        pope_id = section["pope"]
+        pope = popes_by_id.get(pope_id)
+        if pope is None:
+            print(f"  [aviso] papa '{pope_id}' não encontrado, pulando seção")
+            continue
+
+        docs = _docs_for_section(pope, {**section, "language": language})
+        if not docs:
+            print(f"  [aviso] nenhum documento PT para '{pope_id}' nesta seção")
             continue
 
         body += f'<section class="pope-section">\n'
         body += f'  <div class="pope-header"><h2>{pope.name}</h2></div>\n'
-
-        # sort documents chronologically by date in their id
-        sorted_docs = sorted(pope.documents, key=lambda d: d.id)
-        for doc in sorted_docs:
-            if not any(t.language_code == "pt" for t in doc.translations):
-                continue
-            structure = _read_structure(data_pt_path, doc.id)
-            if structure is None:
-                print(f"  [aviso] estrutura não encontrada para {doc.id}, pulando")
-                continue
-            body += _render_document(doc.id, doc.name, structure)
-
+        for doc in docs:
+            body += _render_document(root_path, language, doc)
         body += '</section>\n'
 
-    full_html = f"""<!DOCTYPE html>
-<html lang="pt">
-<head><meta charset="utf-8"><title>Encíclicas Pontifícias</title></head>
-<body>
-{body}
-</body>
-</html>"""
+    full_html = (
+        f'<!DOCTYPE html>\n<html lang="{language}">\n'
+        f'<head><meta charset="utf-8"><title>{volume["title"]}</title></head>\n'
+        f'<body>\n{body}</body>\n</html>'
+    )
 
-    print("Gerando PDF...")
+    output_dir = os.path.join(root_path, "api", "books")
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, f'{volume["id"]}.pdf')
+
+    print(f'Gerando {volume["id"]}...')
     HTML(string=full_html).write_pdf(output_path, stylesheets=[_CSS])
-    print(f"PDF gerado em '{output_path}'")
+    print(f'  -> {output_path}')
+
+
+def create(root_path, popes, volume_id=None):
+    books = _read_books(root_path)
+    popes_by_id = {p.id: p for p in popes}
+
+    volumes = books if volume_id is None else [v for v in books if v["id"] == volume_id]
+
+    if not volumes:
+        print(f"Volume '{volume_id}' não encontrado em books.json")
+        return
+
+    for volume in volumes:
+        _generate_volume(root_path, volume, popes_by_id)

@@ -19,11 +19,11 @@
       "request": "launch",
       "module": "uv",
       "python": "${workspaceFolder}/generator/.venv/bin/python",
-      "name": "generate-pdf",
+      "name": "book-volumes-generator",
       "cwd": "${workspaceFolder}/generator",
       "args": [
         "run",
-        "generate-pdf"
+        "book-volumes-generator"
       ],
       "env": {
         "DYLD_LIBRARY_PATH": "/opt/homebrew/lib"

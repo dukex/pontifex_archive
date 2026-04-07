@@ -13,7 +13,7 @@ dependencies = [
 
 [project.scripts]
 generator = "generator:main"
-generate-pdf = "generator.pdf_main:main"
+book-volumes-generator = "generator.pdf_main:main"
 
 [build-system]
 requires = ["hatchling"]

@@ -1,0 +1,68 @@
+[
+    {
+        "id": "vol-i",
+        "title": "Vol. I — Pio X e Bento XV",
+        "subtitle": "1903–1922",
+        "language": "pt",
+        "sections": [
+            { "pope": "pius-x" },
+            { "pope": "benedictus-xv" }
+        ]
+    },
+    {
+        "id": "vol-ii",
+        "title": "Vol. II — Pio XI",
+        "subtitle": "1922–1939",
+        "language": "pt",
+        "sections": [
+            { "pope": "pius-xi" }
+        ]
+    },
+    {
+        "id": "vol-iii",
+        "title": "Vol. III — Pio XII",
+        "subtitle": "1939–1958",
+        "language": "pt",
+        "sections": [
+            { "pope": "pius-xii" }
+        ]
+    },
+    {
+        "id": "vol-iv",
+        "title": "Vol. IV — João XXIII e Paulo VI",
+        "subtitle": "1958–1968",
+        "language": "pt",
+        "sections": [
+            { "pope": "ioannes-pp-xxiii" },
+            { "pope": "paulus-vi" }
+        ]
+    },
+    {
+        "id": "vol-v",
+        "title": "Vol. V — João Paulo II — I",
+        "subtitle": "1979–1991",
+        "language": "pt",
+        "sections": [
+            { "pope": "ioannes-paulus-ii", "date_to": "1991-12-31" }
+        ]
+    },
+    {
+        "id": "vol-vi",
+        "title": "Vol. VI — João Paulo II — II",
+        "subtitle": "1993–2003",
+        "language": "pt",
+        "sections": [
+            { "pope": "ioannes-paulus-ii", "date_from": "1992-01-01" }
+        ]
+    },
+    {
+        "id": "vol-vii",
+        "title": "Vol. VII — Bento XVI e Francisco",
+        "subtitle": "2005–2024",
+        "language": "pt",
+        "sections": [
+            { "pope": "benedictus-xvi" },
+            { "pope": "franciscus" }
+        ]
+    }
+]
