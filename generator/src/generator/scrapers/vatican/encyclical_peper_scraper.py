@@ -77,7 +77,7 @@ class EncyclicalLetterScraper:
         return [element for element in self._rootElement().find_all(['p']) if has_content(element)]
 
     def _rootElement(self):
-        return self._buildSoup().select_one(".documento div.parbase:not(.abstract)")
+        return self._buildSoup().select_one(".documento .testo")
 
     def _buildSoup(self):
         return BeautifulSoup(self._fetchHTML(), 'html.parser')
