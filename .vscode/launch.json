@@ -15,6 +15,22 @@
       "console": "integratedTerminal"
     },
     {
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uv",
+      "python": "${workspaceFolder}/generator/.venv/bin/python",
+      "name": "generate-pdf",
+      "cwd": "${workspaceFolder}/generator",
+      "args": [
+        "run",
+        "generate-pdf"
+      ],
+      "env": {
+        "DYLD_LIBRARY_PATH": "/opt/homebrew/lib"
+      },
+      "console": "integratedTerminal"
+    },
+    {
       "name": "run",
       "type": "dart",
       "request": "launch",
