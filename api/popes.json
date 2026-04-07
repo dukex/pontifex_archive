@@ -1012,6 +1012,1270 @@
         ]
     },
     {
+        "id": "pius-xii",
+        "number": 260,
+        "name": "Pius XII",
+        "personal_name": "Eugenio Maria Giuseppe Giovanni Pacelli",
+        "motto": "Opus iustitiae pax",
+        "country": "Italy",
+        "start_date": "1939-03-02",
+        "end_date": "1958-10-09",
+        "signatures": [
+            "PIUS PP. XII",
+            "Pius XII"
+        ],
+        "translations": [
+            {
+                "language_code": "pt",
+                "name": "Pio XII"
+            }
+        ],
+        "documents": [
+            {
+                "id": "enc-20101939-summi-pontificatus",
+                "name": "Summi Pontificatus",
+                "date": "1939-10-20",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_20101939_summi-pontificatus.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-01111939-sertum-laetitiae",
+                "name": "Sertum Laetitiae",
+                "date": "1939-11-01",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_01111939_sertum-laetitiae.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-13061940-saeculo-exeunte-octavo",
+                "name": "Saeculo Exeunte Octavo",
+                "date": "1940-06-13",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_13061940_saeculo-exeunte-octavo.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-29061943-mystici-corporis-christi",
+                "name": "Mystici Corporis Christi",
+                "date": "1943-06-29",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_29061943_mystici-corporis-christi.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-30091943-divino-afflante-spiritu",
+                "name": "Divino Afflante Spiritu",
+                "date": "1943-09-30",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_30091943_divino-afflante-spiritu.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-09041944-orientalis-ecclesiae",
+                "name": "Orientalis Ecclesiae",
+                "date": "1944-04-09",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_09041944_orientalis-ecclesiae.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-15041945-communium-interpretes-dolorum",
+                "name": "Communium Interpretes Dolorum",
+                "date": "1945-04-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_15041945_communium-interpretes-dolorum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-23121945-orientales-omnes-ecclesias",
+                "name": "Orientales Omnes Ecclesias",
+                "date": "1945-12-23",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_23121945_orientales-omnes-ecclesias.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-06011946-quemadmodum",
+                "name": "Quemadmodum",
+                "date": "1946-01-06",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_06011946_quemadmodum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-01051946-deiparae-virginis-mariae",
+                "name": "Deiparae Virginis Mariae",
+                "date": "1946-05-01",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_01051946_deiparae-virginis-mariae.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-21031947-fulgens-radiatur",
+                "name": "Fulgens Radiatur",
+                "date": "1947-03-21",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_21031947_fulgens-radiatur.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-20111947-mediator-dei",
+                "name": "Mediator Dei",
+                "date": "1947-11-20",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-18121947-optatissima-pax",
+                "name": "Optatissima Pax",
+                "date": "1947-12-18",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_18121947_optatissima-pax.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-01051948-auspicia-quaedam",
+                "name": "Auspicia Quaedam",
+                "date": "1948-05-01",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_01051948_auspicia-quaedam.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-24101948-in-multiplicibus-curis",
+                "name": "In Multiplicibus Curis",
+                "date": "1948-10-24",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_24101948_in-multiplicibus-curis.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19490415-redemptoris-nostri-cruciatus",
+                "name": "Redemptoris Nostri Cruciatus",
+                "date": "1949-04-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_19490415_redemptoris-nostri-cruciatus.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-12031950-anni-sacri",
+                "name": "Anni Sacri",
+                "date": "1950-03-12",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_12031950_anni-sacri.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19071950-summi-maeroris",
+                "name": "Summi Maeroris",
+                "date": "1950-07-19",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_19071950_summi-maeroris.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-12081950-humani-generis",
+                "name": "Humani Generis",
+                "date": "1950-08-12",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-06121950-mirabile-illud",
+                "name": "Mirabile Illud",
+                "date": "1950-12-06",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_06121950_mirabile-illud.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-02061951-evangelii-praecones",
+                "name": "Evangelii Praecones",
+                "date": "1951-06-02",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_02061951_evangelii-praecones.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-08091951-sempiternus-rex-christus",
+                "name": "Sempiternus Rex Christus",
+                "date": "1951-09-08",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_08091951_sempiternus-rex-christus.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-15091951-ingruentium-malorum",
+                "name": "Ingruentium Malorum",
+                "date": "1951-09-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_15091951_ingruentium-malorum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-15121952-orientales",
+                "name": "Orientales Ecclesias",
+                "date": "1952-12-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_15121952_orientales.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-24051953-doctor-mellifluus",
+                "name": "Doctor Mellifluus",
+                "date": "1953-05-24",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-08091953-fulgens-corona",
+                "name": "Fulgens Corona",
+                "date": "1953-09-08",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_08091953_fulgens-corona.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-25031954-sacra-virginitas",
+                "name": "Sacra Virginitas",
+                "date": "1954-03-25",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_25031954_sacra-virginitas.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-05061954-ecclesiae-fastos",
+                "name": "Ecclesiae Fastos",
+                "date": "1954-06-05",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_05061954_ecclesiae-fastos.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-07101954-ad-sinarum-gentem",
+                "name": "Ad Sinarum Gentem",
+                "date": "1954-10-07",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_07101954_ad-sinarum-gentem.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-11101954-ad-caeli-reginam",
+                "name": "Ad Caeli Reginam",
+                "date": "1954-10-11",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-25121955-musicae-sacrae",
+                "name": "Musicae Sacrae",
+                "date": "1955-12-25",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-15051956-haurietis-aquas",
+                "name": "Haurietis Aquas",
+                "date": "1956-05-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-28101956-luctuosissimi-eventus",
+                "name": "Luctuosissimi Eventus",
+                "date": "1956-10-28",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_28101956_luctuosissimi-eventus.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-01111956-laetamur-admodum",
+                "name": "Laetamur Admodum",
+                "date": "1956-11-01",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_01111956_laetamur-admodum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-05111956-datis-nuperrime",
+                "name": "Datis Nuperrime",
+                "date": "1956-11-05",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_05111956_datis-nuperrime.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-21041957-fidei-donum",
+                "name": "Fidei Donum",
+                "date": "1957-04-21",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-16051957-invicti-athletae",
+                "name": "Invicti Athletae",
+                "date": "1957-05-16",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_16051957_invicti-athletae.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-02071957-le-pelerinage-de-lourdes",
+                "name": "Le Pèlerinage de Lourdes",
+                "date": "1957-07-02",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-08091957-miranda-prorsus",
+                "name": "Miranda Prorsus",
+                "date": "1957-09-08",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_08091957_miranda-prorsus.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-29061958-ad-apostolorum-principis",
+                "name": "Ad Apostolorum Principis",
+                "date": "1958-06-29",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-14071958-meminisse-iuvat",
+                "name": "Meminisse Iuvat",
+                "date": "1958-07-14",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_14071958_meminisse-iuvat.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "pius-xi",
+        "number": 259,
+        "name": "Pius XI",
+        "personal_name": "Ambrogio Damiano Achille Ratti",
+        "motto": "Pax Christi in regno Christi",
+        "country": "Italy",
+        "start_date": "1922-02-06",
+        "end_date": "1939-02-10",
+        "signatures": [
+            "PIUS PP. XI",
+            "Pius XI"
+        ],
+        "translations": [
+            {
+                "language_code": "pt",
+                "name": "Pio XI"
+            }
+        ],
+        "documents": [
+            {
+                "id": "enc-19221223-ubi-arcano-dei-consilio",
+                "name": "Ubi Arcano Dei Consilio",
+                "date": "1922-12-23",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19221223_ubi-arcano-dei-consilio.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-26011923-rerum-omnium-perturbationem",
+                "name": "Rerum Omnium Perturbationem",
+                "date": "1923-01-26",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_26011923_rerum-omnium-perturbationem.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19230629-studiorum-ducem",
+                "name": "Studiorum Ducem",
+                "date": "1923-06-29",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19230629_studiorum-ducem.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19231112-ecclesiam-dei",
+                "name": "Ecclesiam Dei",
+                "date": "1923-11-12",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19231112_ecclesiam-dei.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-18011924-maximam-gravissimamque",
+                "name": "Maximam Gravissimamque",
+                "date": "1924-01-18",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_18011924_maximam-gravissimamque.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-11121925-quas-primas",
+                "name": "Quas Primas",
+                "date": "1925-12-11",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19260228-rerum-ecclesiae",
+                "name": "Rerum Ecclesiae",
+                "date": "1926-02-28",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19260228_rerum-ecclesiae.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19260430-rite-expiatis",
+                "name": "Rite Expiatis",
+                "date": "1926-04-30",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19260430_rite-expiatis.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19261118-iniquis-afflictisque",
+                "name": "Iniquis Afflictisque",
+                "date": "1926-11-18",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19261118_iniquis-afflictisque.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19280106-mortalium-animos",
+                "name": "Mortalium Animos",
+                "date": "1928-01-06",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19280508-miserentissimus-redemptor",
+                "name": "Miserentissimus Redemptor",
+                "date": "1928-05-08",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19280508_miserentissimus-redemptor.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19280908-rerum-orientalium",
+                "name": "Rerum Orientalium",
+                "date": "1928-09-08",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19280908_rerum-orientalium.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19291220-mens-nostra",
+                "name": "Mens Nostra",
+                "date": "1929-12-20",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19291220_mens-nostra.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19291223-quinquagesimo-ante-anno",
+                "name": "Quinquagesimo Ante Anno",
+                "date": "1929-12-23",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19291223_quinquagesimo-ante-anno.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-31121929-divini-illius-magistri",
+                "name": "Divini Illius Magistri",
+                "date": "1929-12-31",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19300420-ad-salutem-humani",
+                "name": "Ad Salutem Humani",
+                "date": "1930-04-20",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19300420_ad-salutem-humani.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19301231-casti-connubii",
+                "name": "Casti Connubii",
+                "date": "1930-12-31",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19310515-quadragesimo-anno",
+                "name": "Quadragesimo Anno",
+                "date": "1931-05-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19310629-non-abbiamo-bisogno",
+                "name": "Non Abbiamo Bisogno",
+                "date": "1931-06-29",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19310629_non-abbiamo-bisogno.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19311002-nova-impendet",
+                "name": "Nova Impendet",
+                "date": "1931-10-02",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19311002_nova-impendet.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19320503-caritate-christi-compulsi",
+                "name": "Caritate Christi Compulsi",
+                "date": "1932-05-03",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19320503_caritate-christi-compulsi.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19320929-acerba-animi",
+                "name": "Acerba Animi",
+                "date": "1932-09-29",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19320929_acerba-animi.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-03061933-dilectissima-nobis",
+                "name": "Dilectissima Nobis",
+                "date": "1933-06-03",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_03061933_dilectissima-nobis.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19351220-ad-catholici-sacerdotii",
+                "name": "Ad Catholici Sacerdotii",
+                "date": "1935-12-20",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-29061936-vigilanti-cura",
+                "name": "Vigilanti Cura",
+                "date": "1936-06-29",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_29061936_vigilanti-cura.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-14031937-mit-brennender-sorge",
+                "name": "Mit Brennender Sorge",
+                "date": "1937-03-14",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19370319-divini-redemptoris",
+                "name": "Divini Redemptoris",
+                "date": "1937-03-19",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19370328-firmissimam-constantiam",
+                "name": "Firmissimam Constantiam",
+                "date": "1937-03-28",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19370328_firmissimam-constantiam.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19370929-ingravescentibus-malis",
+                "name": "Ingravescentibus Malis",
+                "date": "1937-09-29",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-xi/pt/encyclicals/documents/hf_p-xi_enc_19370929_ingravescentibus-malis.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "benedictus-xv",
+        "number": 258,
+        "name": "Benedictus XV",
+        "personal_name": "Giacomo Paolo Giovanni Battista della Chiesa",
+        "motto": "In hoc signo vinces",
+        "country": "Italy",
+        "start_date": "1914-09-03",
+        "end_date": "1922-01-22",
+        "signatures": [
+            "BENEDICTUS PP. XV",
+            "Benedictus XV"
+        ],
+        "translations": [
+            {
+                "language_code": "pt",
+                "name": "Bento XV"
+            }
+        ],
+        "documents": [
+            {
+                "id": "enc-01111914-ad-beatissimi-apostolorum",
+                "name": "Ad Beatissimi Apostolorum",
+                "date": "1914-11-01",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-15061917-humani-generis-redemptionem",
+                "name": "Humani Generis Redemptionem",
+                "date": "1917-06-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-01121918-quod-iam-diu",
+                "name": "Quod Iam Diu",
+                "date": "1918-12-01",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_01121918_quod-iam-diu.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-14051919-in-hac-tanta",
+                "name": "In Hac Tanta",
+                "date": "1919-05-14",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_14051919_in-hac-tanta.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-24111919-paterno-iam-diu",
+                "name": "Paterno Iam Diu",
+                "date": "1919-11-24",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_24111919_paterno-iam-diu.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-23051920-pacem-dei-munus-pulcherrimum",
+                "name": "Pacem, Dei Munus Pulcherrimum",
+                "date": "1920-05-23",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-15091920-spiritus-paraclitus",
+                "name": "Spiritus Paraclitus",
+                "date": "1920-09-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-05101920-principi-apostolorum-petro",
+                "name": "Principi Apostolorum Petro",
+                "date": "1920-10-05",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-01121920-annus-iam-plenus",
+                "name": "Annus Iam Plenus",
+                "date": "1920-12-01",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_01121920_annus-iam-plenus.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-06011921-sacra-propediem",
+                "name": "Sacra Propediem",
+                "date": "1921-01-06",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_06011921_sacra-propediem.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-30041921-in-praeclara-summorum",
+                "name": "In Praeclara Summorum",
+                "date": "1921-04-30",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_30041921_in-praeclara-summorum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-29061921-fausto-appetente-die",
+                "name": "Fausto Appetente Die",
+                "date": "1921-06-29",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/benedict-xv/pt/encyclicals/documents/hf_ben-xv_enc_29061921_fausto-appetente-die.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "pius-x",
+        "number": 257,
+        "name": "Pius X",
+        "personal_name": "Giuseppe Melchiorre Sarto",
+        "motto": "Instaurare omnia in Christo",
+        "country": "Italy",
+        "start_date": "1903-08-04",
+        "end_date": "1914-08-20",
+        "signatures": [
+            "PIUS PP. X",
+            "Pius X"
+        ],
+        "translations": [
+            {
+                "language_code": "pt",
+                "name": "Pio X"
+            }
+        ],
+        "documents": [
+            {
+                "id": "enc-04101903-e-supremi",
+                "name": "E Supremi",
+                "date": "1903-10-04",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-02021904-ad-diem-illum-laetissimum",
+                "name": "Ad Diem Illum Laetissimum",
+                "date": "1904-02-02",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_02021904_ad-diem-illum-laetissimum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-12031904-iucunda-sane",
+                "name": "Iucunda Sane",
+                "date": "1904-03-12",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_12031904_iucunda-sane.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-15041905-acerbo-nimis",
+                "name": "Acerbo Nimis",
+                "date": "1905-04-15",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-11061905-il-fermo-proposito",
+                "name": "Il Fermo Proposito",
+                "date": "1905-06-11",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_11061905_il-fermo-proposito.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-11021906-vehementer-nos",
+                "name": "Vehementer Nos",
+                "date": "1906-02-11",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_11021906_vehementer-nos.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-05041906-tribus-circiter",
+                "name": "Tribus Circiter",
+                "date": "1906-04-05",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_05041906_tribus-circiter.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-28071906-pieni-l-animo",
+                "name": "Pieni L'Animo",
+                "date": "1906-07-28",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_28071906_pieni-l-animo.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-10081906-gravissimo-officii-munere",
+                "name": "Gravissimo Officii Munere",
+                "date": "1906-08-10",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_10081906_gravissimo-officii-munere.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-06011907-une-fois-encore",
+                "name": "Une Fois Encore",
+                "date": "1907-01-06",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_06011907_une-fois-encore.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-19070908-pascendi-dominici-gregis",
+                "name": "Pascendi Dominici Gregis",
+                "date": "1907-09-08",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-21041909-communium-rerum",
+                "name": "Communium Rerum",
+                "date": "1909-04-21",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_21041909_communium-rerum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-26051910-editae-saepe",
+                "name": "Editae Saepe",
+                "date": "1910-05-26",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_26051910_editae-saepe.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-24051911-iamdudum",
+                "name": "Iamdudum",
+                "date": "1911-05-24",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_24051911_iamdudum.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-07061912-lacrimabili-statu",
+                "name": "Lacrimabili Statu",
+                "date": "1912-06-07",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_07061912_lacrimabili-statu.html"
+                    }
+                ]
+            },
+            {
+                "id": "enc-24091912-singulari-quadam",
+                "name": "Singulari Quadam",
+                "date": "1912-09-24",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/pius-x/pt/encyclicals/documents/hf_p-x_enc_24091912_singulari-quadam.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "number": 256,
         "id": "leo-pp-xiii",
         "image_url": "",
