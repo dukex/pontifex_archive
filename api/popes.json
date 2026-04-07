@@ -21,6 +21,29 @@
         ],
         "documents": [
             {
+                "id": "enc-20241024-dilexit-nos",
+                "authorId": "franciscus",
+                "name": "Dilexit nos",
+                "date": "2024-10-24",
+                "type": "enc",
+                "translations": [
+                    {
+                        "language_code": "pt",
+                        "vatican_url": "https://www.vatican.va/content/francesco/pt/encyclicals/documents/20241024-enciclica-dilexit-nos.html",
+                        "id": "pt/enc-20241024-dilexit-nos",
+                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/pt/enc-20241024-dilexit-nos.epub"
+                    },
+                    {
+                        "language_code": "en",
+                        "vatican_url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/20241024-enciclica-dilexit-nos.html",
+                        "id": "en/enc-20241024-dilexit-nos",
+                        "epub_url": "https://pontifexarchive.leigo.fm/api/popes/franciscus/en/enc-20241024-dilexit-nos.epub"
+                    }
+                ],
+                "author_id": "franciscus",
+                "cover_url": "https://pontifexarchive.leigo.fm/api/covers/fallback.png"
+            },
+            {
                 "id": "enc-20130524-lumen-fidei",
                 "authorId": "franciscus",
                 "name": "Lumen fidei",
