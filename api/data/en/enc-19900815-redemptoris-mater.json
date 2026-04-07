@@ -1,6 +1,10 @@
 {
     "REDEMPTORIS MATER": {
-        "subtitle": "<p style=\"text-align: center;\"><b><i>Blessing</i></b></p>",
+        "subtitle": "<p style=\"text-align: center;\"><span class=\"color-text\">IOANNES PAULUS PP. II</span><br/> <b><i><span class=\"title-1-color\">REDEMPTORIS MATER</span></i></b><br/> <span class=\"color-text\">On the Blessed Virgin Mary<br/> in the life of the Pilgrim Church</span></p>",
+        "content": []
+    },
+    "Blessing": {
+        "subtitle": "",
         "content": [
             "<p><i>Venerable Brothers and dear Sons and Daughters, <br/> Health and the Apostolic Blessing.</i></p>"
         ]
