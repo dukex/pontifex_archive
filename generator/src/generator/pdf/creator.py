@@ -196,8 +196,8 @@ def _render_cover(volume):
 
 def _render_document(root_path, language_code, doc):
     structure = _read_structure(root_path, language_code, doc.id)
-    if structure is None:
-        print(f"  [aviso] estrutura não encontrada para {doc.id}, pulando")
+    if not structure:
+        print(f"  [aviso] sem conteúdo para {doc.id}, pulando")
         return ""
 
     date_str = _format_date(doc)

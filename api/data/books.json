@@ -1,36 +1,20 @@
 [
     {
         "id": "vol-i",
-        "title": "Vol. I — Pio X e Bento XV",
-        "subtitle": "1903–1922",
+        "title": "Vol. I — A Doutrina Social e a Guerra",
+        "subtitle": "Leão XIII · Pio X · Pio XI · Pio XII — 1891–1958",
         "language": "pt",
         "sections": [
+            { "pope": "leo-pp-xiii" },
             { "pope": "pius-x" },
-            { "pope": "benedictus-xv" }
-        ]
-    },
-    {
-        "id": "vol-ii",
-        "title": "Vol. II — Pio XI",
-        "subtitle": "1922–1939",
-        "language": "pt",
-        "sections": [
-            { "pope": "pius-xi" }
-        ]
-    },
-    {
-        "id": "vol-iii",
-        "title": "Vol. III — Pio XII",
-        "subtitle": "1939–1958",
-        "language": "pt",
-        "sections": [
+            { "pope": "pius-xi" },
             { "pope": "pius-xii" }
         ]
     },
     {
-        "id": "vol-iv",
-        "title": "Vol. IV — João XXIII e Paulo VI",
-        "subtitle": "1958–1968",
+        "id": "vol-ii",
+        "title": "Vol. II — O Concílio e a Modernidade",
+        "subtitle": "João XXIII · Paulo VI — 1958–1968",
         "language": "pt",
         "sections": [
             { "pope": "ioannes-pp-xxiii" },
@@ -38,8 +22,8 @@
         ]
     },
     {
-        "id": "vol-v",
-        "title": "Vol. V — João Paulo II — I",
+        "id": "vol-iii",
+        "title": "Vol. III — João Paulo II — I",
         "subtitle": "1979–1991",
         "language": "pt",
         "sections": [
@@ -47,8 +31,8 @@
         ]
     },
     {
-        "id": "vol-vi",
-        "title": "Vol. VI — João Paulo II — II",
+        "id": "vol-iv",
+        "title": "Vol. IV — João Paulo II — II",
         "subtitle": "1993–2003",
         "language": "pt",
         "sections": [
@@ -56,9 +40,9 @@
         ]
     },
     {
-        "id": "vol-vii",
-        "title": "Vol. VII — Bento XVI e Francisco",
-        "subtitle": "2005–2024",
+        "id": "vol-v",
+        "title": "Vol. V — A Igreja no Século XXI",
+        "subtitle": "Bento XVI · Francisco — 2005–2024",
         "language": "pt",
         "sections": [
             { "pope": "benedictus-xvi" },
