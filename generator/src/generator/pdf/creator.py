@@ -121,6 +121,14 @@ body {
     letter-spacing: 0.05em;
 }
 
+.document-title .doc-pope {
+    font-size: 9pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #b07040;
+    margin-bottom: 0.2cm;
+}
+
 /* Chapter */
 .chapter {
     margin-bottom: 1.5cm;
@@ -194,7 +202,7 @@ def _render_cover(volume):
     )
 
 
-def _render_document(root_path, language_code, doc):
+def _render_document(root_path, language_code, doc, pope_name=None):
     structure = _read_structure(root_path, language_code, doc.id)
     if not structure:
         print(f"  [aviso] sem conteúdo para {doc.id}, pulando")
@@ -203,6 +211,8 @@ def _render_document(root_path, language_code, doc):
     date_str = _format_date(doc)
     html = f'<section class="document-section">\n'
     html += f'  <div class="document-title">\n'
+    if pope_name:
+        html += f'    <div class="doc-pope">{pope_name}</div>\n'
     html += f'    <h3>{doc.name}</h3>\n'
     if date_str:
         html += f'    <div class="doc-date">{date_str}</div>\n'
@@ -243,23 +253,48 @@ def _generate_volume(root_path, volume, popes_by_id):
     language = volume.get("language", "pt")
     body = _render_cover(volume)
 
+    all_docs_by_id = {
+        doc.id: (pope, doc)
+        for pope in popes_by_id.values()
+        for doc in pope.documents
+    }
+
     for section in volume["sections"]:
-        pope_id = section["pope"]
-        pope = popes_by_id.get(pope_id)
-        if pope is None:
-            print(f"  [aviso] papa '{pope_id}' não encontrado, pulando seção")
-            continue
+        if "documents" in section:
+            pairs = []
+            for doc_id in section["documents"]:
+                if doc_id in all_docs_by_id:
+                    pairs.append(all_docs_by_id[doc_id])
+                else:
+                    print(f"  [aviso] documento '{doc_id}' não encontrado, pulando")
 
-        docs = _docs_for_section(pope, {**section, "language": language})
-        if not docs:
-            print(f"  [aviso] nenhum documento PT para '{pope_id}' nesta seção")
-            continue
+            if not pairs:
+                continue
 
-        body += f'<section class="pope-section">\n'
-        body += f'  <div class="pope-header"><h2>{pope.name}</h2></div>\n'
-        for doc in docs:
-            body += _render_document(root_path, language, doc)
-        body += '</section>\n'
+            section_title = section.get("title", "")
+            body += '<section class="pope-section">\n'
+            if section_title:
+                body += f'  <div class="pope-header"><h2>{section_title}</h2></div>\n'
+            for pope, doc in pairs:
+                body += _render_document(root_path, language, doc, pope_name=pope.name)
+            body += '</section>\n'
+        else:
+            pope_id = section["pope"]
+            pope = popes_by_id.get(pope_id)
+            if pope is None:
+                print(f"  [aviso] papa '{pope_id}' não encontrado, pulando seção")
+                continue
+
+            docs = _docs_for_section(pope, {**section, "language": language})
+            if not docs:
+                print(f"  [aviso] nenhum documento PT para '{pope_id}' nesta seção")
+                continue
+
+            body += f'<section class="pope-section">\n'
+            body += f'  <div class="pope-header"><h2>{pope.name}</h2></div>\n'
+            for doc in docs:
+                body += _render_document(root_path, language, doc)
+            body += '</section>\n'
 
     full_html = (
         f'<!DOCTYPE html>\n<html lang="{language}">\n'

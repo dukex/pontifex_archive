@@ -1,52 +1,139 @@
 [
     {
         "id": "vol-i",
-        "title": "Vol. I — A Doutrina Social e a Guerra",
-        "subtitle": "Leão XIII · Pio X · Pio XI · Pio XII — 1891–1958",
+        "title": "Vol. I — Doutrina Social e o Bem Comum",
+        "subtitle": "Do trabalho ao meio ambiente — Leão XIII a Francisco",
         "language": "pt",
         "sections": [
-            { "pope": "leo-pp-xiii" },
-            { "pope": "pius-x" },
-            { "pope": "pius-xi" },
-            { "pope": "pius-xii" }
+            {
+                "documents": [
+                    "enc-15051891-rerum-novarum",
+                    "enc-31121929-divini-illius-magistri",
+                    "enc-19310515-quadragesimo-anno",
+                    "enc-19370319-divini-redemptoris",
+                    "enc-06011946-quemadmodum",
+                    "enc-15041945-communium-interpretes-dolorum",
+                    "enc-18121947-optatissima-pax",
+                    "enc-19610515-mater",
+                    "enc-19630411-pacem",
+                    "enc-19671126-populorum-progressio",
+                    "enc-19680725-humanae-vitae",
+                    "enc-19810914-laborem-exercens",
+                    "enc-19871230-sollicitudo-rei-socialis",
+                    "enc-19910325-cessimus-annus",
+                    "enc-19950325-evangelium-vitae",
+                    "enc-20090629-caritas-in-veritate",
+                    "enc-20150524-laudato-si",
+                    "enc-20201003-fratelli-tutti"
+                ]
+            }
         ]
     },
     {
         "id": "vol-ii",
-        "title": "Vol. II — O Concílio e a Modernidade",
-        "subtitle": "João XXIII · Paulo VI — 1958–1968",
+        "title": "Vol. II — Fé, Razão e Teologia",
+        "subtitle": "Do modernismo à fé do século XXI — Pio X a Francisco",
         "language": "pt",
         "sections": [
-            { "pope": "ioannes-pp-xxiii" },
-            { "pope": "paulus-vi" }
+            {
+                "documents": [
+                    "enc-19070908-pascendi-dominici-gregis",
+                    "enc-19280106-mortalium-animos",
+                    "enc-12081950-humani-generis",
+                    "enc-08091951-sempiternus-rex-christus",
+                    "enc-29061943-mystici-corporis-christi",
+                    "enc-19790304-redemptor-hominis",
+                    "enc-19800515-dives-in-misericordia",
+                    "enc-19930525-veritatis-splendor",
+                    "enc-19980325-fides-et-ratio",
+                    "enc-20130524-lumen-fidei",
+                    "enc-20241024-dilexit-nos"
+                ]
+            }
         ]
     },
     {
         "id": "vol-iii",
-        "title": "Vol. III — João Paulo II — I",
-        "subtitle": "1979–1991",
+        "title": "Vol. III — Liturgia, Escritura e Vida Interior",
+        "subtitle": "Oração, sacramentos e espiritualidade — Pio XII a Bento XVI",
         "language": "pt",
         "sections": [
-            { "pope": "ioannes-paulus-ii", "date_to": "1991-12-31" }
+            {
+                "documents": [
+                    "enc-30091943-divino-afflante-spiritu",
+                    "enc-20111947-mediator-dei",
+                    "enc-21031947-fulgens-radiatur",
+                    "enc-24051953-doctor-mellifluus",
+                    "enc-25121955-musicae-sacrae",
+                    "enc-19590801-sacerdotii",
+                    "enc-19591128-princeps",
+                    "enc-19610701-paenitentiam",
+                    "enc-19611111-aeterna-dei",
+                    "enc-19650629-mysterium-fidei",
+                    "enc-19670624-sacerdotalis-caelibatus",
+                    "enc-19860518-dominum-et-vivificantem",
+                    "enc-20030417-ecclesia-de-eucharistia",
+                    "enc-20051225-deus-caritas-est",
+                    "enc-20071130-spe-salvi"
+                ]
+            }
         ]
     },
     {
         "id": "vol-iv",
-        "title": "Vol. IV — João Paulo II — II",
-        "subtitle": "1993–2003",
+        "title": "Vol. IV — Maria, Devoção e Santidade",
+        "subtitle": "Rosário, Sagrado Coração e piedade popular — Pio XII a João Paulo II",
         "language": "pt",
         "sections": [
-            { "pope": "ioannes-paulus-ii", "date_from": "1992-01-01" }
+            {
+                "documents": [
+                    "enc-01051946-deiparae-virginis-mariae",
+                    "enc-12031950-anni-sacri",
+                    "enc-19071950-summi-maeroris",
+                    "enc-06121950-mirabile-illud",
+                    "enc-15091951-ingruentium-malorum",
+                    "enc-08091953-fulgens-corona",
+                    "enc-25031954-sacra-virginitas",
+                    "enc-11101954-ad-caeli-reginam",
+                    "enc-15051956-haurietis-aquas",
+                    "enc-02071957-le-pelerinage-de-lourdes",
+                    "enc-14071958-meminisse-iuvat",
+                    "enc-19590926-grata-recordatio",
+                    "enc-19650429-mense-maio",
+                    "enc-19660915-christi-matri",
+                    "enc-19900815-redemptoris-mater"
+                ]
+            }
         ]
     },
     {
         "id": "vol-v",
-        "title": "Vol. V — A Igreja no Século XXI",
-        "subtitle": "Bento XVI · Francisco — 2005–2024",
+        "title": "Vol. V — Igreja, Missão e Unidade",
+        "subtitle": "Evangelização, ecumenismo e presença no mundo — Pio XII a João Paulo II",
         "language": "pt",
         "sections": [
-            { "pope": "benedictus-xvi" },
-            { "pope": "franciscus" }
+            {
+                "documents": [
+                    "enc-20101939-summi-pontificatus",
+                    "enc-01111939-sertum-laetitiae",
+                    "enc-13061940-saeculo-exeunte-octavo",
+                    "enc-09041944-orientalis-ecclesiae",
+                    "enc-01051948-auspicia-quaedam",
+                    "enc-24101948-in-multiplicibus-curis",
+                    "enc-15121952-orientales",
+                    "enc-02061951-evangelii-praecones",
+                    "enc-05061954-ecclesiae-fastos",
+                    "enc-21041957-fidei-donum",
+                    "enc-29061936-vigilanti-cura",
+                    "enc-08091957-miranda-prorsus",
+                    "enc-29061958-ad-apostolorum-principis",
+                    "enc-19590629-ad-petri",
+                    "enc-19640806-ecclesiam-suam",
+                    "enc-19850602-slavorum-apostoli",
+                    "enc-19900325-redemptoris-missio",
+                    "enc-19950525-ut-unum-sint"
+                ]
+            }
         ]
     }
 ]
